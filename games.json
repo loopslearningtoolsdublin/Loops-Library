@@ -2280,6 +2280,25 @@
         "Maths"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "isaac-newton",
+      "name": "Isaac Newton",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 44,
+      "publishedAt": "2026-09-13T15:01:12.169Z",
+      "createdBy": "c_mtsd8b2z_3qm9xw7w",
+      "author": "SMQ",
+      "subcategory": "Science",
+      "tags": [
+        "physics",
+        "biography",
+        "History",
+        "general-knowledge"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2537,6 +2556,7 @@
     "Other::spanish": "Spanish-language trivia exploring Gabriel García Márquez's One Hundred Years of Solitude",
     "Language::nature": "Learn Irish vocabulary for geographical features and Earth's structure",
     "Other::irish": "Irish language, culture, or numbers content, distinct from sports or musicians.",
-    "Other::language": "Covers language skills, vocabulary, and communication in a specific language."
+    "Other::language": "Covers language skills, vocabulary, and communication in a specific language.",
+    "Other::science": "Explore Newton's laws, discoveries, and life through physics and science trivia."
   }
 }
