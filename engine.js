@@ -69,7 +69,7 @@
     return a;
   }
   function normalise(s) {
-    return (s || "").toString().trim().toLowerCase().replace(/[^\w\sáéíóúüñàèìòùâêîôûäëïöüçãõ]/gi, "");
+    return (s || "").toString().trim().toLowerCase().replace(/[^wsáéíóúüñàèìòùâêîôûäëïöüçãõ]/gi, "");
   }
   function fmtTime(sec) { return sec ? sec.toFixed(1) + "s" : "—"; }
   function questionKey(q) { return normalise(q.q) + "|" + normalise(q.a); }
@@ -709,7 +709,7 @@
   function renderBreakdown(log) {
     var wrap = el("loopsResultBreakdown");
     if (!log || log.length === 0) { wrap.innerHTML = ""; return; }
-    var html = '<div class="loops-bd-label">Here\'s how that round went — nice work getting through it 👇</div>';
+    var html = '<div class="loops-bd-label">Here's how that round went — nice work getting through it 👇</div>';
     for (var i = 0; i < log.length; i++) {
       var row = log[i];
       var cls = row.ok ? "good" : "bad";
@@ -722,7 +722,7 @@
         html += '<div class="loops-bd-detail">You said: ' + givenOk + ' — <span class="loops-bd-pill">' + escapeHtml(row.correctAnswer) + '</span> — nice one!</div>';
       } else {
         var given = row.given ? escapeHtml(row.given) : "No answer";
-        html += '<div class="loops-bd-detail">You said: ' + given + ' — <span class="loops-bd-pill">' + escapeHtml(row.correctAnswer) + '</span>. You\'ll get it next time.</div>';
+        html += '<div class="loops-bd-detail">You said: ' + given + ' — <span class="loops-bd-pill">' + escapeHtml(row.correctAnswer) + '</span>. You'll get it next time.</div>';
       }
       html += '</div></div>';
     }
@@ -850,7 +850,7 @@
             '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
             '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
             '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">This game hit a snag loading</div>' +
-            '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live \u2014 try refreshing. If it keeps happening, let whoever made this game know.</div>' +
+            '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing. If it keeps happening, let whoever made this game know.</div>' +
             "</div>";
         }
         if (window.console) console.error("LoopsEngine failed to init:", err);
