@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Classroom Language · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1789385337867"></script>
+  <script>
+    const GAME_DATA = {"slug":"classroom-language","name":"Classroom Language","emoji":"🌍","category":"Language","colors":{"pastel":"#C1F0EA","deep":"#2FB18A","wash":"#EBF6F0"},"background":null,"loops":[{"name":"Vocabulario básico","emoji":"🔤","timeLimit":15,"qs":[{"type":"mc","q":"What does \"ventana\" mean?","a":"Window","opts":["Window","Door","Wall"]},{"type":"mc","q":"What does \"pizarra\" mean?","a":"Board","opts":["Board","Book","Locker"]},{"type":"mc","q":"What does \"taquilla\" mean?","a":"Locker","opts":["Locker","Bathroom","Page"]},{"type":"mc","q":"What does \"baño\" mean?","a":"Bathroom","opts":["Bathroom","Book","Board"]},{"type":"mc","q":"What does \"libro\" mean?","a":"Book","opts":["Book","Locker","Window"]},{"type":"mc","q":"What does \"página\" mean?","a":"Page","opts":["Page","Instructions","Silence"]},{"type":"mc","q":"What does \"silencio\" mean?","a":"Silence","opts":["Silence","Noise","Window"]},{"type":"mc","q":"What does \"instrucciones\" mean?","a":"Instructions","opts":["Instructions","Introductions","Institutions"]},{"type":"typed","q":"Translate \"mirar\" to English","a":"look"},{"type":"typed","q":"Translate \"abrir\" to English","a":"open"}]},{"name":"Frases completas","emoji":"📝","timeLimit":15,"qs":[{"type":"mc","q":"\"¿Puedo abrir la ventana?\" means...","a":"Can I open the window?","opts":["Can I open the window?","Can I close the window?","Can I open the door?"]},{"type":"mc","q":"\"¿Puede repetir las instrucciones?\" means...","a":"Can you repeat the instructions?","opts":["Can you repeat the instructions?","Can you read the instructions?","Can you write the instructions?"]},{"type":"mc","q":"\"Mira la pizarra.\" means...","a":"Look at the board.","opts":["Look at the board.","Look at the window.","Look at the book."]},{"type":"mc","q":"\"Mi libro está en mi taquilla.\" means...","a":"My book is in my locker.","opts":["My book is in my locker.","My book is on my desk.","My book is in my bag."]},{"type":"mc","q":"\"Sentaos y silencio, por favor.\" means...","a":"Sit down and be quiet, please.","opts":["Sit down and be quiet, please.","Stand up and speak, please.","Open your books, please."]},{"type":"mc","q":"\"¿Puedo ir al baño?\" means...","a":"Can I go to the bathroom?","opts":["Can I go to the bathroom?","Can I go to my locker?","Can I go home?"]},{"type":"mc","q":"\"¿En qué página estamos?\" means...","a":"What page are we on?","opts":["What page are we on?","What time is it?","What day is it?"]},{"type":"mc","q":"\"¿Puedo ir a mi taquilla?\" means...","a":"Can I go to my locker?","opts":["Can I go to my locker?","Can I go to the bathroom?","Can I open the window?"]},{"type":"typed","q":"How do you say \"please\" in Spanish, as used in these phrases?","a":"por favor"},{"type":"typed","q":"How do you say \"board\" in Spanish?","a":"pizarra"}]},{"name":"Completa la frase","emoji":"✏️","timeLimit":15,"qs":[{"type":"typed","q":"Complete: \"¿Puedo ___ la ventana?\" (open)","a":"abrir"},{"type":"typed","q":"Complete: \"¿Puede ___ las instrucciones?\" (repeat)","a":"repetir"},{"type":"typed","q":"Complete: \"___ la pizarra.\" (Look)","a":"Mira"},{"type":"typed","q":"Complete: \"Mi libro está en mi ___.\" (locker)","a":"taquilla"},{"type":"typed","q":"Complete: \"___ y silencio, por favor.\" (Sit down)","a":"Sentaos"},{"type":"typed","q":"Complete: \"¿Puedo ir al ___?\" (bathroom)","a":"baño"},{"type":"typed","q":"Complete: \"¿En qué ___ estamos?\" (page)","a":"página"},{"type":"typed","q":"Complete: \"¿Puedo ir a mi ___?\" (locker)","a":"taquilla"},{"type":"mc","q":"Which word completes \"¿Puedo ___ al baño?\"","a":"Ir","opts":["Ir","Abrir","Mirar"]},{"type":"mc","q":"Which word completes \"¿Puedo ___ a mi taquilla?\"","a":"Ir","opts":["Ir","Abrir","Repetir"]}]},{"name":"Traducción al español","emoji":"🌍","timeLimit":15,"qs":[{"type":"typed","q":"Translate to Spanish: \"Can I open the window?\"","a":"¿Puedo abrir la ventana?"},{"type":"typed","q":"Translate to Spanish: \"Look at the board.\"","a":"Mira la pizarra."},{"type":"typed","q":"Translate to Spanish: \"Can I go to the bathroom?\"","a":"¿Puedo ir al baño?"},{"type":"typed","q":"Translate to Spanish: \"What page are we on?\"","a":"¿En qué página estamos?"},{"type":"typed","q":"Translate to Spanish: \"Can I go to my locker?\"","a":"¿Puedo ir a mi taquilla?"},{"type":"typed","q":"Translate to Spanish: \"My book is in my locker.\"","a":"Mi libro está en mi taquilla."},{"type":"typed","q":"Translate to Spanish: \"Can you repeat the instructions?\"","a":"¿Puede repetir las instrucciones?"},{"type":"typed","q":"Translate to Spanish: \"Sit down and be quiet, please.\"","a":"Sentaos y silencio, por favor."},{"type":"mc","q":"Which phrase would a student say to ask permission to leave for the restroom?","a":"¿Puedo ir al baño?","opts":["¿Puedo ir al baño?","Mira la pizarra.","¿En qué página estamos?"]},{"type":"mc","q":"Which phrase would a teacher say to ask students to be quiet?","a":"Sentaos y silencio, por favor.","opts":["Sentaos y silencio, por favor.","¿Puedo abrir la ventana?","¿Puede repetir las instrucciones?"]}]},{"name":"Análisis avanzado","emoji":"🎓","timeLimit":15,"qs":[{"type":"typed","q":"Which word in \"¿Puede repetir las instrucciones?\" shows it is formal address?","a":"Puede"},{"type":"typed","q":"Which word in \"Sentaos y silencio, por favor.\" tells students to sit?","a":"Sentaos"},{"type":"mc","q":"Is \"Mira la pizarra.\" a question or a command?","a":"Command","opts":["Command","Question","Statement"]},{"type":"mc","q":"Is \"Mi libro está en mi taquilla.\" a question or a statement?","a":"Statement","opts":["Statement","Question","Command"]},{"type":"mc","q":"How many of the eight phrases are questions?","a":"5","opts":["5","6","8"]},{"type":"typed","q":"How many total phrases are listed in this listening exercise?","a":"8"},{"type":"mc","q":"Which phrase does NOT begin with \"¿Puedo\"?","a":"¿Puede repetir las instrucciones?","opts":["¿Puede repetir las instrucciones?","¿Puedo abrir la ventana?","¿Puedo ir al baño?"]},{"type":"typed","q":"Translate \"Mi libro está en mi taquilla.\" fully to English","a":"My book is in my locker."}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live \u2014 try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
