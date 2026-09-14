@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Loops — Learning Tools. Dublin.</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="Loops_icon_192.png">
+<link rel="apple-touch-icon" href="Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --navy: #0D2A52;
+    --navy-2: #163f78;
+    --paper: #FBF9F4;
+    --ink-soft: #5B6472;
+  }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--paper);
+    color: var(--navy);
+    min-height: 100vh;
+  }
+  .plaque {
+    background: linear-gradient(155deg, var(--navy), var(--navy-2));
+    border-radius: 0 0 28px 28px;
+    padding: 44px 20px 36px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(13, 42, 82, 0.25);
+    color: #fff;
+  }
+  .plaque img { max-width: 220px; width: 100%; height: auto; margin-bottom: 10px; }
+  .plaque h1 { font-family: 'Playfair Display', serif; font-size: 1.6rem; margin: 4px 0; }
+  .plaque .sub { opacity: .75; font-size: .85rem; letter-spacing: .04em; text-transform: uppercase; margin-bottom: 10px; }
+  .plaque .tagline { font-weight: 700; font-size: 1.05rem; margin-top: 6px; }
+  .plaque .subtagline { font-weight: 500; font-size: .88rem; margin-top: 8px; opacity: .85; line-height: 1.5; }
+  .rainbow-divider {
+    height: 6px;
+    background: linear-gradient(90deg, #C1F0EA, #FBE4B7, #D0E0F6, #E2D8FA, #FAD2C3);
+    /* Fallback gradient; repainted with live category colours once games.json loads. */
+  }
+
+  .wrap { width: min(520px, 92vw); margin: 0 auto; padding: 34px 0 50px; text-align: center; }
+
+  .cats-label { font-size: .8rem; text-transform: uppercase; letter-spacing: .07em; color: var(--ink-soft); font-weight: 700; margin-bottom: 14px; }
+  .stats { display: flex; justify-content: center; gap: 12px; margin-bottom: 30px; }
+  .stat-pill { background: #fff; border-radius: 14px; padding: 12px 20px; box-shadow: 0 4px 14px rgba(13,42,82,.08); text-align: center; }
+  .stat-num { font-size: 22px; font-weight: 800; }
+  .stat-label { font-size: 10px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); }
+  .chips { display: grid; grid-template-columns: repeat(2, auto); gap: 10px; justify-content: center; justify-items: center; margin-bottom: 36px; }
+  .chip {
+    padding: 10px 20px; border-radius: 100px; font-weight: 700; font-size: .88rem;
+    color: var(--navy); box-shadow: 0 3px 8px rgba(0,0,0,.08);
+  }
+
+  .cta { display: block; width: 100%; padding: 16px; border-radius: 100px; font-weight: 800; font-size: 1.05rem;
+    text-decoration: none; margin-bottom: 14px; box-shadow: 0 8px 22px rgba(13,42,82,.2); }
+  .cta.primary { background: var(--navy); color: #fff; }
+  .cta.secondary { background: #fff; color: var(--navy); border: 2px solid rgba(13,42,82,.18); box-shadow: none; }
+
+  footer { text-align: center; padding: 24px 20px; font-size: .8rem; color: var(--ink-soft); }
+</style>
+</head>
+<body>
+
+<div class="plaque">
+  <img src="Loops_logo.png" alt="Loops">
+  <div class="sub">Learning Tools · Dublin</div>
+  <div class="tagline">Practice here. Shine in public.</div>
+  <div class="subtagline">Turn anything into a memorisation game. Five loops. Ten questions. It sticks.</div>
+</div>
+
+<div class="rainbow-divider"></div>
+
+<div class="wrap">
+  <div class="stats" id="statsRow" style="display:none;">
+    <div class="stat-pill" style="display:none;"><div class="stat-num" id="statPlayers">—</div><div class="stat-label">Players</div></div>
+    <div class="stat-pill" style="display:none;"><div class="stat-num" id="statGames">—</div><div class="stat-label">Games</div></div>
+    <div class="stat-pill" style="display:none;"><div class="stat-num" id="statAnswered">—</div><div class="stat-label">Questions answered</div></div>
+  </div>
+
+  <div class="cats-label">One engine. Any subject.</div>
+  <div class="chips" id="chipsRow">
+    <div class="chip" style="background:#C1F0EA;">🌍 Language</div>
+    <div class="chip" style="background:#FBE4B7;">🪪 Onboarding</div>
+    <div class="chip" style="background:#D0E0F6;">🛡️ Compliance</div>
+    <div class="chip" style="background:#E2D8FA;">📝 Exam Prep</div>
+    <div class="chip" style="background:#FAD2C3;">✨ Other</div>
+  </div>
+
+  <a href="library.html" class="cta primary">Browse the library →</a>
+  <a href="https://seanmc114.github.io/Loops-learning/" class="cta secondary">+ Build a game</a>
+</div>
+
+<footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em></footer>
+
+<script>
+  const WORKER_URL = 'https://dry-credit-f396.seansynge.workers.dev';
+  let anyStatShown = false;
+  function showStat(id) {
+    document.getElementById(id).closest('.stat-pill').style.display = '';
+    document.getElementById('statsRow').style.display = 'flex';
+    anyStatShown = true;
+  }
+
+  fetch('games.json').then(r => r.json()).then(data => {
+    const games = data.games || [];
+    const count = games.length;
+    if (count > 0) {
+      document.getElementById('statGames').textContent = count;
+      showStat('statGames');
+    }
+
+    // Chips + rainbow divider: only categories that currently have at least
+    // one game, in the order they appear in the categories map (founding
+    // five first, any promoted ones after, in the order they were added).
+    const categories = data.categories || {};
+    const catsInUse = Object.keys(categories).filter(name =>
+      games.some(g => g.category === name)
+    );
+    if (catsInUse.length > 0) {
+      const chipsRow = document.getElementById('chipsRow');
+      chipsRow.innerHTML = catsInUse.map(name => {
+        const c = categories[name];
+        return `<div class="chip" style="background:${c.pastel};">${c.emoji || '🎮'} ${name}</div>`;
+      }).join('');
+      document.querySelector('.rainbow-divider').style.background =
+        'linear-gradient(90deg, ' + catsInUse.map(name => categories[name].pastel).join(', ') + ')';
+    }
+  }).catch(() => {});
+
+  fetch(WORKER_URL + '/stats').then(r => r.json()).then(data => {
+    if (typeof data.players === 'number') {
+      document.getElementById('statPlayers').textContent = data.players;
+      showStat('statPlayers');
+    }
+    if (typeof data.questionsAnswered === 'number') {
+      document.getElementById('statAnswered').textContent = data.questionsAnswered.toLocaleString();
+      showStat('statAnswered');
+    }
+  }).catch(() => {}); // if the worker call fails, those two pills just never appear - no fake numbers
+</script>
+
+</body>
+</html>
