@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Shows · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1789393454378"></script>
+  <script>
+    const GAME_DATA = {"slug":"shows","name":"Shows","emoji":"🔖","category":"Entertainment","colors":{"pastel":"#EBF4C7","deep":"#AECC3E","wash":"#F2F4EB"},"background":null,"loops":[{"name":"World Capitals Basics","emoji":"🌍","timeLimit":15,"qs":[{"type":"mc","q":"What is the capital of France?","a":"Paris","opts":["Paris","Lyon","Marseille"]},{"type":"typed","q":"What is the capital of Japan?","a":"Tokyo"},{"type":"mc","q":"What is the capital of the USA?","a":"Washington DC","opts":["Washington DC","New York","Los Angeles"]},{"type":"typed","q":"What is the capital of Italy?","a":"Rome"},{"type":"mc","q":"What is the capital of Germany?","a":"Berlin","opts":["Berlin","Munich","Hamburg"]},{"type":"typed","q":"What is the capital of the United Kingdom?","a":"London"},{"type":"mc","q":"What is the capital of Spain?","a":"Madrid","opts":["Madrid","Barcelona","Seville"]},{"type":"typed","q":"What is the capital of Russia?","a":"Moscow"},{"type":"mc","q":"What is the capital of China?","a":"Beijing","opts":["Beijing","Shanghai","Hong Kong"]},{"type":"typed","q":"What is the capital of Canada?","a":"Ottawa"}]},{"name":"Familiar Capitals","emoji":"🗺️","timeLimit":15,"qs":[{"type":"typed","q":"What is the capital of Australia?","a":"Canberra"},{"type":"mc","q":"What is the capital of Brazil?","a":"Brasilia","opts":["Brasilia","Rio de Janeiro","Sao Paulo"]},{"type":"typed","q":"What is the capital of Egypt?","a":"Cairo"},{"type":"mc","q":"What is the capital of India?","a":"New Delhi","opts":["New Delhi","Mumbai","Kolkata"]},{"type":"typed","q":"What is the capital of Mexico?","a":"Mexico City"},{"type":"mc","q":"What is the capital of South Korea?","a":"Seoul","opts":["Seoul","Busan","Incheon"]},{"type":"typed","q":"What is the capital of Turkey?","a":"Ankara"},{"type":"mc","q":"What is the capital of Greece?","a":"Athens","opts":["Athens","Thessaloniki","Patras"]},{"type":"typed","q":"What is the capital of Portugal?","a":"Lisbon"},{"type":"mc","q":"What is the capital of the Netherlands?","a":"Amsterdam","opts":["Amsterdam","Rotterdam","The Hague"]}]},{"name":"European and Asian Capitals","emoji":"🏛️","timeLimit":15,"qs":[{"type":"typed","q":"What is the capital of Argentina?","a":"Buenos Aires"},{"type":"mc","q":"What is the capital of Poland?","a":"Warsaw","opts":["Warsaw","Krakow","Gdansk"]},{"type":"typed","q":"What is the capital of Sweden?","a":"Stockholm"},{"type":"mc","q":"What is the capital of Norway?","a":"Oslo","opts":["Oslo","Bergen","Trondheim"]},{"type":"typed","q":"What is the capital of Austria?","a":"Vienna"},{"type":"mc","q":"What is the capital of Switzerland?","a":"Bern","opts":["Bern","Zurich","Geneva"]},{"type":"typed","q":"What is the capital of Thailand?","a":"Bangkok"},{"type":"mc","q":"What is the capital of Vietnam?","a":"Hanoi","opts":["Hanoi","Ho Chi Minh City","Da Nang"]},{"type":"typed","q":"What is the capital of Indonesia?","a":"Jakarta"},{"type":"mc","q":"What is the capital of Nigeria?","a":"Abuja","opts":["Abuja","Lagos","Kano"]}]},{"name":"Lesser-Known Capitals","emoji":"🌐","timeLimit":15,"qs":[{"type":"typed","q":"What is the capital of Ukraine?","a":"Kyiv"},{"type":"mc","q":"What is the capital of Iran?","a":"Tehran","opts":["Tehran","Isfahan","Shiraz"]},{"type":"typed","q":"What is the capital of Iraq?","a":"Baghdad"},{"type":"mc","q":"What is the capital of Pakistan?","a":"Islamabad","opts":["Islamabad","Karachi","Lahore"]},{"type":"typed","q":"What is the capital of the Philippines?","a":"Manila"},{"type":"mc","q":"What is the capital of Chile?","a":"Santiago","opts":["Santiago","Valparaiso","Concepcion"]},{"type":"typed","q":"What is the capital of Colombia?","a":"Bogota"},{"type":"mc","q":"What is the capital of Peru?","a":"Lima","opts":["Lima","Cusco","Arequipa"]},{"type":"typed","q":"What is the capital of Morocco?","a":"Rabat"},{"type":"mc","q":"What is the capital of Saudi Arabia?","a":"Riyadh","opts":["Riyadh","Jeddah","Mecca"]}]},{"name":"Tricky World Capitals","emoji":"🧭","timeLimit":15,"qs":[{"type":"typed","q":"What is the capital of Kazakhstan?","a":"Astana"},{"type":"typed","q":"What is the capital of Myanmar?","a":"Naypyidaw"},{"type":"mc","q":"What is the official capital of Sri Lanka?","a":"Sri Jayawardenepura Kotte","opts":["Sri Jayawardenepura Kotte","Colombo","Kandy"]},{"type":"mc","q":"What is the constitutional capital of Bolivia?","a":"Sucre","opts":["Sucre","La Paz","Cochabamba"]},{"type":"typed","q":"What is the capital of New Zealand?","a":"Wellington"},{"type":"typed","q":"What is the capital of Mongolia?","a":"Ulaanbaatar"},{"type":"mc","q":"What is the official capital of Cote d'Ivoire?","a":"Yamoussoukro","opts":["Yamoussoukro","Abidjan","Bouake"]},{"type":"typed","q":"What is the capital of Bhutan?","a":"Thimphu"},{"type":"typed","q":"What is the capital of Iceland?","a":"Reykjavik"},{"type":"typed","q":"What is the capital of Azerbaijan?","a":"Baku"}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live \u2014 try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
