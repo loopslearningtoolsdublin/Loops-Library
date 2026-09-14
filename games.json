@@ -2301,6 +2301,23 @@
         "classroom-phrases"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "cheesecakes",
+      "name": "Cheesecakes",
+      "category": "Vocabulary",
+      "emoji": "🔖",
+      "loopCount": 4,
+      "questionCount": 35,
+      "publishedAt": "2026-09-14T11:37:07.804Z",
+      "createdBy": "c_mtik4ye7_vjsnzpvk",
+      "author": "Thomas",
+      "subcategory": "Food",
+      "tags": [
+        "recipes",
+        "vocabulary"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2561,6 +2578,8 @@
     "Other::language": "Covers language skills, vocabulary, and communication in a specific language.",
     "Other::science": "Explore Newton's laws, discoveries, and life through physics and science trivia.",
     "Language::listening": "Practice recognizing and interpreting spoken Spanish classroom vocabulary and phrases.",
-    "Language::classroom-phrases": "Practice Spanish vocabulary and phrases commonly used in classroom settings."
+    "Language::classroom-phrases": "Practice Spanish vocabulary and phrases commonly used in classroom settings.",
+    "Vocabulary::recipes": "Trivia about cheesecake flavors, crusts, ingredients, and baking techniques",
+    "Vocabulary::food": "Cheesecake flavors, crusts, ingredients, and baking techniques trivia"
   }
 }
