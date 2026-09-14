@@ -2134,24 +2134,6 @@
       "thumbnail": null
     },
     {
-      "slug": "cheese-cakes",
-      "name": "Cheese cakes",
-      "category": "General Knowledge",
-      "emoji": "🔖",
-      "loopCount": 1,
-      "questionCount": 8,
-      "publishedAt": "2026-09-09T10:25:37.068Z",
-      "createdBy": "c_mtik4ye7_vjsnzpvk",
-      "author": "Thomas",
-      "subcategory": "Food",
-      "tags": [
-        "recipes",
-        "baking",
-        "Life Skills"
-      ],
-      "thumbnail": null
-    },
-    {
       "slug": "shawarma",
       "name": "Shawarma",
       "category": "Other",
