@@ -2339,24 +2339,6 @@
         "map-location"
       ],
       "thumbnail": null
-    },
-    {
-      "slug": "brainrot-test",
-      "name": "Brainrot test",
-      "category": "Other",
-      "emoji": "✨",
-      "loopCount": 2,
-      "questionCount": 12,
-      "publishedAt": "2026-09-14T13:50:58.852Z",
-      "createdBy": "c_mu1a8tek_ec27m78y",
-      "author": "Brainrot test",
-      "subcategory": "Slang",
-      "tags": [
-        "general-knowledge",
-        "vocabulary",
-        "word-origins"
-      ],
-      "thumbnail": "thumbs/brainrot-test.jpg"
     }
   ],
   "categories": {
