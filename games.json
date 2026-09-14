@@ -2318,6 +2318,27 @@
         "vocabulary"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "shows",
+      "name": "Shows",
+      "category": "Entertainment",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-14T13:44:14.378Z",
+      "createdBy": "c_mu1a8wbe_lskcsva5",
+      "author": "Jack",
+      "subcategory": "tv",
+      "tags": [
+        "quotes",
+        "classic-film",
+        "biography",
+        "places",
+        "maps",
+        "map-location"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2580,6 +2601,9 @@
     "Language::listening": "Practice recognizing and interpreting spoken Spanish classroom vocabulary and phrases.",
     "Language::classroom-phrases": "Practice Spanish vocabulary and phrases commonly used in classroom settings.",
     "Vocabulary::recipes": "Trivia about cheesecake flavors, crusts, ingredients, and baking techniques",
-    "Vocabulary::food": "Cheesecake flavors, crusts, ingredients, and baking techniques trivia"
+    "Vocabulary::food": "Cheesecake flavors, crusts, ingredients, and baking techniques trivia",
+    "Entertainment::maps": "Covers geography questions about world capitals and countries on maps.",
+    "Entertainment::map-location": "Identify countries' capital cities, from well-known to obscure.",
+    "Entertainment::places": "Identify national capital cities across countries of varying familiarity worldwide."
   }
 }
