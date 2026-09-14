@@ -2299,6 +2299,26 @@
         "general-knowledge"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "classroom-language",
+      "name": "Classroom Language",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 48,
+      "publishedAt": "2026-09-14T11:28:57.867Z",
+      "createdBy": "c_mtsd8b2z_3qm9xw7w",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "beginner",
+        "vocabulary",
+        "conversation",
+        "listening",
+        "classroom-phrases"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2557,6 +2577,8 @@
     "Language::nature": "Learn Irish vocabulary for geographical features and Earth's structure",
     "Other::irish": "Irish language, culture, or numbers content, distinct from sports or musicians.",
     "Other::language": "Covers language skills, vocabulary, and communication in a specific language.",
-    "Other::science": "Explore Newton's laws, discoveries, and life through physics and science trivia."
+    "Other::science": "Explore Newton's laws, discoveries, and life through physics and science trivia.",
+    "Language::listening": "Practice recognizing and interpreting spoken Spanish classroom vocabulary and phrases.",
+    "Language::classroom-phrases": "Practice Spanish vocabulary and phrases commonly used in classroom settings."
   }
 }
