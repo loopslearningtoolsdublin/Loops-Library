@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cheesecakes · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1789385827804"></script>
+  <script>
+    const GAME_DATA = {"slug":"cheesecakes","name":"Cheesecakes","emoji":"🔖","category":"Vocabulary","colors":{"pastel":"#D2F4C7","deep":"#5FCC3E","wash":"#EDF4EB"},"background":null,"loops":[{"name":"Cheesecake Basics","emoji":"🍰","timeLimit":15,"qs":[{"type":"mc","q":"Which cheesecake flavor uses crushed Oreo cookies?","a":"Oreo cheesecake","opts":["Oreo cheesecake","Biscoff cheesecake","Lemon cheesecake"]},{"type":"mc","q":"What ingredient gives Biscoff cheesecake its distinct flavor?","a":"Biscoff cookies/spread","opts":["Biscoff cookies/spread","Chocolate chips","Strawberry puree"]},{"type":"typed","q":"What fruit is used to make a strawberry cheesecake?","a":"Strawberries"},{"type":"mc","q":"What citrus fruit is the star of a lemon cheesecake?","a":"Lemon","opts":["Lemon","Lime","Orange"]},{"type":"typed","q":"What spread is used to make a Nutella cheesecake?","a":"Nutella"},{"type":"mc","q":"Which nut butter is used in a peanut butter cheesecake?","a":"Peanut butter","opts":["Peanut butter","Almond butter","Cashew butter"]},{"type":"typed","q":"What fruit gives a blueberry cheesecake its flavor?","a":"Blueberries"},{"type":"mc","q":"Which cheesecake type traditionally uses graham cracker crumbs for its crust?","a":"New York cheesecake","opts":["New York cheesecake","Basque cheesecake","French cheesecake"]},{"type":"typed","q":"What main dairy ingredient is essential to almost every cheesecake filling?","a":"Cream cheese"},{"type":"mc","q":"What flavor of cheesecake uses cocoa powder or melted chocolate?","a":"Chocolate cheesecake","opts":["Chocolate cheesecake","Vanilla cheesecake","Key lime cheesecake"]}]},{"name":"More Flavors","emoji":"🍓","timeLimit":15,"qs":[{"type":"mc","q":"What fruit is used in key lime cheesecake?","a":"Key lime","opts":["Key lime","Lemon","Grapefruit"]},{"type":"typed","q":"What orange vegetable puree is used in pumpkin cheesecake?","a":"Pumpkin"},{"type":"mc","q":"What spice is commonly added to pumpkin cheesecake along with pumpkin puree?","a":"Cinnamon","opts":["Cinnamon","Basil","Cumin"]},{"type":"typed","q":"What red fruit is used in raspberry cheesecake?","a":"Raspberries"},{"type":"mc","q":"What fruit pairs with cheesecake in a classic cherry cheesecake topping?","a":"Cherries","opts":["Cherries","Peaches","Plums"]},{"type":"typed","q":"What tropical fruit is used in mango cheesecake?","a":"Mango"},{"type":"mc","q":"What green tea powder is used to make matcha cheesecake?","a":"Matcha","opts":["Matcha","Sencha","Oolong"]},{"type":"typed","q":"What shredded tropical ingredient is used in coconut cheesecake?","a":"Coconut"},{"type":"mc","q":"What yellow fruit is used in banana cheesecake?","a":"Banana","opts":["Banana","Pineapple","Papaya"]},{"type":"mc","q":"Which cheesecake combines coffee flavor with mascarpone, inspired by an Italian dessert?","a":"Tiramisu cheesecake","opts":["Tiramisu cheesecake","Espresso cheesecake","Cappuccino cheesecake"]}]},{"name":"Crusts and Combos","emoji":"🧁","timeLimit":15,"qs":[{"type":"mc","q":"What type of cookie crumb crust is traditionally used for a classic New York cheesecake?","a":"Graham cracker","opts":["Graham cracker","Oreo","Biscoff"]},{"type":"typed","q":"What crunchy cookie is crushed to make the crust of an Oreo cheesecake?","a":"Oreo"},{"type":"mc","q":"What two flavors combine in a s'mores cheesecake besides cream cheese?","a":"Graham cracker, marshmallow, and chocolate","opts":["Graham cracker, marshmallow, and chocolate","Vanilla and caramel","Lemon and lime"]},{"type":"typed","q":"What white candy is melted into the batter to make white chocolate raspberry cheesecake?","a":"White chocolate"},{"type":"mc","q":"What sauce is drizzled into a salted caramel cheesecake along with sea salt?","a":"Caramel sauce","opts":["Caramel sauce","Chocolate syrup","Honey"]},{"type":"mc","q":"What red cake crumbs are mixed into a red velvet cheesecake?","a":"Red velvet cake","opts":["Red velvet cake","Chocolate cake","Carrot cake"]},{"type":"typed","q":"What tangy dairy ingredient is often added to cheesecake filling for extra creaminess, alongside cream cheese?","a":"Sour cream"},{"type":"mc","q":"What crust is used for a no-crust, caramelized-top Basque cheesecake?","a":"No crust at all","opts":["No crust at all","Graham cracker crust","Oreo crust"]},{"type":"typed","q":"What is the name of the Spanish-style burnt cheesecake with no crust?","a":"Basque cheesecake"},{"type":"mc","q":"What ingredient thickens and sets a baked cheesecake filling along with cream cheese?","a":"Eggs","opts":["Eggs","Gelatin","Cornstarch"]}]},{"name":"Techniques and Styles","emoji":"🔥","timeLimit":15,"qs":[{"type":"mc","q":"What baking technique involves placing the cheesecake pan in a larger pan of hot water?","a":"Water bath","opts":["Water bath","Double boiler","Steam bake"]},{"type":"typed","q":"What common problem does a water bath help prevent when baking cheesecake?","a":"Cracking"},{"type":"mc","q":"What type of cheesecake is not baked and instead set with gelatin or whipped cream in the fridge?","a":"No-bake cheesecake","opts":["No-bake cheesecake","Basque cheesecake","New York cheesecake"]},{"type":"typed","q":"What Italian cheese is sometimes used instead of or alongside cream cheese for a lighter cheesecake?","a":"Mascarpone"},{"type":"mc","q":"What Japanese cheesecake style is known for being light, fluffy, and jiggly like a souffle?","a":"Japanese cheesecake","opts":["Japanese cheesecake","French cheesecake","German cheesecake"]}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live \u2014 try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
