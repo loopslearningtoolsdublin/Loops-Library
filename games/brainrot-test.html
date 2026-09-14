@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Brainrot test · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1789393858852"></script>
+  <script>
+    const GAME_DATA = {"slug":"brainrot-test","name":"Brainrot test","emoji":"✨","category":"Other","colors":{"pastel":"#FAD2C3","deep":"#E0784E","wash":"#FAEEE5"},"background":"../thumbs/brainrot-test.jpg","loops":[{"name":"Brain Rot Basics","emoji":"🧠","timeLimit":15,"qs":[{"type":"mc","q":"Whos is tung tung","a":" Woden stick  with bat","opts":["A  human"," Dog "," Woden stick  with bat"]},{"type":"mc","q":"Why did tung tung hit tralalero","a":" Sahur the GOAT","opts":["He hated him","It was a mistake"," Sahur the GOAT"]},{"type":"typed","q":"Fill in: content is \"brain ____\"","a":"rot"},{"type":"mc","q":"Which generation is most associated with brain rot slang?","a":"Gen Alpha","opts":["Gen Alpha","The Silent Generation","Baby Boomers"]},{"type":"mc","q":"We §ęę ÿøű","a":"I §ęę ÿøű","opts":["I §ęę ÿøű","I §ęę ÿøű","I §ęę ÿøű"]},{"type":"typed","q":" platform is most associated with brain rot content?","a":"Youtube"},{"type":"mc","q":"Ðọ ýöųI §ęę mə","a":" ɓəĥįɲðə ƴøų","opts":[" ɓəĥįɲðə ƴøų"," ɓəĥįɲðə ƴøų"," ɓəĥįɲðə ƴøų"]},{"type":"mc","q":"Brain rot memes are","a":" ɓəĥįɲðə ƴøųI §ęę ÿøű","opts":["Funny","Clasical"," ɓəĥįɲðə ƴøųI §ęę ÿøű"]},{"type":"mc","q":"Brain rot is often blamed for reducing what kind of thinking?","a":"critical thinking","opts":["critical thinking","mathematical ability","physical strength"]},{"type":"mc","q":"What word describes platforms delivering endless auto-playing short videos, often blamed for brain rot?","a":"short-form video apps","opts":["short-form video apps","word processors","spreadsheet software"]}]},{"name":"Slang of the Scroll","emoji":"📱","timeLimit":15,"qs":[{"type":"typed","q":"What did the man say to the cow","a":"Aura tax"},{"type":"mc","q":"What does the slang  67","a":"something weird or chaotic","opts":["something weird or chaotic","a specific US election result","a type of food"]}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live \u2014 try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
