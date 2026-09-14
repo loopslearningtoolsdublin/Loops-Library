@@ -69,7 +69,7 @@
     return a;
   }
   function normalise(s) {
-    return (s || "").toString().trim().toLowerCase().replace(/[^wsáéíóúüñàèìòùâêîôûäëïöüçãõ]/gi, "");
+    return (s || "").toString().trim().toLowerCase().replace(/[^\w\sáéíóúüñàèìòùâêîôûäëïöüçãõ]/gi, "");
   }
   function fmtTime(sec) { return sec ? sec.toFixed(1) + "s" : "—"; }
   function questionKey(q) { return normalise(q.q) + "|" + normalise(q.a); }
@@ -709,7 +709,7 @@
   function renderBreakdown(log) {
     var wrap = el("loopsResultBreakdown");
     if (!log || log.length === 0) { wrap.innerHTML = ""; return; }
-    var html = '<div class="loops-bd-label">Here's how that round went — nice work getting through it 👇</div>';
+    var html = '<div class="loops-bd-label">Here&#39;s how that round went — nice work getting through it 👇</div>';
     for (var i = 0; i < log.length; i++) {
       var row = log[i];
       var cls = row.ok ? "good" : "bad";
@@ -722,7 +722,7 @@
         html += '<div class="loops-bd-detail">You said: ' + givenOk + ' — <span class="loops-bd-pill">' + escapeHtml(row.correctAnswer) + '</span> — nice one!</div>';
       } else {
         var given = row.given ? escapeHtml(row.given) : "No answer";
-        html += '<div class="loops-bd-detail">You said: ' + given + ' — <span class="loops-bd-pill">' + escapeHtml(row.correctAnswer) + '</span>. You'll get it next time.</div>';
+        html += '<div class="loops-bd-detail">You said: ' + given + ' — <span class="loops-bd-pill">' + escapeHtml(row.correctAnswer) + '</span>. You&#39;ll get it next time.</div>';
       }
       html += '</div></div>';
     }
