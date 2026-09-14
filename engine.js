@@ -69,7 +69,7 @@
     return a;
   }
   function normalise(s) {
-    return (s || "").toString().trim().toLowerCase().replace(/[^\w\sáéíóúüñàèìòùâêîôûäëïöüçãõ]/gi, "");
+    return (s || "").toString().trim().toLowerCase().replace(/[^wsáéíóúüñàèìòùâêîôûäëïöüçãõ]/gi, "");
   }
   function fmtTime(sec) { return sec ? sec.toFixed(1) + "s" : "—"; }
   function questionKey(q) { return normalise(q.q) + "|" + normalise(q.a); }
@@ -357,7 +357,10 @@
   function buildSkeleton() {
     var root = el("loopsApp");
     root.innerHTML =
-      '<div style="margin-bottom:10px;"><a href="../library.html" style="display:inline-flex;align-items:center;gap:4px;color:var(--navy);text-decoration:none;font-weight:700;font-size:.85rem;opacity:.75;">&larr; Library</a></div>' +
+      '<div style="margin-bottom:10px;display:flex;gap:16px;align-items:center;">' +
+      '<a href="../library.html" style="display:inline-flex;align-items:center;gap:4px;color:var(--navy);text-decoration:none;font-weight:700;font-size:.85rem;opacity:.75;">&larr; Library</a>' +
+      '<a href="#" id="loopsLevelsLink" style="display:inline-flex;align-items:center;gap:4px;color:var(--navy);text-decoration:none;font-weight:700;font-size:.85rem;opacity:.75;">&#8962; Levels</a>' +
+      '</div>' +
       '<div class="loops-header">' +
       '<img class="loops-logo-mark" src="' + (GAME.logoPath || "../Loops_triskel_mark.png") + '" alt="Loops" onerror="this.style.display=&#39;none&#39;">' +
       '<div style="font-size:2rem;">' + (GAME.emoji || "🎮") + '</div>' +
@@ -404,6 +407,15 @@
       if (!confirm("Reset all progress for this game?")) return;
       save = { unlocked: 0, best: {}, bestScore: {}, mastery: {} };
       persist();
+      renderHome();
+    });
+
+    // Jump straight back to this game's level select from anywhere (mid-
+    // question included) without leaving the page — no trip back through
+    // the Library to find the same game again.
+    el("loopsLevelsLink").addEventListener("click", function (e) {
+      e.preventDefault();
+      clearInterval(G.timer);
       renderHome();
     });
   }
@@ -664,6 +676,10 @@
     var nextBtn = el("loopsNextBtn");
     nextBtn.style.display = "block";
     nextBtn.onclick = nextQuestion;
+    // On a long question (lots of MC options, small screen) the button can
+    // land below the fold — get it into view automatically so play isn't
+    // slowed down by a manual scroll every question.
+    try { nextBtn.scrollIntoView({ behavior: "smooth", block: "nearest" }); } catch (e) {}
   }
 
   function nextQuestion() {
@@ -693,7 +709,7 @@
   function renderBreakdown(log) {
     var wrap = el("loopsResultBreakdown");
     if (!log || log.length === 0) { wrap.innerHTML = ""; return; }
-    var html = '<div class="loops-bd-label">Here\'s how that round went — nice work getting through it 👇</div>';
+    var html = '<div class="loops-bd-label">Here's how that round went — nice work getting through it 👇</div>';
     for (var i = 0; i < log.length; i++) {
       var row = log[i];
       var cls = row.ok ? "good" : "bad";
@@ -706,7 +722,7 @@
         html += '<div class="loops-bd-detail">You said: ' + givenOk + ' — <span class="loops-bd-pill">' + escapeHtml(row.correctAnswer) + '</span> — nice one!</div>';
       } else {
         var given = row.given ? escapeHtml(row.given) : "No answer";
-        html += '<div class="loops-bd-detail">You said: ' + given + ' — <span class="loops-bd-pill">' + escapeHtml(row.correctAnswer) + '</span>. You\'ll get it next time.</div>';
+        html += '<div class="loops-bd-detail">You said: ' + given + ' — <span class="loops-bd-pill">' + escapeHtml(row.correctAnswer) + '</span>. You'll get it next time.</div>';
       }
       html += '</div></div>';
     }
@@ -798,6 +814,22 @@
     } catch (e) {}
   }
 
+  // Records this game as most-recently-played in a shared, same-origin
+  // localStorage key. Read back by library.html (same domain — games/*.html
+  // and library.html both live in this repo) to render a "Recently played"
+  // row without the player having to search for the game again.
+  function recordRecentlyPlayed() {
+    try {
+      var key = "loops_recently_played";
+      var raw = localStorage.getItem(key);
+      var arr = raw ? JSON.parse(raw) : [];
+      if (!Array.isArray(arr)) arr = [];
+      arr = arr.filter(function (r) { return r && r.slug !== GAME.slug; });
+      arr.unshift({ slug: GAME.slug, ts: Date.now() });
+      localStorage.setItem(key, JSON.stringify(arr.slice(0, 12)));
+    } catch (e) {}
+  }
+
   // ── INIT ──
   window.LoopsEngine = {
     init: function (gameData) {
@@ -810,6 +842,7 @@
         buildSkeleton();
         renderHome();
         pingPlayerSeenOnce();
+        recordRecentlyPlayed();
       } catch (err) {
         var root = document.getElementById("loopsApp");
         if (root) {
@@ -817,7 +850,7 @@
             '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
             '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
             '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">This game hit a snag loading</div>' +
-            '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live \u2014 try refreshing. If it keeps happening, let whoever made this game know.</div>' +
+            '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing. If it keeps happening, let whoever made this game know.</div>' +
             "</div>";
         }
         if (window.console) console.error("LoopsEngine failed to init:", err);
