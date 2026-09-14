@@ -2339,6 +2339,24 @@
         "map-location"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "brainrot-test",
+      "name": "Brainrot test",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 2,
+      "questionCount": 12,
+      "publishedAt": "2026-09-14T13:50:58.852Z",
+      "createdBy": "c_mu1a8tek_ec27m78y",
+      "author": "Brainrot test",
+      "subcategory": "Slang",
+      "tags": [
+        "general-knowledge",
+        "vocabulary",
+        "word-origins"
+      ],
+      "thumbnail": "thumbs/brainrot-test.jpg"
     }
   ],
   "categories": {
@@ -2481,7 +2499,7 @@
     "Language::irish": "Irish-language quiz on geography vocabulary and Earth's structure",
     "Language::prepositions": "Learn Irish prepositions and their pronoun forms through translation exercises",
     "Other::etymology": "Trivia about famous quotes, sayings, and the origins of words or phrases",
-    "Other::word-origins": "Match famous quotes and witty retorts to the people who said them",
+    "Other::word-origins": "Explore the quirky origins behind viral slang and brain rot phrases.",
     "Other::standardized-tests": "Practice core statistics and probability concepts for standardized exam preparation.",
     "Other::business-studies": "Trivia covering business, accounting, economics, law, and commerce fundamentals.",
     "Other::back-to-school": "Back-to-school routines, organization, classroom habits, and growing responsibility for students",
@@ -2604,6 +2622,7 @@
     "Vocabulary::food": "Cheesecake flavors, crusts, ingredients, and baking techniques trivia",
     "Entertainment::maps": "Covers geography questions about world capitals and countries on maps.",
     "Entertainment::map-location": "Identify countries' capital cities, from well-known to obscure.",
-    "Entertainment::places": "Identify national capital cities across countries of varying familiarity worldwide."
+    "Entertainment::places": "Identify national capital cities across countries of varying familiarity worldwide.",
+    "Other::slang": "Tests knowledge of internet brain rot slang and viral meme terminology."
   }
 }
