@@ -2339,6 +2339,25 @@
         "map-location"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "irregular-spanish-past-tense",
+      "name": "Irregular Spanish Past Tense",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-15T09:12:56.916Z",
+      "createdBy": "c_mu1sykuv_7vbk1ys0",
+      "author": "SMQ",
+      "subcategory": "spanish",
+      "tags": [
+        "grammar",
+        "past-tense",
+        "language",
+        "verbs"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2605,6 +2624,9 @@
     "Entertainment::maps": "Covers geography questions about world capitals and countries on maps.",
     "Entertainment::map-location": "Identify countries' capital cities, from well-known to obscure.",
     "Entertainment::places": "Identify national capital cities across countries of varying familiarity worldwide.",
-    "Other::slang": "Tests knowledge of internet brain rot slang and viral meme terminology."
+    "Other::slang": "Tests knowledge of internet brain rot slang and viral meme terminology.",
+    "Other::verbs": "Conjugate common irregular Spanish verbs in the preterite tense",
+    "Other::grammar": "Practice irregular Spanish preterite verb conjugations across common verbs",
+    "Other::past-tense": "Practice Spanish irregular preterite verb conjugations across common verbs."
   }
 }
