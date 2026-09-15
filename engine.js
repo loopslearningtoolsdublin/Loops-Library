@@ -383,8 +383,8 @@
       "</div>" +
       '<div id="loopsResult" class="loops-screen"><div class="loops-result">' +
       '<div id="loopsResultTitle" style="font-size:1.2rem;font-weight:800;margin-bottom:8px;"></div>' +
-      '<div class="big" id="loopsResultTime"></div>' +
-      '<div style="opacity:.7;font-size:.85rem;margin-top:4px;" id="loopsResultScore"></div>' +
+      '<div class="big" id="loopsResultScore"></div>' +
+      '<div style="font-size:1.1rem;font-weight:700;color:var(--navy);margin-top:6px;" id="loopsResultTime"></div>' +
       '<div id="loopsResultBreakdown" class="loops-breakdown"></div>' +
       '<div class="loops-stack"><button class="loops-btn" id="loopsNextLevelBtn" style="display:none;">Next level →</button>' +
       '<button class="loops-btn" id="loopsAgainBtn">Play again</button>' +
