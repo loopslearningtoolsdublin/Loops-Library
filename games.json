@@ -2358,6 +2358,26 @@
         "verbs"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "fiesta-1",
+      "name": "Fiesta 1",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-15T10:40:55.840Z",
+      "createdBy": "c_mu1sykuv_7vbk1ys0",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "vocabulary",
+        "beginner",
+        "conversation",
+        "classroom-phrases",
+        "greetings"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2627,6 +2647,7 @@
     "Other::slang": "Tests knowledge of internet brain rot slang and viral meme terminology.",
     "Other::verbs": "Conjugate common irregular Spanish verbs in the preterite tense",
     "Other::grammar": "Practice irregular Spanish preterite verb conjugations across common verbs",
-    "Other::past-tense": "Practice Spanish irregular preterite verb conjugations across common verbs."
+    "Other::past-tense": "Practice Spanish irregular preterite verb conjugations across common verbs.",
+    "Language::greetings": "Learn basic Spanish greetings, farewells, and common classroom phrases."
   }
 }
