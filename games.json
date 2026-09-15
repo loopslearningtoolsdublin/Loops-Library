@@ -2435,6 +2435,26 @@
         "general-knowledge"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "berlioz-symphonie-fantastique-iv",
+      "name": "Berlioz- Symphonie Fantastique IV",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 3,
+      "questionCount": 24,
+      "publishedAt": "2026-09-15T15:53:40.765Z",
+      "createdBy": "c_mu1sykuv_7vbk1ys0",
+      "author": "SMQ",
+      "subcategory": "Classical Music",
+      "tags": [
+        "music",
+        "berlioz",
+        "composition",
+        "orchestration",
+        "composers"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2710,6 +2730,11 @@
     "Beginner::recipes": "Trivia about ingredients, equipment, and techniques for making various cheesecakes.",
     "Beginner::food": "Cheesecake ingredients, equipment, and regional variations in preparation",
     "Language::verb-conjugation": "Practice conjugating Spanish verbs correctly across present, past, and future tenses.",
-    "Language::sentence-structure": "Practice conjugating Spanish verbs correctly across present, past, and future tenses"
+    "Language::sentence-structure": "Practice conjugating Spanish verbs correctly across present, past, and future tenses",
+    "Other::classical-music": "Facts about classical orchestral and chamber music compositions, composers, and history.",
+    "Other::orchestration": "Sequencing Symphonie fantastique's movements and program narrative into coherent structured order",
+    "Other::composition": "Questions about composing, structuring, and interpreting Berlioz's Symphonie fantastique movements",
+    "Other::composers": "Explores composers' lives, works, and famous musical compositions like Symphonie fantastique",
+    "Other::berlioz": "Quiz on Berlioz's Symphonie fantastique: its movements, program, and story."
   }
 }
