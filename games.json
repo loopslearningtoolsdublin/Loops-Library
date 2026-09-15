@@ -2361,6 +2361,25 @@
         "greetings"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "hard-level-verbs-spanish",
+      "name": "Hard level Verbs (Spanish)",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-15T10:58:14.790Z",
+      "createdBy": "c_mttxo4ak_5msjcud3",
+      "author": "Mahad & Killian",
+      "subcategory": "grammar",
+      "tags": [
+        "English",
+        "present-tense",
+        "vocabulary",
+        "beginner"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
