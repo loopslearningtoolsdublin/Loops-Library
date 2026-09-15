@@ -2398,6 +2398,26 @@
         "vocabulary"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "champion-spanish-extremely-hard",
+      "name": "Champion Spanish (Extremely hard)",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 2,
+      "questionCount": 18,
+      "publishedAt": "2026-09-15T11:11:00.453Z",
+      "createdBy": "c_mttxo4ak_5msjcud3",
+      "author": "Mahad & Killian",
+      "subcategory": "Spanish",
+      "tags": [
+        "grammar",
+        "present-tense",
+        "vocabulary",
+        "verb-conjugation",
+        "sentence-structure"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2671,6 +2691,8 @@
     "Language::greetings": "Learn basic Spanish greetings, farewells, and common classroom phrases.",
     "Beginner::baking": "Quiz on cheesecake ingredients, equipment, regional variations, and flavoring additives.",
     "Beginner::recipes": "Trivia about ingredients, equipment, and techniques for making various cheesecakes.",
-    "Beginner::food": "Cheesecake ingredients, equipment, and regional variations in preparation"
+    "Beginner::food": "Cheesecake ingredients, equipment, and regional variations in preparation",
+    "Language::verb-conjugation": "Practice conjugating Spanish verbs correctly across present, past, and future tenses.",
+    "Language::sentence-structure": "Practice conjugating Spanish verbs correctly across present, past, and future tenses"
   }
 }
