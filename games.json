@@ -2380,6 +2380,24 @@
         "beginner"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "cheesecake",
+      "name": "Cheesecake",
+      "category": "Beginner",
+      "emoji": "🔖",
+      "loopCount": 4,
+      "questionCount": 40,
+      "publishedAt": "2026-09-15T11:02:00.181Z",
+      "createdBy": "c_mtik4ye7_vjsnzpvk",
+      "author": "Thomas",
+      "subcategory": "Baking",
+      "tags": [
+        "food",
+        "recipes",
+        "vocabulary"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2650,6 +2668,9 @@
     "Other::verbs": "Conjugate common irregular Spanish verbs in the preterite tense",
     "Other::grammar": "Practice irregular Spanish preterite verb conjugations across common verbs",
     "Other::past-tense": "Practice Spanish irregular preterite verb conjugations across common verbs.",
-    "Language::greetings": "Learn basic Spanish greetings, farewells, and common classroom phrases."
+    "Language::greetings": "Learn basic Spanish greetings, farewells, and common classroom phrases.",
+    "Beginner::baking": "Quiz on cheesecake ingredients, equipment, regional variations, and flavoring additives.",
+    "Beginner::recipes": "Trivia about ingredients, equipment, and techniques for making various cheesecakes.",
+    "Beginner::food": "Cheesecake ingredients, equipment, and regional variations in preparation"
   }
 }
