@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Berlioz- Symphonie Fantastique IV · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1789487620765"></script>
+  <script>
+    const GAME_DATA = {"slug":"berlioz-symphonie-fantastique-iv","name":"Berlioz- Symphonie Fantastique IV","emoji":"✨","category":"Other","colors":{"pastel":"#FAD2C3","deep":"#E0784E","wash":"#FAEEE5"},"background":null,"loops":[{"name":"Symphonie fantastique Basics","emoji":"🎻","timeLimit":15,"qs":[{"type":"mc","q":"Who composed Symphonie fantastique?","a":"Berlioz","opts":["Berlioz","Beethoven","Brahms"]},{"type":"typed","q":"In what year was Symphonie fantastique composed?","a":"1830"},{"type":"mc","q":"How many movements does Symphonie fantastique have?","a":"5","opts":["4","5","6"]},{"type":"mc","q":"What is the title of the fourth movement?","a":"Marche au supplice","opts":["Marche au supplice","Un bal","Songe d'une nuit de sabbat"]},{"type":"typed","q":"What English phrase translates Marche au supplice?","a":"March to the Scaffold"},{"type":"mc","q":"What nationality was Hector Berlioz?","a":"French","opts":["French","German","Italian"]},{"type":"mc","q":"What musical era does Berlioz belong to?","a":"Romantic","opts":["Romantic","Baroque","Classical"]},{"type":"typed","q":"What is the recurring melodic theme in the symphony called?","a":"idée fixe"},{"type":"mc","q":"What does the idée fixe represent in the story?","a":"the artist's beloved","opts":["the artist's beloved","a battle","a dance"]},{"type":"mc","q":"Symphonie fantastique premiered in which city?","a":"Paris","opts":["Paris","Vienna","London"]}]},{"name":"The Five Movements","emoji":"🎭","timeLimit":15,"qs":[{"type":"mc","q":"What is the title of the first movement?","a":"Rêveries – Passions","opts":["Rêveries – Passions","Un bal","Scène aux champs"]},{"type":"mc","q":"What is the title of the second movement?","a":"Un bal","opts":["Un bal","Marche au supplice","Songe d'une nuit de sabbat"]},{"type":"mc","q":"What is the title of the third movement?","a":"Scène aux champs","opts":["Scène aux champs","Un bal","Marche au supplice"]},{"type":"mc","q":"What is the title of the fifth movement?","a":"Songe d'une nuit de sabbat","opts":["Songe d'une nuit de sabbat","Marche au supplice","Rêveries – Passions"]},{"type":"mc","q":"The second movement, Un bal, depicts what kind of event?","a":"a ball (dance)","opts":["a ball (dance)","a funeral","a battle"]},{"type":"mc","q":"The third movement Scène aux champs is set where?","a":"in the countryside/fields","opts":["in the countryside/fields","in a ballroom","in a graveyard"]},{"type":"mc","q":"What is the full English subtitle of Symphonie fantastique?","a":"Episode in the Life of an Artist","opts":["Episode in the Life of an Artist","Dream of a Witches' Sabbath","A Day in the Country"]},{"type":"mc","q":"Which actress inspired Berlioz's obsession that led to the symphony?","a":"Harriet Smithson","opts":["Harriet Smithson","Sarah Bernhardt","Jenny Lind"]},{"type":"typed","q":"What nationality was Harriet Smithson?","a":"Irish"},{"type":"mc","q":"In the program, what does the artist do to his beloved in his opium-induced dream leading to movement IV?","a":"kills her","opts":["kills her","marries her","abandons her"]}]},{"name":"March to the Scaffold Story","emoji":"⚔️","timeLimit":15,"qs":[{"type":"mc","q":"What triggers the events of movement IV in Berlioz's program?","a":"the artist dreams he has killed his beloved and is condemned to death","opts":["the artist dreams he has killed his beloved and is condemned to death","the artist wins a duel","the artist attends a wedding"]},{"type":"mc","q":"What is the artist being marched to in movement IV?","a":"the scaffold for execution","opts":["the scaffold for execution","a wedding","a battlefield"]},{"type":"mc","q":"What execution method is implied by Marche au supplice?","a":"guillotine","opts":["guillotine","hanging","firing squad"]},{"type":"mc","q":"According to Berlioz's program, who witnesses the artist's execution?","a":"a crowd","opts":["a crowd","only the artist's family","no one"]}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
