@@ -2418,6 +2418,23 @@
         "sentence-structure"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "ww2",
+      "name": "WW2",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-15T12:43:07.583Z",
+      "createdBy": "c_mu1a8tek_ec27m78y",
+      "author": "Abdulahi",
+      "subcategory": "History",
+      "tags": [
+        "heads-of-state",
+        "general-knowledge"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
