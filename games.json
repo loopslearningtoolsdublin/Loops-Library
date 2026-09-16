@@ -2533,6 +2533,25 @@
         "conversation"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "jc3-1-present-tense-review",
+      "name": "JC3.1 Present Tense Review",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-16T23:44:38.196Z",
+      "createdBy": "c_mu1sykuv_7vbk1ys0",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "present-tense",
+        "verb-conjugation",
+        "grammar",
+        "vocabulary"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
