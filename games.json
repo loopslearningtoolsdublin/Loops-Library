@@ -2493,6 +2493,25 @@
         "daily-routines"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "semiconductors",
+      "name": "Semiconductors",
+      "category": "Exam Prep",
+      "emoji": "📝",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-16T09:04:11.095Z",
+      "createdBy": "c_mtx8jh5i_gyso88ma",
+      "author": "Antaine",
+      "subcategory": "Physics",
+      "tags": [
+        "technique",
+        "junior-cycle-science",
+        "general-knowledge",
+        "leaving-cert"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2774,6 +2793,9 @@
     "Other::composition": "Questions about composing, structuring, and interpreting Berlioz's Symphonie fantastique movements",
     "Other::composers": "Explores composers' lives, works, and famous musical compositions like Symphonie fantastique",
     "Other::berlioz": "Quiz on Berlioz's Symphonie fantastique: its movements, program, and story.",
-    "Language::numbers": "Learn Spanish numbers and how to tell time"
+    "Language::numbers": "Learn Spanish numbers and how to tell time",
+    "Exam Prep::leaving-cert": "Irish Leaving Certificate physics curriculum on semiconductors, diodes, and LEDs",
+    "Exam Prep::technique": "Recall-based Q&A covering semiconductor physics facts, doping types, and diode/LED operation.",
+    "Exam Prep::physics": "Explores semiconductors, doping, p-n junctions, diodes, and LEDs in electronics."
   }
 }
