@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Spanish Numbers and Time · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1789547181412"></script>
+  <script>
+    const GAME_DATA = {"slug":"spanish-numbers-and-time","name":"Spanish Numbers and Time","emoji":"🌍","category":"Language","colors":{"pastel":"#C1F0EA","deep":"#2FB18A","wash":"#EBF6F0"},"background":null,"loops":[{"name":"Contando del Uno","emoji":"🔢","timeLimit":15,"qs":[{"type":"mc","q":"How do you say \"five\" in Spanish?","a":"cinco","opts":["cinco","cuatro","seis"]},{"type":"typed","q":"What is the Spanish word for \"one\"?","a":"uno"},{"type":"mc","q":"What number is \"ocho\"?","a":"8","opts":["6","7","8"]},{"type":"typed","q":"Translate \"diez\" to an English number","a":"10"},{"type":"mc","q":"How do you say \"three\" in Spanish?","a":"tres","opts":["tres","dos","cuatro"]},{"type":"typed","q":"What is the Spanish word for \"seven\"?","a":"siete"},{"type":"mc","q":"What number is \"nueve\"?","a":"9","opts":["8","9","10"]},{"type":"typed","q":"Translate \"dos\" to an English number","a":"2"},{"type":"mc","q":"How do you say \"six\" in Spanish?","a":"seis","opts":["seis","siete","cinco"]},{"type":"typed","q":"What is the Spanish word for \"four\"?","a":"cuatro"}]},{"name":"Números Grandes","emoji":"🧮","timeLimit":15,"qs":[{"type":"mc","q":"How do you say \"eleven\" in Spanish?","a":"once","opts":["once","doce","diez"]},{"type":"typed","q":"What is the Spanish word for \"twelve\"?","a":"doce"},{"type":"mc","q":"What number is \"quince\"?","a":"15","opts":["14","15","16"]},{"type":"typed","q":"Translate \"veinte\" to an English number","a":"20"},{"type":"mc","q":"How do you say \"twenty-one\" in Spanish?","a":"veintiuno","opts":["veintiuno","veintidós","treinta"]},{"type":"typed","q":"What is the Spanish word for \"thirty\"?","a":"treinta"},{"type":"mc","q":"What number is \"diecisiete\"?","a":"17","opts":["16","17","18"]},{"type":"typed","q":"Translate \"catorce\" to an English number","a":"14"},{"type":"mc","q":"How do you say \"sixteen\" in Spanish?","a":"dieciséis","opts":["dieciséis","diecisiete","quince"]},{"type":"typed","q":"What is the Spanish word for \"nineteen\"?","a":"diecinueve"}]},{"name":"¿Qué Hora Es?","emoji":"🕐","timeLimit":15,"qs":[{"type":"mc","q":"How do you ask \"What time is it?\" in Spanish?","a":"¿Qué hora es?","opts":["¿Qué hora es?","¿Cómo estás?","¿Dónde está?"]},{"type":"typed","q":"How do you say \"It is one o'clock\" in Spanish?","a":"Es la una"},{"type":"mc","q":"How do you say \"It is two o'clock\" in Spanish?","a":"Son las dos","opts":["Son las dos","Es las dos","Son la dos"]},{"type":"typed","q":"What Spanish phrase means \"It is noon\"?","a":"Es mediodía"},{"type":"mc","q":"What Spanish phrase means \"It is midnight\"?","a":"Es medianoche","opts":["Es medianoche","Es mediodía","Son las doce"]},{"type":"typed","q":"How do you say \"It is three o'clock\" in Spanish?","a":"Son las tres"},{"type":"mc","q":"Which is the correct way to say \"It is one o'clock\"?","a":"Es la una","opts":["Es la una","Son la una","Es las una"]},{"type":"typed","q":"How do you say \"It is four o'clock\" in Spanish?","a":"Son las cuatro"},{"type":"mc","q":"Which word means \"hour\" when telling time in Spanish?","a":"hora","opts":["hora","tiempo","dia"]},{"type":"typed","q":"How do you say \"It is ten o'clock\" in Spanish?","a":"Son las diez"}]},{"name":"Minutos y Cuartos","emoji":"⏰","timeLimit":15,"qs":[{"type":"mc","q":"How do you say \"half past\" in Spanish time expressions?","a":"y media","opts":["y media","y cuarto","menos cuarto"]},{"type":"typed","q":"How do you say \"It is half past one\" in Spanish?","a":"Es la una y media"},{"type":"mc","q":"How do you say \"quarter past\" in Spanish?","a":"y cuarto","opts":["y cuarto","y media","menos cuarto"]},{"type":"typed","q":"How do you say \"It is quarter past three\" in Spanish?","a":"Son las tres y cuarto"},{"type":"mc","q":"How do you say \"quarter to\" in Spanish?","a":"menos cuarto","opts":["menos cuarto","y cuarto","y media"]},{"type":"typed","q":"How do you say \"It is quarter to four\" in Spanish, meaning 3:45?","a":"Son las cuatro menos cuarto"},{"type":"mc","q":"How do you say \"ten past five\" in Spanish?","a":"Son las cinco y diez","opts":["Son las cinco y diez","Son las cinco menos diez","Son las diez y cinco"]},{"type":"typed","q":"How do you say \"It is twenty to six\" in Spanish, meaning 5:40?","a":"Son las seis menos veinte"},{"type":"mc","q":"What does \"y veinte\" mean when telling time?","a":"twenty minutes past","opts":["twenty minutes past","twenty minutes to","twenty o'clock"]},{"type":"typed","q":"How do you say \"It is ten to two\" in Spanish, meaning 1:50?","a":"Son las dos menos diez"}]},{"name":"Maestro del Tiempo","emoji":"🌟","timeLimit":15,"qs":[{"type":"mc","q":"What phrase means \"in the morning\" in Spanish time expressions?","a":"de la mañana","opts":["de la mañana","de la tarde","de la noche"]},{"type":"typed","q":"How do you say \"in the afternoon\" in Spanish?","a":"de la tarde"},{"type":"mc","q":"What phrase means \"at night\" in Spanish time expressions?","a":"de la noche","opts":["de la noche","de la mañana","de la tarde"]},{"type":"typed","q":"How do you say \"It is seven o'clock in the morning\" in Spanish?","a":"Son las siete de la mañana"},{"type":"mc","q":"How do you say \"It is nine o'clock at night\"?","a":"Son las nueve de la noche","opts":["Son las nueve de la noche","Son las nueve de la mañana","Son las nueve de la tarde"]},{"type":"typed","q":"How do you say \"It is half past two in the afternoon\" in Spanish?","a":"Son las dos y media de la tarde"},{"type":"mc","q":"Which sentence correctly says \"It is quarter past eight in the morning\"?","a":"Son las ocho y cuarto de la mañana","opts":["Son las ocho y cuarto de la mañana","Son las ocho menos cuarto de la mañana","Son las ocho y media de la mañana"]},{"type":"typed","q":"How do you say the number 25 in Spanish?","a":"veinticinco"},{"type":"mc","q":"Which sentence correctly says \"It is quarter to eleven at night\", meaning 10:45?","a":"Son las once menos cuarto de la noche","opts":["Son las once menos cuarto de la noche","Son las diez menos cuarto de la noche","Son las once y cuarto de la noche"]},{"type":"typed","q":"How do you say \"It is one o'clock in the afternoon\" in Spanish?","a":"Es la una de la tarde"}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
