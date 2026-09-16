@@ -2512,6 +2512,27 @@
         "leaving-cert"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "spanish-lc1",
+      "name": "Spanish LC1",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-16T23:26:51.929Z",
+      "createdBy": "c_mu1sykuv_7vbk1ys0",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "vocabulary",
+        "grammar",
+        "beginner",
+        "synge-st-cbs",
+        "character-traits",
+        "conversation"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2796,6 +2817,7 @@
     "Language::numbers": "Learn Spanish numbers and how to tell time",
     "Exam Prep::leaving-cert": "Irish Leaving Certificate physics curriculum on semiconductors, diodes, and LEDs",
     "Exam Prep::technique": "Recall-based Q&A covering semiconductor physics facts, doping types, and diode/LED operation.",
-    "Exam Prep::physics": "Explores semiconductors, doping, p-n junctions, diodes, and LEDs in electronics."
+    "Exam Prep::physics": "Explores semiconductors, doping, p-n junctions, diodes, and LEDs in electronics.",
+    "Language::synge-st-cbs": "Spanish self-introduction basics: greetings, age, appearance, and personality descriptions."
   }
 }
