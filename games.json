@@ -2552,6 +2552,26 @@
         "vocabulary"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "geographical-features-of-spain",
+      "name": "Geographical features of Spain",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 2,
+      "questionCount": 17,
+      "publishedAt": "2026-09-16T23:52:06.779Z",
+      "createdBy": "c_mu1sykuv_7vbk1ys0",
+      "author": "SMQ",
+      "subcategory": "geography",
+      "tags": [
+        "Spanish",
+        "nature",
+        "vocabulary",
+        "synge-street-cbs",
+        "beginner"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
