@@ -2455,6 +2455,25 @@
         "composers"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "spanish-numbers-and-time",
+      "name": "Spanish Numbers and Time",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-16T08:26:21.412Z",
+      "createdBy": "c_mrm4d78o_wsyx9f55",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "vocabulary",
+        "beginner",
+        "numbers",
+        "synge-street-cbs"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2735,6 +2754,7 @@
     "Other::orchestration": "Sequencing Symphonie fantastique's movements and program narrative into coherent structured order",
     "Other::composition": "Questions about composing, structuring, and interpreting Berlioz's Symphonie fantastique movements",
     "Other::composers": "Explores composers' lives, works, and famous musical compositions like Symphonie fantastique",
-    "Other::berlioz": "Quiz on Berlioz's Symphonie fantastique: its movements, program, and story."
+    "Other::berlioz": "Quiz on Berlioz's Symphonie fantastique: its movements, program, and story.",
+    "Language::numbers": "Learn Spanish numbers and how to tell time"
   }
 }
