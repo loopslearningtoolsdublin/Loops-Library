@@ -2474,6 +2474,25 @@
         "synge-street-cbs"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "interests-and-hobbies-spanish",
+      "name": "Interests and Hobbies (Spanish)",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-16T08:32:04.899Z",
+      "createdBy": "c_mrm4d78o_wsyx9f55",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "vocabulary",
+        "conversation",
+        "beginner",
+        "daily-routines"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
