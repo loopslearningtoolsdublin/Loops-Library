@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Main tourist attractiions of Spain · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1789642321558"></script>
+  <script>
+    const GAME_DATA = {"slug":"main-tourist-attractiions-of-spain","name":"Main tourist attractiions of Spain","emoji":"✨","category":"Other","colors":{"pastel":"#FAD2C3","deep":"#E0784E","wash":"#FAEEE5"},"background":null,"loops":[{"name":"Spain Icons","emoji":"🏰","timeLimit":15,"qs":[{"type":"mc","q":"Which city is home to the Sagrada Familia?","a":"Barcelona","opts":["Barcelona","Madrid","Seville"]},{"type":"mc","q":"What is the capital city of Spain?","a":"Madrid","opts":["Madrid","Barcelona","Seville"]},{"type":"typed","q":"What is the name of the famous Moorish palace in Granada?","a":"Alhambra"},{"type":"mc","q":"Which Spanish city is known for its running of the bulls festival?","a":"Pamplona","opts":["Pamplona","Toledo","Bilbao"]},{"type":"typed","q":"What is the name of the famous museum in Madrid known for Spanish paintings?","a":"Prado"},{"type":"mc","q":"Which famous mosque-cathedral is located in Cordoba?","a":"Mezquita","opts":["Mezquita","Alcazar","Alhambra"]},{"type":"mc","q":"Which famous park in Barcelona was designed by Antoni Gaudi?","a":"Park Guell","opts":["Park Guell","Retiro Park","Plaza Mayor"]},{"type":"mc","q":"Which city is known for the Giralda tower?","a":"Seville","opts":["Seville","Madrid","Barcelona"]},{"type":"typed","q":"Who was the architect of the Sagrada Familia?","a":"Antoni Gaudi"},{"type":"mc","q":"Which Spanish island is famous for its beaches and nightlife?","a":"Ibiza","opts":["Ibiza","Toledo","Segovia"]}]},{"name":"City Landmarks","emoji":"🎨","timeLimit":15,"qs":[{"type":"mc","q":"The Guggenheim Museum is located in which city?","a":"Bilbao","opts":["Bilbao","Madrid","Valencia"]},{"type":"mc","q":"The City of Arts and Sciences is located in which city?","a":"Valencia","opts":["Valencia","Barcelona","Madrid"]},{"type":"mc","q":"The Royal Palace, official residence of the Spanish royal family, is in which city?","a":"Madrid","opts":["Madrid","Barcelona","Seville"]},{"type":"typed","q":"What is the name of the main historic square in Madrid?","a":"Plaza Mayor"},{"type":"mc","q":"Casa Batllo in Barcelona was designed by which architect?","a":"Antoni Gaudi","opts":["Antoni Gaudi","Pablo Picasso","Santiago Calatrava"]},{"type":"mc","q":"The Real Alcazar, a fortress-palace UNESCO site, is located in which city?","a":"Seville","opts":["Seville","Granada","Toledo"]},{"type":"typed","q":"What is the name of the famous pilgrimage route ending in Santiago de Compostela?","a":"Camino de Santiago"},{"type":"mc","q":"Retiro Park, a large famous park, is located in which city?","a":"Madrid","opts":["Madrid","Barcelona","Seville"]},{"type":"mc","q":"Which city has a well-preserved Roman aqueduct still standing today?","a":"Segovia","opts":["Segovia","Toledo","Avila"]},{"type":"typed","q":"What is the name of the medieval walled city in Castile famous for its intact city walls?","a":"Avila"}]},{"name":"Deeper History","emoji":"🏛️","timeLimit":15,"qs":[{"type":"mc","q":"In which century did construction of the Sagrada Familia begin?","a":"19th century","opts":["19th century","16th century","20th century"]},{"type":"mc","q":"The Alhambra was built primarily during which historical period?","a":"Moorish","opts":["Moorish","Roman","Habsburg"]},{"type":"typed","q":"What is the name of Gaudi's apartment building also known as La Pedrera?","a":"Casa Mila"},{"type":"mc","q":"The Mezquita in Cordoba was later converted into what?","a":"A cathedral","opts":["A cathedral","A mosque","A palace"]},{"type":"mc","q":"Which architect designed the Guggenheim Museum in Bilbao?","a":"Frank Gehry","opts":["Frank Gehry","Antoni Gaudi","Santiago Calatrava"]},{"type":"mc","q":"Toledo is historically famous for the coexistence of which three cultures?","a":"Christian, Muslim, and Jewish","opts":["Christian, Muslim, and Jewish","Christian, Roman, and Greek","Muslim, Roman, and Visigoth"]},{"type":"mc","q":"Which Spanish region is home to the Alhambra?","a":"Andalusia","opts":["Andalusia","Catalonia","Galicia"]},{"type":"typed","q":"What is the name of the futuristic complex in Valencia designed by Santiago Calatrava?","a":"City of Arts and Sciences"},{"type":"mc","q":"Park Guell was originally intended to be what kind of project?","a":"A housing development","opts":["A housing development","A royal palace","A military fort"]},{"type":"typed","q":"What is the name of the mountain range near Madrid popular for hiking, called Sierra de what?","a":"Guadarrama"}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
