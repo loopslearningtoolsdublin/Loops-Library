@@ -255,7 +255,7 @@
     {
       "slug": "english-tenses",
       "name": "English Tenses",
-      "category": "Language",
+      "category": "Grammar",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -263,9 +263,7 @@
       "createdBy": "c_mrma1co7_n2qv1lsa",
       "author": "James",
       "subcategory": "English",
-      "tags": [
-        "grammar"
-      ]
+      "tags": []
     },
     {
       "slug": "world-history",
@@ -1350,14 +1348,14 @@
     {
       "slug": "verbs",
       "name": "Verbs",
-      "category": "Language",
+      "category": "Grammar",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-09-03T10:10:22.762Z",
       "createdBy": "c_mtlcx1gm_8n2ggxq5",
       "author": "Riain",
-      "subcategory": "grammar",
+      "subcategory": null,
       "tags": [
         "vocabulary",
         "present-tense",
@@ -1424,7 +1422,7 @@
     {
       "slug": "french-adjectives",
       "name": "French adjectives",
-      "category": "Language",
+      "category": "Grammar",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -1433,7 +1431,6 @@
       "author": "Luqmaan",
       "subcategory": "French",
       "tags": [
-        "grammar",
         "vocabulary",
         "beginner",
         "character-traits"
@@ -1920,7 +1917,7 @@
     {
       "slug": "accounting",
       "name": "Accounting",
-      "category": "Language",
+      "category": "Grammar",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -1932,8 +1929,7 @@
         "terminology",
         "vocabulary",
         "beginner",
-        "general-knowledge",
-        "grammar"
+        "general-knowledge"
       ],
       "thumbnail": null
     },
@@ -2117,7 +2113,7 @@
     {
       "slug": "spanish-sentence-structuring",
       "name": "Spanish sentence structuring",
-      "category": "Language",
+      "category": "Grammar",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -2126,7 +2122,6 @@
       "author": "Mahad & Killian",
       "subcategory": "Spanish",
       "tags": [
-        "grammar",
         "vocabulary",
         "beginner",
         "conversation"
@@ -2365,14 +2360,14 @@
     {
       "slug": "hard-level-verbs-spanish",
       "name": "Hard level Verbs (Spanish)",
-      "category": "Language",
+      "category": "Grammar",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-09-15T10:58:14.790Z",
       "createdBy": "c_mttxo4ak_5msjcud3",
       "author": "Mahad & Killian",
-      "subcategory": "grammar",
+      "subcategory": null,
       "tags": [
         "English",
         "present-tense",
@@ -2402,7 +2397,7 @@
     {
       "slug": "champion-spanish-extremely-hard",
       "name": "Champion Spanish (Extremely hard)",
-      "category": "Language",
+      "category": "Grammar",
       "emoji": "🌍",
       "loopCount": 2,
       "questionCount": 18,
@@ -2411,7 +2406,6 @@
       "author": "Mahad & Killian",
       "subcategory": "Spanish",
       "tags": [
-        "grammar",
         "present-tense",
         "vocabulary",
         "verb-conjugation",
@@ -2516,7 +2510,7 @@
     {
       "slug": "spanish-lc1",
       "name": "Spanish LC1",
-      "category": "Language",
+      "category": "Grammar",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -2526,7 +2520,6 @@
       "subcategory": "Spanish",
       "tags": [
         "vocabulary",
-        "grammar",
         "beginner",
         "synge-st-cbs",
         "character-traits",
@@ -2537,7 +2530,7 @@
     {
       "slug": "jc3-1-present-tense-review",
       "name": "JC3.1 Present Tense Review",
-      "category": "Language",
+      "category": "Grammar",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -2548,7 +2541,6 @@
       "tags": [
         "present-tense",
         "verb-conjugation",
-        "grammar",
         "vocabulary"
       ],
       "thumbnail": null
@@ -2610,6 +2602,24 @@
         "irish-geography"
       ],
       "thumbnail": "thumbs/all-about-the-liberties-dublin8.jpg"
+    },
+    {
+      "slug": "perfect-tenses-in-english",
+      "name": "Perfect Tenses in English",
+      "category": "Grammar",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-17T12:31:30.463Z",
+      "createdBy": "c_mu1sykuv_7vbk1ys0",
+      "author": "SMQ",
+      "subcategory": "English",
+      "tags": [
+        "verb-conjugation",
+        "present-tense",
+        "synge-street-cbs"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2672,6 +2682,12 @@
       "pastel": "#F4C7D2",
       "deep": "#CC3E5E",
       "wash": "#F4EBED"
+    },
+    "Grammar": {
+      "emoji": "🔖",
+      "pastel": "#EAC7F4",
+      "deep": "#AC3ECC",
+      "wash": "#F2EBF4"
     }
   },
   "labelDescriptors": {
@@ -2901,32 +2917,11 @@
   },
   "shelves": [
     {
-      "category": "Language",
-      "key": "grammar",
-      "label": "grammar",
-      "count": 9,
-      "descriptor": null
-    },
-    {
       "category": "Other",
       "key": "soccer",
       "label": "soccer",
       "count": 8,
       "descriptor": null
-    },
-    {
-      "category": "Beginner",
-      "key": "grammar",
-      "label": "grammar",
-      "count": 8,
-      "descriptor": null
-    },
-    {
-      "category": "Language",
-      "key": "conversation",
-      "label": "conversation",
-      "count": 8,
-      "descriptor": "Practicing everyday Spanish dialogue phrases and conversational expressions for real-life interactions"
     },
     {
       "category": "Other",
