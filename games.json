@@ -2638,6 +2638,25 @@
         "grammar"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "past-participles",
+      "name": "Past Participles",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-17T12:59:42.420Z",
+      "createdBy": "c_mrm4d78o_wsyx9f55",
+      "author": "SMQ",
+      "subcategory": "grammar",
+      "tags": [
+        "verb-forms",
+        "present-tense",
+        "vocabulary",
+        "synge-street-cbs"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2932,7 +2951,8 @@
     "Language::synge-st-cbs": "Spanish self-introduction basics: greetings, age, appearance, and personality descriptions.",
     "Other::tourism": "Explore Spanish cities, landmarks, and cultural history through iconic sites",
     "Other::irish-geography": "Trivia about Dublin's Liberties area: landmarks, transport, slang, and culture.",
-    "Language::grammar": "Building vocabulary and word knowledge, not sentence structure or syntax rules"
+    "Language::grammar": "Building vocabulary and word knowledge, not sentence structure or syntax rules",
+    "Language::verb-forms": "Practice identifying correct past participles of regular and irregular English verbs."
   },
   "shelves": [
     {
