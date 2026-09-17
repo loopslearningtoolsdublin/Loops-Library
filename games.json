@@ -2620,6 +2620,24 @@
         "synge-street-cbs"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "leaen-english",
+      "name": "Leaen English",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-17T12:45:04.038Z",
+      "createdBy": "c_mtlilprl_ijsni4g4",
+      "author": "English",
+      "subcategory": "English",
+      "tags": [
+        "vocabulary",
+        "beginner",
+        "grammar"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2913,7 +2931,8 @@
     "Exam Prep::physics": "Explores semiconductors, doping, p-n junctions, diodes, and LEDs in electronics.",
     "Language::synge-st-cbs": "Spanish self-introduction basics: greetings, age, appearance, and personality descriptions.",
     "Other::tourism": "Explore Spanish cities, landmarks, and cultural history through iconic sites",
-    "Other::irish-geography": "Trivia about Dublin's Liberties area: landmarks, transport, slang, and culture."
+    "Other::irish-geography": "Trivia about Dublin's Liberties area: landmarks, transport, slang, and culture.",
+    "Language::grammar": "Building vocabulary and word knowledge, not sentence structure or syntax rules"
   },
   "shelves": [
     {
