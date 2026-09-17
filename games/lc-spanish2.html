@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>LC Spanish2 · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1789656535078"></script>
+  <script>
+    const GAME_DATA = {"slug":"lc-spanish2","name":"LC Spanish2","emoji":"🌍","category":"Language","colors":{"pastel":"#C1F0EA","deep":"#2FB18A","wash":"#EBF6F0"},"background":null,"loops":[{"name":"Introducing Yourself","emoji":"👋","timeLimit":15,"qs":[{"type":"mc","q":"How do you say \"My name is...\" in Spanish?","a":"Me llamo","opts":["Me llamo","Yo tengo","Yo estoy"]},{"type":"typed","q":"How do you say \"I am\" in Spanish for permanent characteristics like personality?","a":"Soy"},{"type":"mc","q":"Which phrase means \"Nice to meet you\" in Spanish?","a":"Mucho gusto","opts":["Mucho gusto","Buenas noches","De nada"]},{"type":"typed","q":"How do you ask \"What is your name?\" informally in Spanish?","a":"¿Cómo te llamas?"},{"type":"mc","q":"How do you say \"I am from...\" in Spanish?","a":"Soy de","opts":["Soy de","Estoy en","Voy a"]},{"type":"typed","q":"Translate \"How old are you?\" informally into Spanish.","a":"¿Cuántos años tienes?"},{"type":"mc","q":"Which verb literally meaning \"to have\" is used to say how old you are in Spanish?","a":"Tener","opts":["Tener","Ser","Estar"]},{"type":"typed","q":"How do you say \"I live in...\" in Spanish?","a":"Vivo en"},{"type":"mc","q":"Which word means \"goodbye\" in Spanish?","a":"Adiós","opts":["Adiós","Hola","Gracias"]},{"type":"typed","q":"How do you say \"Hello, how are you?\" informally in Spanish?","a":"Hola, ¿cómo estás?"}]},{"name":"Numbers in Spanish","emoji":"🔢","timeLimit":15,"qs":[{"type":"typed","q":"How do you write the number 1 in Spanish?","a":"uno"},{"type":"mc","q":"What is \"diez\" in English?","a":"Ten","opts":["Ten","Two","Twelve"]},{"type":"typed","q":"Write the number 15 in Spanish.","a":"quince"},{"type":"mc","q":"What is the Spanish word for 20?","a":"veinte","opts":["veinte","doce","trece"]},{"type":"typed","q":"Write the number 30 in Spanish.","a":"treinta"},{"type":"mc","q":"What is \"veintiuno\" in English?","a":"Twenty-one","opts":["Twenty-one","Twelve","Eleven"]},{"type":"typed","q":"Write the number 7 in Spanish.","a":"siete"},{"type":"mc","q":"What is the Spanish word for 100?","a":"cien","opts":["cien","mil","diez"]},{"type":"typed","q":"Write the number 12 in Spanish.","a":"doce"},{"type":"mc","q":"What is \"veinticinco\" in English?","a":"Twenty-five","opts":["Twenty-five","Fifteen","Fifty"]}]},{"name":"Describing Appearance","emoji":"👀","timeLimit":15,"qs":[{"type":"mc","q":"What does \"alto\" mean in English?","a":"Tall","opts":["Tall","Short","Fat"]},{"type":"typed","q":"How do you say \"I have brown eyes\" in Spanish?","a":"Tengo ojos marrones"},{"type":"mc","q":"What does \"pelo rubio\" mean?","a":"Blonde hair","opts":["Blonde hair","Black hair","Curly hair"]},{"type":"typed","q":"How do you say \"I am short\" as a female speaker in Spanish?","a":"Soy baja"},{"type":"mc","q":"What does \"delgado\" mean?","a":"Thin","opts":["Thin","Strong","Old"]},{"type":"typed","q":"How do you say \"long hair\" in Spanish?","a":"pelo largo"},{"type":"mc","q":"Which word means \"beard\" in Spanish?","a":"barba","opts":["barba","bigote","pelo"]},{"type":"typed","q":"How do you say \"I have curly hair\" in Spanish?","a":"Tengo el pelo rizado"},{"type":"mc","q":"What does \"guapo\" mean?","a":"Handsome","opts":["Handsome","Ugly","Tall"]},{"type":"typed","q":"How do you say \"green eyes\" in Spanish?","a":"ojos verdes"}]},{"name":"Describing Personality","emoji":"😊","timeLimit":15,"qs":[{"type":"mc","q":"What does \"simpático\" mean?","a":"Nice","opts":["Nice","Boring","Shy"]},{"type":"typed","q":"How do you say \"I am funny\" as a male speaker in Spanish?","a":"Soy gracioso"},{"type":"mc","q":"What does \"trabajador\" mean?","a":"Hardworking","opts":["Hardworking","Lazy","Sad"]},{"type":"typed","q":"How do you say \"I am shy\" as a female speaker in Spanish?","a":"Soy tímida"},{"type":"mc","q":"What does \"perezoso\" mean?","a":"Lazy","opts":["Lazy","Kind","Intelligent"]},{"type":"typed","q":"How do you say \"generous\" as a masculine adjective in Spanish?","a":"generoso"},{"type":"mc","q":"What does \"inteligente\" mean?","a":"Intelligent","opts":["Intelligent","Angry","Boring"]},{"type":"typed","q":"How do you say \"I am honest\" as a male speaker in Spanish?","a":"Soy honesto"},{"type":"mc","q":"What does \"aburrido\" mean?","a":"Boring","opts":["Boring","Exciting","Friendly"]},{"type":"typed","q":"How do you say \"friendly\" in Spanish?","a":"amable"}]},{"name":"Dates, Birthdays and Star Signs","emoji":"🎂","timeLimit":15,"qs":[{"type":"typed","q":"How do you say \"When is your birthday?\" in Spanish?","a":"¿Cuándo es tu cumpleaños?"},{"type":"mc","q":"What does \"cumpleaños\" mean?","a":"Birthday","opts":["Birthday","Christmas","Anniversary"]},{"type":"typed","q":"How do you say \"My birthday is in May\" in Spanish?","a":"Mi cumpleaños es en mayo"},{"type":"mc","q":"Which Spanish word means \"January\"?","a":"enero","opts":["enero","julio","octubre"]},{"type":"typed","q":"Write the Spanish word for the month \"December\".","a":"diciembre"},{"type":"mc","q":"The Spanish zodiac sign \"Leo\" is symbolized by which animal?","a":"El León","opts":["El León","El Pez","La Balanza"]},{"type":"typed","q":"How do you say \"What is your star sign?\" in Spanish?","a":"¿Cuál es tu signo del zodiaco?"},{"type":"mc","q":"Which English zodiac sign is \"Piscis\" in Spanish?","a":"Pisces","opts":["Pisces","Aries","Gemini"]},{"type":"typed","q":"How do you say \"I was born on the 5th of March\" in Spanish?","a":"Nací el cinco de marzo"},{"type":"mc","q":"Which English zodiac sign is \"Cáncer\" in Spanish?","a":"Cancer","opts":["Cancer","Scorpio","Virgo"]}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
