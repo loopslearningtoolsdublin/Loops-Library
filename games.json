@@ -2592,6 +2592,24 @@
         "spain"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "all-about-the-liberties-dublin8",
+      "name": "All about the liberties(dublin8)",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 4,
+      "questionCount": 32,
+      "publishedAt": "2026-09-17T11:05:14.835Z",
+      "createdBy": "c_mtsdw3tg_l5k8bl8n",
+      "author": "Unknown",
+      "subcategory": "Dublin",
+      "tags": [
+        "places",
+        "Travel",
+        "irish-geography"
+      ],
+      "thumbnail": "thumbs/all-about-the-liberties-dublin8.jpg"
     }
   ],
   "categories": {
@@ -2878,7 +2896,8 @@
     "Exam Prep::technique": "Recall-based Q&A covering semiconductor physics facts, doping types, and diode/LED operation.",
     "Exam Prep::physics": "Explores semiconductors, doping, p-n junctions, diodes, and LEDs in electronics.",
     "Language::synge-st-cbs": "Spanish self-introduction basics: greetings, age, appearance, and personality descriptions.",
-    "Other::tourism": "Explore Spanish cities, landmarks, and cultural history through iconic sites"
+    "Other::tourism": "Explore Spanish cities, landmarks, and cultural history through iconic sites",
+    "Other::irish-geography": "Trivia about Dublin's Liberties area: landmarks, transport, slang, and culture."
   },
   "shelves": [
     {
@@ -2913,6 +2932,13 @@
       "category": "Other",
       "key": "sport",
       "label": "Sport",
+      "count": 7,
+      "descriptor": null
+    },
+    {
+      "category": "Other",
+      "key": "places",
+      "label": "places",
       "count": 7,
       "descriptor": null
     }
