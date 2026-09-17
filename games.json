@@ -2572,6 +2572,26 @@
         "beginner"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "main-tourist-attractiions-of-spain",
+      "name": "Main tourist attractiions of Spain",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 3,
+      "questionCount": 30,
+      "publishedAt": "2026-09-17T10:52:01.558Z",
+      "createdBy": "c_mrm4d78o_wsyx9f55",
+      "author": "SMQ",
+      "subcategory": "Travel",
+      "tags": [
+        "places",
+        "Geography",
+        "map-location",
+        "tourism",
+        "spain"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2799,7 +2819,7 @@
     "Other::superheroes": "Trivia about superhero characters, powers, teams, and comic/movie lore.",
     "Other::manu": "Trivia questions about Manchester United's history, managers, and Old Trafford stadium.",
     "Other::la-liga": "Atlético Madrid's La Liga titles, transfers, and player signings history",
-    "Other::spain": "Atlético Madrid transfers, titles, and player facts from 2020 onward.",
+    "Other::spain": "Spanish cities, landmarks, and cultural history quiz questions",
     "Other::transfers": "Player transfers, signings, and club moves involving Atlético Madrid",
     "Other::spanish-football": "Trivia on Atlético Madrid's recent titles, transfers, and player signings",
     "Other::movies": "Trivia on iconic films, casts, characters, and plot details",
@@ -2857,6 +2877,44 @@
     "Exam Prep::leaving-cert": "Irish Leaving Certificate physics curriculum on semiconductors, diodes, and LEDs",
     "Exam Prep::technique": "Recall-based Q&A covering semiconductor physics facts, doping types, and diode/LED operation.",
     "Exam Prep::physics": "Explores semiconductors, doping, p-n junctions, diodes, and LEDs in electronics.",
-    "Language::synge-st-cbs": "Spanish self-introduction basics: greetings, age, appearance, and personality descriptions."
-  }
+    "Language::synge-st-cbs": "Spanish self-introduction basics: greetings, age, appearance, and personality descriptions.",
+    "Other::tourism": "Explore Spanish cities, landmarks, and cultural history through iconic sites"
+  },
+  "shelves": [
+    {
+      "category": "Language",
+      "key": "grammar",
+      "label": "grammar",
+      "count": 9,
+      "descriptor": null
+    },
+    {
+      "category": "Other",
+      "key": "soccer",
+      "label": "soccer",
+      "count": 8,
+      "descriptor": null
+    },
+    {
+      "category": "Beginner",
+      "key": "grammar",
+      "label": "grammar",
+      "count": 8,
+      "descriptor": null
+    },
+    {
+      "category": "Language",
+      "key": "conversation",
+      "label": "conversation",
+      "count": 8,
+      "descriptor": "Practicing everyday Spanish dialogue phrases and conversational expressions for real-life interactions"
+    },
+    {
+      "category": "Other",
+      "key": "sport",
+      "label": "Sport",
+      "count": 7,
+      "descriptor": null
+    }
+  ]
 }
