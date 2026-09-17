@@ -2676,6 +2676,27 @@
         "conversation"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "lc-spanish2",
+      "name": "LC Spanish2",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-17T14:48:55.078Z",
+      "createdBy": "c_mrm4d78o_wsyx9f55",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "vocabulary",
+        "grammar",
+        "listening",
+        "synge-street-cbs",
+        "numbers",
+        "conversation"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2994,6 +3015,13 @@
       "label": "places",
       "count": 7,
       "descriptor": null
+    },
+    {
+      "category": "Language",
+      "key": "conversation",
+      "label": "conversation",
+      "count": 7,
+      "descriptor": "Practicing everyday Spanish dialogue phrases and conversational expressions for real-life interactions"
     }
   ]
 }
