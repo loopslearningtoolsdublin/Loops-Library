@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Foundations of Music Theory · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1789684759935"></script>
+  <script>
+    const GAME_DATA = {"slug":"foundations-of-music-theory","name":"Foundations of Music Theory","emoji":"✨","category":"Other","colors":{"pastel":"#FAD2C3","deep":"#E0784E","wash":"#FAEEE5"},"background":null,"loops":[{"name":"Music Basics","emoji":"🎵","timeLimit":15,"qs":[{"type":"mc","q":"How many lines does a musical staff have?","a":"5","opts":["4","5","6"]},{"type":"typed","q":"What is the name of the symbol placed at the beginning of a staff to indicate pitch for higher-range instruments like violin?","a":"Treble clef"},{"type":"mc","q":"Which clef is also known as the F clef?","a":"Bass","opts":["Treble","Bass","Alto"]},{"type":"typed","q":"How many letter names are used to name musical notes, from A through G?","a":"7"},{"type":"mc","q":"Which of these is a string instrument?","a":"Violin","opts":["Trumpet","Violin","Flute"]},{"type":"mc","q":"Which of these is a woodwind instrument?","a":"Flute","opts":["Flute","Drum","Piano"]},{"type":"typed","q":"What is the term for the speed at which a piece of music is played?","a":"Tempo"},{"type":"mc","q":"Which instrument family does the trumpet belong to?","a":"Brass","opts":["Brass","Percussion","Strings"]},{"type":"mc","q":"What do we call a symbol that represents a musical sound with a specific pitch and duration?","a":"Note","opts":["Note","Rest","Clef"]},{"type":"typed","q":"What is the name for a symbol that indicates silence in music?","a":"Rest"}]},{"name":"Rhythm and Dynamics","emoji":"🥁","timeLimit":15,"qs":[{"type":"mc","q":"How many beats does a whole note receive in common time?","a":"4","opts":["1","2","4"]},{"type":"mc","q":"How many beats does a quarter note receive in common time?","a":"1","opts":["1","2","4"]},{"type":"typed","q":"How many beats does a half note receive in common time?","a":"2"},{"type":"mc","q":"What does the dynamic marking forte mean?","a":"Loud","opts":["Loud","Soft","Fast"]},{"type":"mc","q":"What does the dynamic marking piano mean?","a":"Soft","opts":["Loud","Soft","Slow"]},{"type":"typed","q":"What Italian term means gradually getting louder?","a":"Crescendo"},{"type":"mc","q":"What is the term for gradually getting softer?","a":"Decrescendo","opts":["Crescendo","Decrescendo","Forte"]},{"type":"mc","q":"In a 4/4 time signature, what does the top number represent?","a":"Number of beats per measure","opts":["Number of beats per measure","Note value getting one beat","Tempo"]},{"type":"typed","q":"In a 4/4 time signature, the bottom number 4 represents which note value getting one beat?","a":"Quarter note"},{"type":"mc","q":"What symbol is used to extend a note's duration by half its value?","a":"Dot","opts":["Dot","Rest","Sharp"]}]},{"name":"Scales and Pitch","emoji":"🎼","timeLimit":15,"qs":[{"type":"mc","q":"What is the term for eight notes spanning from one note to another of the same name?","a":"Octave","opts":["Octave","Interval","Scale"]},{"type":"mc","q":"Which symbol raises a note by a half step?","a":"Sharp","opts":["Sharp","Flat","Natural"]},{"type":"mc","q":"Which symbol lowers a note by a half step?","a":"Flat","opts":["Sharp","Flat","Natural"]},{"type":"mc","q":"Which symbol cancels a previous sharp or flat?","a":"Natural","opts":["Natural","Sharp","Flat"]},{"type":"typed","q":"What is the smallest interval in traditional Western music called?","a":"Half step"},{"type":"mc","q":"How many half steps are in a whole step?","a":"2","opts":["1","2","3"]},{"type":"mc","q":"What is the group of sharps or flats at the beginning of a staff called?","a":"Key signature","opts":["Key signature","Time signature","Clef"]},{"type":"typed","q":"What do we call the distance in pitch between two notes?","a":"Interval"},{"type":"mc","q":"Which scale has no sharps or flats in its key signature?","a":"C major","opts":["C major","G major","F major"]},{"type":"mc","q":"How many different letter names make up a major scale before it repeats at the octave?","a":"7","opts":["5","7","8"]}]},{"name":"Chords and Harmony","emoji":"🎹","timeLimit":15,"qs":[{"type":"typed","q":"What is a group of three or more notes played together called?","a":"Chord"},{"type":"mc","q":"What is the most basic chord built from three notes stacked in thirds called?","a":"Triad","opts":["Triad","Interval","Scale"]},{"type":"mc","q":"A major triad is built from a root, a major third, and what other interval?","a":"Perfect fifth","opts":["Perfect fifth","Minor sixth","Major sixth"]},{"type":"mc","q":"What quality of chord is formed by a root, minor third, and perfect fifth?","a":"Minor","opts":["Minor","Major","Diminished"]},{"type":"typed","q":"What is the term for playing the notes of a chord one after another instead of together?","a":"Arpeggio"},{"type":"mc","q":"How many sharps are in the key signature of G major?","a":"1","opts":["0","1","2"]},{"type":"typed","q":"How many flats are in the key signature of F major?","a":"1"},{"type":"mc","q":"What do we call the first note of a scale, which gives the scale its name?","a":"Tonic","opts":["Tonic","Dominant","Subdominant"]},{"type":"mc","q":"What is the fifth scale degree of a major scale called?","a":"Dominant","opts":["Dominant","Tonic","Mediant"]},{"type":"mc","q":"What is a chord called when its notes are rearranged so a note other than the root is on the bottom?","a":"Inversion","opts":["Inversion","Progression","Cadence"]}]},{"name":"Advanced Theory","emoji":"🎻","timeLimit":15,"qs":[{"type":"typed","q":"What is the term for the circular diagram showing key relationships arranged by fifths?","a":"Circle of fifths"},{"type":"mc","q":"In the circle of fifths, moving clockwise adds which accidental?","a":"Sharps","opts":["Sharps","Flats","Naturals"]},{"type":"mc","q":"What is the relative minor of C major?","a":"A minor","opts":["A minor","E minor","D minor"]},{"type":"typed","q":"How many sharps are in the key signature of D major?","a":"2"},{"type":"mc","q":"What is the term for a chord progression that creates a sense of resolution at the end of a phrase?","a":"Cadence","opts":["Cadence","Interval","Arpeggio"]},{"type":"mc","q":"Which mode has the same notes as a major scale but starts on its sixth degree?","a":"Aeolian","opts":["Aeolian","Dorian","Phrygian"]},{"type":"typed","q":"What is the name of the interval spanning 7 half steps, such as C to G?","a":"Perfect fifth"},{"type":"mc","q":"A diminished triad consists of a root, minor third, and which interval?","a":"Diminished fifth","opts":["Diminished fifth","Perfect fifth","Major sixth"]}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
