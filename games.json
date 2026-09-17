@@ -2657,6 +2657,25 @@
         "synge-street-cbs"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "ist-year-intro-greetings-intros-and-where-you-live",
+      "name": "Ist Year Intro: greetings, intros, and where you live",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-17T13:29:22.729Z",
+      "createdBy": "c_mrm4d78o_wsyx9f55",
+      "author": "SMQ",
+      "subcategory": "German",
+      "tags": [
+        "beginner",
+        "greetings",
+        "numbers",
+        "conversation"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
