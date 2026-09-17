@@ -2717,6 +2717,23 @@
         "beginner"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "foundations-of-music-theory",
+      "name": "Foundations of Music Theory",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 48,
+      "publishedAt": "2026-09-17T22:39:19.935Z",
+      "createdBy": "c_mu1sykuv_7vbk1ys0",
+      "author": "SMQ",
+      "subcategory": "music",
+      "tags": [
+        "music-theory",
+        "general-knowledge"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -3012,7 +3029,8 @@
     "Other::tourism": "Explore Spanish cities, landmarks, and cultural history through iconic sites",
     "Other::irish-geography": "Trivia about Dublin's Liberties area: landmarks, transport, slang, and culture.",
     "Language::grammar": "Building vocabulary and word knowledge, not sentence structure or syntax rules",
-    "Language::verb-forms": "Practice identifying correct past participles of regular and irregular English verbs."
+    "Language::verb-forms": "Practice identifying correct past participles of regular and irregular English verbs.",
+    "Other::music-theory": "Covers fundamentals of music theory: notation, rhythm, scales, chords, and harmony."
   },
   "shelves": [
     {
