@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Past Participles · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1789649982420"></script>
+  <script>
+    const GAME_DATA = {"slug":"past-participles","name":"Past Participles","emoji":"🌍","category":"Language","colors":{"pastel":"#C1F0EA","deep":"#2FB18A","wash":"#EBF6F0"},"background":null,"loops":[{"name":"Basic Verbs","emoji":"🌱","timeLimit":15,"qs":[{"type":"mc","q":"What is the past participle of \"be\"?","a":"Been","opts":["Been","Was","Being"]},{"type":"typed","q":"What is the past participle of \"have\"?","a":"had"},{"type":"mc","q":"What is the past participle of \"go\"?","a":"Gone","opts":["Went","Gone","Going"]},{"type":"typed","q":"What is the past participle of \"do\"?","a":"done"},{"type":"mc","q":"What is the past participle of \"see\"?","a":"Seen","opts":["Saw","Seen","Seeing"]},{"type":"typed","q":"What is the past participle of \"eat\"?","a":"eaten"},{"type":"mc","q":"What is the past participle of \"write\"?","a":"Written","opts":["Wrote","Writing","Written"]},{"type":"typed","q":"What is the past participle of \"come\"?","a":"come"},{"type":"mc","q":"What is the past participle of \"take\"?","a":"Taken","opts":["Took","Taken","Taking"]},{"type":"typed","q":"What is the past participle of \"give\"?","a":"given"}]},{"name":"Common Irregulars","emoji":"🔤","timeLimit":15,"qs":[{"type":"mc","q":"What is the past participle of \"speak\"?","a":"Spoken","opts":["Spoke","Spoken","Speaking"]},{"type":"typed","q":"What is the past participle of \"break\"?","a":"broken"},{"type":"mc","q":"What is the past participle of \"drive\"?","a":"Driven","opts":["Drove","Driven","Driving"]},{"type":"typed","q":"What is the past participle of \"ride\"?","a":"ridden"},{"type":"mc","q":"What is the past participle of \"sing\"?","a":"Sung","opts":["Sang","Sung","Singing"]},{"type":"typed","q":"What is the past participle of \"drink\"?","a":"drunk"},{"type":"mc","q":"What is the past participle of \"run\"?","a":"Run","opts":["Ran","Run","Running"]},{"type":"typed","q":"What is the past participle of \"fly\"?","a":"flown"},{"type":"mc","q":"What is the past participle of \"know\"?","a":"Known","opts":["Knew","Known","Knowing"]},{"type":"typed","q":"What is the past participle of \"grow\"?","a":"grown"}]},{"name":"More Irregulars","emoji":"📘","timeLimit":15,"qs":[{"type":"mc","q":"What is the past participle of \"swim\"?","a":"Swum","opts":["Swam","Swum","Swimming"]},{"type":"typed","q":"What is the past participle of \"begin\"?","a":"begun"},{"type":"mc","q":"What is the past participle of \"choose\"?","a":"Chosen","opts":["Chose","Chosen","Choosing"]},{"type":"typed","q":"What is the past participle of \"wear\"?","a":"worn"},{"type":"mc","q":"What is the past participle of \"throw\"?","a":"Thrown","opts":["Threw","Thrown","Throwing"]},{"type":"typed","q":"What is the past participle of \"blow\"?","a":"blown"},{"type":"mc","q":"What is the past participle of \"draw\"?","a":"Drawn","opts":["Drew","Drawn","Drawing"]},{"type":"typed","q":"What is the past participle of \"fall\"?","a":"fallen"},{"type":"mc","q":"What is the past participle of \"forget\"?","a":"Forgotten","opts":["Forgot","Forgotten","Forgetting"]},{"type":"typed","q":"What is the past participle of \"hide\"?","a":"hidden"}]},{"name":"Tricky Verbs","emoji":"🧩","timeLimit":15,"qs":[{"type":"mc","q":"What is the past participle of \"lie\" (to recline)?","a":"Lain","opts":["Lied","Lain","Laid"]},{"type":"typed","q":"What is the past participle of \"lay\" (to place something)?","a":"laid"},{"type":"mc","q":"What is the past participle of \"rise\"?","a":"Risen","opts":["Rose","Risen","Rising"]},{"type":"typed","q":"What is the past participle of \"sit\"?","a":"sat"},{"type":"mc","q":"What is the past participle of \"lead\"?","a":"Led","opts":["Lead","Led","Leaded"]},{"type":"typed","q":"What is the past participle of \"bite\"?","a":"bitten"},{"type":"mc","q":"What is the past participle of \"steal\"?","a":"Stolen","opts":["Stole","Stolen","Stealing"]},{"type":"typed","q":"What is the past participle of \"tear\"?","a":"torn"},{"type":"mc","q":"What is the past participle of \"wake\"?","a":"Woken","opts":["Woke","Woken","Waking"]},{"type":"typed","q":"What is the past participle of \"shake\"?","a":"shaken"}]},{"name":"Advanced Verbs","emoji":"🔥","timeLimit":15,"qs":[{"type":"mc","q":"What is the past participle of \"sweep\"?","a":"Swept","opts":["Swept","Sweeped","Sweeping"]},{"type":"typed","q":"What is the past participle of \"weave\"?","a":"woven"},{"type":"mc","q":"What is the past participle of \"forsake\"?","a":"Forsaken","opts":["Forsook","Forsaken","Forsaking"]},{"type":"typed","q":"What is the past participle of \"bind\"?","a":"bound"},{"type":"mc","q":"What is the past participle of \"dwell\"?","a":"Dwelt","opts":["Dwelt","Dwelled","Dwelling"]},{"type":"typed","q":"What is the past participle of \"strive\"?","a":"striven"},{"type":"mc","q":"What is the past participle of \"shine\"?","a":"Shone","opts":["Shone","Shined","Shining"]},{"type":"typed","q":"What is the past participle of \"swear\"?","a":"sworn"},{"type":"mc","q":"What is the past participle of \"spring\"?","a":"Sprung","opts":["Sprang","Sprung","Springing"]},{"type":"typed","q":"What is the past participle of \"weep\"?","a":"wept"}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
