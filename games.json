@@ -2697,6 +2697,26 @@
         "conversation"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "jc-spanish-2-present-and-future",
+      "name": "JC Spanish 2: Present AND Future",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-17T14:55:26.461Z",
+      "createdBy": "c_mrm4d78o_wsyx9f55",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "present-tense",
+        "grammar",
+        "verb-forms",
+        "synge-street-cbs",
+        "beginner"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
