@@ -2734,6 +2734,25 @@
         "general-knowledge"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "test-new-address",
+      "name": "Test new address",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-18T10:00:05.213Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "Geography",
+      "tags": [
+        "places",
+        "maps",
+        "map-location",
+        "test"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -3030,7 +3049,8 @@
     "Other::irish-geography": "Trivia about Dublin's Liberties area: landmarks, transport, slang, and culture.",
     "Language::grammar": "Building vocabulary and word knowledge, not sentence structure or syntax rules",
     "Language::verb-forms": "Practice identifying correct past participles of regular and irregular English verbs.",
-    "Other::music-theory": "Covers fundamentals of music theory: notation, rhythm, scales, chords, and harmony."
+    "Other::music-theory": "Covers fundamentals of music theory: notation, rhythm, scales, chords, and harmony.",
+    "Other::test": "Quiz testing broad factual knowledge across geography, science, history, and trivia."
   },
   "shelves": [
     {
@@ -3042,15 +3062,15 @@
     },
     {
       "category": "Other",
-      "key": "sport",
-      "label": "Sport",
-      "count": 7,
+      "key": "places",
+      "label": "places",
+      "count": 8,
       "descriptor": null
     },
     {
       "category": "Other",
-      "key": "places",
-      "label": "places",
+      "key": "sport",
+      "label": "Sport",
       "count": 7,
       "descriptor": null
     },
