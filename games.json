@@ -2727,6 +2727,24 @@
         "technique"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "dc",
+      "name": "DC",
+      "category": "Misc",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 43,
+      "publishedAt": "2026-09-21T12:48:35.283Z",
+      "createdBy": "c_mub8knxm_z7bga5np",
+      "author": "Bradley Okeke",
+      "subcategory": "Superheroes",
+      "tags": [
+        "movies",
+        "tv",
+        "comics"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -3090,7 +3108,11 @@
     "Misc::mathematics": "Functions, transformations, quadratics, polynomials, and exponential-logarithmic concepts explained.",
     "Misc::algebra": "Covers functions, transformations, quadratics, polynomials, rationals, exponentials, and logarithms.",
     "Misc::graphs": "Interpreting and transforming function graphs, including quadratics, polynomials, exponentials, and logarithms",
-    "Misc::functions": "Explore function concepts, transformations, quadratics, polynomials, rationals, exponentials, and logarithms."
+    "Misc::functions": "Explore function concepts, transformations, quadratics, polynomials, rationals, exponentials, and logarithms.",
+    "Misc::superheroes": "Trivia on DC superheroes' comics, movies, TV shows, and characters.",
+    "Misc::tv": "DC Comics trivia across characters, movies, TV shows, and deep lore",
+    "Misc::movies": "Trivia about DC film casts, directors, and franchise adaptations",
+    "Misc::comics": "Trivia on DC superheroes, spanning comics, movies, TV shows, and lore."
   },
   "shelves": [
     {
