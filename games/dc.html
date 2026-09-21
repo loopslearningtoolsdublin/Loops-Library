@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>DC · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1789994915283"></script>
+  <script>
+    const GAME_DATA = {"slug":"dc","name":"DC","emoji":"✨","category":"Misc","colors":{"pastel":"#FAD2C3","deep":"#E0784E","wash":"#FAEEE5"},"background":null,"loops":[{"name":"DC Basics","emoji":"🦸","timeLimit":15,"qs":[{"type":"mc","q":"What is Superman's home planet?","a":"Krypton","opts":["Krypton","Mars","Saturn"]},{"type":"mc","q":"What is Batman's real name?","a":"Bruce Wayne","opts":["Bruce Wayne","Clark Kent","Barry Allen"]},{"type":"mc","q":"What is Superman's real name?","a":"Clark Kent","opts":["Clark Kent","Peter Parker","Tony Stark"]},{"type":"mc","q":"What is Wonder Woman's home island called?","a":"Themyscira","opts":["Themyscira","Atlantis","Krypton"]},{"type":"typed","q":"What color is Superman's cape?","a":"Red"},{"type":"mc","q":"What is The Flash's real name?","a":"Barry Allen","opts":["Barry Allen","Wally West","Bruce Wayne"]},{"type":"typed","q":"What is the name of Batman's loyal butler?","a":"Alfred"},{"type":"mc","q":"Aquaman rules which underwater kingdom?","a":"Atlantis","opts":["Atlantis","Themyscira","Krypton"]},{"type":"mc","q":"Which hero is Batman's sidekick, often called \"Boy Wonder\"?","a":"Robin","opts":["Robin","Nightwing","Batgirl"]},{"type":"typed","q":"What animal represents Batman's symbol?","a":"Bat"}]},{"name":"DC Movies","emoji":"🎬","timeLimit":15,"qs":[{"type":"mc","q":"Who directed The Dark Knight trilogy?","a":"Christopher Nolan","opts":["Christopher Nolan","Zack Snyder","Tim Burton"]},{"type":"mc","q":"Who played Batman in The Dark Knight (2008)?","a":"Christian Bale","opts":["Christian Bale","Ben Affleck","Robert Pattinson"]},{"type":"typed","q":"Who played the Joker in the 2019 film Joker?","a":"Joaquin Phoenix"},{"type":"mc","q":"Who played Wonder Woman in the DCEU films?","a":"Gal Gadot","opts":["Gal Gadot","Margot Robbie","Amy Adams"]},{"type":"mc","q":"Who played Superman in Man of Steel (2013)?","a":"Henry Cavill","opts":["Henry Cavill","Brandon Routh","Tom Welling"]},{"type":"typed","q":"Who played Harley Quinn in Suicide Squad (2016)?","a":"Margot Robbie"},{"type":"mc","q":"What is the name of the 2017 film uniting Batman, Wonder Woman, and other heroes?","a":"Justice League","opts":["Justice League","Avengers","Suicide Squad"]},{"type":"mc","q":"Who played the Joker in The Dark Knight?","a":"Heath Ledger","opts":["Heath Ledger","Jared Leto","Joaquin Phoenix"]},{"type":"typed","q":"Who played Batman in Batman v Superman: Dawn of Justice (2016)?","a":"Ben Affleck"},{"type":"mc","q":"What is the title of the 2022 Batman film starring Robert Pattinson?","a":"The Batman","opts":["The Batman","Batman Begins","Batman Returns"]}]},{"name":"DC Comics Characters","emoji":"📚","timeLimit":15,"qs":[{"type":"mc","q":"Who created Superman?","a":"Jerry Siegel and Joe Shuster","opts":["Jerry Siegel and Joe Shuster","Bob Kane","Stan Lee"]},{"type":"mc","q":"Who created Batman?","a":"Bob Kane and Bill Finger","opts":["Bob Kane and Bill Finger","Jerry Siegel","Jack Kirby"]},{"type":"typed","q":"What is the name of Superman's bald genius arch-nemesis?","a":"Lex Luthor"},{"type":"mc","q":"What is Wonder Woman's alter-ego name?","a":"Diana Prince","opts":["Diana Prince","Diana Wayne","Diana Kent"]},{"type":"typed","q":"What is the name of the fictional metal that weakens Superman?","a":"Kryptonite"},{"type":"mc","q":"Which villain is known as \"The Clown Prince of Crime\"?","a":"Joker","opts":["Joker","Riddler","Two-Face"]},{"type":"mc","q":"What is the name of Superman's newspaper employer?","a":"Daily Planet","opts":["Daily Planet","Daily Bugle","Gotham Gazette"]},{"type":"typed","q":"What is the real name of the villain Two-Face?","a":"Harvey Dent"},{"type":"mc","q":"Which DC hero is known as the \"Fastest Man Alive\"?","a":"The Flash","opts":["The Flash","Green Lantern","Green Arrow"]},{"type":"mc","q":"Who is Batman's police commissioner ally in Gotham?","a":"Jim Gordon","opts":["Jim Gordon","Harvey Bullock","Alfred Pennyworth"]}]},{"name":"DC TV Shows","emoji":"📺","timeLimit":15,"qs":[{"type":"mc","q":"Which CW show follows Barry Allen as The Flash?","a":"The Flash","opts":["The Flash","Arrow","Supergirl"]},{"type":"mc","q":"Which CW show centers on Oliver Queen, the Green Arrow?","a":"Arrow","opts":["Arrow","The Flash","Supergirl"]},{"type":"mc","q":"Which show is a prequel about young Bruce Wayne and Gotham City before Batman?","a":"Gotham","opts":["Gotham","Titans","Smallville"]},{"type":"mc","q":"Which show follows a young Clark Kent growing up in Smallville?","a":"Smallville","opts":["Smallville","Titans","Gotham"]},{"type":"typed","q":"What is the name of the HBO series that serves as a sequel to the Watchmen comic?","a":"Watchmen"},{"type":"mc","q":"Which animated adult series stars Harley Quinn as the lead?","a":"Harley Quinn","opts":["Harley Quinn","Titans","Young Justice"]},{"type":"mc","q":"Which show follows a team of young heroes including Robin, Starfire, and Raven?","a":"Titans","opts":["Titans","Legends of Tomorrow","Doom Patrol"]},{"type":"typed","q":"Which actor reprises his Suicide Squad role as the title character in Peacemaker?","a":"John Cena"},{"type":"mc","q":"Which superhero is the focus of the show Supergirl?","a":"Kara Zor-El","opts":["Kara Zor-El","Diana Prince","Barbara Gordon"]},{"type":"mc","q":"Which DC show features a dysfunctional team including Cyborg, Crazy Jane, and Robotman?","a":"Doom Patrol","opts":["Doom Patrol","Titans","Stargirl"]}]},{"name":"Deep DC Lore","emoji":"🦇","timeLimit":15,"qs":[{"type":"mc","q":"What is the name of the 1985-86 comic event that rebooted DC continuity?","a":"Crisis on Infinite Earths","opts":["Crisis on Infinite Earths","Infinite Crisis","Flashpoint"]},{"type":"typed","q":"What is the real name of the villain Deathstroke?","a":"Slade Wilson"},{"type":"mc","q":"Who wrote the acclaimed graphic novel Watchmen?","a":"Alan Moore","opts":["Alan Moore","Frank Miller","Grant Morrison"]}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
