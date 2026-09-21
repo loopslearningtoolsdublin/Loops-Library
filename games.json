@@ -3,41 +3,35 @@
     {
       "slug": "atleti",
       "name": "Atleti",
-      "category": "Other",
+      "category": "Soccer",
       "emoji": "🌍",
       "loopCount": 3,
       "questionCount": 25,
       "publishedAt": "2026-07-13T21:24:36.600Z",
       "subcategory": "Sport",
-      "tags": [
-        "soccer"
-      ]
+      "tags": []
     },
     {
       "slug": "synge-street-cbs",
       "name": "Synge Street CBS",
-      "category": "Other",
+      "category": "Places",
       "emoji": "🌍",
       "loopCount": 10,
       "questionCount": 100,
       "publishedAt": "2026-07-14T13:20:39.078Z",
       "subcategory": "Dublin",
-      "tags": [
-        "places"
-      ]
+      "tags": []
     },
     {
       "slug": "harold-s-cross",
       "name": "Harold's Cross",
-      "category": "Other",
+      "category": "Places",
       "emoji": "🌍",
       "loopCount": 10,
       "questionCount": 100,
       "publishedAt": "2026-07-14T14:04:30.043Z",
       "subcategory": "Dublin",
-      "tags": [
-        "places"
-      ]
+      "tags": []
     },
     {
       "slug": "donald-glover",
@@ -69,15 +63,13 @@
     {
       "slug": "cape-verde",
       "name": "Cape Verde",
-      "category": "Other",
+      "category": "Places",
       "emoji": "🌍",
       "loopCount": 10,
       "questionCount": 100,
       "publishedAt": "2026-07-14T19:03:15.031Z",
       "subcategory": "Travel",
-      "tags": [
-        "places"
-      ]
+      "tags": []
     },
     {
       "slug": "tibetan-terriers",
@@ -111,7 +103,7 @@
     {
       "slug": "chelsea-fc",
       "name": "Chelsea FC",
-      "category": "Other",
+      "category": "Soccer",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -119,21 +111,19 @@
       "createdBy": "c_mrm4v9td_v8t7p0sh",
       "author": "SMQ",
       "subcategory": "Sport",
-      "tags": [
-        "soccer"
-      ]
+      "tags": []
     },
     {
       "slug": "basic-english",
       "name": "Basic English",
-      "category": "Vocabulary",
+      "category": "English",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-07-15T22:19:18.557Z",
       "createdBy": "c_mrmn1tcl_u0hxk13v",
       "author": "Rodge",
-      "subcategory": "English",
+      "subcategory": null,
       "tags": []
     },
     {
@@ -212,7 +202,7 @@
     {
       "slug": "alicante",
       "name": "Alicante",
-      "category": "Other",
+      "category": "Places",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 48,
@@ -220,21 +210,19 @@
       "createdBy": "c_mrvwwr4n_golt2bs0",
       "author": "Marcos",
       "subcategory": "Travel",
-      "tags": [
-        "places"
-      ]
+      "tags": []
     },
     {
       "slug": "country-in-english",
       "name": "COUNTRY in English",
-      "category": "Vocabulary",
+      "category": "English",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-07-22T10:12:53.516Z",
       "createdBy": "c_mrvxa1ne_sm2v94hb",
       "author": "Paul",
-      "subcategory": "English",
+      "subcategory": null,
       "tags": []
     },
     {
@@ -255,14 +243,14 @@
     {
       "slug": "english-tenses",
       "name": "English Tenses",
-      "category": "Grammar",
+      "category": "English",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-07-22T10:31:05.024Z",
       "createdBy": "c_mrma1co7_n2qv1lsa",
       "author": "James",
-      "subcategory": "English",
+      "subcategory": null,
       "tags": []
     },
     {
@@ -344,7 +332,7 @@
     {
       "slug": "german-verbs-a1",
       "name": "German verbs A1",
-      "category": "Beginner",
+      "category": "Present Tense",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -353,7 +341,6 @@
       "author": null,
       "subcategory": "German",
       "tags": [
-        "present-tense",
         "grammar"
       ]
     },
@@ -411,7 +398,7 @@
     {
       "slug": "hubris",
       "name": "Hubris",
-      "category": "Other",
+      "category": "Character Traits",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -421,7 +408,6 @@
       "subcategory": "Literature",
       "tags": [
         "vocabulary",
-        "character-traits",
         "greek-mythology"
       ]
     },
@@ -445,7 +431,7 @@
     {
       "slug": "glen-hansard",
       "name": "Glen Hansard",
-      "category": "Entertainment",
+      "category": "Biography",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -455,7 +441,6 @@
       "subcategory": null,
       "tags": [
         "irish-musician",
-        "biography",
         "folk-music",
         "music"
       ],
@@ -464,7 +449,7 @@
     {
       "slug": "nottingham-forest",
       "name": "Nottingham Forest",
-      "category": "Other",
+      "category": "Soccer",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -475,15 +460,14 @@
       "tags": [
         "english-football",
         "nottingham-forest",
-        "club-level",
-        "soccer"
+        "club-level"
       ],
       "thumbnail": "thumbs/nottingham-forest.jpg"
     },
     {
       "slug": "stoics",
       "name": "Stoics",
-      "category": "Other",
+      "category": "Character Traits",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -494,7 +478,6 @@
       "tags": [
         "stoicism",
         "ancient-greece",
-        "character-traits",
         "ancient-philosophy",
         "History"
       ],
@@ -539,7 +522,7 @@
     {
       "slug": "japan",
       "name": "Japan",
-      "category": "Vocabulary",
+      "category": "Geography",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -548,8 +531,6 @@
       "author": "Eoin",
       "subcategory": "Travel",
       "tags": [
-        "places",
-        "geography",
         "language",
         "beginner"
       ],
@@ -578,17 +559,16 @@
     {
       "slug": "counties-of-england",
       "name": "Counties of England",
-      "category": "Other",
+      "category": "Geography",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-08-10T23:26:52.880Z",
       "createdBy": "c_mryus71l_nphmfvx2",
       "author": "SMQ",
-      "subcategory": "Geography",
+      "subcategory": null,
       "tags": [
         "england",
-        "places",
         "counties",
         "maps",
         "map-location",
@@ -618,14 +598,14 @@
     {
       "slug": "irish-accents",
       "name": "Irish accents",
-      "category": "Language",
+      "category": "English",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-08-12T14:47:59.447Z",
       "createdBy": "c_mryus71l_nphmfvx2",
       "author": "SMQ",
-      "subcategory": "English",
+      "subcategory": null,
       "tags": [
         "pronunciation",
         "accents",
@@ -699,7 +679,7 @@
     {
       "slug": "classic-movie-quotes",
       "name": "Classic Movie quotes",
-      "category": "Entertainment",
+      "category": "Character Traits",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -710,7 +690,6 @@
       "tags": [
         "movies",
         "vocabulary",
-        "character-traits",
         "classic-film",
         "quotes",
         "jaws"
@@ -777,7 +756,7 @@
     {
       "slug": "nouns",
       "name": "Nouns",
-      "category": "Vocabulary",
+      "category": "English",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -786,7 +765,6 @@
       "author": "Jack",
       "subcategory": "grammar",
       "tags": [
-        "English",
         "beginner",
         "nouns",
         "language"
@@ -831,7 +809,7 @@
     {
       "slug": "historical-economists",
       "name": "Historical Economists",
-      "category": "General Knowledge",
+      "category": "Biography",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -840,7 +818,6 @@
       "author": "BK",
       "subcategory": "Economics",
       "tags": [
-        "biography",
         "History"
       ],
       "thumbnail": null
@@ -848,14 +825,14 @@
     {
       "slug": "poetic-techniques",
       "name": "Poetic Techniques",
-      "category": "Language",
+      "category": "English",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-08-26T10:51:29.676Z",
       "createdBy": "c_mt9yspyj_6py0sra9",
       "author": "Achille",
-      "subcategory": "English",
+      "subcategory": null,
       "tags": [
         "word-origins",
         "etymology",
@@ -997,7 +974,7 @@
     {
       "slug": "glasgow-celtic-fc",
       "name": "Glasgow Celtic FC",
-      "category": "Other",
+      "category": "Soccer",
       "emoji": "✨",
       "loopCount": 4,
       "questionCount": 35,
@@ -1006,7 +983,6 @@
       "author": "SMQ",
       "subcategory": "english-football",
       "tags": [
-        "soccer",
         "scottish-football",
         "club-level",
         "scotland",
@@ -1034,7 +1010,7 @@
     {
       "slug": "humility",
       "name": "Humility",
-      "category": "Other",
+      "category": "Character Traits",
       "emoji": "✨",
       "loopCount": 3,
       "questionCount": 24,
@@ -1044,7 +1020,6 @@
       "subcategory": "Philosophy",
       "tags": [
         "stoicism",
-        "character-traits",
         "beliefs"
       ],
       "thumbnail": null
@@ -1052,7 +1027,7 @@
     {
       "slug": "the-great-gatbsy-revision-game",
       "name": "'The Great Gatbsy' Revision Game",
-      "category": "Other",
+      "category": "Character Traits",
       "emoji": "✨",
       "loopCount": 4,
       "questionCount": 32,
@@ -1061,7 +1036,6 @@
       "author": "A. Martone",
       "subcategory": "Literature",
       "tags": [
-        "character-traits",
         "literary-devices",
         "figurative-language"
       ],
@@ -1070,7 +1044,7 @@
     {
       "slug": "the-great-gatsby-revision",
       "name": "The Great Gatsby Revision",
-      "category": "General Knowledge",
+      "category": "Character Traits",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -1080,7 +1054,6 @@
       "subcategory": "Literature",
       "tags": [
         "vocabulary",
-        "character-traits",
         "plot"
       ],
       "thumbnail": null
@@ -1088,7 +1061,7 @@
     {
       "slug": "basic-spanish-verbs-present-tense",
       "name": "Basic Spanish Verbs (Present Tense)",
-      "category": "Beginner",
+      "category": "Present Tense",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -1097,7 +1070,6 @@
       "author": "SMQ",
       "subcategory": "Spanish",
       "tags": [
-        "present-tense",
         "grammar"
       ],
       "thumbnail": null
@@ -1105,14 +1077,14 @@
     {
       "slug": "dolly-parton",
       "name": "Dolly Parton",
-      "category": "Entertainment",
+      "category": "Biography",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-09-01T22:55:56.288Z",
       "createdBy": "c_mtcnybyr_ghpwegoe",
       "author": "SMQ",
-      "subcategory": "biography",
+      "subcategory": null,
       "tags": [
         "music",
         "folk-music"
@@ -1160,14 +1132,14 @@
     {
       "slug": "english-pre-5th-year-revision",
       "name": "English. Pre 5th year revision.",
-      "category": "Beginner",
+      "category": "English",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-09-02T12:44:10.444Z",
       "createdBy": "c_mrm4d78o_wsyx9f55",
       "author": "SMQ",
-      "subcategory": "English",
+      "subcategory": null,
       "tags": [
         "grammar",
         "vocabulary",
@@ -1235,7 +1207,7 @@
     {
       "slug": "football-volcabulary-for-english-speakers",
       "name": "Football volcabulary for English speakers",
-      "category": "Beginner",
+      "category": "Soccer",
       "emoji": "🔖",
       "loopCount": 5,
       "questionCount": 50,
@@ -1245,15 +1217,14 @@
       "subcategory": "vocabulary",
       "tags": [
         "word-origins",
-        "sport-football-synge-street",
-        "soccer"
+        "sport-football-synge-street"
       ],
       "thumbnail": null
     },
     {
       "slug": "spanish-buildings-and-street-vocabulary",
       "name": "Spanish Buildings and street Vocabulary",
-      "category": "Vocabulary",
+      "category": "Synge Street Cbs",
       "emoji": "🔖",
       "loopCount": 5,
       "questionCount": 50,
@@ -1264,10 +1235,7 @@
       "tags": [
         "pronunciation",
         "vocabulary",
-        "Spanish",
-        "synge-street-cbs",
-        "places",
-        "geography"
+        "Spanish"
       ],
       "thumbnail": null
     },
@@ -1309,7 +1277,7 @@
     {
       "slug": "spanish-conversations-for-false-beginners",
       "name": "Spanish conversations for false beginners",
-      "category": "Spanish",
+      "category": "Conversation",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -1320,15 +1288,14 @@
       "tags": [
         "beginner",
         "vocabulary",
-        "pronunciation",
-        "conversation"
+        "pronunciation"
       ],
       "thumbnail": null
     },
     {
       "slug": "spanish-sentence-connectors-and-prepostions",
       "name": "Spanish sentence Connectors and prepostions",
-      "category": "Spanish",
+      "category": "Synge Street Cbs",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -1338,7 +1305,6 @@
       "subcategory": null,
       "tags": [
         "connectors",
-        "synge-street-cbs",
         "vocabulary",
         "grammar",
         "beginner"
@@ -1348,7 +1314,7 @@
     {
       "slug": "verbs",
       "name": "Verbs",
-      "category": "Grammar",
+      "category": "Conversation",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -1357,16 +1323,14 @@
       "author": "Riain",
       "subcategory": null,
       "tags": [
-        "vocabulary",
-        "present-tense",
-        "conversation"
+        "vocabulary"
       ],
       "thumbnail": null
     },
     {
       "slug": "hobbies-and-activities",
       "name": "Hobbies and activities",
-      "category": "General Knowledge",
+      "category": "Conversation",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -1377,32 +1341,28 @@
       "tags": [
         "Life Skills",
         "daily-routines",
-        "vocabulary",
-        "conversation",
-        "present-tense"
+        "vocabulary"
       ],
       "thumbnail": null
     },
     {
       "slug": "world-flags",
       "name": "World flags",
-      "category": "General Knowledge",
+      "category": "Geography",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-09-03T12:50:00.880Z",
       "createdBy": "c_mtliiims_4eqrm5oq",
       "author": "Ezzaldeen",
-      "subcategory": "Geography",
-      "tags": [
-        "places"
-      ],
+      "subcategory": null,
+      "tags": [],
       "thumbnail": null
     },
     {
       "slug": "history-wwii-jc-revision",
       "name": "History WWII JC revision",
-      "category": "General Knowledge",
+      "category": "Synge Street Cbs",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -1412,9 +1372,7 @@
       "subcategory": "History",
       "tags": [
         "ancient-rome",
-        "biography",
         "wwii",
-        "synge-street-cbs",
         "revision"
       ],
       "thumbnail": null
@@ -1422,7 +1380,7 @@
     {
       "slug": "french-adjectives",
       "name": "French adjectives",
-      "category": "Grammar",
+      "category": "Character Traits",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -1432,8 +1390,7 @@
       "subcategory": "French",
       "tags": [
         "vocabulary",
-        "beginner",
-        "character-traits"
+        "beginner"
       ],
       "thumbnail": null
     },
@@ -1513,7 +1470,7 @@
     {
       "slug": "cronos",
       "name": "Cronos",
-      "category": "Other",
+      "category": "Biography",
       "emoji": "✨",
       "loopCount": 3,
       "questionCount": 29,
@@ -1525,8 +1482,7 @@
         "ancient-greece",
         "general-knowledge",
         "titans",
-        "classics",
-        "biography"
+        "classics"
       ],
       "thumbnail": null
     },
@@ -1587,7 +1543,7 @@
     {
       "slug": "beschreibe-dein-haus",
       "name": "Beschreibe dein Haus",
-      "category": "Language",
+      "category": "Present Tense",
       "emoji": "🌍",
       "loopCount": 4,
       "questionCount": 35,
@@ -1598,7 +1554,6 @@
       "tags": [
         "vocabulary",
         "beginner",
-        "present-tense",
         "daily-routines"
       ],
       "thumbnail": null
@@ -1606,7 +1561,7 @@
     {
       "slug": "othello-quotations",
       "name": "Othello Quotations",
-      "category": "Exam Prep",
+      "category": "Character Traits",
       "emoji": "📝",
       "loopCount": 5,
       "questionCount": 50,
@@ -1616,8 +1571,7 @@
       "subcategory": "Literature",
       "tags": [
         "vocabulary",
-        "figurative-language",
-        "character-traits"
+        "figurative-language"
       ],
       "thumbnail": null
     },
@@ -1662,7 +1616,7 @@
     {
       "slug": "bp-fallon",
       "name": "BP Fallon",
-      "category": "Other",
+      "category": "Biography",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 44,
@@ -1671,15 +1625,14 @@
       "author": "SMQ",
       "subcategory": "music",
       "tags": [
-        "irish-musician",
-        "biography"
+        "irish-musician"
       ],
       "thumbnail": null
     },
     {
       "slug": "junior-cycle-biology-review",
       "name": "Junior Cycle Biology Review",
-      "category": "Exam Prep",
+      "category": "Synge Street Cbs",
       "emoji": "📝",
       "loopCount": 5,
       "questionCount": 50,
@@ -1691,7 +1644,6 @@
         "general-knowledge",
         "Standardized Tests",
         "botany",
-        "synge-street-cbs",
         "junior-cycle-science"
       ],
       "thumbnail": null
@@ -1699,7 +1651,7 @@
     {
       "slug": "essential-spanish-verbs",
       "name": "Essential Spanish Verbs",
-      "category": "Spanish",
+      "category": "Synge Street Cbs",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -1710,16 +1662,14 @@
       "tags": [
         "vocabulary",
         "grammar",
-        "present-tense",
-        "beginner",
-        "synge-street-cbs"
+        "beginner"
       ],
       "thumbnail": null
     },
     {
       "slug": "leo-messi",
       "name": "Leo messi",
-      "category": "General Knowledge",
+      "category": "Biography",
       "emoji": "🔖",
       "loopCount": 5,
       "questionCount": 50,
@@ -1728,9 +1678,7 @@
       "author": "gary",
       "subcategory": "Sport",
       "tags": [
-        "soccer",
         "english-football",
-        "biography",
         "world-cup",
         "sports-basics"
       ],
@@ -1757,7 +1705,7 @@
     {
       "slug": "stephen-king-s-it",
       "name": "Stephen King's 'It'",
-      "category": "Other",
+      "category": "Character Traits",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -1768,7 +1716,6 @@
       "tags": [
         "plot",
         "quotes",
-        "character-traits",
         "movies"
       ],
       "thumbnail": null
@@ -1776,7 +1723,7 @@
     {
       "slug": "man-united",
       "name": "Man united",
-      "category": "Other",
+      "category": "Soccer",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -1786,7 +1733,6 @@
       "subcategory": "Football",
       "tags": [
         "english-football",
-        "soccer",
         "club-level"
       ],
       "thumbnail": "thumbs/man-united.png"
@@ -1794,7 +1740,7 @@
     {
       "slug": "safi",
       "name": "Safi",
-      "category": "Language",
+      "category": "Conversation",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -1804,8 +1750,7 @@
       "subcategory": "Arabic",
       "tags": [
         "vocabulary",
-        "beginner",
-        "conversation"
+        "beginner"
       ],
       "thumbnail": null
     },
@@ -1831,16 +1776,15 @@
     {
       "slug": "wrold-flags-in-spanish",
       "name": "Wrold flags in spanish",
-      "category": "General Knowledge",
+      "category": "Geography",
       "emoji": "🔖",
       "loopCount": 5,
       "questionCount": 41,
       "publishedAt": "2026-09-08T08:03:03.753Z",
       "createdBy": "c_mtsd89w4_eej3gukv",
       "author": null,
-      "subcategory": "Geography",
+      "subcategory": null,
       "tags": [
-        "places",
         "spanish",
         "vocabulary"
       ],
@@ -1849,7 +1793,7 @@
     {
       "slug": "football",
       "name": "Football",
-      "category": "Entertainment",
+      "category": "Soccer",
       "emoji": "🔖",
       "loopCount": 5,
       "questionCount": 50,
@@ -1858,7 +1802,6 @@
       "author": null,
       "subcategory": "Football",
       "tags": [
-        "soccer",
         "english-football"
       ],
       "thumbnail": null
@@ -1882,7 +1825,7 @@
     {
       "slug": "world-cup",
       "name": "World Cup",
-      "category": "Other",
+      "category": "Soccer",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -1890,15 +1833,13 @@
       "createdBy": "c_mtsdbtda_cumrbil8",
       "author": null,
       "subcategory": null,
-      "tags": [
-        "soccer"
-      ],
+      "tags": [],
       "thumbnail": null
     },
     {
       "slug": "laliga",
       "name": "Laliga",
-      "category": "Spanish",
+      "category": "Soccer",
       "emoji": "🌍",
       "loopCount": 4,
       "questionCount": 31,
@@ -1907,7 +1848,6 @@
       "author": null,
       "subcategory": null,
       "tags": [
-        "soccer",
         "sports-basics",
         "vocabulary",
         "laliga"
@@ -1936,16 +1876,15 @@
     {
       "slug": "maps-revision",
       "name": "Maps revision",
-      "category": "Exam Prep",
+      "category": "Geography",
       "emoji": "📝",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-09-08T08:31:53.982Z",
       "createdBy": "c_mtlilmv1_55fg1zk7",
       "author": null,
-      "subcategory": "Geography",
+      "subcategory": null,
       "tags": [
-        "places",
         "general-knowledge",
         "Standardized Tests"
       ],
@@ -1954,7 +1893,7 @@
     {
       "slug": "lebron-james",
       "name": "LeBron james",
-      "category": "Language",
+      "category": "Biography",
       "emoji": "🌍",
       "loopCount": 4,
       "questionCount": 34,
@@ -1965,8 +1904,7 @@
       "tags": [
         "sports-basics",
         "vocabulary",
-        "general-knowledge",
-        "biography"
+        "general-knowledge"
       ],
       "thumbnail": null
     },
@@ -2034,7 +1972,7 @@
     {
       "slug": "man-united-2-0",
       "name": "Man united 2.0",
-      "category": "Other",
+      "category": "Biography",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -2044,9 +1982,7 @@
       "subcategory": "Football",
       "tags": [
         "english-football",
-        "soccer",
         "club-level",
-        "biography",
         "general-knowledge"
       ],
       "thumbnail": "thumbs/man-united-2-0.png"
@@ -2054,7 +1990,7 @@
     {
       "slug": "atl-tico-madrid",
       "name": "Atlético Madrid",
-      "category": "Spanish",
+      "category": "Biography",
       "emoji": "🌍",
       "loopCount": 3,
       "questionCount": 28,
@@ -2063,10 +1999,8 @@
       "author": "Unknown",
       "subcategory": null,
       "tags": [
-        "soccer",
         "laliga",
         "vocabulary",
-        "biography",
         "terminology"
       ],
       "thumbnail": "thumbs/atl-tico-madrid.jpg"
@@ -2074,7 +2008,7 @@
     {
       "slug": "essential-spanish-verbs-past",
       "name": "Essential Spanish Verbs (Past)",
-      "category": "Spanish",
+      "category": "Conversation",
       "emoji": "🔖",
       "loopCount": 5,
       "questionCount": 50,
@@ -2086,7 +2020,6 @@
         "past-tense",
         "grammar",
         "vocabulary",
-        "conversation",
         "beginner"
       ],
       "thumbnail": null
@@ -2113,7 +2046,7 @@
     {
       "slug": "spanish-sentence-structuring",
       "name": "Spanish sentence structuring",
-      "category": "Grammar",
+      "category": "Conversation",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -2123,8 +2056,7 @@
       "subcategory": "Spanish",
       "tags": [
         "vocabulary",
-        "beginner",
-        "conversation"
+        "beginner"
       ],
       "thumbnail": null
     },
@@ -2150,7 +2082,7 @@
     {
       "slug": "arabic-to-english",
       "name": "Arabic to English",
-      "category": "Language",
+      "category": "Conversation",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -2160,8 +2092,7 @@
       "subcategory": "Arabic",
       "tags": [
         "vocabulary",
-        "beginner",
-        "conversation"
+        "beginner"
       ],
       "thumbnail": null
     },
@@ -2185,7 +2116,7 @@
     {
       "slug": "premier-league",
       "name": "Premier league",
-      "category": "Other",
+      "category": "Soccer",
       "emoji": "✨",
       "loopCount": 4,
       "questionCount": 34,
@@ -2195,7 +2126,6 @@
       "subcategory": "Football",
       "tags": [
         "english-football",
-        "soccer",
         "sports-basics",
         "general-knowledge"
       ],
@@ -2221,7 +2151,7 @@
     {
       "slug": "struct-r-an-domhain",
       "name": "Structúr an Domhain.",
-      "category": "Language",
+      "category": "Synge Street Cbs",
       "emoji": "🌍",
       "loopCount": 2,
       "questionCount": 12,
@@ -2231,9 +2161,7 @@
       "subcategory": "Irish",
       "tags": [
         "vocabulary",
-        "geography",
         "beginner",
-        "synge-street-cbs",
         "nature"
       ],
       "thumbnail": null
@@ -2261,7 +2189,7 @@
     {
       "slug": "isaac-newton",
       "name": "Isaac Newton",
-      "category": "Other",
+      "category": "Biography",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 44,
@@ -2271,7 +2199,6 @@
       "subcategory": "Science",
       "tags": [
         "physics",
-        "biography",
         "History",
         "general-knowledge"
       ],
@@ -2280,7 +2207,7 @@
     {
       "slug": "classroom-language",
       "name": "Classroom Language",
-      "category": "Language",
+      "category": "Conversation",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 48,
@@ -2291,7 +2218,6 @@
       "tags": [
         "beginner",
         "vocabulary",
-        "conversation",
         "listening",
         "classroom-phrases"
       ],
@@ -2300,7 +2226,7 @@
     {
       "slug": "shows",
       "name": "Shows",
-      "category": "Entertainment",
+      "category": "Biography",
       "emoji": "🔖",
       "loopCount": 5,
       "questionCount": 50,
@@ -2311,8 +2237,6 @@
       "tags": [
         "quotes",
         "classic-film",
-        "biography",
-        "places",
         "maps",
         "map-location"
       ],
@@ -2340,7 +2264,7 @@
     {
       "slug": "fiesta-1",
       "name": "Fiesta 1",
-      "category": "Language",
+      "category": "Conversation",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -2351,7 +2275,6 @@
       "tags": [
         "vocabulary",
         "beginner",
-        "conversation",
         "classroom-phrases",
         "greetings"
       ],
@@ -2360,7 +2283,7 @@
     {
       "slug": "hard-level-verbs-spanish",
       "name": "Hard level Verbs (Spanish)",
-      "category": "Grammar",
+      "category": "Present Tense",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -2369,8 +2292,6 @@
       "author": "Mahad & Killian",
       "subcategory": null,
       "tags": [
-        "English",
-        "present-tense",
         "vocabulary",
         "beginner"
       ],
@@ -2397,7 +2318,7 @@
     {
       "slug": "champion-spanish-extremely-hard",
       "name": "Champion Spanish (Extremely hard)",
-      "category": "Grammar",
+      "category": "Present Tense",
       "emoji": "🌍",
       "loopCount": 2,
       "questionCount": 18,
@@ -2406,7 +2327,6 @@
       "author": "Mahad & Killian",
       "subcategory": "Spanish",
       "tags": [
-        "present-tense",
         "vocabulary",
         "verb-conjugation",
         "sentence-structure"
@@ -2453,7 +2373,7 @@
     {
       "slug": "spanish-numbers-and-time",
       "name": "Spanish Numbers and Time",
-      "category": "Language",
+      "category": "Synge Street Cbs",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -2464,15 +2384,14 @@
       "tags": [
         "vocabulary",
         "beginner",
-        "numbers",
-        "synge-street-cbs"
+        "numbers"
       ],
       "thumbnail": null
     },
     {
       "slug": "interests-and-hobbies-spanish",
       "name": "Interests and Hobbies (Spanish)",
-      "category": "Language",
+      "category": "Conversation",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -2482,7 +2401,6 @@
       "subcategory": "Spanish",
       "tags": [
         "vocabulary",
-        "conversation",
         "beginner",
         "daily-routines"
       ],
@@ -2510,7 +2428,7 @@
     {
       "slug": "spanish-lc1",
       "name": "Spanish LC1",
-      "category": "Grammar",
+      "category": "Conversation",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -2521,16 +2439,14 @@
       "tags": [
         "vocabulary",
         "beginner",
-        "synge-st-cbs",
-        "character-traits",
-        "conversation"
+        "synge-st-cbs"
       ],
       "thumbnail": null
     },
     {
       "slug": "jc3-1-present-tense-review",
       "name": "JC3.1 Present Tense Review",
-      "category": "Grammar",
+      "category": "Present Tense",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -2539,7 +2455,6 @@
       "author": "SMQ",
       "subcategory": "Spanish",
       "tags": [
-        "present-tense",
         "verb-conjugation",
         "vocabulary"
       ],
@@ -2548,19 +2463,18 @@
     {
       "slug": "geographical-features-of-spain",
       "name": "Geographical features of Spain",
-      "category": "Language",
+      "category": "Synge Street Cbs",
       "emoji": "🌍",
       "loopCount": 2,
       "questionCount": 17,
       "publishedAt": "2026-09-16T23:52:06.779Z",
       "createdBy": "c_mu1sykuv_7vbk1ys0",
       "author": "SMQ",
-      "subcategory": "geography",
+      "subcategory": null,
       "tags": [
         "Spanish",
         "nature",
         "vocabulary",
-        "synge-street-cbs",
         "beginner"
       ],
       "thumbnail": null
@@ -2568,7 +2482,7 @@
     {
       "slug": "main-tourist-attractiions-of-spain",
       "name": "Main tourist attractiions of Spain",
-      "category": "Other",
+      "category": "Geography",
       "emoji": "✨",
       "loopCount": 3,
       "questionCount": 30,
@@ -2577,8 +2491,6 @@
       "author": "SMQ",
       "subcategory": "Travel",
       "tags": [
-        "places",
-        "Geography",
         "map-location",
         "tourism",
         "spain"
@@ -2588,7 +2500,7 @@
     {
       "slug": "all-about-the-liberties-dublin8",
       "name": "All about the liberties(dublin8)",
-      "category": "Other",
+      "category": "Places",
       "emoji": "✨",
       "loopCount": 4,
       "questionCount": 32,
@@ -2597,7 +2509,6 @@
       "author": "Unknown",
       "subcategory": "Dublin",
       "tags": [
-        "places",
         "Travel",
         "irish-geography"
       ],
@@ -2606,32 +2517,30 @@
     {
       "slug": "perfect-tenses-in-english",
       "name": "Perfect Tenses in English",
-      "category": "Grammar",
+      "category": "Synge Street Cbs",
       "emoji": "🔖",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-09-17T12:31:30.463Z",
       "createdBy": "c_mu1sykuv_7vbk1ys0",
       "author": "SMQ",
-      "subcategory": "English",
+      "subcategory": null,
       "tags": [
-        "verb-conjugation",
-        "present-tense",
-        "synge-street-cbs"
+        "verb-conjugation"
       ],
       "thumbnail": null
     },
     {
       "slug": "leaen-english",
       "name": "Leaen English",
-      "category": "Language",
+      "category": "English",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-09-17T12:45:04.038Z",
       "createdBy": "c_mtlilprl_ijsni4g4",
       "author": "English",
-      "subcategory": "English",
+      "subcategory": null,
       "tags": [
         "vocabulary",
         "beginner",
@@ -2642,7 +2551,7 @@
     {
       "slug": "past-participles",
       "name": "Past Participles",
-      "category": "Language",
+      "category": "Synge Street Cbs",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -2652,16 +2561,14 @@
       "subcategory": "grammar",
       "tags": [
         "verb-forms",
-        "present-tense",
-        "vocabulary",
-        "synge-street-cbs"
+        "vocabulary"
       ],
       "thumbnail": null
     },
     {
       "slug": "ist-year-intro-greetings-intros-and-where-you-live",
       "name": "Ist Year Intro: greetings, intros, and where you live",
-      "category": "Language",
+      "category": "Conversation",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -2672,15 +2579,14 @@
       "tags": [
         "beginner",
         "greetings",
-        "numbers",
-        "conversation"
+        "numbers"
       ],
       "thumbnail": null
     },
     {
       "slug": "lc-spanish2",
       "name": "LC Spanish2",
-      "category": "Language",
+      "category": "Conversation",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -2692,16 +2598,14 @@
         "vocabulary",
         "grammar",
         "listening",
-        "synge-street-cbs",
-        "numbers",
-        "conversation"
+        "numbers"
       ],
       "thumbnail": null
     },
     {
       "slug": "jc-spanish-2-present-and-future",
       "name": "JC Spanish 2: Present AND Future",
-      "category": "Language",
+      "category": "Synge Street Cbs",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -2710,10 +2614,8 @@
       "author": "SMQ",
       "subcategory": "Spanish",
       "tags": [
-        "present-tense",
         "grammar",
         "verb-forms",
-        "synge-street-cbs",
         "beginner"
       ],
       "thumbnail": null
@@ -2738,19 +2640,36 @@
     {
       "slug": "test-new-address",
       "name": "Test new address",
-      "category": "Other",
+      "category": "Geography",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-09-18T10:00:05.213Z",
       "createdBy": "c_mu6sdeew_zaoa9die",
       "author": "SMQ",
-      "subcategory": "Geography",
+      "subcategory": null,
       "tags": [
-        "places",
         "maps",
         "map-location",
         "test"
+      ],
+      "thumbnail": null
+    },
+    {
+      "slug": "functions",
+      "name": "Functions",
+      "category": "Misc",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-21T00:35:30.293Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "Mathematics",
+      "tags": [
+        "functions",
+        "graphs",
+        "algebra"
       ],
       "thumbnail": null
     }
@@ -2821,6 +2740,68 @@
       "pastel": "#EAC7F4",
       "deep": "#AC3ECC",
       "wash": "#F2EBF4"
+    },
+    "Soccer": {
+      "emoji": "🔖",
+      "pastel": "#C7CAF4",
+      "deep": "#3E47CC",
+      "wash": "#EBECF4",
+      "descriptor": "Explore La Liga's clubs, stadiums, rivalries, and championship history."
+    },
+    "Places": {
+      "emoji": "🔖",
+      "pastel": "#C7EAF4",
+      "deep": "#3EACCC",
+      "wash": "#EBF2F4",
+      "descriptor": "Identify national capitals of countries worldwide, from common to obscure."
+    },
+    "English": {
+      "emoji": "🔖",
+      "pastel": "#C7F4E2",
+      "deep": "#3ECC92",
+      "wash": "#EBF4F1"
+    },
+    "Present Tense": {
+      "emoji": "🔖",
+      "pastel": "#C7F4C9",
+      "deep": "#3ECC42",
+      "wash": "#EBF4EB",
+      "descriptor": "Present-tense conjugation and meaning of Spanish verbs across regular and irregular forms."
+    },
+    "Character Traits": {
+      "emoji": "🔖",
+      "pastel": "#DFF4C7",
+      "deep": "#88CC3E",
+      "wash": "#F0F4EB",
+      "descriptor": "Learn French vocabulary for describing physical appearance and personality traits."
+    },
+    "Biography": {
+      "emoji": "🔖",
+      "pastel": "#F4F1C7",
+      "deep": "#CCC23E",
+      "wash": "#F4F4EB",
+      "descriptor": "Learn about influential musicians through their life stories, careers, and cultural impact."
+    },
+    "Geography": {
+      "emoji": "🔖",
+      "pastel": "#F4C8C7",
+      "deep": "#CC403E",
+      "wash": "#F4EBEB",
+      "descriptor": "Geography terms and Earth structure vocabulary in Irish language"
+    },
+    "Synge Street Cbs": {
+      "emoji": "🔖",
+      "pastel": "#F4C7F3",
+      "deep": "#CC3EC8",
+      "wash": "#F4EBF4",
+      "descriptor": "Spanish vocabulary quiz on buildings, streets, and urban architecture terms."
+    },
+    "Conversation": {
+      "emoji": "🔖",
+      "pastel": "#F4C7DD",
+      "deep": "#CC3E83",
+      "wash": "#F4EBF0",
+      "descriptor": "Practicing everyday Spanish dialogue phrases and conversational expressions for real-life interactions"
     }
   },
   "labelDescriptors": {
@@ -3050,22 +3031,40 @@
     "Language::grammar": "Building vocabulary and word knowledge, not sentence structure or syntax rules",
     "Language::verb-forms": "Practice identifying correct past participles of regular and irregular English verbs.",
     "Other::music-theory": "Covers fundamentals of music theory: notation, rhythm, scales, chords, and harmony.",
-    "Other::test": "Quiz testing broad factual knowledge across geography, science, history, and trivia."
+    "Other::test": "Quiz testing broad factual knowledge across geography, science, history, and trivia.",
+    "Misc::mathematics": "Functions, transformations, quadratics, polynomials, and exponential-logarithmic concepts explained.",
+    "Misc::algebra": "Covers functions, transformations, quadratics, polynomials, rationals, exponentials, and logarithms.",
+    "Misc::graphs": "Interpreting and transforming function graphs, including quadratics, polynomials, exponentials, and logarithms",
+    "Misc::functions": "Explore function concepts, transformations, quadratics, polynomials, rationals, exponentials, and logarithms."
   },
   "shelves": [
     {
-      "category": "Other",
-      "key": "soccer",
-      "label": "soccer",
-      "count": 8,
-      "descriptor": null
+      "category": null,
+      "key": "music",
+      "label": "music",
+      "count": 9,
+      "descriptor": "Games teaching music history, theory, and artist backgrounds through interactive content."
     },
     {
-      "category": "Other",
-      "key": "places",
-      "label": "places",
+      "category": null,
+      "key": "sports-basics",
+      "label": "sports-basics",
+      "count": 9,
+      "descriptor": "Golf fundamentals covering ball physics, club mechanics, and swing technique"
+    },
+    {
+      "category": null,
+      "key": "ancient-greece",
+      "label": "ancient-greece",
       "count": 8,
-      "descriptor": null
+      "descriptor": "Ancient Greek philosophy emphasizing virtue, reason, and acceptance of universal natural laws."
+    },
+    {
+      "category": null,
+      "key": "pronunciation",
+      "label": "pronunciation",
+      "count": 8,
+      "descriptor": "Games teaching accurate vowel sound production across Irish English regional accents."
     },
     {
       "category": "Other",
@@ -3075,11 +3074,25 @@
       "descriptor": null
     },
     {
-      "category": "Language",
-      "key": "conversation",
-      "label": "conversation",
+      "category": null,
+      "key": "history",
+      "label": "History",
       "count": 7,
-      "descriptor": "Practicing everyday Spanish dialogue phrases and conversational expressions for real-life interactions"
+      "descriptor": "Explore ancient Roman landmarks, structures, and historical facts through engaging quizzes."
+    },
+    {
+      "category": null,
+      "key": "literature",
+      "label": "Literature",
+      "count": 7,
+      "descriptor": "Trivia on Shakespeare's Othello covering quotes, characters, jealousy, and betrayal themes."
+    },
+    {
+      "category": null,
+      "key": "english-football",
+      "label": "english-football",
+      "count": 7,
+      "descriptor": "English football club history, achievements, and notable periods"
     }
   ]
 }
