@@ -2726,6 +2726,24 @@
         "general-knowledge"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "diodes-and-transistors",
+      "name": "Diodes and transistors",
+      "category": "Exam Prep",
+      "emoji": "📝",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-21T11:28:24.405Z",
+      "createdBy": "c_mub4zgbn_x4du6q2i",
+      "author": "Antaine",
+      "subcategory": "Physics",
+      "tags": [
+        "junior-cycle-science",
+        "leaving-cert",
+        "technique"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
