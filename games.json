@@ -2672,6 +2672,25 @@
         "algebra"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "spanish-hobbies-read-and-watch",
+      "name": "Spanish - Hobbies - Read and Watch",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-21T08:13:13.983Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "vocabulary",
+        "beginner",
+        "daily-routines",
+        "synge-street-cbs"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2918,7 +2937,7 @@
     "Language::beginner": "Learn basic Spanish greetings, vocabulary, and simple everyday phrases.",
     "Language::conversation": "Practicing everyday Spanish dialogue phrases and conversational expressions for real-life interactions",
     "Language::connectors": "Learn Spanish words that link words, phrases, and ideas together.",
-    "Language::synge-street-cbs": "Irish-language geography vocabulary quiz on landforms and Earth's structure",
+    "Language::synge-street-cbs": "Spanish vocabulary and grammar practice on hobbies, preferences, and media",
     "Language::present-tense": "Present-tense conjugation and meaning of Spanish verbs across regular and irregular forms.",
     "Other::conversation": "Practice real-life Spanish dialogue about hobbies through interactive question-and-answer exchanges.",
     "Other::present-tense": "present-tense — related content.",
@@ -2989,7 +3008,7 @@
     "Language::technology": "Covers computing hardware, programming, and offline AI concepts and tools.",
     "Language::coding": "Covers Python, hardware basics, and AI model concepts for coding literacy.",
     "Language::programming": "Covers hardware, Python, JSON/SQLite, and offline AI/LLM fundamentals for builders.",
-    "Language::spanish": "Practice Spanish greetings, conjunctions, verb conjugations, and complex sentence building.",
+    "Language::spanish": "Spanish vocabulary and grammar for discussing hobbies, media, and preferences.",
     "General Knowledge::food": "Trivia about cheesecake crust substitutions and ingredient swaps",
     "General Knowledge::baking": "Trivia on cheesecake crust ingredient swaps and substitutions",
     "General Knowledge::recipes": "Trivia about ingredient swaps and substitutions in recipes",
@@ -3054,6 +3073,13 @@
     },
     {
       "category": null,
+      "key": "sport",
+      "label": "Sport",
+      "count": 8,
+      "descriptor": "Trivia about famous athletes, their careers, teams, and major sporting achievements."
+    },
+    {
+      "category": null,
       "key": "ancient-greece",
       "label": "ancient-greece",
       "count": 8,
@@ -3065,13 +3091,6 @@
       "label": "pronunciation",
       "count": 8,
       "descriptor": "Games teaching accurate vowel sound production across Irish English regional accents."
-    },
-    {
-      "category": "Other",
-      "key": "sport",
-      "label": "Sport",
-      "count": 7,
-      "descriptor": null
     },
     {
       "category": null,
