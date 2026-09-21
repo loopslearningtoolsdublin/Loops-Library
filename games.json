@@ -2691,6 +2691,24 @@
         "synge-street-cbs"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "spanish-time-present-daily-routine",
+      "name": "Spanish: Time, Present, Daily Routine",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-21T08:17:55.455Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "daily-routines",
+        "grammar",
+        "vocabulary"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -3047,7 +3065,7 @@
     "Language::synge-st-cbs": "Spanish self-introduction basics: greetings, age, appearance, and personality descriptions.",
     "Other::tourism": "Explore Spanish cities, landmarks, and cultural history through iconic sites",
     "Other::irish-geography": "Trivia about Dublin's Liberties area: landmarks, transport, slang, and culture.",
-    "Language::grammar": "Building vocabulary and word knowledge, not sentence structure or syntax rules",
+    "Language::grammar": "Spanish verb conjugation, telling time, and daily routine vocabulary practice",
     "Language::verb-forms": "Practice identifying correct past participles of regular and irregular English verbs.",
     "Other::music-theory": "Covers fundamentals of music theory: notation, rhythm, scales, chords, and harmony.",
     "Other::test": "Quiz testing broad factual knowledge across geography, science, history, and trivia.",
@@ -3091,6 +3109,13 @@
       "label": "pronunciation",
       "count": 8,
       "descriptor": "Games teaching accurate vowel sound production across Irish English regional accents."
+    },
+    {
+      "category": null,
+      "key": "daily-routines",
+      "label": "daily-routines",
+      "count": 7,
+      "descriptor": "daily-routines — related content."
     },
     {
       "category": null,
