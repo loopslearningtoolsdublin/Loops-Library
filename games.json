@@ -2780,6 +2780,25 @@
         "bts"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "jc-spanish-3-countries-nationalities-and-preposit",
+      "name": "JC Spanish 3: Countries, Nationalities and Preposit",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-22T10:08:44.983Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "vocabulary",
+        "grammar",
+        "beginner",
+        "prepositions"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -2988,7 +3007,7 @@
     "Other::problem-solving": "Solve for unknown variables in addition equations using inverse operations",
     "Other::algebra": "Solve simple one-variable equations using inverse operations and balance-scale reasoning.",
     "Language::irish": "Irish-language quiz on geography vocabulary and Earth's structure",
-    "Language::prepositions": "Learn Irish prepositions and their pronoun forms through translation exercises",
+    "Language::prepositions": "Practice Spanish prepositions used with countries, nationalities, and verbs like ir, ser, estar",
     "Other::etymology": "Trivia about famous quotes, sayings, and the origins of words or phrases",
     "Other::word-origins": "Explore the quirky origins behind viral slang and brain rot phrases.",
     "Other::standardized-tests": "Practice core statistics and probability concepts for standardized exam preparation.",
