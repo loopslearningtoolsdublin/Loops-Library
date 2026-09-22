@@ -2799,6 +2799,25 @@
         "prepositions"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "el-tiempo-en-spanish-weather",
+      "name": "El Tiempo en Spanish (Weather)",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-22T14:03:49.887Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "vocabulary",
+        "grammar",
+        "beginner",
+        "synge-street-cbs"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
