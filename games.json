@@ -2836,6 +2836,23 @@
         "st-r-focal"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "mulligatawny-soup",
+      "name": "Mulligatawny Soup",
+      "category": "Misc",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-22T23:21:02.714Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "Cooking",
+      "tags": [
+        "recipes",
+        "food"
+      ],
+      "thumbnail": "thumbs/mulligatawny-soup.jpg"
     }
   ],
   "categories": {
@@ -3208,7 +3225,10 @@
     "Language::spain": "Spanish history, geography, culture, and empire trivia questions",
     "Misc::films": "Trivia on movie facts, directors, actors, awards, and film history.",
     "Misc::bts": "Behind-the-scenes content about movie and show production processes.",
-    "Language::st-r-focal": "Translating Irish poetry-analysis vocabulary and question prompts into English."
+    "Language::st-r-focal": "Translating Irish poetry-analysis vocabulary and question prompts into English.",
+    "Misc::recipes": "Step-by-step guided instructions for preparing a specific dish or recipe.",
+    "Misc::cooking": "Explore mulligatawny soup origins, ingredients, and techniques for rich flavor mastery.",
+    "Misc::food": "Culinary knowledge covering mulligatawny soup origins, ingredients, and cooking techniques"
   },
   "shelves": [
     {
