@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>El Tiempo en Spanish (Weather) · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1790085829887"></script>
+  <script>
+    const GAME_DATA = {"slug":"el-tiempo-en-spanish-weather","name":"El Tiempo en Spanish (Weather)","emoji":"🌍","category":"Language","colors":{"pastel":"#C1F0EA","deep":"#2FB18A","wash":"#EBF6F0"},"background":null,"loops":[{"name":"Weather Basics","emoji":"☀️","timeLimit":15,"qs":[{"type":"mc","q":"What does \"el sol\" mean in English?","a":"Sun","opts":["Sun","Moon","Star"]},{"type":"typed","q":"How do you say \"rain\" in Spanish?","a":"la lluvia"},{"type":"mc","q":"What does \"la nieve\" mean in English?","a":"Snow","opts":["Snow","Ice","Rain"]},{"type":"typed","q":"How do you say \"wind\" in Spanish?","a":"el viento"},{"type":"mc","q":"What does \"la nube\" mean in English?","a":"Cloud","opts":["Cloud","Sky","Storm"]},{"type":"typed","q":"How do you say \"cold\" (as a noun) in Spanish?","a":"el frío"},{"type":"mc","q":"What does \"el calor\" mean in English?","a":"Heat","opts":["Heat","Cold","Wind"]},{"type":"typed","q":"How do you say \"storm\" in Spanish?","a":"la tormenta"},{"type":"mc","q":"What does \"el hielo\" mean in English?","a":"Ice","opts":["Ice","Snow","Rain"]},{"type":"typed","q":"How do you say \"sky\" in Spanish?","a":"el cielo"}]},{"name":"Everyday Weather Talk","emoji":"🌤️","timeLimit":15,"qs":[{"type":"mc","q":"How do you say \"It's sunny\" in Spanish?","a":"Hace sol","opts":["Hace sol","Es sol","Está sol"]},{"type":"typed","q":"How do you say \"It's hot\" in Spanish?","a":"Hace calor"},{"type":"mc","q":"How do you say \"It's cold\" in Spanish?","a":"Hace frío","opts":["Hace frío","Está frío","Es frío"]},{"type":"typed","q":"How do you say \"It's windy\" in Spanish?","a":"Hace viento"},{"type":"mc","q":"How do you say \"It's cloudy\" in Spanish?","a":"Está nublado","opts":["Está nublado","Hace nublado","Es nublado"]},{"type":"typed","q":"How do you say \"It's raining\" in Spanish?","a":"Está lloviendo"},{"type":"mc","q":"How do you say \"There's fog\" in Spanish?","a":"Hay niebla","opts":["Hay niebla","Hace niebla","Está niebla"]},{"type":"typed","q":"How do you say \"The weather is nice\" in Spanish?","a":"Hace buen tiempo"},{"type":"mc","q":"How do you say \"The weather is bad\" in Spanish?","a":"Hace mal tiempo","opts":["Hace mal tiempo","Está mal tiempo","Es mal tiempo"]},{"type":"typed","q":"How do you say \"It's snowing\" in Spanish?","a":"Está nevando"}]},{"name":"Expanding the Forecast","emoji":"🌈","timeLimit":15,"qs":[{"type":"typed","q":"How do you say \"temperature\" in Spanish?","a":"la temperatura"},{"type":"mc","q":"What does \"el pronóstico del tiempo\" mean?","a":"Weather forecast","opts":["Weather forecast","Weather report","Climate change"]},{"type":"typed","q":"How do you say \"rainbow\" in Spanish?","a":"el arcoíris"},{"type":"mc","q":"What does \"el trueno\" mean?","a":"Thunder","opts":["Thunder","Lightning","Storm"]},{"type":"typed","q":"How do you say \"lightning\" in Spanish?","a":"el relámpago"},{"type":"mc","q":"What does \"la humedad\" mean?","a":"Humidity","opts":["Humidity","Heat","Wind"]},{"type":"typed","q":"How do you say \"clear\" (describing the sky) in Spanish?","a":"despejado"},{"type":"mc","q":"What does \"fresco\" mean when describing weather?","a":"Cool","opts":["Cool","Hot","Dry"]},{"type":"typed","q":"How do you say \"humid\" in Spanish?","a":"húmedo"},{"type":"mc","q":"What does \"seco\" mean when describing weather?","a":"Dry","opts":["Dry","Wet","Cold"]}]},{"name":"Seasons and Extremes","emoji":"🌡️","timeLimit":15,"qs":[{"type":"typed","q":"How do you say \"degrees\" (as in temperature) in Spanish?","a":"grados"},{"type":"mc","q":"What does \"la primavera\" mean?","a":"Spring","opts":["Spring","Summer","Autumn"]},{"type":"typed","q":"How do you say \"autumn\" or \"fall\" in Spanish?","a":"el otoño"},{"type":"mc","q":"What does \"bajo cero\" mean?","a":"Below zero","opts":["Below zero","Above zero","Freezing rain"]},{"type":"typed","q":"How do you say \"hail\" in Spanish?","a":"el granizo"},{"type":"mc","q":"What does \"la ola de calor\" mean?","a":"Heatwave","opts":["Heatwave","Cold front","Storm surge"]},{"type":"typed","q":"How do you say \"sunny\" (adjective) in Spanish?","a":"soleado"},{"type":"mc","q":"What does \"nublado\" mean?","a":"Cloudy","opts":["Cloudy","Sunny","Windy"]},{"type":"typed","q":"How do you say \"windy\" (adjective) in Spanish?","a":"ventoso"},{"type":"mc","q":"What does \"el chubasco\" mean?","a":"Rain shower","opts":["Rain shower","Snowstorm","Drought"]}]},{"name":"Idioms and Nuance","emoji":"⛈️","timeLimit":15,"qs":[{"type":"mc","q":"What does the idiom \"Llueve a cántaros\" mean?","a":"It's raining heavily","opts":["It's raining heavily","It's drizzling","It's about to rain"]},{"type":"typed","q":"How do you say \"drizzle\" (noun) in Spanish?","a":"la llovizna"},{"type":"mc","q":"What does \"Hace un frío que pela\" mean?","a":"It's freezing cold","opts":["It's freezing cold","It's a bit chilly","It's warm"]},{"type":"typed","q":"How do you say \"downpour\" in Spanish?","a":"el aguacero"},{"type":"mc","q":"What does \"El tiempo está inestable\" mean?","a":"The weather is unstable","opts":["The weather is unstable","The weather is perfect","The weather is cold"]},{"type":"typed","q":"How do you say \"a gust of wind\" in Spanish?","a":"una ráfaga de viento"},{"type":"mc","q":"What does \"clima templado\" mean?","a":"Mild climate","opts":["Mild climate","Tropical climate","Freezing climate"]},{"type":"typed","q":"How do you say \"storm clouds\" in Spanish?","a":"nubes de tormenta"},{"type":"mc","q":"What does \"Está lloviznando\" mean?","a":"It's drizzling","opts":["It's drizzling","It's pouring","It's snowing lightly"]},{"type":"typed","q":"How do you say \"a splendid afternoon\" in Spanish?","a":"una tarde espléndida"}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
