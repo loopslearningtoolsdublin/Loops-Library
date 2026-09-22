@@ -2818,6 +2818,24 @@
         "synge-street-cbs"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "st-r-focal-ceisteanna-fil-ochta",
+      "name": "Stór Focal Ceisteanna Filíochta",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-22T14:40:12.434Z",
+      "createdBy": "c_mucryf8t_93f74wtg",
+      "author": "SNGC",
+      "subcategory": "Irish",
+      "tags": [
+        "terminology",
+        "vocabulary",
+        "st-r-focal"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -3025,7 +3043,7 @@
     "Other::mathematics": "Solving basic algebraic equations by isolating the variable through inverse operations",
     "Other::problem-solving": "Solve for unknown variables in addition equations using inverse operations",
     "Other::algebra": "Solve simple one-variable equations using inverse operations and balance-scale reasoning.",
-    "Language::irish": "Irish-language quiz on geography vocabulary and Earth's structure",
+    "Language::irish": "Translating Irish poetry-analysis question terms and vocabulary into English.",
     "Language::prepositions": "Practice Spanish prepositions used with countries, nationalities, and verbs like ir, ser, estar",
     "Other::etymology": "Trivia about famous quotes, sayings, and the origins of words or phrases",
     "Other::word-origins": "Explore the quirky origins behind viral slang and brain rot phrases.",
@@ -3189,7 +3207,8 @@
     "Language::history": "Spain's historical events, empires, key figures, and cultural heritage",
     "Language::spain": "Spanish history, geography, culture, and empire trivia questions",
     "Misc::films": "Trivia on movie facts, directors, actors, awards, and film history.",
-    "Misc::bts": "Behind-the-scenes content about movie and show production processes."
+    "Misc::bts": "Behind-the-scenes content about movie and show production processes.",
+    "Language::st-r-focal": "Translating Irish poetry-analysis vocabulary and question prompts into English."
   },
   "shelves": [
     {
