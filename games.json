@@ -2763,6 +2763,23 @@
         "general-knowledge"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "movies",
+      "name": "Movies",
+      "category": "Misc",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-22T08:18:25.936Z",
+      "createdBy": "c_mub8knxm_z7bga5np",
+      "author": "Bradley Okeke",
+      "subcategory": "movies",
+      "tags": [
+        "films",
+        "bts"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -3132,7 +3149,9 @@
     "Misc::movies": "Trivia about DC film casts, directors, and franchise adaptations",
     "Misc::comics": "Trivia on DC superheroes, spanning comics, movies, TV shows, and lore.",
     "Language::history": "Spain's historical events, empires, key figures, and cultural heritage",
-    "Language::spain": "Spanish history, geography, culture, and empire trivia questions"
+    "Language::spain": "Spanish history, geography, culture, and empire trivia questions",
+    "Misc::films": "Trivia on movie facts, directors, actors, awards, and film history.",
+    "Misc::bts": "Behind-the-scenes content about movie and show production processes."
   },
   "shelves": [
     {
@@ -3176,6 +3195,13 @@
       "label": "pronunciation",
       "count": 8,
       "descriptor": "Games teaching accurate vowel sound production across Irish English regional accents."
+    },
+    {
+      "category": null,
+      "key": "movies",
+      "label": "movies",
+      "count": 7,
+      "descriptor": "Trivia on iconic films, casts, characters, and plot details"
     },
     {
       "category": null,
