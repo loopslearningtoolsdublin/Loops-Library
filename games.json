@@ -2928,6 +2928,27 @@
         "beginner"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "codain",
+      "name": "Codain",
+      "category": "Synge Street Cbs",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 45,
+      "publishedAt": "2026-09-23T15:10:55.223Z",
+      "createdBy": "c_mub4zgbn_x4du6q2i",
+      "author": "Antaine",
+      "subcategory": null,
+      "tags": [
+        "programming",
+        "technology",
+        "beginner",
+        "vocabulary",
+        "terminology",
+        "grammar"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -3307,7 +3328,10 @@
     "Language::fun-italian": "Playful Italian language quizzes covering vocabulary, grammar, verb tenses, and idioms.",
     "Language::italian-italy": "Learn Italian vocabulary, grammar, verb tenses, and idiomatic expressions progressively.",
     "Language::food": "Trivia about coffee's history, culture, and spread across the world",
-    "Language::coffee": "Trivia on coffee's legendary origins, spread, and cultural history worldwide."
+    "Language::coffee": "Trivia on coffee's legendary origins, spread, and cultural history worldwide.",
+    "Synge Street Cbs::terminology": "Irish-language quiz on fraction vocabulary, equivalence, operations, and mixed numbers.",
+    "Synge Street Cbs::technology": "Fraction concepts, equivalence, and arithmetic operations practiced through Irish-language questions.",
+    "Synge Street Cbs::programming": "Irish-language fraction concepts, equivalence, arithmetic, and mixed number problems"
   },
   "shelves": [
     {
@@ -3379,6 +3403,13 @@
       "label": "english-football",
       "count": 7,
       "descriptor": "English football club history, achievements, and notable periods"
+    },
+    {
+      "category": null,
+      "key": "terminology",
+      "label": "terminology",
+      "count": 7,
+      "descriptor": "Defines key accounting terms like assets, liabilities, capital, and debit/credit rules."
     }
   ]
 }
