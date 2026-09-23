@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Italian · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1790158746428"></script>
+  <script>
+    const GAME_DATA = {"slug":"italian","name":"Italian","emoji":"🌍","category":"Language","colors":{"pastel":"#C1F0EA","deep":"#2FB18A","wash":"#EBF6F0"},"background":null,"loops":[{"name":"Italian Basics","emoji":"🇮🇹","timeLimit":15,"qs":[{"type":"mc","q":"How do you say \"hello\" in Italian (informal)?","a":"Ciao","opts":["Ciao","Buongiorno","Arrivederci"]},{"type":"typed","q":"How do you say \"thank you\" in Italian?","a":"Grazie"},{"type":"mc","q":"What does \"buongiorno\" mean?","a":"Good morning","opts":["Good morning","Good night","Goodbye"]},{"type":"typed","q":"How do you say \"please\" in Italian?","a":"Per favore"},{"type":"mc","q":"What does \"arrivederci\" mean?","a":"Goodbye","opts":["Goodbye","Hello","Thanks"]},{"type":"typed","q":"How do you say \"yes\" in Italian?","a":"Sì"},{"type":"mc","q":"What does \"scusa\" mean?","a":"Sorry","opts":["Sorry","Please","Friend"]},{"type":"typed","q":"How do you say \"water\" in Italian?","a":"Acqua"},{"type":"mc","q":"What does \"amico\" mean?","a":"Friend","opts":["Friend","Enemy","Family"]},{"type":"typed","q":"How do you say \"good evening\" in Italian?","a":"Buonasera"}]},{"name":"Numbers Colors and Articles","emoji":"🔢","timeLimit":15,"qs":[{"type":"typed","q":"What is the Italian word for the number one?","a":"Uno"},{"type":"mc","q":"What is \"due\" in English?","a":"Two","opts":["Two","Three","Four"]},{"type":"typed","q":"What is the Italian word for \"five\"?","a":"Cinque"},{"type":"mc","q":"What is the masculine singular definite article \"the\" in Italian?","a":"Il","opts":["Il","La","Le"]},{"type":"mc","q":"What is the feminine singular definite article \"the\" in Italian?","a":"La","opts":["La","Il","Lo"]},{"type":"typed","q":"How do you say \"red\" in Italian?","a":"Rosso"},{"type":"mc","q":"What does \"blu\" mean?","a":"Blue","opts":["Blue","Black","Green"]},{"type":"typed","q":"What is the Italian word for \"ten\"?","a":"Dieci"},{"type":"mc","q":"What is the plural of \"il libro\" (the book)?","a":"I libri","opts":["I libri","Le libri","Il libri"]},{"type":"typed","q":"How do you say \"black\" in Italian?","a":"Nero"}]},{"name":"Present Tense Verbs","emoji":"⚙️","timeLimit":15,"qs":[{"type":"mc","q":"What is the Italian verb \"to be\"?","a":"Essere","opts":["Essere","Avere","Fare"]},{"type":"typed","q":"What is \"I am\" in Italian (io form of essere)?","a":"Sono"},{"type":"mc","q":"What is the Italian verb \"to have\"?","a":"Avere","opts":["Avere","Essere","Stare"]},{"type":"typed","q":"What is \"you have\" (tu form of avere)?","a":"Hai"},{"type":"mc","q":"Which ending is typical for regular -are verbs in the \"io\" form?","a":"-o","opts":["-o","-i","-a"]},{"type":"typed","q":"Conjugate \"parlare\" (to speak) in the io form.","a":"Parlo"},{"type":"mc","q":"What does \"mangiare\" mean?","a":"To eat","opts":["To eat","To drink","To sleep"]},{"type":"typed","q":"What is \"we are\" in Italian (noi form of essere)?","a":"Siamo"},{"type":"mc","q":"What is the \"loro\" form of avere (they have)?","a":"Hanno","opts":["Hanno","Ha","Avete"]},{"type":"typed","q":"Conjugate \"vivere\" (to live) in the io form.","a":"Vivo"}]},{"name":"Prepositions and Past Tense","emoji":"🧩","timeLimit":15,"qs":[{"type":"mc","q":"What does the preposition \"con\" mean?","a":"With","opts":["With","Without","For"]},{"type":"typed","q":"What is the past participle of \"parlare\"?","a":"Parlato"},{"type":"mc","q":"Which auxiliary verb is used with \"andare\" in the passato prossimo?","a":"Essere","opts":["Essere","Avere","Stare"]},{"type":"typed","q":"What is the past participle of \"avere\"?","a":"Avuto"},{"type":"mc","q":"What does \"davanti a\" mean?","a":"In front of","opts":["In front of","Behind","Next to"]},{"type":"typed","q":"Write the passato prossimo of \"io mangiare\" (I ate).","a":"Ho mangiato"},{"type":"mc","q":"What does \"senza\" mean?","a":"Without","opts":["Without","With","Under"]},{"type":"typed","q":"What is the past participle of \"essere\"?","a":"Stato"},{"type":"mc","q":"Which preposition combines with \"il\" to form \"nel\"?","a":"In","opts":["In","Su","Con"]},{"type":"typed","q":"Write the passato prossimo of \"lei andare\" (she went).","a":"È andata"}]},{"name":"Advanced Grammar and Idioms","emoji":"🎓","timeLimit":15,"qs":[{"type":"mc","q":"What mood is used to express doubt or wish, e.g. \"Penso che sia vero\"?","a":"Subjunctive","opts":["Subjunctive","Indicative","Imperative"]},{"type":"typed","q":"Conjugate \"essere\" in the present subjunctive, io form.","a":"Sia"},{"type":"mc","q":"What does the idiom \"in bocca al lupo\" mean?","a":"Good luck","opts":["Good luck","Bad luck","Be careful"]},{"type":"typed","q":"What is the traditional response to \"In bocca al lupo\"?","a":"Crepi"},{"type":"mc","q":"Which tense expresses an action that happened before another past action?","a":"Trapassato prossimo","opts":["Trapassato prossimo","Passato prossimo","Futuro"]},{"type":"typed","q":"Form the trapassato prossimo of \"io mangiare\" (I had eaten).","a":"Avevo mangiato"},{"type":"mc","q":"What does \"magari\" often express?","a":"A wishful hope","opts":["A wishful hope","A command","A question"]},{"type":"typed","q":"Conjugate \"avere\" in the present subjunctive, loro form.","a":"Abbiano"},{"type":"mc","q":"What does the idiomatic expression \"ci vuole\" mean?","a":"It takes","opts":["It takes","It wants","It goes"]},{"type":"typed","q":"What is the conditional form of \"io essere\" (I would be)?","a":"Sarei"}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
