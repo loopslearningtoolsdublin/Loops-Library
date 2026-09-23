@@ -2853,6 +2853,26 @@
         "food"
       ],
       "thumbnail": "thumbs/mulligatawny-soup.jpg"
+    },
+    {
+      "slug": "italian",
+      "name": "Italian",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-23T10:19:06.428Z",
+      "createdBy": "c_muck73d8_s1bpu78h",
+      "author": "Killian",
+      "subcategory": "Italian,Italy",
+      "tags": [
+        "vocabulary",
+        "grammar",
+        "beginner",
+        "pronunciation",
+        "fun-italian"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -3016,7 +3036,7 @@
     "Other::english-geography": "English geography and principal cities by county",
     "Other::classics": "Foundational knowledge of ancient Greek and Roman civilizations, mythology, drama, and literature.",
     "Other::beginner": "Introductory questions about ancient Greece, Rome, and classical mythology.",
-    "Language::pronunciation": "Games teaching accurate vowel sound production across Irish English regional accents.",
+    "Language::pronunciation": "Practice speaking and recognizing correct Italian word sounds and phrases",
     "Language::phonetic": "Games teaching recognition and production of vowel sounds across regional English accents.",
     "Language::vowel-sounds": "Games identifying and comparing vowel sounds across Irish English regional accents.",
     "Language::irish-accents": "Learn to recognize and distinguish vowel sounds across Irish regional accents.",
@@ -3228,7 +3248,9 @@
     "Language::st-r-focal": "Translating Irish poetry-analysis vocabulary and question prompts into English.",
     "Misc::recipes": "Step-by-step guided instructions for preparing a specific dish or recipe.",
     "Misc::cooking": "Explore mulligatawny soup origins, ingredients, and techniques for rich flavor mastery.",
-    "Misc::food": "Culinary knowledge covering mulligatawny soup origins, ingredients, and cooking techniques"
+    "Misc::food": "Culinary knowledge covering mulligatawny soup origins, ingredients, and cooking techniques",
+    "Language::fun-italian": "Playful Italian language quizzes covering vocabulary, grammar, verb tenses, and idioms.",
+    "Language::italian-italy": "Learn Italian vocabulary, grammar, verb tenses, and idiomatic expressions progressively."
   },
   "shelves": [
     {
@@ -3244,6 +3266,13 @@
       "label": "sports-basics",
       "count": 9,
       "descriptor": "Golf fundamentals covering ball physics, club mechanics, and swing technique"
+    },
+    {
+      "category": null,
+      "key": "pronunciation",
+      "label": "pronunciation",
+      "count": 9,
+      "descriptor": "Practice speaking and recognizing correct Italian word sounds and phrases"
     },
     {
       "category": null,
@@ -3265,13 +3294,6 @@
       "label": "ancient-greece",
       "count": 8,
       "descriptor": "Ancient Greek philosophy emphasizing virtue, reason, and acceptance of universal natural laws."
-    },
-    {
-      "category": null,
-      "key": "pronunciation",
-      "label": "pronunciation",
-      "count": 8,
-      "descriptor": "Games teaching accurate vowel sound production across Irish English regional accents."
     },
     {
       "category": null,
