@@ -2891,6 +2891,25 @@
         "beginner"
       ],
       "thumbnail": "thumbs/coffee.jpg"
+    },
+    {
+      "slug": "computer-science-basics",
+      "name": "Computer Science basics",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-23T14:15:40.153Z",
+      "createdBy": "c_mub4zgbn_x4du6q2i",
+      "author": "Antaine",
+      "subcategory": "Coding",
+      "tags": [
+        "programming",
+        "technology",
+        "terminology",
+        "beginner"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
