@@ -2910,6 +2910,24 @@
         "beginner"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "python-basics",
+      "name": "Python basics",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-23T14:19:19.640Z",
+      "createdBy": "c_mub4zgbn_x4du6q2i",
+      "author": "Antaine",
+      "subcategory": "Coding",
+      "tags": [
+        "programming",
+        "technology",
+        "beginner"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
