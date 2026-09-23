@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Codain · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1790176255223"></script>
+  <script>
+    const GAME_DATA = {"slug":"codain","name":"Codain","emoji":"🔖","category":"Synge Street Cbs","colors":{"pastel":"#F4C7F3","deep":"#CC3EC8","wash":"#F4EBF4"},"background":null,"loops":[{"name":"Bunchoincheapa Codán","emoji":"🍕","timeLimit":15,"qs":[{"type":"mc","q":"Cad é an t-ainm atá ar an uimhir os cionn na líne i gcodán?","a":"Uimhreoir","opts":["Uimhreoir","Ainmneoir","Iomlán"]},{"type":"mc","q":"Cad é an t-ainm atá ar an uimhir faoin líne i gcodán?","a":"Ainmneoir","opts":["Uimhreoir","Ainmneoir","Iomlán"]},{"type":"typed","q":"Cad é an codán a léiríonn \"leath\"?","a":"1/2"},{"type":"typed","q":"Cad é an codán a léiríonn \"ceathrú\"?","a":"1/4"},{"type":"typed","q":"Cad é an codán a léiríonn \"trian\"?","a":"1/3"},{"type":"mc","q":"Sa chodán 3/4, cén uimhir í an t-ainmneoir?","a":"4","opts":["3","4","7"]},{"type":"mc","q":"Sa chodán 3/4, cén uimhir í an t-uimhreoir?","a":"3","opts":["3","4","7"]},{"type":"mc","q":"Cé mhéad ceathrú atá i sláin amháin (1)?","a":"4","opts":["2","3","4"]},{"type":"mc","q":"Cé mhéad leath atá i sláin amháin (1)?","a":"2","opts":["2","3","4"]},{"type":"typed","q":"Cad é an codán a léiríonn deich as deich gcuid?","a":"10/10"}]},{"name":"Codáin Choibhéiseacha agus Comparáid","emoji":"⚖️","timeLimit":15,"qs":[{"type":"mc","q":"Cé acu codán atá comhionann le 1/2?","a":"2/4","opts":["2/4","1/3","3/5"]},{"type":"mc","q":"Cé acu codán atá comhionann le 1/3?","a":"2/6","opts":["2/6","1/4","3/4"]},{"type":"typed","q":"Simpligh an codán 2/4 go dtí a fhoirm is simplí.","a":"1/2"},{"type":"typed","q":"Simpligh an codán 4/8 go dtí a fhoirm is simplí.","a":"1/2"},{"type":"mc","q":"Cé acu is mó, 1/2 nó 1/4?","a":"1/2","opts":["1/2","1/4","Tá siad comhionann"]},{"type":"mc","q":"Cé acu is lú, 1/3 nó 1/5?","a":"1/5","opts":["1/3","1/5","Tá siad comhionann"]},{"type":"typed","q":"Simpligh an codán 3/9 go dtí a fhoirm is simplí.","a":"1/3"},{"type":"mc","q":"Cé acu codán atá comhionann le 3/4?","a":"6/8","opts":["6/8","2/3","4/5"]},{"type":"mc","q":"Cé acu is mó, 2/3 nó 1/3?","a":"2/3","opts":["2/3","1/3","Tá siad comhionann"]},{"type":"typed","q":"Simpligh an codán 5/10 go dtí a fhoirm is simplí.","a":"1/2"}]},{"name":"Suimiú agus Dealú Codán","emoji":"➕","timeLimit":15,"qs":[{"type":"typed","q":"Cad é 1/4 + 1/4?","a":"1/2"},{"type":"typed","q":"Cad é 1/3 + 1/3?","a":"2/3"},{"type":"typed","q":"Cad é 3/4 - 1/4?","a":"1/2"},{"type":"typed","q":"Cad é 2/5 + 1/5?","a":"3/5"},{"type":"mc","q":"Cad é 1/2 + 1/2?","a":"1","opts":["1","2","1/4"]},{"type":"typed","q":"Cad é 4/5 - 2/5?","a":"2/5"},{"type":"typed","q":"Cad é 1/6 + 2/6?","a":"1/2"},{"type":"mc","q":"Cad é 5/8 - 3/8?","a":"1/4","opts":["1/4","3/16","1/2"]},{"type":"typed","q":"Cad é 7/10 - 3/10?","a":"2/5"},{"type":"typed","q":"Cad é 2/6 + 3/6?","a":"5/6"}]},{"name":"Iolrú agus Roinnt Codán","emoji":"✖️","timeLimit":15,"qs":[{"type":"typed","q":"Cad é 1/2 x 1/2?","a":"1/4"},{"type":"typed","q":"Cad é 1/3 x 1/2?","a":"1/6"},{"type":"typed","q":"Cad é 2/3 x 1/2?","a":"1/3"},{"type":"mc","q":"Cad é an riail chun codáin a iolrú?","a":"Iolraigh na huimhreoirí agus iolraigh na hainmneoirí","opts":["Iolraigh na huimhreoirí agus iolraigh na hainmneoirí","Suimigh na huimhreoirí agus na hainmneoirí","Iolraigh an t-uimhreoir amháin"]},{"type":"typed","q":"Cad é 1/4 x 2?","a":"1/2"},{"type":"mc","q":"Chun codán a roinnt le codán eile, cad a dhéanaimid leis an dara codán?","a":"Iompaímid é (an t-uimhreoir agus an t-ainmneoir a mhalartú)","opts":["Iompaímid é (an t-uimhreoir agus an t-ainmneoir a mhalartú)","Fágaimid mar an gcéanna é","Dúblaímid é"]},{"type":"typed","q":"Cad é 1/2 ÷ 1/2?","a":"1"},{"type":"typed","q":"Cad é 1/2 ÷ 1/4?","a":"2"},{"type":"typed","q":"Cad é 3/4 x 1/3?","a":"1/4"},{"type":"typed","q":"Cad é 2/5 x 5?","a":"2"}]},{"name":"Codáin Mheasctha agus Fadhbanna Casta","emoji":"🧩","timeLimit":15,"qs":[{"type":"mc","q":"Cad is codán mícheart ann?","a":"Codán ina bhfuil an t-uimhreoir níos mó ná an t-ainmneoir","opts":["Codán ina bhfuil an t-uimhreoir níos mó ná an t-ainmneoir","Codán ina bhfuil an t-ainmneoir níos mó ná an t-uimhreoir","Codán atá comhionann le nialas"]},{"type":"mc","q":"Athraigh an codán mícheart 5/2 go dtí uimhir mheasctha.","a":"2 1/2","opts":["2 1/2","1 1/2","3 1/2"]},{"type":"mc","q":"Athraigh an uimhir mheasctha 1 1/2 go dtí codán mícheart.","a":"3/2","opts":["3/2","2/3","1/2"]},{"type":"typed","q":"Cad é 1/2 + 1/3 i bhfoirm is simplí?","a":"5/6"},{"type":"typed","q":"Cad é 3/4 - 1/3 i bhfoirm is simplí?","a":"5/12"}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
