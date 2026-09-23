@@ -2873,6 +2873,24 @@
         "fun-italian"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "coffee",
+      "name": "Coffee",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 4,
+      "questionCount": 35,
+      "publishedAt": "2026-09-23T12:44:47.229Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "Coffee",
+      "tags": [
+        "vocabulary",
+        "food",
+        "beginner"
+      ],
+      "thumbnail": "thumbs/coffee.jpg"
     }
   ],
   "categories": {
@@ -3250,7 +3268,9 @@
     "Misc::cooking": "Explore mulligatawny soup origins, ingredients, and techniques for rich flavor mastery.",
     "Misc::food": "Culinary knowledge covering mulligatawny soup origins, ingredients, and cooking techniques",
     "Language::fun-italian": "Playful Italian language quizzes covering vocabulary, grammar, verb tenses, and idioms.",
-    "Language::italian-italy": "Learn Italian vocabulary, grammar, verb tenses, and idiomatic expressions progressively."
+    "Language::italian-italy": "Learn Italian vocabulary, grammar, verb tenses, and idiomatic expressions progressively.",
+    "Language::food": "Trivia about coffee's history, culture, and spread across the world",
+    "Language::coffee": "Trivia on coffee's legendary origins, spread, and cultural history worldwide."
   },
   "shelves": [
     {
