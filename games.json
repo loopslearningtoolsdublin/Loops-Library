@@ -2638,24 +2638,6 @@
       "thumbnail": null
     },
     {
-      "slug": "test-new-address",
-      "name": "Test new address",
-      "category": "Geography",
-      "emoji": "✨",
-      "loopCount": 5,
-      "questionCount": 50,
-      "publishedAt": "2026-09-18T10:00:05.213Z",
-      "createdBy": "c_mu6sdeew_zaoa9die",
-      "author": "SMQ",
-      "subcategory": null,
-      "tags": [
-        "maps",
-        "map-location",
-        "test"
-      ],
-      "thumbnail": null
-    },
-    {
       "slug": "functions",
       "name": "Functions",
       "category": "Other",
