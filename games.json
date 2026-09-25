@@ -2018,7 +2018,11 @@
         "botany",
         "junior-cycle-science"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "essential-spanish-verbs",
@@ -2036,7 +2040,11 @@
         "grammar",
         "beginner"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "leo-messi",
@@ -2054,7 +2062,11 @@
         "world-cup",
         "sports-basics"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "marvel",
@@ -2072,7 +2084,11 @@
         "superheroes",
         "comics"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "stephen-king-s-it",
@@ -2090,7 +2106,11 @@
         "quotes",
         "movies"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "man-united",
@@ -2124,7 +2144,11 @@
         "vocabulary",
         "beginner"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "cricket-basics",
@@ -2143,7 +2167,11 @@
         "technique",
         "vocabulary"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "wrold-flags-in-spanish",
