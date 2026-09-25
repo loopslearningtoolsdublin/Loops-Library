@@ -2896,7 +2896,11 @@
         "orchestration",
         "composers"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "spanish-numbers-and-time",
@@ -2914,7 +2918,11 @@
         "beginner",
         "numbers"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "interests-and-hobbies-spanish",
@@ -2932,7 +2940,11 @@
         "beginner",
         "daily-routines"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "semiconductors",
@@ -2951,7 +2963,11 @@
         "general-knowledge",
         "leaving-cert"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "spanish-lc1",
@@ -2969,7 +2985,11 @@
         "beginner",
         "synge-st-cbs"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "jc3-1-present-tense-review",
@@ -2986,7 +3006,11 @@
         "verb-conjugation",
         "vocabulary"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "geographical-features-of-spain",
@@ -3005,7 +3029,11 @@
         "vocabulary",
         "beginner"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "main-tourist-attractiions-of-spain",
@@ -3023,7 +3051,11 @@
         "tourism",
         "spain"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "all-about-the-liberties-dublin8",
