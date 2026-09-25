@@ -1495,7 +1495,11 @@
         "word-origins",
         "sport-football-synge-street"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "spanish-buildings-and-street-vocabulary",
@@ -1513,7 +1517,11 @@
         "vocabulary",
         "Spanish"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "basketball-in-spanish",
@@ -1531,7 +1539,11 @@
         "vocabulary",
         "sports-basics"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "past-tense-spanish",
@@ -1548,7 +1560,11 @@
         "grammar",
         "past-tense"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "spanish-conversations-for-false-beginners",
@@ -1566,7 +1582,11 @@
         "vocabulary",
         "pronunciation"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "spanish-sentence-connectors-and-prepostions",
@@ -1585,7 +1605,11 @@
         "grammar",
         "beginner"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "verbs",
@@ -1601,7 +1625,11 @@
       "tags": [
         "vocabulary"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "es",
+        "a": "es"
+      }
     },
     {
       "slug": "hobbies-and-activities",
@@ -1619,7 +1647,11 @@
         "daily-routines",
         "vocabulary"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "world-flags",
