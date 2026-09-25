@@ -2357,7 +2357,11 @@
         "team-competition",
         "general-knowledge"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "math-factorization",
@@ -2378,7 +2382,11 @@
         "factorization",
         "beginner"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "coding",
@@ -2399,7 +2407,11 @@
         "technology",
         "general-knowledge"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "man-united-2-0",
@@ -2417,7 +2429,11 @@
         "club-level",
         "general-knowledge"
       ],
-      "thumbnail": "thumbs/man-united-2-0.png"
+      "thumbnail": "thumbs/man-united-2-0.png",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "atl-tico-madrid",
@@ -2435,7 +2451,11 @@
         "vocabulary",
         "terminology"
       ],
-      "thumbnail": "thumbs/atl-tico-madrid.jpg"
+      "thumbnail": "thumbs/atl-tico-madrid.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "essential-spanish-verbs-past",
@@ -2454,7 +2474,11 @@
         "vocabulary",
         "beginner"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "test-subject-1",
@@ -2473,7 +2497,11 @@
         "pronunciation",
         "sports-basics"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "es",
+        "a": "es"
+      }
     },
     {
       "slug": "spanish-sentence-structuring",
@@ -2490,7 +2518,11 @@
         "vocabulary",
         "beginner"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "shawarma",
