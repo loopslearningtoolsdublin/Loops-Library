@@ -597,7 +597,11 @@
         "ancient-philosophy",
         "History"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "latin",
@@ -616,7 +620,11 @@
         "language",
         "beginner"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "la"
+      }
     },
     {
       "slug": "spanish-basics",
@@ -633,7 +641,11 @@
         "beginner",
         "grammar"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "japan",
@@ -650,7 +662,11 @@
         "language",
         "beginner"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "ja"
+      }
     },
     {
       "slug": "golf-balls",
@@ -670,7 +686,11 @@
         "physics",
         "technique"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "counties-of-england",
@@ -690,7 +710,11 @@
         "map-location",
         "english-geography"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "lc-classics-beginner",
@@ -709,7 +733,11 @@
         "vocabulary",
         "ancient-greece"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "irish-accents",
@@ -730,7 +758,11 @@
         "irish-accents",
         "regional-dialect"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "basic-lc-classics-vocab",
