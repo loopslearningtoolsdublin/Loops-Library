@@ -131,7 +131,11 @@
       "createdBy": "c_mrm4v9td_v8t7p0sh",
       "author": "SMQ",
       "subcategory": "Sport",
-      "tags": []
+      "tags": [],
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "basic-english",
@@ -144,7 +148,11 @@
       "createdBy": "c_mrmn1tcl_u0hxk13v",
       "author": "Rodge",
       "subcategory": null,
-      "tags": []
+      "tags": [],
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "the-american-office-tv-show",
@@ -159,7 +167,11 @@
       "subcategory": null,
       "tags": [
         "tv"
-      ]
+      ],
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "daily-help-no-1",
@@ -174,7 +186,11 @@
       "subcategory": "Life Skills",
       "tags": [
         "daily-routines"
-      ]
+      ],
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "arriving-in-sevilla",
@@ -189,7 +205,11 @@
       "subcategory": null,
       "tags": [
         "holiday-vocab"
-      ]
+      ],
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "cadiz-spanish-slang",
@@ -204,7 +224,11 @@
       "subcategory": null,
       "tags": [
         "holiday-vocab"
-      ]
+      ],
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "ukrainian-vocab",
@@ -217,7 +241,11 @@
       "createdBy": "c_mrma1co7_n2qv1lsa",
       "author": "James",
       "subcategory": "Ukrainian",
-      "tags": []
+      "tags": [],
+      "lang": {
+        "q": "en",
+        "a": "uk"
+      }
     },
     {
       "slug": "alicante",
@@ -230,7 +258,11 @@
       "createdBy": "c_mrvwwr4n_golt2bs0",
       "author": "Marcos",
       "subcategory": "Travel",
-      "tags": []
+      "tags": [],
+      "lang": {
+        "q": "es",
+        "a": "es"
+      }
     },
     {
       "slug": "country-in-english",
