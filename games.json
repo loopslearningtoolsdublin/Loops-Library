@@ -1144,7 +1144,11 @@
         "beginner",
         "technique"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "how-to-play-guitar",
@@ -1163,7 +1167,11 @@
         "chords",
         "technique"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "russian-for-beginners",
@@ -1181,7 +1189,11 @@
         "grammar",
         "pronunciation"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "glasgow-celtic-fc",
@@ -1200,7 +1212,11 @@
         "scotland",
         "glasgow"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "irish-for-foreigner",
@@ -1217,7 +1233,11 @@
         "vocabulary",
         "pronunciation"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "ga"
+      }
     },
     {
       "slug": "humility",
@@ -1234,7 +1254,11 @@
         "stoicism",
         "beliefs"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "the-great-gatbsy-revision-game",
@@ -1251,7 +1275,11 @@
         "literary-devices",
         "figurative-language"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "the-great-gatsby-revision",
@@ -1268,7 +1296,11 @@
         "vocabulary",
         "plot"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "basic-spanish-verbs-present-tense",
