@@ -3072,7 +3072,11 @@
         "Travel",
         "irish-geography"
       ],
-      "thumbnail": "thumbs/all-about-the-liberties-dublin8.jpg"
+      "thumbnail": "thumbs/all-about-the-liberties-dublin8.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "perfect-tenses-in-english",
@@ -3088,7 +3092,11 @@
       "tags": [
         "verb-conjugation"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "leaen-english",
@@ -3106,7 +3114,11 @@
         "beginner",
         "grammar"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "past-participles",
@@ -3123,7 +3135,11 @@
         "verb-forms",
         "vocabulary"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "ist-year-intro-greetings-intros-and-where-you-live",
@@ -3141,7 +3157,11 @@
         "greetings",
         "numbers"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "lc-spanish2",
@@ -3160,7 +3180,11 @@
         "listening",
         "numbers"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "jc-spanish-2-present-and-future",
@@ -3178,7 +3202,11 @@
         "verb-forms",
         "beginner"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "foundations-of-music-theory",
@@ -3195,7 +3223,11 @@
         "music-theory",
         "general-knowledge"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "functions",
