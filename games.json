@@ -1316,7 +1316,11 @@
       "tags": [
         "grammar"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "dolly-parton",
@@ -1333,7 +1337,11 @@
         "music",
         "folk-music"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "spanish-spellings",
@@ -1351,7 +1359,11 @@
         "pronunciation",
         "grammar"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "spanish-spelling-rules",
@@ -1371,7 +1383,11 @@
         "phonetic",
         "vowel-sounds"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "english-pre-5th-year-revision",
@@ -1389,7 +1405,11 @@
         "vocabulary",
         "literary-devices"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "maths-pre-5th-year-revision",
@@ -1410,7 +1430,11 @@
         "exam-prep",
         "beginner"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "computer-science-basics-for-5th-year",
@@ -1429,7 +1453,11 @@
         "exam-prep",
         "leaving-cert"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "spanish",
@@ -1446,7 +1474,11 @@
         "vocabulary",
         "grammar"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "football-volcabulary-for-english-speakers",
