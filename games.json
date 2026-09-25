@@ -966,7 +966,11 @@
         "grammar",
         "beginner"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "ga",
+        "a": "es"
+      }
     },
     {
       "slug": "re-keywords",
@@ -984,7 +988,11 @@
         "vocabulary",
         "beliefs"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "historical-economists",
@@ -1000,7 +1008,11 @@
       "tags": [
         "History"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "poetic-techniques",
@@ -1021,7 +1033,11 @@
         "figurative-language",
         "vocabulary"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "algebraic-expressions",
@@ -1040,7 +1056,11 @@
         "problem-solving",
         "intro-to-algebraic-equations"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "prepositions-in-irish",
@@ -1058,7 +1078,11 @@
         "vocabulary",
         "prepositions"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "lc-business-essentials",
@@ -1075,7 +1099,11 @@
         "standardized-tests",
         "vocabulary"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "back-to-school",
@@ -1093,7 +1121,11 @@
         "back-to-school",
         "school-life"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "banjo-playing",
