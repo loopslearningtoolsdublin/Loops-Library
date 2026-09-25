@@ -783,7 +783,11 @@
         "ancient-greece",
         "greek-mythology"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "the-basics-of-game-theory",
@@ -803,7 +807,11 @@
         "decision-making",
         "beginner"
       ],
-      "thumbnail": "thumbs/the-basics-of-game-theory.jpg"
+      "thumbnail": "thumbs/the-basics-of-game-theory.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "etymology-of-english-words",
@@ -822,7 +830,11 @@
         "word-origins",
         "etymology"
       ],
-      "thumbnail": "thumbs/etymology-of-english-words.jpg"
+      "thumbnail": "thumbs/etymology-of-english-words.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "classic-movie-quotes",
@@ -842,7 +854,11 @@
         "quotes",
         "jaws"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "yam-s-five-game",
@@ -862,7 +878,11 @@
         "rules",
         "jaws"
       ],
-      "thumbnail": "thumbs/yam-s-five-game.jpg"
+      "thumbnail": "thumbs/yam-s-five-game.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "game-and-play-in-learning",
@@ -879,7 +899,11 @@
         "grammar",
         "beginner"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "history",
@@ -899,7 +923,11 @@
         "language",
         "architecture"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "nouns",
@@ -917,7 +945,11 @@
         "nouns",
         "language"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "sp-nnis",
