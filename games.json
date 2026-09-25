@@ -3600,7 +3600,11 @@
         "general-knowledge",
         "spelling"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
