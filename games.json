@@ -2188,7 +2188,11 @@
         "spanish",
         "vocabulary"
       ],
-      "thumbnail": "thumbs/wrold-flags-in-spanish.jpg"
+      "thumbnail": "thumbs/wrold-flags-in-spanish.jpg",
+      "lang": {
+        "q": "es",
+        "a": "es"
+      }
     },
     {
       "slug": "football",
@@ -2204,7 +2208,11 @@
       "tags": [
         "english-football"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "international-foods",
@@ -2220,7 +2228,11 @@
       "tags": [
         "beginner"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "world-cup",
@@ -2234,7 +2246,11 @@
       "author": null,
       "subcategory": null,
       "tags": [],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "laliga",
@@ -2252,7 +2268,11 @@
         "vocabulary",
         "laliga"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "accounting",
@@ -2271,7 +2291,11 @@
         "beginner",
         "general-knowledge"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "maps-revision",
@@ -2288,7 +2312,11 @@
         "general-knowledge",
         "Standardized Tests"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "lebron-james",
@@ -2306,7 +2334,11 @@
         "vocabulary",
         "general-knowledge"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "basketball-rules",
