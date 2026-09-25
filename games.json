@@ -426,7 +426,11 @@
       "subcategory": "German",
       "tags": [
         "grammar"
-      ]
+      ],
+      "lang": {
+        "q": "en",
+        "a": "de"
+      }
     },
     {
       "slug": "hx-46-cafe",
@@ -444,7 +448,11 @@
         "takeaway",
         "recipes",
         "food"
-      ]
+      ],
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "butler-s-bridge-gaa",
@@ -462,7 +470,11 @@
         "club-level",
         "county-cavan",
         "gaelic-football"
-      ]
+      ],
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "hedge-row-plants",
@@ -477,7 +489,11 @@
       "subcategory": "Nature",
       "tags": [
         "botany"
-      ]
+      ],
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "hubris",
@@ -493,7 +509,11 @@
       "tags": [
         "vocabulary",
         "greek-mythology"
-      ]
+      ],
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "ready-player-one",
@@ -510,7 +530,11 @@
         "movies",
         "ready-player-one",
         "virtual-reality"
-      ]
+      ],
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "glen-hansard",
@@ -528,7 +552,11 @@
         "folk-music",
         "music"
       ],
-      "thumbnail": "thumbs/glen-hansard.jpg"
+      "thumbnail": "thumbs/glen-hansard.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "nottingham-forest",
@@ -546,7 +574,11 @@
         "nottingham-forest",
         "club-level"
       ],
-      "thumbnail": "thumbs/nottingham-forest.jpg"
+      "thumbnail": "thumbs/nottingham-forest.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "stoics",
