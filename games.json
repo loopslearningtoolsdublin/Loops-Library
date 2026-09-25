@@ -1665,7 +1665,11 @@
       "author": "Ezzaldeen",
       "subcategory": null,
       "tags": [],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "history-wwii-jc-revision",
@@ -1683,7 +1687,11 @@
         "wwii",
         "revision"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "french-adjectives",
@@ -1700,7 +1708,11 @@
         "vocabulary",
         "beginner"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "fr"
+      }
     },
     {
       "slug": "help-you-with-general-exams",
@@ -1718,7 +1730,11 @@
         "vocabulary",
         "grammar"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "business",
@@ -1738,7 +1754,11 @@
         "leaving-cert",
         "exam-prep"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "poetry-technique-revision",
@@ -1756,7 +1776,11 @@
         "vocabulary",
         "general-knowledge"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "greek-gods-family-tree",
@@ -1773,7 +1797,11 @@
         "ancient-greece",
         "family-tree"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "cronos",
@@ -1792,7 +1820,11 @@
         "titans",
         "classics"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "the-titans",
