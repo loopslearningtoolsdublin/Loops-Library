@@ -2931,6 +2931,24 @@
         "grammar"
       ],
       "thumbnail": null
+    },
+    {
+      "slug": "academic-vocabulary-snip-3-session-1",
+      "name": "Academic Vocabulary:SNIP 3 session 1",
+      "category": "Exam Prep",
+      "emoji": "📝",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-25T07:05:34.279Z",
+      "createdBy": "c_muf88d8g_3a0z2b62",
+      "author": "Maeve",
+      "subcategory": "vocabulary",
+      "tags": [
+        "Standardized Tests",
+        "general-knowledge",
+        "spelling"
+      ],
+      "thumbnail": null
     }
   ],
   "categories": {
@@ -3313,7 +3331,8 @@
     "Language::coffee": "Trivia on coffee's legendary origins, spread, and cultural history worldwide.",
     "Synge Street Cbs::terminology": "Irish-language quiz on fraction vocabulary, equivalence, operations, and mixed numbers.",
     "Synge Street Cbs::technology": "Fraction concepts, equivalence, and arithmetic operations practiced through Irish-language questions.",
-    "Synge Street Cbs::programming": "Irish-language fraction concepts, equivalence, arithmetic, and mixed number problems"
+    "Synge Street Cbs::programming": "Irish-language fraction concepts, equivalence, arithmetic, and mixed number problems",
+    "Exam Prep::spelling": "Practice spelling vocabulary words correctly, from basic terms to tricky word distinctions."
   },
   "shelves": [
     {
@@ -3385,6 +3404,13 @@
       "label": "english-football",
       "count": 7,
       "descriptor": "English football club history, achievements, and notable periods"
+    },
+    {
+      "category": null,
+      "key": "standardized-tests",
+      "label": "Standardized Tests",
+      "count": 7,
+      "descriptor": "Fact-recall quizzes on RE terms, evidence types, and belief concepts"
     },
     {
       "category": null,
