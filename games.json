@@ -3423,7 +3423,11 @@
         "beginner",
         "synge-street-cbs"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "st-r-focal-ceisteanna-fil-ochta",
@@ -3441,7 +3445,11 @@
         "vocabulary",
         "st-r-focal"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "ga",
+        "a": "en"
+      }
     },
     {
       "slug": "mulligatawny-soup",
@@ -3458,7 +3466,11 @@
         "recipes",
         "food"
       ],
-      "thumbnail": "thumbs/mulligatawny-soup.jpg"
+      "thumbnail": "thumbs/mulligatawny-soup.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "italian",
@@ -3496,7 +3508,11 @@
         "food",
         "beginner"
       ],
-      "thumbnail": "thumbs/coffee.jpg"
+      "thumbnail": "thumbs/coffee.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "computer-science-basics",
@@ -3515,7 +3531,11 @@
         "terminology",
         "beginner"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "python-basics",
@@ -3533,7 +3553,11 @@
         "technology",
         "beginner"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "codain",
@@ -3554,7 +3578,11 @@
         "terminology",
         "grammar"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "ga",
+        "a": "ga"
+      }
     },
     {
       "slug": "academic-vocabulary-snip-3-session-1",
