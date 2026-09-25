@@ -275,7 +275,11 @@
       "createdBy": "c_mrvxa1ne_sm2v94hb",
       "author": "Paul",
       "subcategory": null,
-      "tags": []
+      "tags": [],
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "world-leaders",
@@ -290,7 +294,11 @@
       "subcategory": "Politics",
       "tags": [
         "heads-of-state"
-      ]
+      ],
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "english-tenses",
@@ -303,7 +311,11 @@
       "createdBy": "c_mrma1co7_n2qv1lsa",
       "author": "James",
       "subcategory": null,
-      "tags": []
+      "tags": [],
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "world-history",
@@ -316,7 +328,11 @@
       "createdBy": "c_mrvywpmf_ocsm1d62",
       "author": "Paul",
       "subcategory": "History",
-      "tags": []
+      "tags": [],
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "fontaines-dc",
@@ -331,7 +347,11 @@
       "subcategory": null,
       "tags": [
         "music"
-      ]
+      ],
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "casual-nba",
@@ -346,7 +366,11 @@
       "subcategory": "Sport",
       "tags": [
         "basketball"
-      ]
+      ],
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "corrie",
@@ -361,7 +385,11 @@
       "subcategory": null,
       "tags": [
         "tv"
-      ]
+      ],
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "all-ireland-football-championship",
@@ -379,7 +407,11 @@
         "championship",
         "team-competition",
         "gaelic-football"
-      ]
+      ],
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "german-verbs-a1",
