@@ -2541,7 +2541,11 @@
         "thai-food",
         "general-knowledge"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "arabic-to-english",
@@ -2558,7 +2562,11 @@
         "vocabulary",
         "beginner"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "general-knowledge",
@@ -2575,7 +2583,11 @@
         "quotes",
         "trivia"
       ],
-      "thumbnail": "thumbs/general-knowledge.jpg"
+      "thumbnail": "thumbs/general-knowledge.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "premier-league",
@@ -2593,7 +2605,11 @@
         "sports-basics",
         "general-knowledge"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "cien-a-os-de-soledad-1",
@@ -2610,7 +2626,11 @@
         "spanish",
         "Literature"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "struct-r-an-domhain",
@@ -2628,7 +2648,11 @@
         "beginner",
         "nature"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "ga",
+        "a": "ga"
+      }
     },
     {
       "slug": "uimhreacha-1",
@@ -2648,7 +2672,11 @@
         "numbers",
         "Maths"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "ga",
+        "a": "en"
+      }
     },
     {
       "slug": "isaac-newton",
@@ -2666,7 +2694,11 @@
         "History",
         "general-knowledge"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "classroom-language",
