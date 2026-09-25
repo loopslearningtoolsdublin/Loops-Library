@@ -1842,7 +1842,11 @@
         "classics",
         "general-knowledge"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "so-who-were-the-titans",
@@ -1860,7 +1864,11 @@
         "classics",
         "origin-stories"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "mayo4sam2027",
@@ -1878,7 +1886,11 @@
         "championship",
         "county-mayo"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "beschreibe-dein-haus",
@@ -1896,7 +1908,11 @@
         "beginner",
         "daily-routines"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "de"
+      }
     },
     {
       "slug": "othello-quotations",
@@ -1913,7 +1929,11 @@
         "vocabulary",
         "figurative-language"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "statistics-revision-before-college-starts",
@@ -1932,7 +1952,11 @@
         "standardized-tests",
         "leaving-cert"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "1st-year-commerce-prep",
@@ -1951,7 +1975,11 @@
         "leaving-cert",
         "general-knowledge"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "bp-fallon",
@@ -1967,7 +1995,11 @@
       "tags": [
         "irish-musician"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "junior-cycle-biology-review",
