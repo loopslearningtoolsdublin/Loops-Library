@@ -3245,7 +3245,11 @@
         "graphs",
         "algebra"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "spanish-hobbies-read-and-watch",
@@ -3264,7 +3268,11 @@
         "daily-routines",
         "synge-street-cbs"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "spanish-time-present-daily-routine",
@@ -3282,7 +3290,11 @@
         "grammar",
         "vocabulary"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "diodes-and-transistors",
@@ -3300,7 +3312,11 @@
         "leaving-cert",
         "technique"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "dc",
@@ -3318,7 +3334,11 @@
         "tv",
         "comics"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "spanish-symbols-and-basic-history",
@@ -3336,7 +3356,11 @@
         "history",
         "general-knowledge"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "movies",
@@ -3353,7 +3377,11 @@
         "films",
         "bts"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "jc-spanish-3-countries-nationalities-and-preposit",
@@ -3372,7 +3400,11 @@
         "beginner",
         "prepositions"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "el-tiempo-en-spanish-weather",
