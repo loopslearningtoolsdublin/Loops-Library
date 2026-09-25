@@ -2717,7 +2717,11 @@
         "listening",
         "classroom-phrases"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "shows",
@@ -2736,7 +2740,11 @@
         "maps",
         "map-location"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "irregular-spanish-past-tense",
@@ -2755,7 +2763,11 @@
         "language",
         "verbs"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "fiesta-1",
@@ -2774,7 +2786,11 @@
         "classroom-phrases",
         "greetings"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "hard-level-verbs-spanish",
@@ -2791,7 +2807,11 @@
         "vocabulary",
         "beginner"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "es",
+        "a": "es"
+      }
     },
     {
       "slug": "cheesecake",
@@ -2809,7 +2829,11 @@
         "recipes",
         "vocabulary"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "champion-spanish-extremely-hard",
@@ -2827,7 +2851,11 @@
         "verb-conjugation",
         "sentence-structure"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     },
     {
       "slug": "ww2",
@@ -2844,7 +2872,11 @@
         "heads-of-state",
         "general-knowledge"
       ],
-      "thumbnail": null
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "berlioz-symphonie-fantastique-iv",
