@@ -45,7 +45,11 @@
       "tags": [
         "tv",
         "music"
-      ]
+      ],
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "christopher-nolan-director",
@@ -58,7 +62,11 @@
       "subcategory": null,
       "tags": [
         "movies"
-      ]
+      ],
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "cape-verde",
@@ -69,7 +77,11 @@
       "questionCount": 100,
       "publishedAt": "2026-07-14T19:03:15.031Z",
       "subcategory": "Travel",
-      "tags": []
+      "tags": [],
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "tibetan-terriers",
@@ -85,7 +97,11 @@
       "tags": [
         "animals",
         "dogs"
-      ]
+      ],
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "tibettan-terriers",
@@ -98,7 +114,11 @@
       "createdBy": "c_mrm4d78o_wsyx9f55",
       "author": "SMQ",
       "subcategory": null,
-      "tags": []
+      "tags": [],
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     },
     {
       "slug": "chelsea-fc",
