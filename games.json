@@ -3628,6 +3628,29 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "c-diz",
+      "name": "Cádiz",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 3,
+      "questionCount": 28,
+      "publishedAt": "2026-09-27T15:15:00.810Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "Sport",
+      "tags": [
+        "club-level",
+        "spain",
+        "football",
+        "c-diz"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -3767,7 +3790,7 @@
     "Other::folk-music": "Traditional Irish music traditions and folk storytelling through contemporary singer-songwriter expression.",
     "Other::english-football": "English football club history, achievements, and notable periods",
     "Other::nottingham-forest": "English football club history, identity, achievements, and legendary management era.",
-    "Other::football": "Manchester United trivia spanning history, legends, trophies, stadium lore, and modern-era facts.",
+    "Other::football": "Association football teams, leagues, players, and general soccer-related content",
     "Other::stoicism": "Philosophy emphasizing virtue, reason, and accepting what you cannot control.",
     "Other::ancient-greece": "Ancient Greek philosophy emphasizing virtue, reason, and acceptance of universal natural laws.",
     "Other::philosophy": "Explores ancient Greek philosophy emphasizing virtue, reason, and acceptance of what cannot be controlled.",
@@ -3923,7 +3946,7 @@
     "Other::superheroes": "Trivia about superhero characters, powers, teams, and comic/movie lore.",
     "Other::manu": "Trivia questions about Manchester United's history, managers, and Old Trafford stadium.",
     "Other::la-liga": "Atlético Madrid's La Liga titles, transfers, and player signings history",
-    "Other::spain": "Spanish cities, landmarks, and cultural history quiz questions",
+    "Other::spain": "Facts about Cadiz, Spain: city history, culture, and its football club",
     "Other::transfers": "Player transfers, signings, and club moves involving Atlético Madrid",
     "Other::spanish-football": "Trivia on Atlético Madrid's recent titles, transfers, and player signings",
     "Other::movies": "Trivia on iconic films, casts, characters, and plot details",
@@ -4012,9 +4035,17 @@
     "Synge Street Cbs::technology": "Fraction concepts, equivalence, and arithmetic operations practiced through Irish-language questions.",
     "Synge Street Cbs::programming": "Irish-language fraction concepts, equivalence, arithmetic, and mixed number problems",
     "Exam Prep::spelling": "Practice spelling vocabulary words correctly, from basic terms to tricky word distinctions.",
-    "Exam Prep::cell-division": "Quiz on mitosis, meiosis, chromosomes, cell cycle phases, and cancer-related cell division concepts."
+    "Exam Prep::cell-division": "Quiz on mitosis, meiosis, chromosomes, cell cycle phases, and cancer-related cell division concepts.",
+    "Other::c-diz": "Trivia on Cadiz city's geography, culture, history, and its football club"
   },
   "shelves": [
+    {
+      "category": null,
+      "key": "sport",
+      "label": "Sport",
+      "count": 9,
+      "descriptor": "Trivia about famous athletes, their careers, teams, and major sporting achievements."
+    },
     {
       "category": null,
       "key": "music",
@@ -4035,13 +4066,6 @@
       "label": "pronunciation",
       "count": 9,
       "descriptor": "Practice speaking and recognizing correct Italian word sounds and phrases"
-    },
-    {
-      "category": null,
-      "key": "sport",
-      "label": "Sport",
-      "count": 8,
-      "descriptor": "Trivia about famous athletes, their careers, teams, and major sporting achievements."
     },
     {
       "category": null,
