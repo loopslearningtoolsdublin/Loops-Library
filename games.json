@@ -3605,6 +3605,29 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "cell-division",
+      "name": "Cell division",
+      "category": "Exam Prep",
+      "emoji": "📝",
+      "loopCount": 5,
+      "questionCount": 45,
+      "publishedAt": "2026-09-27T11:58:06.545Z",
+      "createdBy": "c_mujrhr0d_4y9hacti",
+      "author": "Ben",
+      "subcategory": "Biology",
+      "tags": [
+        "junior-cycle-science",
+        "leaving-cert",
+        "general-knowledge",
+        "cell-division"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -3888,7 +3911,7 @@
     "Exam Prep::character-traits": "Quotes and traits revealing Othello's characters' motives, flaws, and identities.",
     "Other::statistics": "Practice core statistics: averages, probability, correlation, distributions, hypothesis testing, and regression concepts.",
     "Exam Prep::junior-cycle-science": "Junior-cycle biology quiz covering cells, classification, body systems, genetics, and microbiology.",
-    "Exam Prep::biology": "Explores cells, classification, body systems, genetics, and microbiology fundamentals",
+    "Exam Prep::biology": "Trivia on cell division, mitosis, meiosis, chromosomes, and cancer biology concepts",
     "Exam Prep::botany": "botany — related content.",
     "Exam Prep::synge-street-cbs": "Junior Cycle biology quiz spanning cells, ecology, body systems, and genetics",
     "General Knowledge::sports-basics": "General sports knowledge covering athletes, rules, and basic facts about sports.",
@@ -3988,7 +4011,8 @@
     "Synge Street Cbs::terminology": "Irish-language quiz on fraction vocabulary, equivalence, operations, and mixed numbers.",
     "Synge Street Cbs::technology": "Fraction concepts, equivalence, and arithmetic operations practiced through Irish-language questions.",
     "Synge Street Cbs::programming": "Irish-language fraction concepts, equivalence, arithmetic, and mixed number problems",
-    "Exam Prep::spelling": "Practice spelling vocabulary words correctly, from basic terms to tricky word distinctions."
+    "Exam Prep::spelling": "Practice spelling vocabulary words correctly, from basic terms to tricky word distinctions.",
+    "Exam Prep::cell-division": "Quiz on mitosis, meiosis, chromosomes, cell cycle phases, and cancer-related cell division concepts."
   },
   "shelves": [
     {
@@ -4067,6 +4091,13 @@
       "label": "Standardized Tests",
       "count": 7,
       "descriptor": "Fact-recall quizzes on RE terms, evidence types, and belief concepts"
+    },
+    {
+      "category": null,
+      "key": "leaving-cert",
+      "label": "leaving-cert",
+      "count": 7,
+      "descriptor": "Irish Leaving Cert-aligned statistics and probability quiz spanning basics to inference"
     },
     {
       "category": null,
