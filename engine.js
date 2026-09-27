@@ -657,45 +657,6 @@
   function langTag(code) { return LANG_TAGS[code] || code || "en-IE"; }
   function qLang() { return (GAME && GAME.lang && GAME.lang.q) || "en"; }
   function aLang() { return (GAME && GAME.lang && GAME.lang.a) || qLang(); }
-  // Games store one question language and one answer language, but vocab
-  // games run both ways ("What does 'el sol' mean in English?" vs "How do
-  // you say 'rain' in Spanish?"). Naming the question language (and not the
-  // answer language) flips that question's answers to the question language.
-  var LANG_NAMES = {
-    en: /\benglish\b|inglés|\banglais\b|\benglisch\b|béarla/i,
-    es: /\bspanish\b|español|\bespanol\b|\bcastellano\b/i,
-    fr: /\bfrench\b|français|\bfrancais\b/i,
-    de: /\bgerman\b|\bdeutsch\b/i,
-    ga: /\birish\b|\bgaeilge\b/i,
-    it: /\bitalian\b|\bitaliano\b/i,
-    pt: /\bportuguese\b|português/i,
-    nl: /\bdutch\b/i,
-    pl: /\bpolish\b/i
-  };
-  function answerLangFor(q) {
-    var ql = qLang(), al = aLang();
-    if (ql === al || !q) return al;
-    var text = q.q || "";
-    var namesQ = LANG_NAMES[ql] && LANG_NAMES[ql].test(text);
-    var namesA = LANG_NAMES[al] && LANG_NAMES[al].test(text);
-    return namesQ && !namesA ? ql : al;
-  }
-  // Splits a question so a quoted word/phrase is read in its own language:
-  // the quoted bit is whichever language the answer ISN'T in.
-  function questionParts(q) {
-    var ql = qLang(), al = aLang(), ans = answerLangFor(q);
-    var quoteLang = ans === al ? ql : al;
-    if (ql === al || quoteLang === ql || !voiceFor(quoteLang)) return [{ text: q.q, code: ql }];
-    var parts = [], re = /["\u201C\u00AB]([^"\u201D\u00BB]+)["\u201D\u00BB]/g, last = 0, m;
-    while ((m = re.exec(q.q))) {
-      if (m.index > last) parts.push({ text: q.q.slice(last, m.index), code: ql });
-      parts.push({ text: m[1], code: quoteLang });
-      last = re.lastIndex;
-    }
-    if (last < q.q.length) parts.push({ text: q.q.slice(last), code: ql });
-    return parts.filter(function (p) { return /\S/.test(p.text); });
-  }
-
   function timeFactor() {
     try { return localStorage.getItem("loops_more_time") === "1" ? 2 : 1; } catch (e) { return 1; }
   }
@@ -728,13 +689,12 @@
     if (!synth || !q) return;
     if (synth.speaking) { stopSpeaking(); resumeTimer(); return; } // tap again to stop
 
-    var parts = questionParts(q);
-    // Options are read in this question's answer language — only when the
-    // phone actually has a voice for it, so options never come out mangled.
-    var optLang = answerLangFor(q);
-    if (q.type === "mc" && (optLang === qLang() || voiceFor(optLang))) {
+    var parts = [{ text: q.q, code: qLang() }];
+    // Options are read in the answer language — only when the phone actually
+    // has a voice for it, so Irish/Spanish options never come out mangled.
+    if (q.type === "mc" && (aLang() === qLang() || voiceFor(aLang()))) {
       Array.prototype.forEach.call(document.querySelectorAll(".loops-opt"), function (b) {
-        parts.push({ text: b.textContent, code: optLang });
+        parts.push({ text: b.textContent, code: aLang() });
       });
     }
 
@@ -781,7 +741,7 @@
     var r;
     try { r = new SR(); } catch (e) { return; }
     recog = r;
-    r.lang = langTag(answerLangFor(G.queue[G.qi]));
+    r.lang = langTag(aLang());
     r.interimResults = true;
     r.continuous = false;
     r.maxAlternatives = 1;
