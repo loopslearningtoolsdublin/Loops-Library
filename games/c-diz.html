@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cádiz · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1790522100810"></script>
+  <script>
+    const GAME_DATA = {"slug":"c-diz","name":"Cádiz","emoji":"✨","category":"Other","colors":{"pastel":"#FAD2C3","deep":"#E0784E","wash":"#FAEEE5"},"background":null,"lang":{"q":"en","a":"en"},"loops":[{"name":"Cadiz City Basics","emoji":"🏖️","timeLimit":15,"qs":[{"type":"mc","q":"What country is Cadiz located in?","a":"Spain","opts":["Spain","Portugal","Italy"]},{"type":"mc","q":"What region of Spain is Cadiz in?","a":"Andalusia","opts":["Andalusia","Catalonia","Galicia"]},{"type":"typed","q":"What is the nickname of Cadiz meaning \"Little Silver Cup\"?","a":"Tacita de Plata"},{"type":"mc","q":"What body of water borders Cadiz?","a":"Atlantic Ocean","opts":["Atlantic Ocean","Baltic Sea","Black Sea"]},{"type":"mc","q":"Cadiz is famous for celebrating what festive event each year?","a":"Carnival","opts":["Carnival","Oktoberfest","Diwali"]},{"type":"typed","q":"What ancient civilization founded Cadiz?","a":"Phoenicians"},{"type":"mc","q":"What is the popular beach in Cadiz called?","a":"La Caleta","opts":["La Caleta","Copacabana","Bondi"]},{"type":"mc","q":"What shape best describes Cadiz's location?","a":"Peninsula","opts":["Peninsula","Mountain","Island"]},{"type":"typed","q":"What famous watchtower in Cadiz is a popular tourist attraction?","a":"Torre Tavira"},{"type":"mc","q":"Cadiz is considered one of the oldest cities on what continent?","a":"Western Europe","opts":["Western Europe","South America","Asia"]}]},{"name":"Cadiz CF Basics","emoji":"⚽","timeLimit":15,"qs":[{"type":"mc","q":"What is the name of Cadiz's football club?","a":"Cadiz CF","opts":["Cadiz CF","Real Madrid","Barcelona"]},{"type":"mc","q":"What colors are Cadiz CF's home shirts?","a":"Yellow and blue","opts":["Yellow and blue","Red and white","Green and black"]},{"type":"typed","q":"What is the nickname of Cadiz CF meaning \"The Yellow Submarine\"?","a":"El Submarino Amarillo"},{"type":"mc","q":"In what year was Cadiz CF founded?","a":"1910","opts":["1910","1950","1980"]},{"type":"mc","q":"What is the name of Cadiz CF's stadium?","a":"Estadio Nuevo Mirandilla","opts":["Estadio Nuevo Mirandilla","Camp Nou","Santiago Bernabeu"]},{"type":"typed","q":"What league does Cadiz CF compete in, Spain's top division?","a":"La Liga"},{"type":"mc","q":"What sport does Cadiz CF play?","a":"Football","opts":["Football","Basketball","Tennis"]},{"type":"mc","q":"Cadiz CF's stadium was formerly named after which historical figure?","a":"Ramón de Carranza","opts":["Ramón de Carranza","Francisco Franco","Diego Maradona"]},{"type":"typed","q":"What city do Cadiz CF represent?","a":"Cadiz"},{"type":"mc","q":"What is a common English translation of \"Submarino Amarillo\"?","a":"Yellow Submarine","opts":["Yellow Submarine","Golden Ship","Blue Whale"]}]},{"name":"Cadiz Culture and History","emoji":"🏛️","timeLimit":15,"qs":[{"type":"mc","q":"What is the name of Cadiz's main Carnival theatre venue?","a":"Gran Teatro Falla","opts":["Gran Teatro Falla","Teatro Real","La Scala"]},{"type":"typed","q":"What is the name of the cathedral in Cadiz?","a":"Cadiz Cathedral"},{"type":"mc","q":"What architectural styles are combined in Cadiz Cathedral?","a":"Baroque and Neoclassical","opts":["Baroque and Neoclassical","Gothic and Modern","Art Deco and Rococo"]},{"type":"mc","q":"Cadiz's Carnival is famous for what type of satirical performance groups?","a":"Chirigotas","opts":["Chirigotas","Mariachis","Flamenco troupes"]},{"type":"typed","q":"What is the ancient Phoenician name for Cadiz?","a":"Gadir"},{"type":"mc","q":"What is the name of the province that Cadiz city is the capital of?","a":"Province of Cadiz","opts":["Province of Cadiz","Province of Seville","Province of Malaga"]},{"type":"mc","q":"Cadiz's economy has traditionally relied on fishing for which fish?","a":"Tuna","opts":["Tuna","Salmon","Cod"]},{"type":"typed","q":"What narrow strip of land connects Cadiz to the mainland?","a":"Isthmus"}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
