@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Food in Spanish · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1790626483169"></script>
+  <script>
+    const GAME_DATA = {"slug":"food-in-spanish","name":"Food in Spanish","emoji":"🌍","category":"Language","colors":{"pastel":"#C1F0EA","deep":"#2FB18A","wash":"#EBF6F0"},"background":null,"lang":{"q":"en","a":"es"},"loops":[{"name":"Fruits","emoji":"🍎","timeLimit":15,"qs":[{"type":"mc","q":"What is the Spanish word for \"apple\"?","a":"manzana","opts":["manzana","pera","uva"]},{"type":"typed","q":"What is the Spanish word for \"banana\"?","a":"plátano"},{"type":"mc","q":"What is the Spanish word for \"orange\"?","a":"naranja","opts":["naranja","limón","fresa"]},{"type":"typed","q":"What is the Spanish word for \"grape\"?","a":"uva"},{"type":"mc","q":"What is the Spanish word for \"strawberry\"?","a":"fresa","opts":["fresa","piña","durazno"]},{"type":"typed","q":"What is the Spanish word for \"pear\"?","a":"pera"},{"type":"mc","q":"What is the Spanish word for \"lemon\"?","a":"limón","opts":["limón","naranja","sandía"]},{"type":"typed","q":"What is the Spanish word for \"watermelon\"?","a":"sandía"},{"type":"mc","q":"What is the Spanish word for \"pineapple\"?","a":"piña","opts":["piña","manzana","uva"]},{"type":"typed","q":"What is the Spanish word for \"peach\"?","a":"durazno"}]},{"name":"Vegetables","emoji":"🥕","timeLimit":15,"qs":[{"type":"mc","q":"What is the Spanish word for \"carrot\"?","a":"zanahoria","opts":["zanahoria","papa","cebolla"]},{"type":"typed","q":"What is the Spanish word for \"potato\"?","a":"papa"},{"type":"mc","q":"What is the Spanish word for \"tomato\"?","a":"tomate","opts":["tomate","lechuga","ajo"]},{"type":"typed","q":"What is the Spanish word for \"onion\"?","a":"cebolla"},{"type":"mc","q":"What is the Spanish word for \"lettuce\"?","a":"lechuga","opts":["lechuga","pepino","maíz"]},{"type":"typed","q":"What is the Spanish word for \"garlic\"?","a":"ajo"},{"type":"mc","q":"What is the Spanish word for \"cucumber\"?","a":"pepino","opts":["pepino","brócoli","pimiento"]},{"type":"typed","q":"What is the Spanish word for \"corn\"?","a":"maíz"},{"type":"mc","q":"What is the Spanish word for \"bell pepper\"?","a":"pimiento","opts":["pimiento","tomate","zanahoria"]},{"type":"typed","q":"What is the Spanish word for \"broccoli\"?","a":"brócoli"}]},{"name":"Meals and Drinks","emoji":"🍽️","timeLimit":15,"qs":[{"type":"mc","q":"What is the Spanish word for \"breakfast\"?","a":"desayuno","opts":["desayuno","almuerzo","cena"]},{"type":"typed","q":"What is the Spanish word for \"lunch\"?","a":"almuerzo"},{"type":"mc","q":"What is the Spanish word for \"dinner\"?","a":"cena","opts":["cena","desayuno","almuerzo"]},{"type":"typed","q":"What is the Spanish word for \"water\"?","a":"agua"},{"type":"mc","q":"What is the Spanish word for \"coffee\"?","a":"café","opts":["café","té","jugo"]},{"type":"typed","q":"What is the Spanish word for \"milk\"?","a":"leche"},{"type":"mc","q":"What is the Spanish word for \"juice\"?","a":"jugo","opts":["jugo","leche","café"]},{"type":"typed","q":"What is the Spanish word for \"tea\"?","a":"té"},{"type":"mc","q":"What is the Spanish word for \"bread\"?","a":"pan","opts":["pan","sopa","arroz"]},{"type":"typed","q":"What is the Spanish word for \"soup\"?","a":"sopa"}]},{"name":"Proteins and Dairy","emoji":"🍳","timeLimit":15,"qs":[{"type":"mc","q":"What is the Spanish word for \"chicken\"?","a":"pollo","opts":["pollo","cerdo","pescado"]},{"type":"typed","q":"What is the Spanish word for \"beef\"?","a":"carne de res"},{"type":"mc","q":"What is the Spanish word for \"fish\"?","a":"pescado","opts":["pescado","camarón","jamón"]},{"type":"typed","q":"What is the Spanish word for \"egg\"?","a":"huevo"},{"type":"mc","q":"What is the Spanish word for \"cheese\"?","a":"queso","opts":["queso","mantequilla","yogur"]},{"type":"typed","q":"What is the Spanish word for \"pork\"?","a":"cerdo"},{"type":"mc","q":"What is the Spanish word for \"shrimp\"?","a":"camarón","opts":["camarón","pollo","jamón"]},{"type":"typed","q":"What is the Spanish word for \"butter\"?","a":"mantequilla"},{"type":"mc","q":"What is the Spanish word for \"yogurt\"?","a":"yogur","opts":["yogur","queso","leche"]},{"type":"typed","q":"What is the Spanish word for \"ham\"?","a":"jamón"}]},{"name":"Kitchen and Advanced Vocab","emoji":"🍰","timeLimit":15,"qs":[{"type":"mc","q":"What is the Spanish word for \"dessert\"?","a":"postre","opts":["postre","plato","cuchara"]},{"type":"typed","q":"What is the Spanish word for \"spoon\"?","a":"cuchara"},{"type":"mc","q":"What is the Spanish word for \"fork\"?","a":"tenedor","opts":["tenedor","cuchillo","cuchara"]},{"type":"typed","q":"What is the Spanish word for \"knife\"?","a":"cuchillo"},{"type":"mc","q":"What is the Spanish word for \"salt\"?","a":"sal","opts":["sal","azúcar","arroz"]},{"type":"typed","q":"What is the Spanish word for \"sugar\"?","a":"azúcar"},{"type":"mc","q":"What is the Spanish word for \"rice\"?","a":"arroz","opts":["arroz","frijoles","pastel"]},{"type":"typed","q":"What is the Spanish word for \"beans\"?","a":"frijoles"},{"type":"mc","q":"What is the Spanish word for \"cake\"?","a":"pastel","opts":["pastel","helado","postre"]},{"type":"typed","q":"What is the Spanish word for \"ice cream\"?","a":"helado"}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
