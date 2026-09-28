@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>La Música · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1790626903846"></script>
+  <script>
+    const GAME_DATA = {"slug":"la-m-sica","name":"La Música","emoji":"🔖","category":"Music","colors":{"pastel":"#DFC7F4","deep":"#8A3ECC","wash":"#F0EBF4"},"background":null,"lang":{"q":"en","a":"es"},"loops":[{"name":"Basic Opinions","emoji":"🎵","timeLimit":15,"qs":[{"type":"mc","q":"How do you say \"I like music\" in Spanish?","a":"Me gusta la música","opts":["Me gusta la música","Me gustas la música","Me gusta el música"]},{"type":"typed","q":"Translate: \"I love music\"","a":"Me encanta la música"},{"type":"mc","q":"Which phrase means \"I don't like it\"?","a":"No me gusta","opts":["No me gusta","Sí me gusta","Me encanta"]},{"type":"typed","q":"Translate: \"rock music\"","a":"la música rock"},{"type":"mc","q":"What does \"Me gusta el pop\" mean?","a":"I like pop","opts":["I like pop","I hate pop","I play pop"]},{"type":"typed","q":"Translate: \"I like jazz\"","a":"Me gusta el jazz"},{"type":"mc","q":"Which word means \"song\"?","a":"canción","opts":["canción","cantante","concierto"]},{"type":"typed","q":"Translate: \"the concert\"","a":"el concierto"},{"type":"mc","q":"What is \"classical music\" in Spanish?","a":"la música clásica","opts":["la música clásica","la música clásico","el música clásica"]},{"type":"typed","q":"Translate: \"I like the guitar\"","a":"Me gusta la guitarra"}]},{"name":"Likes and Dislikes","emoji":"🎸","timeLimit":15,"qs":[{"type":"mc","q":"How do you say \"I really like it a lot\"?","a":"Me gusta mucho","opts":["Me gusta mucho","Me gusta poco","No me gusta nada"]},{"type":"typed","q":"Translate: \"I don't like it at all\"","a":"No me gusta nada"},{"type":"mc","q":"Which phrase means \"it's okay, more or less\"?","a":"Más o menos","opts":["Más o menos","Muy bien","Nada más"]},{"type":"typed","q":"Translate: \"electronic music\"","a":"la música electrónica"},{"type":"mc","q":"What does \"Me encantan las canciones de amor\" mean?","a":"I love love songs","opts":["I love love songs","I hate love songs","I sing love songs"]},{"type":"typed","q":"Translate: \"I like the songs\"","a":"Me gustan las canciones"},{"type":"mc","q":"Why does \"gustar\" become \"gustan\" in that sentence?","a":"Because the thing liked is plural","opts":["Because the thing liked is plural","Because the speaker is plural","Because it is a question"]},{"type":"typed","q":"Translate: \"I hate reggaeton\"","a":"Odio el reguetón"},{"type":"mc","q":"Which phrase expresses strong annoyance or dislike?","a":"Me molesta","opts":["Me molesta","Me encanta","Me interesa"]},{"type":"typed","q":"Translate: \"It bothers me\"","a":"Me molesta"}]},{"name":"Preferences","emoji":"🎧","timeLimit":15,"qs":[{"type":"mc","q":"How do you say \"I prefer rock to pop\"?","a":"Prefiero el rock al pop","opts":["Prefiero el rock al pop","Prefiero el rock el pop","Prefiero al rock el pop"]},{"type":"typed","q":"Translate: \"I like listening to music\"","a":"Me gusta escuchar música"},{"type":"mc","q":"What form of verb follows \"me gusta\" when talking about an action?","a":"infinitive","opts":["infinitive","gerund","conjugated verb"]},{"type":"typed","q":"Translate: \"I like dancing\"","a":"Me gusta bailar"},{"type":"mc","q":"Which sentence correctly says \"We like concerts\"?","a":"Nos gustan los conciertos","opts":["Nos gustan los conciertos","Nos gusta los conciertos","Nosotros gustamos los conciertos"]},{"type":"typed","q":"Translate: \"My favorite band\"","a":"Mi banda favorita"},{"type":"mc","q":"How do you say \"I find this song boring\"?","a":"Esta canción me parece aburrida","opts":["Esta canción me parece aburrida","Esta canción me parece aburrido","Esta canción parece aburrida a mí"]},{"type":"typed","q":"Translate: \"What kind of music do you like?\"","a":"¿Qué tipo de música te gusta?"},{"type":"mc","q":"What does \"Me parece interesante\" mean?","a":"I find it interesting","opts":["I find it interesting","I like it a lot","I don't understand it"]},{"type":"typed","q":"Translate: \"I think it's fantastic\"","a":"Me parece fantástico"}]},{"name":"Expressing Views","emoji":"🎤","timeLimit":15,"qs":[{"type":"mc","q":"Which phrase means \"In my opinion\"?","a":"En mi opinión","opts":["En mi opinión","En mi gusto","Por mi música"]},{"type":"typed","q":"Translate: \"I agree with you\"","a":"Estoy de acuerdo contigo"},{"type":"mc","q":"How do you say \"I don't agree\"?","a":"No estoy de acuerdo","opts":["No estoy de acuerdo","No estoy contigo","No tengo opinión"]},{"type":"typed","q":"Translate: \"What I like most is the melody\"","a":"Lo que más me gusta es la melodía"},{"type":"mc","q":"Which word means \"lyrics\" of a song?","a":"la letra","opts":["la letra","el papel","la palabra"]},{"type":"typed","q":"Translate: \"The lyrics are beautiful\"","a":"La letra es bonita"},{"type":"mc","q":"How do you say \"It depends on my mood\"?","a":"Depende de mi estado de ánimo","opts":["Depende de mi estado de ánimo","Depende de mi música","Depende de mi opinión"]},{"type":"typed","q":"Translate: \"I can't stand that singer\"","a":"No soporto a ese cantante"},{"type":"mc","q":"Which phrase compares two things as equal?","a":"Tan bueno como","opts":["Tan bueno como","Más bueno que","El mejor de"]},{"type":"typed","q":"Translate: \"This is better than that\"","a":"Esto es mejor que eso"}]},{"name":"Advanced Opinions","emoji":"🎹","timeLimit":15,"qs":[{"type":"mc","q":"Which sentence correctly uses the subjunctive after doubt?","a":"No creo que sea buena música","opts":["No creo que sea buena música","No creo que es buena música","No creo que ser buena música"]},{"type":"typed","q":"Translate: \"It's a shame that the concert is cancelled\"","a":"Es una pena que el concierto esté cancelado"},{"type":"mc","q":"Which phrase expresses indifference?","a":"Me da igual","opts":["Me da igual","Me encanta","Me molesta mucho"]},{"type":"typed","q":"Translate: \"I'm passionate about music\"","a":"Me apasiona la música"},{"type":"mc","q":"How do you say \"Whatever music you like is fine\"?","a":"La música que te guste está bien","opts":["La música que te guste está bien","La música que te gusta está bien","La música que te gustas está bien"]},{"type":"typed","q":"Translate: \"I couldn't care less about that genre\"","a":"Me da igual ese género"},{"type":"mc","q":"Which sentence correctly expresses a strong recommendation?","a":"Te recomiendo que escuches este álbum","opts":["Te recomiendo que escuches este álbum","Te recomiendo que escuchas este álbum","Te recomiendo escuchar que este álbum"]},{"type":"typed","q":"Translate: \"It moves me deeply\"","a":"Me conmueve profundamente"},{"type":"mc","q":"Which phrase means \"It's not my style\"?","a":"No es mi estilo","opts":["No es mi estilo","No es mi tipo","No es mi gusto"]},{"type":"typed","q":"Translate: \"Music is a matter of taste\"","a":"La música es cuestión de gustos"}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
