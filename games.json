@@ -3755,6 +3755,29 @@
         "q": "en",
         "a": "es"
       }
+    },
+    {
+      "slug": "spanish-prepositions-and-articles",
+      "name": "Spanish Prepositions and Articles",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-28T21:05:33.207Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "grammar",
+      "tags": [
+        "prepositions",
+        "Spanish",
+        "vocabulary",
+        "beginner"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     }
   ],
   "categories": {
