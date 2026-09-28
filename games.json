@@ -738,7 +738,7 @@
     {
       "slug": "irish-accents",
       "name": "Irish accents",
-      "category": "English",
+      "category": "Pronunciation",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -747,7 +747,6 @@
       "author": "SMQ",
       "subcategory": null,
       "tags": [
-        "pronunciation",
         "accents",
         "vowel-sounds",
         "phonetic",
@@ -1172,7 +1171,7 @@
     {
       "slug": "russian-for-beginners",
       "name": "Russian for Beginners",
-      "category": "Beginner",
+      "category": "Pronunciation",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -1182,8 +1181,7 @@
       "subcategory": "Russian",
       "tags": [
         "vocabulary",
-        "grammar",
-        "pronunciation"
+        "grammar"
       ],
       "thumbnail": null,
       "lang": {
@@ -1217,7 +1215,7 @@
     {
       "slug": "irish-for-foreigner",
       "name": "Irish for foreigner",
-      "category": "Beginner",
+      "category": "Pronunciation",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -1226,8 +1224,7 @@
       "author": "Jens",
       "subcategory": "Irish",
       "tags": [
-        "vocabulary",
-        "pronunciation"
+        "vocabulary"
       ],
       "thumbnail": null,
       "lang": {
@@ -1341,7 +1338,7 @@
     {
       "slug": "spanish-spellings",
       "name": "Spanish Spellings",
-      "category": "Beginner",
+      "category": "Pronunciation",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -1351,7 +1348,6 @@
       "subcategory": "Spanish",
       "tags": [
         "vocabulary",
-        "pronunciation",
         "grammar"
       ],
       "thumbnail": null,
@@ -1363,7 +1359,7 @@
     {
       "slug": "spanish-spelling-rules",
       "name": "Spanish Spelling Rules",
-      "category": "Beginner",
+      "category": "Pronunciation",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -1374,7 +1370,6 @@
       "tags": [
         "grammar",
         "vocabulary",
-        "pronunciation",
         "phonetic",
         "vowel-sounds"
       ],
@@ -1499,7 +1494,7 @@
     {
       "slug": "spanish-buildings-and-street-vocabulary",
       "name": "Spanish Buildings and street Vocabulary",
-      "category": "Synge Street Cbs",
+      "category": "Pronunciation",
       "emoji": "🔖",
       "loopCount": 5,
       "questionCount": 50,
@@ -1508,7 +1503,6 @@
       "author": "Drew",
       "subcategory": "Buildings & Streets",
       "tags": [
-        "pronunciation",
         "vocabulary",
         "Spanish"
       ],
@@ -1564,7 +1558,7 @@
     {
       "slug": "spanish-conversations-for-false-beginners",
       "name": "Spanish conversations for false beginners",
-      "category": "Conversation",
+      "category": "Pronunciation",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -1574,8 +1568,7 @@
       "subcategory": null,
       "tags": [
         "beginner",
-        "vocabulary",
-        "pronunciation"
+        "vocabulary"
       ],
       "thumbnail": null,
       "lang": {
@@ -2478,7 +2471,7 @@
     {
       "slug": "test-subject-1",
       "name": "Test subject 1",
-      "category": "Spanish",
+      "category": "Pronunciation",
       "emoji": "🔖",
       "loopCount": 5,
       "questionCount": 44,
@@ -2489,7 +2482,6 @@
       "tags": [
         "beginner",
         "terminology",
-        "pronunciation",
         "sports-basics"
       ],
       "thumbnail": null,
@@ -3469,7 +3461,7 @@
     {
       "slug": "italian",
       "name": "Italian",
-      "category": "Language",
+      "category": "Pronunciation",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -3481,7 +3473,6 @@
         "vocabulary",
         "grammar",
         "beginner",
-        "pronunciation",
         "fun-italian"
       ],
       "thumbnail": null
@@ -3741,6 +3732,29 @@
         "q": "en",
         "a": "es"
       }
+    },
+    {
+      "slug": "el-abecedario-espanol",
+      "name": "EL Abecedario Espanol",
+      "category": "Pronunciation",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-28T20:42:35.162Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "vocabulary",
+        "beginner",
+        "spelling",
+        "synge-street-cbs"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     }
   ],
   "categories": {
@@ -3878,6 +3892,13 @@
       "deep": "#8A3ECC",
       "wash": "#F0EBF4",
       "descriptor": "Games teaching music history, theory, and artist backgrounds through interactive content."
+    },
+    "Pronunciation": {
+      "emoji": "🔖",
+      "pastel": "#F4DCC7",
+      "deep": "#CC803E",
+      "wash": "#F4EFEB",
+      "descriptor": "Practice speaking and recognizing correct Italian word sounds and phrases"
     }
   },
   "labelDescriptors": {
@@ -4139,7 +4160,8 @@
     "Language::past-imperfect": "Practicing Spanish imperfect tense conjugation and usage through travel-packing themed vocabulary.",
     "Language::music": "Practice Spanish opinions and vocabulary about musical genres, preferences, and songs",
     "Language::opinions": "Practice expressing likes, dislikes, and opinions about music in Spanish",
-    "Language::genres": "Spanish phrases for expressing musical opinions, preferences, and views across difficulty levels"
+    "Language::genres": "Spanish phrases for expressing musical opinions, preferences, and views across difficulty levels",
+    "Language::spelling": "Spanish letter names, vowel sounds, and pronunciation of tricky consonants"
   },
   "shelves": [
     {
@@ -4155,13 +4177,6 @@
       "label": "sports-basics",
       "count": 9,
       "descriptor": "Golf fundamentals covering ball physics, club mechanics, and swing technique"
-    },
-    {
-      "category": null,
-      "key": "pronunciation",
-      "label": "pronunciation",
-      "count": 9,
-      "descriptor": "Practice speaking and recognizing correct Italian word sounds and phrases"
     },
     {
       "category": null,
