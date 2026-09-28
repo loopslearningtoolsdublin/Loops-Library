@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>EL Abecedario Espanol · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1790628155162"></script>
+  <script>
+    const GAME_DATA = {"slug":"el-abecedario-espanol","name":"EL Abecedario Espanol","emoji":"🔖","category":"Pronunciation","colors":{"pastel":"#F4DCC7","deep":"#CC803E","wash":"#F4EFEB"},"background":null,"lang":{"q":"en","a":"es"},"loops":[{"name":"Vowel Basics","emoji":"🔤","timeLimit":15,"qs":[{"type":"mc","q":"How do you pronounce the Spanish vowel \"a\"?","a":"ah","opts":["ah","ay","uh"]},{"type":"typed","q":"What is the Spanish vowel that sounds like \"eh\" in English?","a":"e"},{"type":"mc","q":"Which Spanish vowel sounds like the English \"ee\" in \"see\"?","a":"i","opts":["i","e","u"]},{"type":"typed","q":"How is the Spanish vowel \"o\" pronounced, spelled out in English sounds?","a":"oh"},{"type":"mc","q":"Which Spanish vowel sounds like \"oo\" in the English word \"moon\"?","a":"u","opts":["a","u","e"]},{"type":"typed","q":"Spell the Spanish vowel that sounds like \"ah\" in \"father\".","a":"a"},{"type":"mc","q":"What sound does the Spanish letter \"e\" make?","a":"eh","opts":["eh","ee","ay"]},{"type":"typed","q":"Name the Spanish vowel pronounced \"oh\".","a":"o"},{"type":"mc","q":"How many vowels are there in the Spanish alphabet?","a":"5","opts":["4","5","6"]},{"type":"typed","q":"Which vowel is pronounced like \"oo\"?","a":"u"}]},{"name":"Vowel Mastery","emoji":"🎯","timeLimit":15,"qs":[{"type":"mc","q":"Which two vowels combine to form the diphthong in \"bien\"?","a":"i and e","opts":["i and e","a and o","u and a"]},{"type":"typed","q":"What is the Spanish term for the strong vowels a, e, and o?","a":"vocales fuertes"},{"type":"mc","q":"Which vowels are considered \"weak vowels\" in Spanish?","a":"i and u","opts":["i and u","a and e","o and u"]},{"type":"typed","q":"What is a diphthong called in Spanish?","a":"diptongo"},{"type":"mc","q":"In the word \"auto\", which vowels form a diphthong?","a":"a and u","opts":["a and u","u and t","o and a"]},{"type":"typed","q":"How do you say \"vowel\" in Spanish?","a":"vocal"},{"type":"mc","q":"Which vowel takes an accent mark to break a diphthong, as in \"país\"?","a":"í","opts":["í","á","ó"]},{"type":"mc","q":"In \"ciudad\", which two vowels form a diphthong?","a":"i and u","opts":["i and u","u and a","a and d"]},{"type":"typed","q":"What do you call a sequence of three vowels in one syllable in Spanish?","a":"triptongo"},{"type":"mc","q":"Which of these words contains a diphthong?","a":"aire","opts":["aire","ala","oso"]}]},{"name":"Consonant Corner","emoji":"🔠","timeLimit":15,"qs":[{"type":"mc","q":"What is the Spanish name for the letter \"b\"?","a":"be","opts":["be","be larga","ve"]},{"type":"typed","q":"What is the Spanish name for the letter \"m\"?","a":"eme"},{"type":"mc","q":"What is the Spanish name for the letter \"l\"?","a":"ele","opts":["ele","ele doble","elle"]},{"type":"typed","q":"What is the Spanish name for the letter \"n\"?","a":"ene"},{"type":"mc","q":"What is the Spanish name for the letter \"p\"?","a":"pe","opts":["pe","pi","pa"]},{"type":"typed","q":"What is the Spanish name for the letter \"t\"?","a":"te"},{"type":"mc","q":"Which vowel sounds like \"eh\" as in \"elephant\"?","a":"e","opts":["a","e","i"]},{"type":"typed","q":"What is the Spanish name for the letter \"d\"?","a":"de"},{"type":"mc","q":"What is the Spanish name for the letter \"s\"?","a":"ese","opts":["ese","es","se"]},{"type":"typed","q":"What is the Spanish name for the letter \"f\"?","a":"efe"}]},{"name":"Tricky Consonants","emoji":"🌶️","timeLimit":15,"qs":[{"type":"mc","q":"What is the Spanish name for the letter \"h\"?","a":"hache","opts":["hache","ha","je"]},{"type":"typed","q":"What is the Spanish name for the letter \"j\"?","a":"jota"},{"type":"mc","q":"How is the Spanish letter \"h\" normally pronounced in words?","a":"silent","opts":["silent","like the English h","like the English j"]},{"type":"typed","q":"What is the Spanish name for the letter \"ñ\"?","a":"eñe"},{"type":"mc","q":"What sound does the Spanish letter \"j\" make?","a":"like the English h","opts":["like the English h","like the English j","like the English y"]},{"type":"typed","q":"Which vowel sounds like \"oo\" as in \"moon\"?","a":"u"},{"type":"mc","q":"What is the Spanish name for the letter \"q\"?","a":"cu","opts":["cu","ku","que"]},{"type":"typed","q":"What is the Spanish name for the letter \"g\"?","a":"ge"},{"type":"mc","q":"Before which vowels does the Spanish \"g\" sound like the English \"h\"?","a":"e and i","opts":["e and i","a and o","u and a"]},{"type":"typed","q":"What is the Spanish name for the letter \"c\"?","a":"ce"}]},{"name":"Consonant Challenge","emoji":"🔥","timeLimit":15,"qs":[{"type":"mc","q":"What is the Spanish name for the letter \"z\"?","a":"zeta","opts":["zeta","ze","zi"]},{"type":"typed","q":"What is the traditional Spanish name for the letter \"y\", literally meaning \"Greek i\"?","a":"i griega"},{"type":"mc","q":"What is the Spanish name for the letter \"w\"?","a":"uve doble","opts":["uve doble","doble u","ve doble"]},{"type":"typed","q":"What is the Spanish name for the letter \"x\"?","a":"equis"},{"type":"mc","q":"What is the Spanish name for the letter \"v\"?","a":"uve","opts":["uve","ve","be"]},{"type":"mc","q":"How is the Spanish \"rr\" pronounced, as in \"perro\"?","a":"rolled or trilled","opts":["rolled or trilled","silent","like the English r"]},{"type":"typed","q":"Which vowel sounds like \"ah\" as in \"father\"?","a":"a"},{"type":"mc","q":"What is the Spanish name for the double letter \"ll\"?","a":"elle","opts":["elle","doble ele","ele ele"]},{"type":"mc","q":"Which consonant is silent in Spanish, as in \"hola\"?","a":"h","opts":["h","j","g"]},{"type":"typed","q":"What is the Spanish name for the letter \"k\"?","a":"ka"}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
