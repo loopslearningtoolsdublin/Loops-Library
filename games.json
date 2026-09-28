@@ -36,15 +36,14 @@
     {
       "slug": "donald-glover",
       "name": "Donald Glover",
-      "category": "Entertainment",
+      "category": "Music",
       "emoji": "✨",
       "loopCount": 10,
       "questionCount": 100,
       "publishedAt": "2026-07-14T16:57:42.296Z",
       "subcategory": null,
       "tags": [
-        "tv",
-        "music"
+        "tv"
       ],
       "lang": {
         "q": "en",
@@ -337,7 +336,7 @@
     {
       "slug": "fontaines-dc",
       "name": "Fontaines DC",
-      "category": "Entertainment",
+      "category": "Music",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -345,9 +344,7 @@
       "createdBy": "c_mrm4fa9a_vjaqxmob",
       "author": "SMQ",
       "subcategory": null,
-      "tags": [
-        "music"
-      ],
+      "tags": [],
       "lang": {
         "q": "en",
         "a": "en"
@@ -539,7 +536,7 @@
     {
       "slug": "glen-hansard",
       "name": "Glen Hansard",
-      "category": "Biography",
+      "category": "Music",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -549,8 +546,7 @@
       "subcategory": null,
       "tags": [
         "irish-musician",
-        "folk-music",
-        "music"
+        "folk-music"
       ],
       "thumbnail": "thumbs/glen-hansard.jpg",
       "lang": {
@@ -1130,14 +1126,14 @@
     {
       "slug": "banjo-playing",
       "name": "Banjo playing",
-      "category": "Other",
+      "category": "Music",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 44,
       "publishedAt": "2026-08-29T02:04:04.431Z",
       "createdBy": "c_mtcnybyr_ghpwegoe",
       "author": "SMQ",
-      "subcategory": "music",
+      "subcategory": null,
       "tags": [
         "instruments",
         "folk-music",
@@ -1153,14 +1149,14 @@
     {
       "slug": "how-to-play-guitar",
       "name": "How to play guitar",
-      "category": "Other",
+      "category": "Music",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 47,
       "publishedAt": "2026-08-30T15:18:35.709Z",
       "createdBy": "c_mtcnybyr_ghpwegoe",
       "author": "SMQ",
-      "subcategory": "music",
+      "subcategory": null,
       "tags": [
         "beginner",
         "instruments",
@@ -1325,7 +1321,7 @@
     {
       "slug": "dolly-parton",
       "name": "Dolly Parton",
-      "category": "Biography",
+      "category": "Music",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -1334,7 +1330,6 @@
       "author": "SMQ",
       "subcategory": null,
       "tags": [
-        "music",
         "folk-music"
       ],
       "thumbnail": null,
@@ -1984,14 +1979,14 @@
     {
       "slug": "bp-fallon",
       "name": "BP Fallon",
-      "category": "Biography",
+      "category": "Music",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 44,
       "publishedAt": "2026-09-05T23:53:54.022Z",
       "createdBy": "c_mtnbfnay_1wml1d1i",
       "author": "SMQ",
-      "subcategory": "music",
+      "subcategory": null,
       "tags": [
         "irish-musician"
       ],
@@ -2881,7 +2876,7 @@
     {
       "slug": "berlioz-symphonie-fantastique-iv",
       "name": "Berlioz- Symphonie Fantastique IV",
-      "category": "Other",
+      "category": "Music",
       "emoji": "✨",
       "loopCount": 3,
       "questionCount": 24,
@@ -2890,7 +2885,6 @@
       "author": "SMQ",
       "subcategory": "Classical Music",
       "tags": [
-        "music",
         "berlioz",
         "composition",
         "orchestration",
@@ -3211,14 +3205,14 @@
     {
       "slug": "foundations-of-music-theory",
       "name": "Foundations of Music Theory",
-      "category": "Other",
+      "category": "Music",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 48,
       "publishedAt": "2026-09-17T22:39:19.935Z",
       "createdBy": "c_mu1sykuv_7vbk1ys0",
       "author": "SMQ",
-      "subcategory": "music",
+      "subcategory": null,
       "tags": [
         "music-theory",
         "general-knowledge"
@@ -3723,6 +3717,30 @@
         "q": "en",
         "a": "es"
       }
+    },
+    {
+      "slug": "la-m-sica",
+      "name": "La Música",
+      "category": "Music",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-28T20:21:43.846Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": null,
+      "tags": [
+        "vocabulary",
+        "Spanish",
+        "terminology",
+        "opinions",
+        "genres"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     }
   ],
   "categories": {
@@ -3853,6 +3871,13 @@
       "deep": "#CC3E83",
       "wash": "#F4EBF0",
       "descriptor": "Practicing everyday Spanish dialogue phrases and conversational expressions for real-life interactions"
+    },
+    "Music": {
+      "emoji": "🔖",
+      "pastel": "#DFC7F4",
+      "deep": "#8A3ECC",
+      "wash": "#F0EBF4",
+      "descriptor": "Games teaching music history, theory, and artist backgrounds through interactive content."
     }
   },
   "labelDescriptors": {
@@ -4111,7 +4136,10 @@
     "Other::c-diz": "Trivia on Cadiz city's geography, culture, history, and its football club",
     "Language::reflexive-verbs": "Practice Spanish reflexive verb pronouns, conjugations, and daily-routine sentence structures.",
     "Language::holiday-vocab": "Spanish vocabulary for travel and packing-related holiday items",
-    "Language::past-imperfect": "Practicing Spanish imperfect tense conjugation and usage through travel-packing themed vocabulary."
+    "Language::past-imperfect": "Practicing Spanish imperfect tense conjugation and usage through travel-packing themed vocabulary.",
+    "Language::music": "Practice Spanish opinions and vocabulary about musical genres, preferences, and songs",
+    "Language::opinions": "Practice expressing likes, dislikes, and opinions about music in Spanish",
+    "Language::genres": "Spanish phrases for expressing musical opinions, preferences, and views across difficulty levels"
   },
   "shelves": [
     {
@@ -4120,13 +4148,6 @@
       "label": "Sport",
       "count": 9,
       "descriptor": "Trivia about famous athletes, their careers, teams, and major sporting achievements."
-    },
-    {
-      "category": null,
-      "key": "music",
-      "label": "music",
-      "count": 9,
-      "descriptor": "Games teaching music history, theory, and artist backgrounds through interactive content."
     },
     {
       "category": null,
@@ -4165,6 +4186,13 @@
     },
     {
       "category": null,
+      "key": "terminology",
+      "label": "terminology",
+      "count": 8,
+      "descriptor": "Defines key accounting terms like assets, liabilities, capital, and debit/credit rules."
+    },
+    {
+      "category": null,
       "key": "movies",
       "label": "movies",
       "count": 7,
@@ -4197,13 +4225,6 @@
       "label": "leaving-cert",
       "count": 7,
       "descriptor": "Irish Leaving Cert-aligned statistics and probability quiz spanning basics to inference"
-    },
-    {
-      "category": null,
-      "key": "terminology",
-      "label": "terminology",
-      "count": 7,
-      "descriptor": "Defines key accounting terms like assets, liabilities, capital, and debit/credit rules."
     }
   ]
 }
