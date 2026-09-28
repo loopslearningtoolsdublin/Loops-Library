@@ -3676,6 +3676,30 @@
         "q": "en",
         "a": "es"
       }
+    },
+    {
+      "slug": "spanish-past-imperfect-and-suitcases",
+      "name": "Spanish Past Imperfect, and Suitcases",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-28T20:07:42.989Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "grammar",
+        "vocabulary",
+        "travel",
+        "past-imperfect",
+        "holiday-vocab"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     }
   ],
   "categories": {
@@ -3823,7 +3847,7 @@
     "Language::language": "Games teaching Latin grammar, vocabulary, conjugation, and sentence structure fundamentals.",
     "Language::latin": "Latin language fundamentals covering pronouns, nouns, verbs, cases, and advanced syntax.",
     "Language::ancient-rome": "Latin language fundamentals covering grammar, pronunciation, verb conjugation, and case systems.",
-    "Language::travel": "Learn essential Japanese phrases through interactive travel conversations and cultural contexts.",
+    "Language::travel": "Practice Spanish imperfect tense and travel vocabulary through packing-themed sentences.",
     "Language::geography": "Geography terms and Earth structure vocabulary in Irish language",
     "Language::places": "Identify national capitals of countries worldwide, from common to obscure.",
     "Other::sports-basics": "Golf fundamentals covering ball physics, club mechanics, and swing technique",
@@ -4062,7 +4086,9 @@
     "Exam Prep::spelling": "Practice spelling vocabulary words correctly, from basic terms to tricky word distinctions.",
     "Exam Prep::cell-division": "Quiz on mitosis, meiosis, chromosomes, cell cycle phases, and cancer-related cell division concepts.",
     "Other::c-diz": "Trivia on Cadiz city's geography, culture, history, and its football club",
-    "Language::reflexive-verbs": "Practice Spanish reflexive verb pronouns, conjugations, and daily-routine sentence structures."
+    "Language::reflexive-verbs": "Practice Spanish reflexive verb pronouns, conjugations, and daily-routine sentence structures.",
+    "Language::holiday-vocab": "Spanish vocabulary for travel and packing-related holiday items",
+    "Language::past-imperfect": "Practicing Spanish imperfect tense conjugation and usage through travel-packing themed vocabulary."
   },
   "shelves": [
     {
