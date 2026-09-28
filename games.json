@@ -3651,6 +3651,31 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "spanish-reflexives-and-daily-routine",
+      "name": "Spanish Reflexives, and Daily Routine",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-28T19:59:59.618Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "grammar",
+        "daily-routines",
+        "vocabulary",
+        "reflexive-verbs",
+        "synge-street-cbs",
+        "beginner"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     }
   ],
   "categories": {
@@ -4036,7 +4061,8 @@
     "Synge Street Cbs::programming": "Irish-language fraction concepts, equivalence, arithmetic, and mixed number problems",
     "Exam Prep::spelling": "Practice spelling vocabulary words correctly, from basic terms to tricky word distinctions.",
     "Exam Prep::cell-division": "Quiz on mitosis, meiosis, chromosomes, cell cycle phases, and cancer-related cell division concepts.",
-    "Other::c-diz": "Trivia on Cadiz city's geography, culture, history, and its football club"
+    "Other::c-diz": "Trivia on Cadiz city's geography, culture, history, and its football club",
+    "Language::reflexive-verbs": "Practice Spanish reflexive verb pronouns, conjugations, and daily-routine sentence structures."
   },
   "shelves": [
     {
@@ -4069,6 +4095,13 @@
     },
     {
       "category": null,
+      "key": "daily-routines",
+      "label": "daily-routines",
+      "count": 8,
+      "descriptor": "daily-routines — related content."
+    },
+    {
+      "category": null,
       "key": "history",
       "label": "History",
       "count": 8,
@@ -4087,13 +4120,6 @@
       "label": "movies",
       "count": 7,
       "descriptor": "Trivia on iconic films, casts, characters, and plot details"
-    },
-    {
-      "category": null,
-      "key": "daily-routines",
-      "label": "daily-routines",
-      "count": 7,
-      "descriptor": "daily-routines — related content."
     },
     {
       "category": null,
