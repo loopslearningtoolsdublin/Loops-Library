@@ -3700,6 +3700,29 @@
         "q": "en",
         "a": "es"
       }
+    },
+    {
+      "slug": "food-in-spanish",
+      "name": "Food in Spanish",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-28T20:14:43.169Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "food",
+        "vocabulary",
+        "beginner",
+        "general-knowledge"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     }
   ],
   "categories": {
