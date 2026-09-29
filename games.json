@@ -3778,28 +3778,6 @@
         "q": "en",
         "a": "en"
       }
-    },
-    {
-      "slug": "cell-division",
-      "name": "Cell division",
-      "category": "Exam Prep",
-      "emoji": "📝",
-      "loopCount": 5,
-      "questionCount": 50,
-      "publishedAt": "2026-09-29T08:50:05.825Z",
-      "createdBy": "c_mujrhr0d_4y9hacti",
-      "author": "Ben",
-      "subcategory": "Biology",
-      "tags": [
-        "junior-cycle-science",
-        "leaving-cert",
-        "general-knowledge"
-      ],
-      "thumbnail": null,
-      "lang": {
-        "q": "en",
-        "a": "en"
-      }
     }
   ],
   "categories": {
