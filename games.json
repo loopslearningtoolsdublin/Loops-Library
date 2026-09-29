@@ -3755,6 +3755,29 @@
         "q": "en",
         "a": "es"
       }
+    },
+    {
+      "slug": "dexter",
+      "name": "Dexter",
+      "category": "Entertainment",
+      "emoji": "🔖",
+      "loopCount": 3,
+      "questionCount": 27,
+      "publishedAt": "2026-09-29T08:23:47.872Z",
+      "createdBy": "c_mub8knxm_z7bga5np",
+      "author": "Bradley Okeke",
+      "subcategory": "TV Drama",
+      "tags": [
+        "tv-show",
+        "tv",
+        "crime",
+        "vocabulary"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -4161,7 +4184,10 @@
     "Language::music": "Practice Spanish opinions and vocabulary about musical genres, preferences, and songs",
     "Language::opinions": "Practice expressing likes, dislikes, and opinions about music in Spanish",
     "Language::genres": "Spanish phrases for expressing musical opinions, preferences, and views across difficulty levels",
-    "Language::spelling": "Spanish letter names, vowel sounds, and pronunciation of tricky consonants"
+    "Language::spelling": "Spanish letter names, vowel sounds, and pronunciation of tricky consonants",
+    "Entertainment::tv-drama": "Trivia on Dexter's characters, plot twists, and behind-the-scenes casting details.",
+    "Entertainment::crime": "Trivia on Dexter and true-crime forensic investigations, killers, and detective procedures",
+    "Entertainment::tv-show": "Trivia on Dexter's characters, plot twists, and Miami Metro forensic drama"
   },
   "shelves": [
     {
@@ -4233,13 +4259,6 @@
       "label": "Standardized Tests",
       "count": 7,
       "descriptor": "Fact-recall quizzes on RE terms, evidence types, and belief concepts"
-    },
-    {
-      "category": null,
-      "key": "leaving-cert",
-      "label": "leaving-cert",
-      "count": 7,
-      "descriptor": "Irish Leaving Cert-aligned statistics and probability quiz spanning basics to inference"
     }
   ]
 }
