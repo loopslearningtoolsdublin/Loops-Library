@@ -1403,7 +1403,7 @@
         "phonetic",
         "vowel-sounds"
       ],
-      "thumbnail": null,
+      "thumbnail": "thumbs/spanish-spelling-rules.png",
       "lang": {
         "q": "en",
         "a": "es"
@@ -1425,7 +1425,7 @@
         "vocabulary",
         "literary-devices"
       ],
-      "thumbnail": null,
+      "thumbnail": "thumbs/english-pre-5th-year-revision.jpg",
       "lang": {
         "q": "en",
         "a": "en"
@@ -1450,7 +1450,7 @@
         "exam-prep",
         "beginner"
       ],
-      "thumbnail": null,
+      "thumbnail": "thumbs/maths-pre-5th-year-revision.jpg",
       "lang": {
         "q": "en",
         "a": "en"
