@@ -3778,6 +3778,28 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "cell-division",
+      "name": "Cell division",
+      "category": "Exam Prep",
+      "emoji": "📝",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-29T08:50:05.825Z",
+      "createdBy": "c_mujrhr0d_4y9hacti",
+      "author": "Ben",
+      "subcategory": "Biology",
+      "tags": [
+        "junior-cycle-science",
+        "leaving-cert",
+        "general-knowledge"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -4075,7 +4097,7 @@
     "Exam Prep::character-traits": "Quotes and traits revealing Othello's characters' motives, flaws, and identities.",
     "Other::statistics": "Practice core statistics: averages, probability, correlation, distributions, hypothesis testing, and regression concepts.",
     "Exam Prep::junior-cycle-science": "Junior-cycle biology quiz covering cells, classification, body systems, genetics, and microbiology.",
-    "Exam Prep::biology": "Trivia on cell division, mitosis, meiosis, chromosomes, and cancer biology concepts",
+    "Exam Prep::biology": "Explores cell division, mitosis, meiosis, the cell cycle, and related genetic errors.",
     "Exam Prep::botany": "botany — related content.",
     "Exam Prep::synge-street-cbs": "Junior Cycle biology quiz spanning cells, ecology, body systems, and genetics",
     "General Knowledge::sports-basics": "General sports knowledge covering athletes, rules, and basic facts about sports.",
@@ -4259,6 +4281,13 @@
       "label": "Standardized Tests",
       "count": 7,
       "descriptor": "Fact-recall quizzes on RE terms, evidence types, and belief concepts"
+    },
+    {
+      "category": null,
+      "key": "leaving-cert",
+      "label": "leaving-cert",
+      "count": 7,
+      "descriptor": "Irish Leaving Cert-aligned statistics and probability quiz spanning basics to inference"
     }
   ]
 }
