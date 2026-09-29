@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Dexter · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1790670227872"></script>
+  <script>
+    const GAME_DATA = {"slug":"dexter","name":"Dexter","emoji":"🔖","category":"Entertainment","colors":{"pastel":"#EBF4C7","deep":"#AECC3E","wash":"#F2F4EB"},"background":null,"lang":{"q":"en","a":"en"},"loops":[{"name":"Dexter Basics","emoji":"🔪","timeLimit":15,"qs":[{"type":"mc","q":"What city is the original Dexter series set in?","a":"Miami","opts":["Miami","New York","Chicago"]},{"type":"typed","q":"What is Dexter's profession at Miami Metro?","a":"blood spatter analyst"},{"type":"mc","q":"What is the name of Dexter's adoptive sister?","a":"Debra","opts":["Debra","Rita","Lumen"]},{"type":"typed","q":"What is the name of Dexter's adoptive father who raised him?","a":"Harry Morgan"},{"type":"mc","q":"What is the name of the moral code that guides Dexter's killings?","a":"Code of Harry","opts":["Code of Harry","Rule of Harry","Harry's Law"]},{"type":"typed","q":"What is the name of Dexter's biological brother, the Ice Truck Killer?","a":"Brian Moser"},{"type":"mc","q":"Who is Dexter's wife who is murdered by the Trinity Killer?","a":"Rita Bennett","opts":["Rita Bennett","Lumen Pierce","Hannah McKay"]},{"type":"typed","q":"What is the name of Dexter's son?","a":"Harrison"},{"type":"mc","q":"Which police department does Dexter work for?","a":"Miami Metro","opts":["Miami Metro","NYPD","LAPD"]},{"type":"mc","q":"What is Dexter's surname?","a":"Morgan","opts":["Morgan","Moser","Bennett"]}]},{"name":"Original Series Plot","emoji":"🩸","timeLimit":15,"qs":[{"type":"mc","q":"Who plays Dexter Morgan in the original series?","a":"Michael C. Hall","opts":["Michael C. Hall","Jack Alcott","Christian Slater"]},{"type":"typed","q":"What is the name of the season 1 villain who is revealed to be Dexter's brother?","a":"Brian Moser"},{"type":"mc","q":"What is the real name of the Trinity Killer?","a":"Arthur Mitchell","opts":["Arthur Mitchell","Oliver Saxon","Travis Marshall"]},{"type":"typed","q":"What is the name of the wisecracking forensics technician at Miami Metro?","a":"Vince Masuka"},{"type":"mc","q":"Who is the police sergeant suspicious of Dexter in the early seasons?","a":"James Doakes","opts":["James Doakes","Angel Batista","Joey Quinn"]},{"type":"mc","q":"Who is the torture survivor Dexter helps and mentors in season 5?","a":"Lumen Pierce","opts":["Lumen Pierce","Hannah McKay","Rita Bennett"]},{"type":"typed","q":"What is the surname of Maria, the detective who becomes captain?","a":"LaGuerta"},{"type":"mc","q":"In the series finale, what does Dexter fake?","a":"His death","opts":["His death","His arrest","His marriage"]},{"type":"typed","q":"What profession does Dexter adopt while living in hiding after the series finale?","a":"lumberjack"},{"type":"mc","q":"Who is the season 6 villain known as the Doomsday Killer?","a":"Travis Marshall","opts":["Travis Marshall","Professor Gellar","Oliver Saxon"]}]},{"name":"Deep Cuts","emoji":"🔍","timeLimit":15,"qs":[{"type":"mc","q":"Who plays Debra Morgan?","a":"Jennifer Carpenter","opts":["Jennifer Carpenter","Julie Benz","Yvonne Strahovski"]},{"type":"typed","q":"Who plays Rita Bennett?","a":"Julie Benz"},{"type":"mc","q":"Who is Dexter's psychiatrist and mentor in season 8?","a":"Dr. Evelyn Vogel","opts":["Dr. Evelyn Vogel","Dr. Michelle","Dr. Aaron"]},{"type":"typed","q":"What is the surname of the season 8 killer known as the Brain Surgeon?","a":"Saxon"},{"type":"mc","q":"Who is Dexter's season 7 love interest and eventual poisoner?","a":"Hannah McKay","opts":["Hannah McKay","Lumen Pierce","Lila West"]},{"type":"mc","q":"Who is the detective who rises to sergeant and later lieutenant at Miami Metro?","a":"Angel Batista","opts":["Angel Batista","Joey Quinn","Vince Masuka"]},{"type":"typed","q":"In which season is Lumen Pierce introduced?","a":"5"}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
