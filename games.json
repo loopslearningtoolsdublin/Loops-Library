@@ -3592,29 +3592,6 @@
       }
     },
     {
-      "slug": "cell-division",
-      "name": "Cell division",
-      "category": "Exam Prep",
-      "emoji": "📝",
-      "loopCount": 5,
-      "questionCount": 45,
-      "publishedAt": "2026-09-27T11:58:06.545Z",
-      "createdBy": "c_mujrhr0d_4y9hacti",
-      "author": "Ben",
-      "subcategory": "Biology",
-      "tags": [
-        "junior-cycle-science",
-        "leaving-cert",
-        "general-knowledge",
-        "cell-division"
-      ],
-      "thumbnail": null,
-      "lang": {
-        "q": "en",
-        "a": "en"
-      }
-    },
-    {
       "slug": "c-diz",
       "name": "Cádiz",
       "category": "Other",
