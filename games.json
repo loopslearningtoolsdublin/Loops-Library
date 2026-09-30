@@ -3808,6 +3808,28 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "history-struggle-for-independence",
+      "name": "History - Struggle for Independence",
+      "category": "Exam Prep",
+      "emoji": "📝",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-09-30T13:13:01.732Z",
+      "createdBy": "c_muo2lax4_hi67tdcm",
+      "author": "A. McMahon",
+      "subcategory": "History",
+      "tags": [
+        "irish",
+        "revision",
+        "general-knowledge"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -4217,7 +4239,9 @@
     "Language::spelling": "Spanish letter names, vowel sounds, and pronunciation of tricky consonants",
     "Entertainment::tv-drama": "Trivia on Dexter's characters, plot twists, and behind-the-scenes casting details.",
     "Entertainment::crime": "Trivia on Dexter and true-crime forensic investigations, killers, and detective procedures",
-    "Entertainment::tv-show": "Trivia on Dexter's characters, plot twists, and Miami Metro forensic drama"
+    "Entertainment::tv-show": "Trivia on Dexter's characters, plot twists, and Miami Metro forensic drama",
+    "Exam Prep::revision": "Quiz-style factual recall questions reviewing key Irish revolutionary history topics and events.",
+    "Exam Prep::irish": "Irish history quiz covering Home Rule, 1916 Rising, Sinn Féin, independence war, and Treaty."
   },
   "shelves": [
     {
@@ -4226,6 +4250,13 @@
       "label": "Sport",
       "count": 9,
       "descriptor": "Trivia about famous athletes, their careers, teams, and major sporting achievements."
+    },
+    {
+      "category": null,
+      "key": "history",
+      "label": "History",
+      "count": 9,
+      "descriptor": "Explore ancient Roman landmarks, structures, and historical facts through engaging quizzes."
     },
     {
       "category": null,
@@ -4240,13 +4271,6 @@
       "label": "daily-routines",
       "count": 8,
       "descriptor": "daily-routines — related content."
-    },
-    {
-      "category": null,
-      "key": "history",
-      "label": "History",
-      "count": 8,
-      "descriptor": "Explore ancient Roman landmarks, structures, and historical facts through engaging quizzes."
     },
     {
       "category": null,
@@ -4289,13 +4313,6 @@
       "label": "Standardized Tests",
       "count": 7,
       "descriptor": "Fact-recall quizzes on RE terms, evidence types, and belief concepts"
-    },
-    {
-      "category": null,
-      "key": "leaving-cert",
-      "label": "leaving-cert",
-      "count": 7,
-      "descriptor": "Irish Leaving Cert-aligned statistics and probability quiz spanning basics to inference"
     }
   ]
 }
