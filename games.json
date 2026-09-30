@@ -3825,28 +3825,6 @@
         "q": "en",
         "a": "en"
       }
-    },
-    {
-      "slug": "greek-art-and-architecture",
-      "name": "Greek Art and Architecture",
-      "category": "History",
-      "emoji": "🔖",
-      "loopCount": 4,
-      "questionCount": 35,
-      "publishedAt": "2026-09-30T18:11:16.968Z",
-      "createdBy": "c_mu9vh9bt_blqueu80",
-      "author": "SMQ",
-      "subcategory": "Art",
-      "tags": [
-        "ancient-greece",
-        "architecture",
-        "greek-mythology"
-      ],
-      "thumbnail": "thumbs/greek-art-and-architecture.jpg",
-      "lang": {
-        "q": "en",
-        "a": "en"
-      }
     }
   ],
   "categories": {
