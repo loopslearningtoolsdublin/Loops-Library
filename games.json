@@ -338,14 +338,14 @@
     {
       "slug": "world-history",
       "name": "World History",
-      "category": "General Knowledge",
+      "category": "History",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-07-22T11:02:14.191Z",
       "createdBy": "c_mrvywpmf_ocsm1d62",
       "author": "Paul",
-      "subcategory": "History",
+      "subcategory": null,
       "tags": [],
       "lang": {
         "q": "en",
@@ -609,7 +609,7 @@
     {
       "slug": "stoics",
       "name": "Stoics",
-      "category": "Character Traits",
+      "category": "History",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -620,8 +620,7 @@
       "tags": [
         "stoicism",
         "ancient-greece",
-        "ancient-philosophy",
-        "History"
+        "ancient-philosophy"
       ],
       "thumbnail": "thumbs/stoics.jpg",
       "lang": {
@@ -933,14 +932,14 @@
     {
       "slug": "history",
       "name": "History",
-      "category": "Exam Prep",
+      "category": "History",
       "emoji": "📝",
       "loopCount": 3,
       "questionCount": 23,
       "publishedAt": "2026-08-26T10:47:48.961Z",
       "createdBy": "c_mt9ytbd3_6i0xdzp5",
       "author": "Adrian",
-      "subcategory": "History",
+      "subcategory": null,
       "tags": [
         "general-knowledge",
         "ancient-rome",
@@ -1022,7 +1021,7 @@
     {
       "slug": "historical-economists",
       "name": "Historical Economists",
-      "category": "Biography",
+      "category": "History",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -1030,9 +1029,7 @@
       "createdBy": "c_mt9yrvof_jxphuo42",
       "author": "BK",
       "subcategory": "Economics",
-      "tags": [
-        "History"
-      ],
+      "tags": [],
       "thumbnail": "thumbs/historical-economists.jpg",
       "lang": {
         "q": "en",
@@ -1692,14 +1689,14 @@
     {
       "slug": "history-wwii-jc-revision",
       "name": "History WWII JC revision",
-      "category": "Synge Street Cbs",
+      "category": "History",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-09-03T12:53:50.204Z",
       "createdBy": "c_mtifi085_aa8ojpjz",
       "author": "Ali",
-      "subcategory": "History",
+      "subcategory": null,
       "tags": [
         "ancient-rome",
         "wwii",
@@ -2698,7 +2695,7 @@
     {
       "slug": "isaac-newton",
       "name": "Isaac Newton",
-      "category": "Biography",
+      "category": "History",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 44,
@@ -2708,7 +2705,6 @@
       "subcategory": "Science",
       "tags": [
         "physics",
-        "History",
         "general-knowledge"
       ],
       "thumbnail": "thumbs/isaac-newton.jpg",
@@ -2877,14 +2873,14 @@
     {
       "slug": "ww2",
       "name": "WW2",
-      "category": "Other",
+      "category": "History",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-09-15T12:43:07.583Z",
       "createdBy": "c_mu1a8tek_ec27m78y",
       "author": "Abdulahi",
-      "subcategory": "History",
+      "subcategory": null,
       "tags": [
         "heads-of-state",
         "general-knowledge"
@@ -3359,7 +3355,7 @@
     {
       "slug": "spanish-symbols-and-basic-history",
       "name": "Spanish Symbols and Basic History",
-      "category": "Language",
+      "category": "History",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -3369,7 +3365,6 @@
       "subcategory": "Spain",
       "tags": [
         "Spanish",
-        "history",
         "general-knowledge"
       ],
       "thumbnail": "thumbs/spanish-symbols-and-basic-history.jpg",
@@ -3812,20 +3807,42 @@
     {
       "slug": "history-struggle-for-independence",
       "name": "History - Struggle for Independence",
-      "category": "Exam Prep",
+      "category": "History",
       "emoji": "📝",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-09-30T13:13:01.732Z",
       "createdBy": "c_muo2lax4_hi67tdcm",
       "author": "A. McMahon",
-      "subcategory": "History",
+      "subcategory": null,
       "tags": [
         "irish",
         "revision",
         "general-knowledge"
       ],
       "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
+    },
+    {
+      "slug": "greek-art-and-architecture",
+      "name": "Greek Art and Architecture",
+      "category": "History",
+      "emoji": "🔖",
+      "loopCount": 4,
+      "questionCount": 35,
+      "publishedAt": "2026-09-30T18:11:16.968Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "Art",
+      "tags": [
+        "ancient-greece",
+        "architecture",
+        "greek-mythology"
+      ],
+      "thumbnail": "thumbs/greek-art-and-architecture.jpg",
       "lang": {
         "q": "en",
         "a": "en"
@@ -3974,6 +3991,13 @@
       "deep": "#CC803E",
       "wash": "#F4EFEB",
       "descriptor": "Practice speaking and recognizing correct Italian word sounds and phrases"
+    },
+    "History": {
+      "emoji": "🔖",
+      "pastel": "#CCC7F4",
+      "deep": "#4E3ECC",
+      "wash": "#ECEBF4",
+      "descriptor": "Explore ancient Roman landmarks, structures, and historical facts through engaging quizzes."
     }
   },
   "labelDescriptors": {
@@ -4241,7 +4265,9 @@
     "Entertainment::crime": "Trivia on Dexter and true-crime forensic investigations, killers, and detective procedures",
     "Entertainment::tv-show": "Trivia on Dexter's characters, plot twists, and Miami Metro forensic drama",
     "Exam Prep::revision": "Quiz-style factual recall questions reviewing key Irish revolutionary history topics and events.",
-    "Exam Prep::irish": "Irish history quiz covering Home Rule, 1916 Rising, Sinn Féin, independence war, and Treaty."
+    "Exam Prep::irish": "Irish history quiz covering Home Rule, 1916 Rising, Sinn Féin, independence war, and Treaty.",
+    "Other::art": "Quiz on ancient Greek architecture, sculpture, and pottery styles",
+    "Other::architecture": "Quiz on Greek architectural orders, temple design, sculpture periods, and famous sites"
   },
   "shelves": [
     {
@@ -4253,10 +4279,10 @@
     },
     {
       "category": null,
-      "key": "history",
-      "label": "History",
+      "key": "ancient-greece",
+      "label": "ancient-greece",
       "count": 9,
-      "descriptor": "Explore ancient Roman landmarks, structures, and historical facts through engaging quizzes."
+      "descriptor": "Ancient Greek philosophy emphasizing virtue, reason, and acceptance of universal natural laws."
     },
     {
       "category": null,
@@ -4271,13 +4297,6 @@
       "label": "daily-routines",
       "count": 8,
       "descriptor": "daily-routines — related content."
-    },
-    {
-      "category": null,
-      "key": "ancient-greece",
-      "label": "ancient-greece",
-      "count": 8,
-      "descriptor": "Ancient Greek philosophy emphasizing virtue, reason, and acceptance of universal natural laws."
     },
     {
       "category": null,
@@ -4299,6 +4318,13 @@
       "label": "Literature",
       "count": 7,
       "descriptor": "Trivia on Shakespeare's Othello covering quotes, characters, jealousy, and betrayal themes."
+    },
+    {
+      "category": null,
+      "key": "greek-mythology",
+      "label": "greek-mythology",
+      "count": 7,
+      "descriptor": null
     },
     {
       "category": null,
