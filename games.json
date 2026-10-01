@@ -3914,6 +3914,30 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "cells-biology",
+      "name": "Cells (Biology)",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-01T12:46:33.160Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "Biology",
+      "tags": [
+        "cells",
+        "organisms",
+        "science-basics",
+        "trivia",
+        "origin-stories"
+      ],
+      "thumbnail": "thumbs/cells-biology.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -4336,7 +4360,11 @@
     "Other::art": "Quiz on ancient Greek architecture, sculpture, and pottery styles",
     "Other::architecture": "Quiz on Greek architectural orders, temple design, sculpture periods, and famous sites",
     "Vocabulary::academic-vocabulary": "Builds grade-level vocabulary through definitions, synonyms, and contextual fill-in-the-blank practice.",
-    "Vocabulary::spelling": "Explore word meanings, usage, and context through vocabulary-building exercises and fill-in-the-blank sentences."
+    "Vocabulary::spelling": "Explore word meanings, usage, and context through vocabulary-building exercises and fill-in-the-blank sentences.",
+    "Other::cells": "Explores cell structures, organelles, and the endosymbiotic origins of mitochondria and chloroplasts.",
+    "Other::biology": "Explores cell structures, organelles, and the endosymbiotic origins of mitochondria and chloroplasts.",
+    "Other::science-basics": "Covers cell biology basics: mitochondria, eukaryotes/prokaryotes, and endosymbiotic theory.",
+    "Other::organisms": "Explores cell biology concepts like mitochondria, nucleus, and endosymbiotic theory origins."
   },
   "shelves": [
     {
