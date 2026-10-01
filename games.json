@@ -3847,6 +3847,29 @@
         "q": "en",
         "a": "de"
       }
+    },
+    {
+      "slug": "snip-3-academic-vocab-session-2",
+      "name": "SNIP 3 Academic Vocab Session 2",
+      "category": "Vocabulary",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-01T10:03:58.265Z",
+      "createdBy": "c_muf88d8g_3a0z2b62",
+      "author": "Maeve",
+      "subcategory": "Academic Vocabulary",
+      "tags": [
+        "language",
+        "vocabulary",
+        "word-origins",
+        "spelling"
+      ],
+      "thumbnail": "thumbs/snip-3-academic-vocab-session-2.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -4103,7 +4126,7 @@
     "Other::leaving-cert": "Irish Leaving Cert-aligned statistics and probability quiz spanning basics to inference",
     "Language::sport-football-synge-street": "Learn Spanish football vocabulary, roles, tactics, and match outcome expressions.",
     "Language::soccer": "Explore La Liga's clubs, stadiums, rivalries, and championship history.",
-    "Vocabulary::vocabulary": "Learn Spanish vocabulary for city buildings, streets, and urban landmarks.",
+    "Vocabulary::vocabulary": "Everyday words, definitions, and fill-in-the-blank practice building core vocabulary skills",
     "Vocabulary::buildings-streets": "Learn Spanish vocabulary for buildings, streets, and urban landmarks.",
     "Vocabulary::synge-street-cbs": "Spanish vocabulary quiz on buildings, streets, and urban architecture terms.",
     "Vocabulary::pronunciation": "Translate Spanish vocabulary for city buildings, streets, and urban landmarks.",
@@ -4267,7 +4290,9 @@
     "Exam Prep::revision": "Quiz-style factual recall questions reviewing key Irish revolutionary history topics and events.",
     "Exam Prep::irish": "Irish history quiz covering Home Rule, 1916 Rising, Sinn Féin, independence war, and Treaty.",
     "Other::art": "Quiz on ancient Greek architecture, sculpture, and pottery styles",
-    "Other::architecture": "Quiz on Greek architectural orders, temple design, sculpture periods, and famous sites"
+    "Other::architecture": "Quiz on Greek architectural orders, temple design, sculpture periods, and famous sites",
+    "Vocabulary::academic-vocabulary": "Builds grade-level vocabulary through definitions, synonyms, and contextual fill-in-the-blank practice.",
+    "Vocabulary::spelling": "Explore word meanings, usage, and context through vocabulary-building exercises and fill-in-the-blank sentences."
   },
   "shelves": [
     {
