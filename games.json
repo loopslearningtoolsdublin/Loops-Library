@@ -3870,6 +3870,28 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "geography-primary-activities-key-words",
+      "name": "Geography: Primary Activities Key words",
+      "category": "Exam Prep",
+      "emoji": "📝",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-01T10:22:47.662Z",
+      "createdBy": "c_muf88d8g_3a0z2b62",
+      "author": "Maeve",
+      "subcategory": "Geography",
+      "tags": [
+        "general-knowledge",
+        "vocabulary",
+        "junior-cycle-science"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -4203,7 +4225,7 @@
     "Other::numbers": "Practice factors, prime numbers, factor pairs, and greatest common factors",
     "Other::factorization": "Practice identifying factors, factor pairs, prime/composite numbers, and prime factorization.",
     "Exam Prep::places": "Geography quiz on map reading, grid references, contours, scale, and coordinates",
-    "Exam Prep::geography": "Map reading, grid references, contours, scale, and coordinates skills",
+    "Exam Prep::geography": "Explores natural resources, renewable vs non-renewable types, exploitation, and sustainability concepts",
     "Language::biography": "Trivia questions covering a public figure's life, career milestones, and achievements.",
     "Language::technology": "Covers computing hardware, programming, and offline AI concepts and tools.",
     "Language::coding": "Covers Python, hardware basics, and AI model concepts for coding literacy.",
