@@ -3892,6 +3892,28 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "consumer-decisions-business",
+      "name": "Consumer decisions (Business)",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 4,
+      "questionCount": 31,
+      "publishedAt": "2026-10-01T12:38:39.186Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "Business Studies",
+      "tags": [
+        "economics",
+        "decision-making",
+        "problem-solving"
+      ],
+      "thumbnail": "thumbs/consumer-decisions-business.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
