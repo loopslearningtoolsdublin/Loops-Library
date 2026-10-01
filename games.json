@@ -3825,6 +3825,28 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "definite-articles-in-german",
+      "name": "Definite Articles in German",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-01T08:52:50.975Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "German",
+      "tags": [
+        "grammar",
+        "beginner",
+        "vocabulary"
+      ],
+      "thumbnail": "thumbs/definite-articles-in-german.jpg",
+      "lang": {
+        "q": "en",
+        "a": "de"
+      }
     }
   ],
   "categories": {
@@ -4117,7 +4139,7 @@
     "General Knowledge::championship": "Trivia on Mayo GAA's championship history, titles, and All-Ireland victories.",
     "General Knowledge::irish-sports": "Trivia on Mayo GAA history, colors, stadiums, and All-Ireland championship wins",
     "General Knowledge::county-mayo": "Quiz on Mayo GAA teams, colors, stadiums, and All-Ireland championship history.",
-    "Language::german": "German vocabulary and grammar for describing homes, rooms, and housing types",
+    "Language::german": "Practice German definite articles across all four grammatical cases and genders.",
     "Language::daily-routines": "daily-routines — related content.",
     "Beginner::finance": "Practice core accounting concepts, equations, and double-entry transaction recording.",
     "Beginner::beginner": "Introduces fundamental accounting terms, concepts, and simple double-entry transaction recording.",
@@ -4257,13 +4279,6 @@
     },
     {
       "category": null,
-      "key": "ancient-greece",
-      "label": "ancient-greece",
-      "count": 9,
-      "descriptor": "Ancient Greek philosophy emphasizing virtue, reason, and acceptance of universal natural laws."
-    },
-    {
-      "category": null,
       "key": "sports-basics",
       "label": "sports-basics",
       "count": 9,
@@ -4275,6 +4290,13 @@
       "label": "daily-routines",
       "count": 8,
       "descriptor": "daily-routines — related content."
+    },
+    {
+      "category": null,
+      "key": "ancient-greece",
+      "label": "ancient-greece",
+      "count": 8,
+      "descriptor": "Ancient Greek philosophy emphasizing virtue, reason, and acceptance of universal natural laws."
     },
     {
       "category": null,
@@ -4296,13 +4318,6 @@
       "label": "Literature",
       "count": 7,
       "descriptor": "Trivia on Shakespeare's Othello covering quotes, characters, jealousy, and betrayal themes."
-    },
-    {
-      "category": null,
-      "key": "greek-mythology",
-      "label": "greek-mythology",
-      "count": 7,
-      "descriptor": null
     },
     {
       "category": null,
