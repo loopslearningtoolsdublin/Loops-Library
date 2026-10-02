@@ -3849,29 +3849,6 @@
       }
     },
     {
-      "slug": "snip-3-academic-vocab-session-2",
-      "name": "SNIP 3 Academic Vocab Session 2",
-      "category": "Vocabulary",
-      "emoji": "🔖",
-      "loopCount": 5,
-      "questionCount": 50,
-      "publishedAt": "2026-10-01T10:03:58.265Z",
-      "createdBy": "c_muf88d8g_3a0z2b62",
-      "author": "Maeve",
-      "subcategory": "Academic Vocabulary",
-      "tags": [
-        "language",
-        "vocabulary",
-        "word-origins",
-        "spelling"
-      ],
-      "thumbnail": "thumbs/snip-3-academic-vocab-session-2.jpg",
-      "lang": {
-        "q": "en",
-        "a": "en"
-      }
-    },
-    {
       "slug": "geography-primary-activities-key-words",
       "name": "Geography: Primary Activities Key words",
       "category": "Exam Prep",
