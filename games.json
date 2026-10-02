@@ -3915,6 +3915,30 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "snip-3-session-2-academic-vocab",
+      "name": "SNIP 3 Session 2: Academic Vocab.",
+      "category": "Vocabulary",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-02T08:28:40.886Z",
+      "createdBy": "c_muf88d8g_3a0z2b62",
+      "author": "Maeve",
+      "subcategory": "Academic Vocab",
+      "tags": [
+        "vocabulary",
+        "language",
+        "word-origins",
+        "grammar",
+        "beginner"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -4171,7 +4195,7 @@
     "Other::leaving-cert": "Irish Leaving Cert-aligned statistics and probability quiz spanning basics to inference",
     "Language::sport-football-synge-street": "Learn Spanish football vocabulary, roles, tactics, and match outcome expressions.",
     "Language::soccer": "Explore La Liga's clubs, stadiums, rivalries, and championship history.",
-    "Vocabulary::vocabulary": "Everyday words, definitions, and fill-in-the-blank practice building core vocabulary skills",
+    "Vocabulary::vocabulary": "Practice spelling, meaning, and usage of everyday vocabulary words",
     "Vocabulary::buildings-streets": "Learn Spanish vocabulary for buildings, streets, and urban landmarks.",
     "Vocabulary::synge-street-cbs": "Spanish vocabulary quiz on buildings, streets, and urban architecture terms.",
     "Vocabulary::pronunciation": "Translate Spanish vocabulary for city buildings, streets, and urban landmarks.",
@@ -4341,7 +4365,8 @@
     "Other::cells": "Explores cell structures, organelles, and the endosymbiotic origins of mitochondria and chloroplasts.",
     "Other::biology": "Explores cell structures, organelles, and the endosymbiotic origins of mitochondria and chloroplasts.",
     "Other::science-basics": "Covers cell biology basics: mitochondria, eukaryotes/prokaryotes, and endosymbiotic theory.",
-    "Other::organisms": "Explores cell biology concepts like mitochondria, nucleus, and endosymbiotic theory origins."
+    "Other::organisms": "Explores cell biology concepts like mitochondria, nucleus, and endosymbiotic theory origins.",
+    "Vocabulary::academic-vocab": "Builds vocabulary through spelling, meanings, and usage of academic words."
   },
   "shelves": [
     {
