@@ -3939,6 +3939,29 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "don-quixote",
+      "name": "Don Quixote",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 3,
+      "questionCount": 30,
+      "publishedAt": "2026-10-03T22:20:12.519Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "Literature",
+      "tags": [
+        "classics",
+        "satire",
+        "vocabulary",
+        "beginner"
+      ],
+      "thumbnail": "thumbs/don-quixote.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -4366,7 +4389,8 @@
     "Other::biology": "Explores cell structures, organelles, and the endosymbiotic origins of mitochondria and chloroplasts.",
     "Other::science-basics": "Covers cell biology basics: mitochondria, eukaryotes/prokaryotes, and endosymbiotic theory.",
     "Other::organisms": "Explores cell biology concepts like mitochondria, nucleus, and endosymbiotic theory origins.",
-    "Vocabulary::academic-vocab": "Builds vocabulary through spelling, meanings, and usage of academic words."
+    "Vocabulary::academic-vocab": "Builds vocabulary through spelling, meanings, and usage of academic words.",
+    "Other::satire": "Trivia mocking Don Quixote's delusional chivalric adventures and their absurd mishaps."
   },
   "shelves": [
     {
@@ -4392,6 +4416,13 @@
     },
     {
       "category": null,
+      "key": "literature",
+      "label": "Literature",
+      "count": 8,
+      "descriptor": "Trivia on Shakespeare's Othello covering quotes, characters, jealousy, and betrayal themes."
+    },
+    {
+      "category": null,
       "key": "ancient-greece",
       "label": "ancient-greece",
       "count": 8,
@@ -4410,13 +4441,6 @@
       "label": "movies",
       "count": 7,
       "descriptor": "Trivia on iconic films, casts, characters, and plot details"
-    },
-    {
-      "category": null,
-      "key": "literature",
-      "label": "Literature",
-      "count": 7,
-      "descriptor": "Trivia on Shakespeare's Othello covering quotes, characters, jealousy, and betrayal themes."
     },
     {
       "category": null,
