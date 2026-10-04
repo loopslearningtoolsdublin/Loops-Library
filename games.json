@@ -3985,6 +3985,29 @@
         "q": "en",
         "a": "de"
       }
+    },
+    {
+      "slug": "german-definite-articles-in-sentences",
+      "name": "German: Definite Articles in Sentences",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 4,
+      "questionCount": 31,
+      "publishedAt": "2026-10-04T11:22:15.361Z",
+      "createdBy": "c_mutp237x_t1oahyis",
+      "author": "Frau Beglan",
+      "subcategory": "German",
+      "tags": [
+        "grammar",
+        "case",
+        "vocabulary",
+        "beginner"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "de"
+      }
     }
   ],
   "categories": {
