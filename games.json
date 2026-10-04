@@ -4008,6 +4008,30 @@
         "q": "en",
         "a": "de"
       }
+    },
+    {
+      "slug": "taxonomy",
+      "name": "Taxonomy",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-04T23:49:59.545Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "Nature",
+      "tags": [
+        "animals",
+        "Biology",
+        "classification",
+        "species",
+        "botany"
+      ],
+      "thumbnail": "thumbs/taxonomy.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -4437,7 +4461,9 @@
     "Other::organisms": "Explores cell biology concepts like mitochondria, nucleus, and endosymbiotic theory origins.",
     "Vocabulary::academic-vocab": "Builds vocabulary through spelling, meanings, and usage of academic words.",
     "Other::satire": "Trivia mocking Don Quixote's delusional chivalric adventures and their absurd mishaps.",
-    "Language::case": "Practice German indefinite article declensions across nominative, accusative, dative, and genitive cases."
+    "Language::case": "Practice German indefinite article declensions across nominative, accusative, dative, and genitive cases.",
+    "Other::classification": "Trivia on taxonomic ranks, kingdoms, species naming, and evolutionary classification systems",
+    "Other::species": "Explore biological classification, naming, and evolutionary relationships among species."
   },
   "shelves": [
     {
