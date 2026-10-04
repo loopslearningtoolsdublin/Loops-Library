@@ -3962,6 +3962,29 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "german-indefinite-article-ein-eine-ein-keine",
+      "name": "German Indefinite Article - ein/eine/ein/keine",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-04T10:55:42.862Z",
+      "createdBy": "c_mutp237x_t1oahyis",
+      "author": "Frau Beglan",
+      "subcategory": "German",
+      "tags": [
+        "grammar",
+        "case",
+        "terminology",
+        "beginner"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "de"
+      }
     }
   ],
   "categories": {
@@ -4390,7 +4413,8 @@
     "Other::science-basics": "Covers cell biology basics: mitochondria, eukaryotes/prokaryotes, and endosymbiotic theory.",
     "Other::organisms": "Explores cell biology concepts like mitochondria, nucleus, and endosymbiotic theory origins.",
     "Vocabulary::academic-vocab": "Builds vocabulary through spelling, meanings, and usage of academic words.",
-    "Other::satire": "Trivia mocking Don Quixote's delusional chivalric adventures and their absurd mishaps."
+    "Other::satire": "Trivia mocking Don Quixote's delusional chivalric adventures and their absurd mishaps.",
+    "Language::case": "Practice German indefinite article declensions across nominative, accusative, dative, and genitive cases."
   },
   "shelves": [
     {
@@ -4406,6 +4430,13 @@
       "label": "sports-basics",
       "count": 9,
       "descriptor": "Golf fundamentals covering ball physics, club mechanics, and swing technique"
+    },
+    {
+      "category": null,
+      "key": "terminology",
+      "label": "terminology",
+      "count": 9,
+      "descriptor": "Defines key accounting terms like assets, liabilities, capital, and debit/credit rules."
     },
     {
       "category": null,
@@ -4427,13 +4458,6 @@
       "label": "ancient-greece",
       "count": 8,
       "descriptor": "Ancient Greek philosophy emphasizing virtue, reason, and acceptance of universal natural laws."
-    },
-    {
-      "category": null,
-      "key": "terminology",
-      "label": "terminology",
-      "count": 8,
-      "descriptor": "Defines key accounting terms like assets, liabilities, capital, and debit/credit rules."
     },
     {
       "category": null,
