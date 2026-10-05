@@ -4080,6 +4080,30 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "spanish-words-for-your-holiday",
+      "name": "Spanish words for your holiday",
+      "category": "Spanish",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-05T12:48:40.612Z",
+      "createdBy": "c_muv8spw0_29hbdebn",
+      "author": "Unkown",
+      "subcategory": "Travel",
+      "tags": [
+        "vocabulary",
+        "holiday",
+        "spain",
+        "beginner",
+        "language"
+      ],
+      "thumbnail": "thumbs/spanish-words-for-your-holiday.jpg",
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     }
   ],
   "categories": {
@@ -4516,7 +4540,12 @@
     "Other::refraction": "Quizzes on how and why light bends when passing between different media",
     "Other::reflection": "Quizzes learners on how light bounces, mirrors, and reflection laws work.",
     "Other::optics": "Trivia on light behavior: reflection, refraction, mirrors, lenses, and dispersion phenomena",
-    "Other::light": "Quiz on reflection, refraction, mirrors, lenses, and light phenomena."
+    "Other::light": "Quiz on reflection, refraction, mirrors, lenses, and light phenomena.",
+    "Spanish::spain": "Basic Spanish phrases for greetings, dining, directions, shopping, and emergencies while traveling.",
+    "Spanish::holiday": "Spanish phrases for greetings, dining, directions, shopping, and emergencies",
+    "Spanish::travel": "Learn essential travel phrases for greetings, dining, directions, and shopping abroad.",
+    "Spanish::language": "Learn everyday Spanish vocabulary and phrases for travel and conversation.",
+    "Spanish::beginner": "Basic Spanish words and phrases for greetings, dining, directions, and everyday situations."
   },
   "shelves": [
     {
@@ -4567,6 +4596,13 @@
       "label": "movies",
       "count": 7,
       "descriptor": "Trivia on iconic films, casts, characters, and plot details"
+    },
+    {
+      "category": null,
+      "key": "travel",
+      "label": "Travel",
+      "count": 7,
+      "descriptor": "Practice Spanish imperfect tense and travel vocabulary through packing-themed sentences."
     },
     {
       "category": null,
