@@ -4117,6 +4117,29 @@
         "q": "en",
         "a": "es"
       }
+    },
+    {
+      "slug": "world-capitals-in-spanish",
+      "name": "World capitals in spanish",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-05T13:25:23.026Z",
+      "createdBy": "c_muva40os_ayp9w8nn",
+      "author": "Jack",
+      "subcategory": "spanish",
+      "tags": [
+        "vocabulary",
+        "general-knowledge",
+        "geography",
+        "beginner"
+      ],
+      "thumbnail": "thumbs/world-capitals-in-spanish.jpg",
+      "lang": {
+        "q": "es",
+        "a": "es"
+      }
     }
   ],
   "categories": {
@@ -4303,7 +4326,7 @@
     "Other::map-location": "Games testing geographic knowledge by matching UK cities to their counties.",
     "Other::england": "Geography quiz identifying English counties and their principal cities.",
     "Other::counties": "Geography quiz identifying UK counties by their principal cities and locations.",
-    "Other::geography": "Study of English counties and their principal cities.",
+    "Other::geography": "Quiz questions testing knowledge of world capitals by continent and difficulty",
     "Other::maps": "Geographic knowledge game matching UK cities to their counties.",
     "Other::english-geography": "English geography and principal cities by county",
     "Other::classics": "Foundational knowledge of ancient Greek and Roman civilizations, mythology, drama, and literature.",
