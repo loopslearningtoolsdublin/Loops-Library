@@ -4032,6 +4032,29 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "cooking-utensils-in-spanish",
+      "name": "Cooking Utensils in Spanish",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-05T08:22:32.735Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "spanish",
+      "tags": [
+        "vocabulary",
+        "beginner",
+        "language",
+        "food"
+      ],
+      "thumbnail": "thumbs/cooking-utensils-in-spanish.jpg",
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     }
   ],
   "categories": {
@@ -4514,6 +4537,13 @@
       "label": "movies",
       "count": 7,
       "descriptor": "Trivia on iconic films, casts, characters, and plot details"
+    },
+    {
+      "category": null,
+      "key": "food",
+      "label": "food",
+      "count": 7,
+      "descriptor": "Trivia about cheesecake crust substitutions and ingredient swaps"
     },
     {
       "category": null,
