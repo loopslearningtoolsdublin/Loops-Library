@@ -4055,6 +4055,31 @@
         "q": "en",
         "a": "es"
       }
+    },
+    {
+      "slug": "refraction-and-reflection-of-light",
+      "name": "Refraction and Reflection of Light",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 47,
+      "publishedAt": "2026-10-05T10:01:28.285Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "Science",
+      "tags": [
+        "physics",
+        "optics",
+        "light-waves",
+        "reflection",
+        "refraction",
+        "light"
+      ],
+      "thumbnail": "thumbs/refraction-and-reflection-of-light.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -4402,7 +4427,7 @@
     "Language::nature": "Learn Irish vocabulary for geographical features and Earth's structure",
     "Other::irish": "Irish language, culture, or numbers content, distinct from sports or musicians.",
     "Other::language": "Covers language skills, vocabulary, and communication in a specific language.",
-    "Other::science": "Explore Newton's laws, discoveries, and life through physics and science trivia.",
+    "Other::science": "Covers reflection, refraction, mirrors, lenses, dispersion, and total internal reflection concepts.",
     "Language::listening": "Practice recognizing and interpreting spoken Spanish classroom vocabulary and phrases.",
     "Language::classroom-phrases": "Practice Spanish vocabulary and phrases commonly used in classroom settings.",
     "Vocabulary::recipes": "Trivia about cheesecake flavors, crusts, ingredients, and baking techniques",
@@ -4486,7 +4511,12 @@
     "Other::satire": "Trivia mocking Don Quixote's delusional chivalric adventures and their absurd mishaps.",
     "Language::case": "Practice German indefinite article declensions across nominative, accusative, dative, and genitive cases.",
     "Other::classification": "Trivia on taxonomic ranks, kingdoms, species naming, and evolutionary classification systems",
-    "Other::species": "Explore biological classification, naming, and evolutionary relationships among species."
+    "Other::species": "Explore biological classification, naming, and evolutionary relationships among species.",
+    "Other::light-waves": "Explores reflection, refraction, lenses, and light behavior through mirrors and optics.",
+    "Other::refraction": "Quizzes on how and why light bends when passing between different media",
+    "Other::reflection": "Quizzes learners on how light bounces, mirrors, and reflection laws work.",
+    "Other::optics": "Trivia on light behavior: reflection, refraction, mirrors, lenses, and dispersion phenomena",
+    "Other::light": "Quiz on reflection, refraction, mirrors, lenses, and light phenomena."
   },
   "shelves": [
     {
