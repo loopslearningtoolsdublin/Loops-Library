@@ -2292,7 +2292,7 @@
     {
       "slug": "accounting",
       "name": "Accounting",
-      "category": "Grammar",
+      "category": "Terminology",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -2301,7 +2301,6 @@
       "author": "Unknown",
       "subcategory": "Accounting",
       "tags": [
-        "terminology",
         "vocabulary",
         "beginner",
         "general-knowledge"
@@ -2406,7 +2405,7 @@
     {
       "slug": "coding",
       "name": "Coding",
-      "category": "Language",
+      "category": "Terminology",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -2415,7 +2414,6 @@
       "author": "gary",
       "subcategory": "Coding",
       "tags": [
-        "terminology",
         "vocabulary",
         "beginner",
         "programming",
@@ -2453,7 +2451,7 @@
     {
       "slug": "atl-tico-madrid",
       "name": "Atlético Madrid",
-      "category": "Biography",
+      "category": "Terminology",
       "emoji": "🌍",
       "loopCount": 3,
       "questionCount": 28,
@@ -2463,8 +2461,7 @@
       "subcategory": null,
       "tags": [
         "laliga",
-        "vocabulary",
-        "terminology"
+        "vocabulary"
       ],
       "thumbnail": "thumbs/atl-tico-madrid.jpg",
       "lang": {
@@ -2498,7 +2495,7 @@
     {
       "slug": "test-subject-1",
       "name": "Test subject 1",
-      "category": "Pronunciation",
+      "category": "Terminology",
       "emoji": "🔖",
       "loopCount": 5,
       "questionCount": 44,
@@ -2508,7 +2505,6 @@
       "subcategory": "vocabulary",
       "tags": [
         "beginner",
-        "terminology",
         "sports-basics"
       ],
       "thumbnail": "thumbs/test-subject-1.jpg",
@@ -3443,7 +3439,7 @@
     {
       "slug": "st-r-focal-ceisteanna-fil-ochta",
       "name": "Stór Focal Ceisteanna Filíochta",
-      "category": "Language",
+      "category": "Terminology",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -3452,7 +3448,6 @@
       "author": "SNGC",
       "subcategory": "Irish",
       "tags": [
-        "terminology",
         "vocabulary",
         "st-r-focal"
       ],
@@ -3527,7 +3522,7 @@
     {
       "slug": "computer-science-basics",
       "name": "Computer Science basics",
-      "category": "Language",
+      "category": "Terminology",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -3538,7 +3533,6 @@
       "tags": [
         "programming",
         "technology",
-        "terminology",
         "beginner"
       ],
       "thumbnail": "thumbs/computer-science-basics.jpg",
@@ -3572,7 +3566,7 @@
     {
       "slug": "codain",
       "name": "Codain",
-      "category": "Synge Street Cbs",
+      "category": "Terminology",
       "emoji": "🔖",
       "loopCount": 5,
       "questionCount": 45,
@@ -3585,7 +3579,6 @@
         "technology",
         "beginner",
         "vocabulary",
-        "terminology",
         "grammar"
       ],
       "thumbnail": "thumbs/codain.png",
@@ -3714,7 +3707,7 @@
     {
       "slug": "la-m-sica",
       "name": "La Música",
-      "category": "Music",
+      "category": "Terminology",
       "emoji": "🔖",
       "loopCount": 5,
       "questionCount": 50,
@@ -3725,7 +3718,6 @@
       "tags": [
         "vocabulary",
         "Spanish",
-        "terminology",
         "opinions",
         "genres"
       ],
@@ -3966,7 +3958,7 @@
     {
       "slug": "german-indefinite-article-ein-eine-ein-keine",
       "name": "German Indefinite Article - ein/eine/ein/keine",
-      "category": "Language",
+      "category": "Terminology",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -3977,7 +3969,6 @@
       "tags": [
         "grammar",
         "case",
-        "terminology",
         "beginner"
       ],
       "thumbnail": "thumbs/german-indefinite-article-ein-eine-ein-keine.jpg",
@@ -4100,6 +4091,28 @@
         "language"
       ],
       "thumbnail": "thumbs/spanish-words-for-your-holiday.jpg",
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
+    },
+    {
+      "slug": "school-subjects-and-material-in-spanish",
+      "name": "School Subjects and Material in Spanish",
+      "category": "Terminology",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-05T13:18:47.135Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "vocabulary",
+        "beginner",
+        "general-knowledge"
+      ],
+      "thumbnail": "thumbs/school-subjects-and-material-in-spanish.jpg",
       "lang": {
         "q": "en",
         "a": "es"
@@ -4255,6 +4268,13 @@
       "deep": "#4E3ECC",
       "wash": "#ECEBF4",
       "descriptor": "Explore ancient Roman landmarks, structures, and historical facts through engaging quizzes."
+    },
+    "Terminology": {
+      "emoji": "🔖",
+      "pastel": "#C7E2F4",
+      "deep": "#3E93CC",
+      "wash": "#EBF1F4",
+      "descriptor": "Defines key accounting terms like assets, liabilities, capital, and debit/credit rules."
     }
   },
   "labelDescriptors": {
@@ -4561,13 +4581,6 @@
       "label": "sports-basics",
       "count": 9,
       "descriptor": "Golf fundamentals covering ball physics, club mechanics, and swing technique"
-    },
-    {
-      "category": null,
-      "key": "terminology",
-      "label": "terminology",
-      "count": 9,
-      "descriptor": "Defines key accounting terms like assets, liabilities, capital, and debit/credit rules."
     },
     {
       "category": null,
