@@ -4140,6 +4140,29 @@
         "q": "es",
         "a": "es"
       }
+    },
+    {
+      "slug": "hamlet-1-1",
+      "name": "Hamlet 1.1",
+      "category": "Exam Prep",
+      "emoji": "📝",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-05T22:02:39.908Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "Literature",
+      "tags": [
+        "classics",
+        "vocabulary",
+        "figurative-language",
+        "Poetry"
+      ],
+      "thumbnail": "thumbs/hamlet-1-1.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -4447,7 +4470,7 @@
     "Beginner::numbers": "Practice core accounting concepts through numeric equations, transactions, and calculations.",
     "Language::accounting": "Practice basic accounting concepts: assets, liabilities, capital, and debit-credit rules.",
     "Language::terminology": "Defines key accounting terms like assets, liabilities, capital, and debit/credit rules.",
-    "Exam Prep::literature": "Trivia on Shakespeare's Othello covering quotes, characters, jealousy, and betrayal themes.",
+    "Exam Prep::literature": "Explore play scenes, characters, and quotes through literary comprehension questions",
     "Exam Prep::character-traits": "Quotes and traits revealing Othello's characters' motives, flaws, and identities.",
     "Other::statistics": "Practice core statistics: averages, probability, correlation, distributions, hypothesis testing, and regression concepts.",
     "Exam Prep::junior-cycle-science": "Junior-cycle biology quiz covering cells, classification, body systems, genetics, and microbiology.",
@@ -4588,7 +4611,8 @@
     "Spanish::holiday": "Spanish phrases for greetings, dining, directions, shopping, and emergencies",
     "Spanish::travel": "Learn essential travel phrases for greetings, dining, directions, and shopping abroad.",
     "Spanish::language": "Learn everyday Spanish vocabulary and phrases for travel and conversation.",
-    "Spanish::beginner": "Basic Spanish words and phrases for greetings, dining, directions, and everyday situations."
+    "Spanish::beginner": "Basic Spanish words and phrases for greetings, dining, directions, and everyday situations.",
+    "Exam Prep::classics": "Explores canonical literary works through questions on plot, characters, and themes."
   },
   "shelves": [
     {
@@ -4597,6 +4621,13 @@
       "label": "Sport",
       "count": 9,
       "descriptor": "Trivia about famous athletes, their careers, teams, and major sporting achievements."
+    },
+    {
+      "category": null,
+      "key": "literature",
+      "label": "Literature",
+      "count": 9,
+      "descriptor": "Explore play scenes, characters, and quotes through literary comprehension questions"
     },
     {
       "category": null,
@@ -4611,13 +4642,6 @@
       "label": "daily-routines",
       "count": 8,
       "descriptor": "daily-routines — related content."
-    },
-    {
-      "category": null,
-      "key": "literature",
-      "label": "Literature",
-      "count": 8,
-      "descriptor": "Trivia on Shakespeare's Othello covering quotes, characters, jealousy, and betrayal themes."
     },
     {
       "category": null,
@@ -4653,6 +4677,13 @@
       "label": "english-football",
       "count": 7,
       "descriptor": "English football club history, achievements, and notable periods"
+    },
+    {
+      "category": null,
+      "key": "classics",
+      "label": "classics",
+      "count": 7,
+      "descriptor": "Foundational knowledge of ancient Greek and Roman civilizations, mythology, drama, and literature."
     },
     {
       "category": null,
