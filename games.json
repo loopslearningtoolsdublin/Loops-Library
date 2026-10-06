@@ -4163,6 +4163,29 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "vocab-for-english-poetry-answers",
+      "name": "Vocab for English Poetry Answers",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 3,
+      "questionCount": 30,
+      "publishedAt": "2026-10-06T12:26:08.368Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "Poetry",
+      "tags": [
+        "vocabulary",
+        "literary-devices",
+        "figurative-language",
+        "exam-prep"
+      ],
+      "thumbnail": "thumbs/vocab-for-english-poetry-answers.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -4413,8 +4436,8 @@
     "Other::scottish-football": "Facts about Scottish football, focused on Celtic FC's history, players, and achievements.",
     "Other::glasgow": "Trivia on Celtic FC's history, players, rivalries, and European triumphs",
     "Other::beliefs": "Explores the meaning, value, and virtue of humility in life",
-    "Other::literary-devices": "Identify symbols, motifs, and figurative meanings within classic literary texts.",
-    "Other::figurative-language": "figurative-language — related content.",
+    "Other::literary-devices": "Identify poetic terms, devices, and analytical vocabulary used in literature studies",
+    "Other::figurative-language": "Covers metaphor, simile, and other figurative language techniques in poetry and writing.",
     "Other::plot": "Story events, directors, and adaptations from Stephen King's IT franchise",
     "Other::arithmetic": "Practice arithmetic, algebra, geometry, and trigonometry skills through progressively challenging math problems.",
     "Other::exam-prep": "Timed drills covering arithmetic, algebra, geometry, and trigonometry for test practice",
@@ -4612,7 +4635,8 @@
     "Spanish::travel": "Learn essential travel phrases for greetings, dining, directions, and shopping abroad.",
     "Spanish::language": "Learn everyday Spanish vocabulary and phrases for travel and conversation.",
     "Spanish::beginner": "Basic Spanish words and phrases for greetings, dining, directions, and everyday situations.",
-    "Exam Prep::classics": "Explores canonical literary works through questions on plot, characters, and themes."
+    "Exam Prep::classics": "Explores canonical literary works through questions on plot, characters, and themes.",
+    "Other::poetry": "Identify poetic devices, terminology, and techniques used in analyzing poetry"
   },
   "shelves": [
     {
