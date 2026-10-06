@@ -4163,6 +4163,30 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "spiderman-test",
+      "name": "Spiderman test",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 4,
+      "questionCount": 34,
+      "publishedAt": "2026-10-06T12:49:29.692Z",
+      "createdBy": "c_muwo5g4s_df2ybsi5",
+      "author": "Abdulahi🥀",
+      "subcategory": "movies",
+      "tags": [
+        "test",
+        "marvel",
+        "spider-man",
+        "Superheroes",
+        "quotes"
+      ],
+      "thumbnail": "thumbs/spiderman-test.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -4550,7 +4574,7 @@
     "Language::grammar": "Spanish verb conjugation, telling time, and daily routine vocabulary practice",
     "Language::verb-forms": "Practice identifying correct past participles of regular and irregular English verbs.",
     "Other::music-theory": "Covers fundamentals of music theory: notation, rhythm, scales, chords, and harmony.",
-    "Other::test": "Quiz testing broad factual knowledge across geography, science, history, and trivia.",
+    "Other::test": "Trivia quiz testing knowledge of Spider-Man's lore, characters, and media history.",
     "Misc::mathematics": "Functions, transformations, quadratics, polynomials, and exponential-logarithmic concepts explained.",
     "Misc::algebra": "Covers functions, transformations, quadratics, polynomials, rationals, exponentials, and logarithms.",
     "Misc::graphs": "Interpreting and transforming function graphs, including quadratics, polynomials, exponentials, and logarithms",
@@ -4613,7 +4637,9 @@
     "Spanish::language": "Learn everyday Spanish vocabulary and phrases for travel and conversation.",
     "Spanish::beginner": "Basic Spanish words and phrases for greetings, dining, directions, and everyday situations.",
     "Exam Prep::classics": "Explores canonical literary works through questions on plot, characters, and themes.",
-    "Other::poetry": "Identify poetic devices, terminology, and techniques used in analyzing poetry"
+    "Other::poetry": "Identify poetic devices, terminology, and techniques used in analyzing poetry",
+    "Other::marvel": "Trivia on Spider-Man's lore, characters, comics, and film adaptations",
+    "Other::spider-man": "Trivia about Spider-Man's characters, powers, comic history, and film adaptations."
   },
   "shelves": [
     {
@@ -4639,6 +4665,13 @@
     },
     {
       "category": null,
+      "key": "movies",
+      "label": "movies",
+      "count": 8,
+      "descriptor": "Trivia on iconic films, casts, characters, and plot details"
+    },
+    {
+      "category": null,
       "key": "daily-routines",
       "label": "daily-routines",
       "count": 8,
@@ -4650,13 +4683,6 @@
       "label": "ancient-greece",
       "count": 8,
       "descriptor": "Ancient Greek philosophy emphasizing virtue, reason, and acceptance of universal natural laws."
-    },
-    {
-      "category": null,
-      "key": "movies",
-      "label": "movies",
-      "count": 7,
-      "descriptor": "Trivia on iconic films, casts, characters, and plot details"
     },
     {
       "category": null,
