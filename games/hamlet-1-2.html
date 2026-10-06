@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Hamlet 1.2 · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1791310050350"></script>
+  <script>
+    const GAME_DATA = {"slug":"hamlet-1-2","name":"Hamlet 1.2","emoji":"🔖","category":"Literature","colors":{"pastel":"#C7D2F4","deep":"#3E60CC","wash":"#EBEDF4"},"background":"../thumbs/hamlet-1-2.jpg","lang":{"q":"en","a":"en"},"loops":[{"name":"Elsinore Craic","emoji":"🏰","timeLimit":15,"qs":[{"type":"mc","q":"Where is Hamlet set, like?","a":"Denmark","opts":["Denmark","France","England"]},{"type":"typed","q":"What's the name of the castle where Hamlet takes place?","a":"Elsinore"},{"type":"mc","q":"Who's the new King of Denmark when the play kicks off?","a":"Claudius","opts":["Claudius","Hamlet","Polonius"]},{"type":"typed","q":"What's the name of Hamlet's ma?","a":"Gertrude"},{"type":"mc","q":"Claudius married Gertrude - what is Claudius to the old King?","a":"His brother","opts":["His brother","His son","His cousin"]},{"type":"typed","q":"What's the name of Hamlet's dead da?","a":"King Hamlet"},{"type":"mc","q":"How long after the old King died did Gertrude marry Claudius?","a":"A month","opts":["A month","A year","Ten years"]},{"type":"mc","q":"Who's Polonius in the story?","a":"Claudius's advisor","opts":["Claudius's advisor","Hamlet's best mate","A random soldier"]},{"type":"typed","q":"What's the name of Polonius's son who wants to head back to France?","a":"Laertes"},{"type":"mc","q":"What school does Hamlet want to go back to?","a":"Wittenberg","opts":["Wittenberg","Oxford","Trinity"]}]},{"name":"Claudius Runs the Show","emoji":"👑","timeLimit":15,"qs":[{"type":"mc","q":"In his opening speech, Claudius says they need to balance what two things?","a":"Grief and duty","opts":["Grief and duty","Love and war","Money and power"]},{"type":"typed","q":"Who's raising an army and threatening Denmark at the start of the play?","a":"Fortinbras"},{"type":"mc","q":"Fortinbras is the prince of where?","a":"Norway","opts":["Norway","Sweden","France"]},{"type":"mc","q":"Why does young Fortinbras want a scrap with Denmark?","a":"To get back land his father lost","opts":["To get back land his father lost","Just for the craic","Because Claudius insulted him"]},{"type":"mc","q":"Who does Claudius send off to Norway to sort the Fortinbras problem?","a":"Cornelius and Voltemand","opts":["Cornelius and Voltemand","Rosencrantz and Guildenstern","Horatio and Marcellus"]},{"type":"mc","q":"Who has power over Fortinbras and can tell him to cop on?","a":"His uncle, the King of Norway","opts":["His uncle, the King of Norway","Claudius","Hamlet"]},{"type":"mc","q":"Why send ambassadors instead of just going to war?","a":"Claudius wants Norway's king to stop Fortinbras peacefully","opts":["Claudius wants Norway's king to stop Fortinbras peacefully","Claudius is scared","Claudius wants an alliance"]},{"type":"mc","q":"What does Laertes ask Claudius for?","a":"Permission to go back to France","opts":["Permission to go back to France","Money","Hamlet's forgiveness"]},{"type":"mc","q":"Who gives Laertes the nod to head off?","a":"Polonius","opts":["Polonius","Gertrude","Horatio"]},{"type":"typed","q":"Claudius calls Hamlet \"my cousin Hamlet, and my ___\" trying to be nice","a":"son"}]},{"name":"Family Drama","emoji":"😤","timeLimit":15,"qs":[{"type":"mc","q":"What does Hamlet mutter to himself when Claudius calls him \"son\"?","a":"A little more than kin, and less than kind","opts":["A little more than kin, and less than kind","Thanks da","I am not your son"]},{"type":"mc","q":"What does Gertrude ask Hamlet to stop doing?","a":"Wearing black and grieving","opts":["Wearing black and grieving","Going to school","Talking to ghosts"]},{"type":"mc","q":"What colour is Hamlet wearing to show he's in mourning?","a":"Black","opts":["Black","Red","White"]},{"type":"typed","q":"Gertrude says \"all that lives must ___\" meaning death is just natural","a":"die"},{"type":"mc","q":"Hamlet says his real grief is deeper than how it looks - what's this theme called?","a":"Appearance vs reality","opts":["Appearance vs reality","Fate vs free will","Good vs evil"]},{"type":"mc","q":"Why won't Claudius let Hamlet go back to school?","a":"He wants Hamlet to stay close at court","opts":["He wants Hamlet to stay close at court","He thinks Hamlet is thick","Wittenberg is shut"]},{"type":"mc","q":"How does Hamlet feel about his ma remarrying so fast?","a":"Disgusted","opts":["Disgusted","Delighted","Grand with it"]},{"type":"mc","q":"What's the capital vibe Claudius's speech gives off - mixing mourning with what?","a":"Celebrating his new marriage","opts":["Celebrating his new marriage","Preparing for war","Planning Hamlet's wedding"]}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
