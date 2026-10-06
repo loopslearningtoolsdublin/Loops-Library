@@ -523,14 +523,14 @@
     {
       "slug": "hubris",
       "name": "Hubris",
-      "category": "Character Traits",
+      "category": "Literature",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-07-26T22:31:09.973Z",
       "createdBy": "c_mryus71l_nphmfvx2",
       "author": "SMQ",
-      "subcategory": "Literature",
+      "subcategory": null,
       "tags": [
         "vocabulary",
         "greek-mythology"
@@ -744,14 +744,14 @@
     {
       "slug": "lc-classics-beginner",
       "name": "LC Classics (beginner)",
-      "category": "Other",
+      "category": "Literature",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-08-11T14:12:29.720Z",
       "createdBy": "c_mryus71l_nphmfvx2",
       "author": "SMQ",
-      "subcategory": "Literature",
+      "subcategory": null,
       "tags": [
         "classics",
         "beginner",
@@ -1283,14 +1283,14 @@
     {
       "slug": "the-great-gatbsy-revision-game",
       "name": "'The Great Gatbsy' Revision Game",
-      "category": "Character Traits",
+      "category": "Literature",
       "emoji": "✨",
       "loopCount": 4,
       "questionCount": 32,
       "publishedAt": "2026-09-01T08:39:33.968Z",
       "createdBy": "c_mtiev754_f9sf4v14",
       "author": "A. Martone",
-      "subcategory": "Literature",
+      "subcategory": null,
       "tags": [
         "literary-devices",
         "figurative-language"
@@ -1304,14 +1304,14 @@
     {
       "slug": "the-great-gatsby-revision",
       "name": "The Great Gatsby Revision",
-      "category": "Character Traits",
+      "category": "Literature",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-09-01T08:42:52.061Z",
       "createdBy": "c_mtiev754_f9sf4v14",
       "author": "A. Martone",
-      "subcategory": "Literature",
+      "subcategory": null,
       "tags": [
         "vocabulary",
         "plot"
@@ -1932,14 +1932,14 @@
     {
       "slug": "othello-quotations",
       "name": "Othello Quotations",
-      "category": "Character Traits",
+      "category": "Literature",
       "emoji": "📝",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-09-05T11:29:15.142Z",
       "createdBy": "c_mtnbfnay_1wml1d1i",
       "author": "SMQ",
-      "subcategory": "Literature",
+      "subcategory": null,
       "tags": [
         "vocabulary",
         "figurative-language"
@@ -2108,14 +2108,14 @@
     {
       "slug": "stephen-king-s-it",
       "name": "Stephen King's 'It'",
-      "category": "Character Traits",
+      "category": "Literature",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-09-07T21:14:49.176Z",
       "createdBy": "c_mtlf8eow_7y37hpla",
       "author": "Bradley",
-      "subcategory": "Literature",
+      "subcategory": null,
       "tags": [
         "plot",
         "quotes",
@@ -2624,7 +2624,7 @@
     {
       "slug": "cien-a-os-de-soledad-1",
       "name": "Cien Años de Soledad (1)",
-      "category": "Other",
+      "category": "Literature",
       "emoji": "✨",
       "loopCount": 2,
       "questionCount": 14,
@@ -2633,8 +2633,7 @@
       "author": "SMQ",
       "subcategory": null,
       "tags": [
-        "spanish",
-        "Literature"
+        "spanish"
       ],
       "thumbnail": "thumbs/cien-a-os-de-soledad-1.jpg",
       "lang": {
@@ -3935,14 +3934,14 @@
     {
       "slug": "don-quixote",
       "name": "Don Quixote",
-      "category": "Other",
+      "category": "Literature",
       "emoji": "✨",
       "loopCount": 3,
       "questionCount": 30,
       "publishedAt": "2026-10-03T22:20:12.519Z",
       "createdBy": "c_mu9vh9bt_blqueu80",
       "author": "SMQ",
-      "subcategory": "Literature",
+      "subcategory": null,
       "tags": [
         "classics",
         "satire",
@@ -4121,14 +4120,14 @@
     {
       "slug": "hamlet-1-1",
       "name": "Hamlet 1.1",
-      "category": "Exam Prep",
+      "category": "Literature",
       "emoji": "📝",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-10-05T22:02:39.908Z",
       "createdBy": "c_mu9vh9bt_blqueu80",
       "author": "SMQ",
-      "subcategory": "Literature",
+      "subcategory": null,
       "tags": [
         "classics",
         "vocabulary",
@@ -4183,6 +4182,30 @@
         "quotes"
       ],
       "thumbnail": "thumbs/spiderman-test.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
+    },
+    {
+      "slug": "hamlet-1-2",
+      "name": "Hamlet 1.2",
+      "category": "Literature",
+      "emoji": "🔖",
+      "loopCount": 3,
+      "questionCount": 28,
+      "publishedAt": "2026-10-06T18:07:30.350Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": null,
+      "tags": [
+        "quotes",
+        "literary-devices",
+        "figurative-language",
+        "shakespeare",
+        "classics"
+      ],
+      "thumbnail": "thumbs/hamlet-1-2.jpg",
       "lang": {
         "q": "en",
         "a": "en"
@@ -4345,6 +4368,13 @@
       "deep": "#3E93CC",
       "wash": "#EBF1F4",
       "descriptor": "Defines key accounting terms like assets, liabilities, capital, and debit/credit rules."
+    },
+    "Literature": {
+      "emoji": "🔖",
+      "pastel": "#C7D2F4",
+      "deep": "#3E60CC",
+      "wash": "#EBEDF4",
+      "descriptor": "Explore play scenes, characters, and quotes through literary comprehension questions"
     }
   },
   "labelDescriptors": {
@@ -4639,7 +4669,8 @@
     "Exam Prep::classics": "Explores canonical literary works through questions on plot, characters, and themes.",
     "Other::poetry": "Identify poetic devices, terminology, and techniques used in analyzing poetry",
     "Other::marvel": "Trivia on Spider-Man's lore, characters, comics, and film adaptations",
-    "Other::spider-man": "Trivia about Spider-Man's characters, powers, comic history, and film adaptations."
+    "Other::spider-man": "Trivia about Spider-Man's characters, powers, comic history, and film adaptations.",
+    "Other::shakespeare": "Irish-flavored trivia on Hamlet's plot, characters, and royal family drama"
   },
   "shelves": [
     {
@@ -4648,13 +4679,6 @@
       "label": "Sport",
       "count": 9,
       "descriptor": "Trivia about famous athletes, their careers, teams, and major sporting achievements."
-    },
-    {
-      "category": null,
-      "key": "literature",
-      "label": "Literature",
-      "count": 9,
-      "descriptor": "Explore play scenes, characters, and quotes through literary comprehension questions"
     },
     {
       "category": null,
@@ -4686,6 +4710,13 @@
     },
     {
       "category": null,
+      "key": "classics",
+      "label": "classics",
+      "count": 8,
+      "descriptor": "Foundational knowledge of ancient Greek and Roman civilizations, mythology, drama, and literature."
+    },
+    {
+      "category": null,
       "key": "travel",
       "label": "Travel",
       "count": 7,
@@ -4707,17 +4738,17 @@
     },
     {
       "category": null,
-      "key": "classics",
-      "label": "classics",
-      "count": 7,
-      "descriptor": "Foundational knowledge of ancient Greek and Roman civilizations, mythology, drama, and literature."
-    },
-    {
-      "category": null,
       "key": "standardized-tests",
       "label": "Standardized Tests",
       "count": 7,
       "descriptor": "Fact-recall quizzes on RE terms, evidence types, and belief concepts"
+    },
+    {
+      "category": null,
+      "key": "figurative-language",
+      "label": "figurative-language",
+      "count": 7,
+      "descriptor": "Identifying metaphors, similes, personification, and other figurative devices in poetry"
     }
   ]
 }
