@@ -4255,6 +4255,29 @@
         "q": "en",
         "a": "ga"
       }
+    },
+    {
+      "slug": "gaeilge-a2",
+      "name": "Gaeilge A2",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 4,
+      "questionCount": 37,
+      "publishedAt": "2026-10-06T22:24:10.385Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "Irish",
+      "tags": [
+        "vocabulary",
+        "grammar",
+        "beginner",
+        "a2"
+      ],
+      "thumbnail": "thumbs/gaeilge-a2.jpg",
+      "lang": {
+        "q": "en",
+        "a": "ga"
+      }
     }
   ],
   "categories": {
@@ -4716,7 +4739,8 @@
     "Other::marvel": "Trivia on Spider-Man's lore, characters, comics, and film adaptations",
     "Other::spider-man": "Trivia about Spider-Man's characters, powers, comic history, and film adaptations.",
     "Other::shakespeare": "Hamlet Act 1 Scene 3 comprehension questions on Polonius's family and advice",
-    "Other::literature": "Explore classic plays and novels through character, plot, and quote questions."
+    "Other::literature": "Explore classic plays and novels through character, plot, and quote questions.",
+    "Language::a2": "Basic Irish vocabulary, numbers, days, and simple present/past tense phrases."
   },
   "shelves": [
     {
@@ -4770,6 +4794,13 @@
     },
     {
       "category": null,
+      "key": "irish",
+      "label": "Irish",
+      "count": 8,
+      "descriptor": "Learn basic Irish vocabulary, greetings, numbers, family terms, and everyday phrases."
+    },
+    {
+      "category": null,
       "key": "travel",
       "label": "Travel",
       "count": 7,
@@ -4802,13 +4833,6 @@
       "label": "Standardized Tests",
       "count": 7,
       "descriptor": "Fact-recall quizzes on RE terms, evidence types, and belief concepts"
-    },
-    {
-      "category": null,
-      "key": "irish",
-      "label": "Irish",
-      "count": 7,
-      "descriptor": "Learn basic Irish vocabulary, greetings, numbers, family terms, and everyday phrases."
     }
   ]
 }
