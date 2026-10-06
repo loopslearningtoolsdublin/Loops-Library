@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Hamlet 1.3 · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1791322288232"></script>
+  <script>
+    const GAME_DATA = {"slug":"hamlet-1-3","name":"Hamlet 1.3","emoji":"✨","category":"Other","colors":{"pastel":"#FAD2C3","deep":"#E0784E","wash":"#FAEEE5"},"background":"../thumbs/hamlet-1-3.jpg","lang":{"q":"en","a":"en"},"loops":[{"name":"Meet the Family","emoji":"👪","timeLimit":15,"qs":[{"type":"mc","q":"Whose house does Act 1 Scene 3 take place in?","a":"Polonius's","opts":["Polonius's","Hamlet's","Claudius's"]},{"type":"mc","q":"Who is leaving Denmark to go to France?","a":"Laertes","opts":["Laertes","Hamlet","Horatio"]},{"type":"mc","q":"What is Polonius's job at the Danish court?","a":"Lord Chamberlain","opts":["Lord Chamberlain","King's brother","Gravedigger"]},{"type":"typed","q":"What is the name of Polonius's daughter?","a":"Ophelia"},{"type":"mc","q":"What is the relationship between Laertes and Ophelia?","a":"Brother and sister","opts":["Brother and sister","Husband and wife","Cousins"]},{"type":"typed","q":"What is the name of Polonius's son?","a":"Laertes"},{"type":"mc","q":"Who does Laertes warn Ophelia about getting involved with?","a":"Hamlet","opts":["Hamlet","Horatio","Claudius"]},{"type":"mc","q":"Why is Laertes going to France?","a":"Just to travel and study","opts":["For a holiday with friends","Just to travel and study","To fight in a war"]},{"type":"typed","q":"Who is Ophelia's father?","a":"Polonius"},{"type":"mc","q":"Act 1 Scene 3 happens shortly after the audience learns about what?","a":"A ghost has appeared","opts":["A ghost has appeared","A war has started","A wedding is happening"]}]},{"name":"Laertes Says Goodbye","emoji":"✈️","timeLimit":15,"qs":[{"type":"mc","q":"What does Laertes tell Ophelia about Hamlet's feelings for her?","a":"They are just a passing youthful fancy","opts":["They are true love forever","They are just a passing youthful fancy","They are fake and cruel"]},{"type":"mc","q":"According to Laertes why can't Hamlet simply choose to marry Ophelia if he wants?","a":"Because as a prince his marriage depends on the needs of the state","opts":["Because he's already engaged","Because as a prince his marriage depends on the needs of the state","Because Ophelia's family forbids it"]},{"type":"typed","q":"What does Laertes compare dangerous temptation to, a flower-themed path?","a":"primrose path"},{"type":"mc","q":"How does Ophelia cleverly respond to Laertes's warning?","a":"She tells him not to be a hypocrite who preaches one thing and does another","opts":["She agrees completely","She tells him not to be a hypocrite who preaches one thing and does another","She cries and says nothing"]},{"type":"mc","q":"What does Ophelia accuse Laertes of being, in essence?","a":"An ungracious pastor, a hypocrite","opts":["A coward","An ungracious pastor, a hypocrite","A traitor"]},{"type":"typed","q":"What country is Laertes travelling to at the start of the scene?","a":"France"},{"type":"mc","q":"Who interrupts Laertes and Ophelia's conversation?","a":"","opts":["Polonius","Hamlet","Claudius"]}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
