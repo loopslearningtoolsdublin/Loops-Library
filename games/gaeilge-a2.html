@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Gaeilge A2 · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1791325450385"></script>
+  <script>
+    const GAME_DATA = {"slug":"gaeilge-a2","name":"Gaeilge A2","emoji":"🌍","category":"Language","colors":{"pastel":"#C1F0EA","deep":"#2FB18A","wash":"#EBF6F0"},"background":"../thumbs/gaeilge-a2.jpg","lang":{"q":"en","a":"ga"},"loops":[{"name":"Greetings & Basics","emoji":"👋","timeLimit":15,"qs":[{"type":"mc","q":"How do you say \"Hello\" in Irish?","a":"Dia duit","opts":["Dia duit","Slán","Slán abhaile"]},{"type":"typed","q":"How do you say \"Goodbye\" in Irish?","a":"Slán"},{"type":"mc","q":"How do you say \"Thank you\" in Irish?","a":"Go raibh maith agat","opts":["Go raibh maith agat","Le do thoil","Gabh mo leithscéal"]},{"type":"typed","q":"How do you say \"please\" in Irish?","a":"Le do thoil"},{"type":"mc","q":"How do you say \"dog\" in Irish?","a":"madra","opts":["madra","cat","capall"]},{"type":"typed","q":"How do you say \"cat\" in Irish?","a":"cat"},{"type":"mc","q":"How do you say \"house\" in Irish?","a":"teach","opts":["teach","carr","bád"]},{"type":"typed","q":"How do you say \"water\" in Irish?","a":"uisce"},{"type":"mc","q":"How do you say \"How are you?\" in Irish?","a":"Conas atá tú","opts":["Conas atá tú","Cá bhfuil tú","Cé hé sin"]},{"type":"typed","q":"How do you say \"I am well\" in Irish?","a":"Tá mé go maith"}]},{"name":"Numbers, Days & Colours","emoji":"🔢","timeLimit":15,"qs":[{"type":"typed","q":"How do you say \"one\" in Irish (counting form)?","a":"a haon"},{"type":"mc","q":"How do you say \"two\" in Irish?","a":"a dó","opts":["a dó","a trí","a ceathair"]},{"type":"typed","q":"How do you say \"five\" in Irish?","a":"a cúig"},{"type":"mc","q":"How do you say \"ten\" in Irish?","a":"a deich","opts":["a deich","a naoi","a hocht"]},{"type":"typed","q":"How do you say \"Monday\" in Irish?","a":"Luan"},{"type":"mc","q":"How do you say \"Friday\" in Irish?","a":"Aoine","opts":["Aoine","Satharn","Domhnach"]},{"type":"typed","q":"How do you say \"red\" in Irish?","a":"dearg"},{"type":"mc","q":"How do you say \"blue\" in Irish?","a":"gorm","opts":["gorm","glas","bán"]},{"type":"typed","q":"How do you say \"mother\" in Irish?","a":"mamaí"},{"type":"mc","q":"How do you say \"brother\" in Irish?","a":"deartháir","opts":["deartháir","deirfiúr","athair"]}]},{"name":"Present Tense & Prepositions","emoji":"🗣️","timeLimit":15,"qs":[{"type":"typed","q":"How do you say \"I am\" in Irish?","a":"Tá mé"},{"type":"mc","q":"How do you say \"You are\" (singular) in Irish?","a":"Tá tú","opts":["Tá tú","Tá sé","Tá sí"]},{"type":"typed","q":"How do you say \"I like\" in Irish?","a":"Is maith liom"},{"type":"mc","q":"How do you say \"I don't like\" in Irish?","a":"Ní maith liom","opts":["Ní maith liom","Ní maith leat","Is fearr liom"]},{"type":"typed","q":"How do you say \"He is\" in Irish?","a":"Tá sé"},{"type":"mc","q":"How do you say \"She is\" in Irish?","a":"Tá sí","opts":["Tá sí","Tá sé","Tá siad"]},{"type":"typed","q":"How do you say \"on\" (preposition) in Irish?","a":"ar"},{"type":"mc","q":"How do you say \"in\" (preposition) in Irish?","a":"i","opts":["i","ar","faoi"]},{"type":"typed","q":"How do you say \"with\" in Irish?","a":"le"},{"type":"mc","q":"How do you say \"under\" in Irish?","a":"faoi","opts":["faoi","os cionn","idir"]}]},{"name":"Past Tense & Questions","emoji":"⏳","timeLimit":15,"qs":[{"type":"typed","q":"How do you say \"I am eating\" in Irish?","a":"Tá mé ag ithe"},{"type":"mc","q":"How do you say \"I am going\" in Irish?","a":"Tá mé ag dul","opts":["Tá mé ag dul","Tá mé ag ithe","Tá mé ag ól"]},{"type":"typed","q":"How do you say \"I was\" in Irish (past tense of tá)?","a":"Bhí mé"},{"type":"mc","q":"How do you say \"I ate\" in Irish?","a":"D'ith mé","opts":["D'ith mé","D'ól mé","Chuaigh mé"]},{"type":"typed","q":"How do you say \"I went\" in Irish?","a":"Chuaigh mé"},{"type":"mc","q":"How do you ask \"Are you...?\" in Irish?","a":"An bhfuil tú","opts":["An bhfuil tú","Cé tú féin","Cá bhfuil tú"]},{"type":"typed","q":"How do you say \"I drank\" in Irish?","a":"D'ól mé"}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
