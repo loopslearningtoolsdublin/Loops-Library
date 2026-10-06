@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Gaeilge A1 · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1791324851213"></script>
+  <script>
+    const GAME_DATA = {"slug":"gaeilge-a1","name":"Gaeilge A1","emoji":"🌍","category":"Language","colors":{"pastel":"#C1F0EA","deep":"#2FB18A","wash":"#EBF6F0"},"background":"../thumbs/gaeilge-a1.jpg","lang":{"q":"en","a":"ga"},"loops":[{"name":"Greetings & Basics","emoji":"👋","timeLimit":15,"qs":[{"type":"mc","q":"How do you say \"Hello\" in Irish?","a":"Dia duit","opts":["Dia duit","Slán","Go raibh maith agat"]},{"type":"typed","q":"What is the Irish word for \"goodbye\"?","a":"Slán"},{"type":"mc","q":"What does \"Go raibh maith agat\" mean?","a":"Thank you","opts":["Thank you","Please","Good morning"]},{"type":"typed","q":"How do you say \"please\" in Irish?","a":"Le do thoil"},{"type":"mc","q":"What is the Irish phrase for \"Good morning\"?","a":"Maidin mhaith","opts":["Maidin mhaith","Oíche mhaith","Dia duit"]},{"type":"typed","q":"What is the Irish phrase for \"Good night\"?","a":"Oíche mhaith"},{"type":"mc","q":"\"Conas atá tú?\" means which of these?","a":"How are you?","opts":["How are you?","What is your name?","Where are you?"]},{"type":"typed","q":"How would you say \"I am well\" in Irish?","a":"Tá mé go maith"},{"type":"mc","q":"What does \"Cad is ainm duit?\" mean?","a":"What is your name?","opts":["What is your name?","How old are you?","Where do you live?"]},{"type":"typed","q":"How do you say \"I am...\" (introducing yourself) in Irish?","a":"Is mise"}]},{"name":"Numbers & Colors","emoji":"🔢","timeLimit":15,"qs":[{"type":"typed","q":"How do you say \"one\" in Irish?","a":"a haon"},{"type":"mc","q":"What is the Irish word for \"two\"?","a":"a dó","opts":["a dó","a trí","a ceathair"]},{"type":"typed","q":"How do you say \"three\" in Irish?","a":"a trí"},{"type":"mc","q":"What is the Irish word for \"five\"?","a":"a cúig","opts":["a cúig","a sé","a seacht"]},{"type":"typed","q":"How do you say \"ten\" in Irish?","a":"a deich"},{"type":"mc","q":"What does \"dearg\" mean?","a":"red","opts":["red","blue","green"]},{"type":"typed","q":"What is the Irish word for \"blue\"?","a":"gorm"},{"type":"mc","q":"What does \"glas\" mean?","a":"green","opts":["green","black","white"]},{"type":"typed","q":"What is the Irish word for \"black\"?","a":"dubh"},{"type":"mc","q":"What does \"buí\" mean?","a":"yellow","opts":["yellow","orange","white"]}]},{"name":"Family & People","emoji":"👪","timeLimit":15,"qs":[{"type":"typed","q":"What is the Irish word for \"mother\"?","a":"máthair"},{"type":"mc","q":"What is the Irish word for \"father\"?","a":"athair","opts":["athair","deartháir","deirfiúr"]},{"type":"typed","q":"What is the Irish word for \"brother\"?","a":"deartháir"},{"type":"mc","q":"What is the Irish word for \"sister\"?","a":"deirfiúr","opts":["deirfiúr","seanmháthair","teaghlach"]},{"type":"typed","q":"What is the Irish word for \"grandmother\"?","a":"seanmháthair"},{"type":"mc","q":"What is the Irish word for \"grandfather\"?","a":"seanathair","opts":["seanathair","seanmháthair","athair"]},{"type":"typed","q":"What is the Irish word for \"family\"?","a":"teaghlach"},{"type":"mc","q":"What does \"mam\" mean in casual Irish?","a":"mom","opts":["mom","dad","grandmother"]},{"type":"typed","q":"What is the casual Irish word for \"dad\"?","a":"daid"},{"type":"mc","q":"What does \"clann\" mean?","a":"children/family","opts":["children/family","friend","neighbor"]}]},{"name":"Everyday Phrases & Feelings","emoji":"💬","timeLimit":15,"qs":[{"type":"mc","q":"What does \"Tá ocras orm\" mean?","a":"I am hungry","opts":["I am hungry","I am tired","I am thirsty"]},{"type":"typed","q":"How do you say \"I am thirsty\" in Irish?","a":"Tá tart orm"},{"type":"mc","q":"What does \"Tá mé tuirseach\" mean?","a":"I am tired","opts":["I am tired","I am happy","I am cold"]},{"type":"typed","q":"How do you say \"I like\" in Irish?","a":"Is maith liom"},{"type":"mc","q":"What does \"Ní maith liom\" mean?","a":"I don't like","opts":["I don't like","I like","I want"]},{"type":"typed","q":"How do you say \"Where is...?\" in Irish?","a":"Cá bhfuil"},{"type":"mc","q":"What does \"Slán abhaile\" mean?","a":"Safe home","opts":["Safe home","Good morning","See you tomorrow"]},{"type":"typed","q":"How do you say \"I am cold\" in Irish using the \"orm\" construction?","a":"Tá fuacht orm"},{"type":"mc","q":"What does \"Tá áthas orm\" mean?","a":"I am happy","opts":["I am happy","I am sad","I am angry"]},{"type":"mc","q":"What does \"Tá brón orm\" mean?","a":"I'm sorry","opts":["I'm sorry","I'm happy","I'm tired"]}]},{"name":"Days, Time & Sentences","emoji":"📝","timeLimit":15,"qs":[{"type":"typed","q":"What is the Irish word for \"Monday\"?","a":"Dé Luain"},{"type":"mc","q":"What is the Irish word for \"Tuesday\"?","a":"Dé Máirt","opts":["Dé Máirt","Dé Céadaoin","Déardaoin"]},{"type":"typed","q":"What is the Irish word for \"Wednesday\"?","a":"Dé Céadaoin"},{"type":"mc","q":"What is the Irish word for \"Friday\"?","a":"Dé hAoine","opts":["Dé hAoine","Dé Sathairn","Dé Domhnaigh"]},{"type":"typed","q":"How do you say \"I live\" in Irish, as in \"I am in my living\"?","a":"Tá mé i mo chónaí"},{"type":"mc","q":"What does \"Cé mhéad?\" mean?","a":"How much?","opts":["How much?","What time?","Where?"]},{"type":"typed","q":"How do you say \"What age are you?\" in Irish?","a":"Cén aois thú"},{"type":"mc","q":"What is the Irish word for \"today\"?","a":"inniu","opts":["inniu","amárach","inné"]},{"type":"typed","q":"What is the Irish word for \"tomorrow\"?","a":"amárach"},{"type":"mc","q":"What is the Irish word for \"yesterday\"?","a":"inné","opts":["inné","inniu","amárach"]}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
