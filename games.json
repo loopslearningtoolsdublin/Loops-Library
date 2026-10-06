@@ -4233,6 +4233,28 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "gaeilge-a1",
+      "name": "Gaeilge A1",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-06T22:14:11.213Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "Irish",
+      "tags": [
+        "vocabulary",
+        "beginner",
+        "grammar"
+      ],
+      "thumbnail": "thumbs/gaeilge-a1.jpg",
+      "lang": {
+        "q": "en",
+        "a": "ga"
+      }
     }
   ],
   "categories": {
@@ -4475,7 +4497,7 @@
     "Other::mathematics": "Solving basic algebraic equations by isolating the variable through inverse operations",
     "Other::problem-solving": "Solve for unknown variables in addition equations using inverse operations",
     "Other::algebra": "Solve simple one-variable equations using inverse operations and balance-scale reasoning.",
-    "Language::irish": "Translating Irish poetry-analysis question terms and vocabulary into English.",
+    "Language::irish": "Learn basic Irish vocabulary, greetings, numbers, family terms, and everyday phrases.",
     "Language::prepositions": "Practice Spanish prepositions used with countries, nationalities, and verbs like ir, ser, estar",
     "Other::etymology": "Trivia about famous quotes, sayings, and the origins of words or phrases",
     "Other::word-origins": "Explore the quirky origins behind viral slang and brain rot phrases.",
@@ -4780,6 +4802,13 @@
       "label": "Standardized Tests",
       "count": 7,
       "descriptor": "Fact-recall quizzes on RE terms, evidence types, and belief concepts"
+    },
+    {
+      "category": null,
+      "key": "irish",
+      "label": "Irish",
+      "count": 7,
+      "descriptor": "Learn basic Irish vocabulary, greetings, numbers, family terms, and everyday phrases."
     }
   ]
 }
