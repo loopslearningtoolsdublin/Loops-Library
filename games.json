@@ -4119,29 +4119,6 @@
       }
     },
     {
-      "slug": "world-capitals-in-spanish",
-      "name": "World capitals in spanish",
-      "category": "Other",
-      "emoji": "✨",
-      "loopCount": 5,
-      "questionCount": 50,
-      "publishedAt": "2026-10-05T13:25:23.026Z",
-      "createdBy": "c_muva40os_ayp9w8nn",
-      "author": "Jack",
-      "subcategory": "spanish",
-      "tags": [
-        "vocabulary",
-        "general-knowledge",
-        "geography",
-        "beginner"
-      ],
-      "thumbnail": "thumbs/world-capitals-in-spanish.jpg",
-      "lang": {
-        "q": "es",
-        "a": "es"
-      }
-    },
-    {
       "slug": "hamlet-1-1",
       "name": "Hamlet 1.1",
       "category": "Exam Prep",
