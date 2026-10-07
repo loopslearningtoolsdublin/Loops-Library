@@ -1087,14 +1087,14 @@
     {
       "slug": "prepositions-in-irish",
       "name": "Prepositions in Irish",
-      "category": "Beginner",
+      "category": "Irish",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-08-26T21:56:30.647Z",
       "createdBy": "c_mryus71l_nphmfvx2",
       "author": "SMQ",
-      "subcategory": "Irish",
+      "subcategory": null,
       "tags": [
         "grammar",
         "vocabulary",
@@ -1242,14 +1242,14 @@
     {
       "slug": "irish-for-foreigner",
       "name": "Irish for foreigner",
-      "category": "Pronunciation",
+      "category": "Irish",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-08-30T18:20:42.291Z",
       "createdBy": "c_mtg4r24x_n3l88ycl",
       "author": "Jens",
-      "subcategory": "Irish",
+      "subcategory": null,
       "tags": [
         "vocabulary"
       ],
@@ -2644,14 +2644,14 @@
     {
       "slug": "struct-r-an-domhain",
       "name": "Structúr an Domhain.",
-      "category": "Synge Street Cbs",
+      "category": "Irish",
       "emoji": "🌍",
       "loopCount": 2,
       "questionCount": 12,
       "publishedAt": "2026-09-11T08:49:37.926Z",
       "createdBy": "c_mtsd8b2z_3qm9xw7w",
       "author": "SMQ",
-      "subcategory": "Irish",
+      "subcategory": null,
       "tags": [
         "vocabulary",
         "beginner",
@@ -2666,14 +2666,14 @@
     {
       "slug": "uimhreacha-1",
       "name": "Uimhreacha 1",
-      "category": "Other",
+      "category": "Irish",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 42,
       "publishedAt": "2026-09-11T17:43:18.822Z",
       "createdBy": "c_mtx8jh5i_gyso88ma",
       "author": "Ton",
-      "subcategory": "Irish",
+      "subcategory": null,
       "tags": [
         "vocabulary",
         "beginner",
@@ -3438,14 +3438,14 @@
     {
       "slug": "st-r-focal-ceisteanna-fil-ochta",
       "name": "Stór Focal Ceisteanna Filíochta",
-      "category": "Terminology",
+      "category": "Irish",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-09-22T14:40:12.434Z",
       "createdBy": "c_mucryf8t_93f74wtg",
       "author": "SNGC",
-      "subcategory": "Irish",
+      "subcategory": null,
       "tags": [
         "vocabulary",
         "st-r-focal"
@@ -3798,7 +3798,7 @@
     {
       "slug": "history-struggle-for-independence",
       "name": "History - Struggle for Independence",
-      "category": "History",
+      "category": "Irish",
       "emoji": "📝",
       "loopCount": 5,
       "questionCount": 50,
@@ -3807,7 +3807,6 @@
       "author": "A. McMahon",
       "subcategory": null,
       "tags": [
-        "irish",
         "revision",
         "general-knowledge"
       ],
@@ -4237,14 +4236,14 @@
     {
       "slug": "gaeilge-a1",
       "name": "Gaeilge A1",
-      "category": "Language",
+      "category": "Irish",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-10-06T22:14:11.213Z",
       "createdBy": "c_mu9vh9bt_blqueu80",
       "author": "SMQ",
-      "subcategory": "Irish",
+      "subcategory": null,
       "tags": [
         "vocabulary",
         "beginner",
@@ -4259,14 +4258,14 @@
     {
       "slug": "gaeilge-a2",
       "name": "Gaeilge A2",
-      "category": "Language",
+      "category": "Irish",
       "emoji": "🌍",
       "loopCount": 4,
       "questionCount": 37,
       "publishedAt": "2026-10-06T22:24:10.385Z",
       "createdBy": "c_mu9vh9bt_blqueu80",
       "author": "SMQ",
-      "subcategory": "Irish",
+      "subcategory": null,
       "tags": [
         "vocabulary",
         "grammar",
@@ -4282,20 +4281,42 @@
     {
       "slug": "an-aimsir",
       "name": "An Aimsir",
-      "category": "Language",
+      "category": "Irish",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 42,
       "publishedAt": "2026-10-07T08:24:36.259Z",
       "createdBy": "c_mu6sdeew_zaoa9die",
       "author": "SMQ",
-      "subcategory": "Irish",
+      "subcategory": null,
       "tags": [
         "grammar",
         "vocabulary",
         "beginner"
       ],
       "thumbnail": "thumbs/an-aimsir.jpg",
+      "lang": {
+        "q": "en",
+        "a": "ga"
+      }
+    },
+    {
+      "slug": "gaeilge-t-v-is-v-b-onn",
+      "name": "Gaeilge: Tá v Is v Bíonn",
+      "category": "Irish",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 41,
+      "publishedAt": "2026-10-07T08:55:26.223Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": null,
+      "tags": [
+        "grammar",
+        "vocabulary",
+        "beginner"
+      ],
+      "thumbnail": null,
       "lang": {
         "q": "en",
         "a": "ga"
@@ -4465,6 +4486,13 @@
       "deep": "#3E60CC",
       "wash": "#EBEDF4",
       "descriptor": "Explore play scenes, characters, and quotes through literary comprehension questions"
+    },
+    "Irish": {
+      "emoji": "🔖",
+      "pastel": "#C7F2F4",
+      "deep": "#3EC5CC",
+      "wash": "#EBF4F4",
+      "descriptor": "Learn basic Irish vocabulary, greetings, numbers, family terms, and everyday phrases."
     }
   },
   "labelDescriptors": {
@@ -4778,13 +4806,6 @@
       "label": "sports-basics",
       "count": 9,
       "descriptor": "Golf fundamentals covering ball physics, club mechanics, and swing technique"
-    },
-    {
-      "category": null,
-      "key": "irish",
-      "label": "Irish",
-      "count": 9,
-      "descriptor": "Learn basic Irish vocabulary, greetings, numbers, family terms, and everyday phrases."
     },
     {
       "category": null,
