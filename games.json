@@ -4278,6 +4278,28 @@
         "q": "en",
         "a": "ga"
       }
+    },
+    {
+      "slug": "an-aimsir",
+      "name": "An Aimsir",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 42,
+      "publishedAt": "2026-10-07T08:24:36.259Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "Irish",
+      "tags": [
+        "grammar",
+        "vocabulary",
+        "beginner"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "ga"
+      }
     }
   ],
   "categories": {
@@ -4759,6 +4781,13 @@
     },
     {
       "category": null,
+      "key": "irish",
+      "label": "Irish",
+      "count": 9,
+      "descriptor": "Learn basic Irish vocabulary, greetings, numbers, family terms, and everyday phrases."
+    },
+    {
+      "category": null,
       "key": "movies",
       "label": "movies",
       "count": 8,
@@ -4791,13 +4820,6 @@
       "label": "figurative-language",
       "count": 8,
       "descriptor": "Identifying metaphors, similes, personification, and other figurative devices in poetry"
-    },
-    {
-      "category": null,
-      "key": "irish",
-      "label": "Irish",
-      "count": 8,
-      "descriptor": "Learn basic Irish vocabulary, greetings, numbers, family terms, and everyday phrases."
     },
     {
       "category": null,
