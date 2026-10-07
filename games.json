@@ -4321,6 +4321,28 @@
         "q": "en",
         "a": "ga"
       }
+    },
+    {
+      "slug": "irregular-verbs-in-spanish-present",
+      "name": "Irregular Verbs in Spanish (Present)",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-07T10:04:54.666Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "grammar",
+        "vocabulary",
+        "beginner"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     }
   ],
   "categories": {
