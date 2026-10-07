@@ -4343,6 +4343,29 @@
         "q": "en",
         "a": "es"
       }
+    },
+    {
+      "slug": "lenin-in-world-history",
+      "name": "Lenin in World History",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 4,
+      "questionCount": 37,
+      "publishedAt": "2026-10-07T10:57:30.451Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "Politics",
+      "tags": [
+        "heads-of-state",
+        "general-knowledge",
+        "origin-stories",
+        "history"
+      ],
+      "thumbnail": "thumbs/lenin-in-world-history.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -4812,7 +4835,8 @@
     "Other::spider-man": "Trivia about Spider-Man's characters, powers, comic history, and film adaptations.",
     "Other::shakespeare": "Hamlet Act 1 Scene 3 comprehension questions on Polonius's family and advice",
     "Other::literature": "Explore classic plays and novels through character, plot, and quote questions.",
-    "Language::a2": "Basic Irish vocabulary, numbers, days, and simple present/past tense phrases."
+    "Language::a2": "Basic Irish vocabulary, numbers, days, and simple present/past tense phrases.",
+    "Other::history": "Trace Lenin's life, revolutionary ideology, and founding of the Soviet state."
   },
   "shelves": [
     {
