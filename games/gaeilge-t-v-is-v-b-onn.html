@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Gaeilge: Tá v Is v Bíonn · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1791363326223"></script>
+  <script>
+    const GAME_DATA = {"slug":"gaeilge-t-v-is-v-b-onn","name":"Gaeilge: Tá v Is v Bíonn","emoji":"🔖","category":"Irish","colors":{"pastel":"#C7F2F4","deep":"#3EC5CC","wash":"#EBF4F4"},"background":null,"lang":{"q":"en","a":"ga"},"loops":[{"name":"Tá Basics","emoji":"🏠","timeLimit":15,"qs":[{"type":"mc","q":"What is the Irish word for \"is\" in \"Tá sé tuirseach\" (He is tired)?","a":"Tá","opts":["Tá","Is","Bíonn"]},{"type":"typed","q":"How do you say \"I am happy\" in Irish?","a":"Tá mé sásta"},{"type":"mc","q":"Which word means \"is\" when describing where someone is located?","a":"Tá","opts":["Tá","Is","Bíonn"]},{"type":"typed","q":"Translate: \"She is at home\"","a":"Tá sí sa bhaile"},{"type":"mc","q":"Tá is used to describe...","a":"a current state or location","opts":["a permanent identity","a current state or location","a habitual action"]},{"type":"typed","q":"How do you say \"I am sick\" in Irish?","a":"Tá mé tinn"},{"type":"mc","q":"Which sentence correctly uses Tá?","a":"Tá mé tuirseach","opts":["Tá mé múinteoir","Tá mé tuirseach","Is mé tuirseach"]},{"type":"typed","q":"Complete: ___ sé ag an doras (He is at the door)","a":"Tá"},{"type":"mc","q":"Tá comes from which Irish verb meaning \"to be\"?","a":"Bí","opts":["Bí","Is","Abair"]},{"type":"typed","q":"How do you say \"I am cold\" in Irish?","a":"Tá mé fuar"}]},{"name":"Is Basics","emoji":"🎭","timeLimit":15,"qs":[{"type":"mc","q":"Which word is used to say what someone IS, like a profession or identity?","a":"Is","opts":["Tá","Is","Bíonn"]},{"type":"typed","q":"How do you say \"I am a teacher\" in Irish?","a":"Is múinteoir mé"},{"type":"mc","q":"In \"Is dochtúir í\" what does \"í\" mean?","a":"she","opts":["he","she","they"]},{"type":"typed","q":"Translate: \"I am Irish\" (nationality)","a":"Is Éireannach mé"},{"type":"mc","q":"Which sentence correctly expresses a profession?","a":"Is dochtúir mé","opts":["Tá mé dochtúir","Is dochtúir mé","Bíonn mé dochtúir"]},{"type":"typed","q":"Complete: ___ bean í (She is a woman)","a":"Is"},{"type":"mc","q":"Is is called the ___ in Irish grammar.","a":"copula","opts":["copula","pronoun","preposition"]},{"type":"typed","q":"How do you say \"He is a man\" in Irish?","a":"Is fear é"},{"type":"mc","q":"Which word order is correct for Is sentences?","a":"Is plus noun plus subject","opts":["Is plus noun plus subject","Is plus subject plus noun","subject plus Is plus noun"]},{"type":"typed","q":"Translate: \"I am a student\"","a":"Is dalta mé"}]},{"name":"Bíonn Basics","emoji":"🔁","timeLimit":15,"qs":[{"type":"mc","q":"Bíonn is the habitual present form of which verb?","a":"Bí","opts":["Is","Bí","Abair"]},{"type":"typed","q":"How do you say \"He is at school every day\" in Irish?","a":"Bíonn sé ar scoil gach lá"},{"type":"mc","q":"Bíonn is used to describe...","a":"a habitual or repeated action","opts":["a one-time state","a habitual or repeated action","a name"]},{"type":"typed","q":"Complete: ___ sí tinn go minic (She is often sick)","a":"Bíonn"},{"type":"mc","q":"Which sentence shows a habitual action?","a":"Bíonn sé ag obair gach lá","opts":["Tá sé ag obair anois","Bíonn sé ag obair gach lá","Is oibrí é"]},{"type":"typed","q":"Translate: \"The shop is closed on Sundays\" (habitual)","a":"Bíonn an siopa dúnta ar an Domhnach"},{"type":"mc","q":"What does \"gach lá\" mean?","a":"every day","opts":["every day","sometimes","never"]},{"type":"typed","q":"How do you say \"I am usually tired\" in Irish?","a":"Bíonn mé tuirseach de ghnáth"},{"type":"mc","q":"Which word fits \"Bíonn sí ag canadh ___\" meaning she usually sings on Fridays?","a":"ar an Aoine","opts":["ar an Aoine","inniu","anois"]},{"type":"typed","q":"Translate: \"They are often late\" (habitual)","a":"Bíonn siad déanach go minic"}]},{"name":"Tá vs Is","emoji":"⚖️","timeLimit":15,"qs":[{"type":"mc","q":"Which is correct for \"I am a doctor\"?","a":"Is dochtúir mé","opts":["Tá mé dochtúir","Is dochtúir mé","Bíonn mé dochtúir"]},{"type":"mc","q":"Which is correct for \"I am tired\"?","a":"Tá mé tuirseach","opts":["Tá mé tuirseach","Is tuirseach mé","Bíonn tuirseach mé"]},{"type":"typed","q":"Correct this sentence: \"Is tinn mé\"","a":"Tá mé tinn"},{"type":"mc","q":"Tá is used with...","a":"adjectives for state","opts":["adjectives for state","nouns for identity","habitual verbs"]},{"type":"mc","q":"Is is used with...","a":"nouns for identity","opts":["adjectives for state","nouns for identity","locations"]},{"type":"typed","q":"Translate using the correct verb: \"She is a nurse\"","a":"Is altra í"},{"type":"mc","q":"Why is \"Tá mé múinteoir\" incorrect?","a":"múinteoir is a noun needing Is","opts":["wrong word order","múinteoir is a noun needing Is","tá needs an adjective here"]},{"type":"typed","q":"Translate: \"He is happy\" (a state)","a":"Tá sé sásta"},{"type":"mc","q":"Which sentence is grammatically correct?","a":"Tá mé ag an teach","opts":["Is mé ag an teach","Tá mé ag an teach","Bíonn mé an teach"]},{"type":"typed","q":"Translate: \"I am a farmer\"","a":"Is feirmeoir mé"}]},{"name":"Mastering All Three","emoji":"🏆","timeLimit":15,"qs":[{"type":"mc","q":"Which sentence means \"He is usually at work\" (habitual)?","a":"Bí","opts":["Tá sé ag obair","Bíonn sé ag obair go minic","Is oibrí é"]}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
