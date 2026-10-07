@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>An Aimsir · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1791361476259"></script>
+  <script>
+    const GAME_DATA = {"slug":"an-aimsir","name":"An Aimsir","emoji":"🌍","category":"Language","colors":{"pastel":"#C1F0EA","deep":"#2FB18A","wash":"#EBF6F0"},"background":null,"lang":{"q":"en","a":"ga"},"loops":[{"name":"Weather Words","emoji":"☀️","timeLimit":15,"qs":[{"type":"mc","q":"How do you say \"weather\" in Irish?","a":"Aimsir","opts":["Aimsir","Sneachta","Gaoth"]},{"type":"mc","q":"How do you say \"sun\" in Irish?","a":"Grian","opts":["Grian","Scamall","Sioc"]},{"type":"mc","q":"How do you say \"rain\" in Irish?","a":"Báisteach","opts":["Báisteach","Ceo","Toirneach"]},{"type":"mc","q":"How do you say \"wind\" in Irish?","a":"Gaoth","opts":["Gaoth","Grian","Sneachta"]},{"type":"mc","q":"How do you say \"snow\" in Irish?","a":"Sneachta","opts":["Sneachta","Ceo","Scamall"]},{"type":"typed","q":"How do you say \"cloud\" in Irish?","a":"Scamall"},{"type":"typed","q":"How do you say \"storm\" in Irish?","a":"Stoirm"},{"type":"typed","q":"How do you say \"frost\" in Irish?","a":"Sioc"},{"type":"typed","q":"How do you say \"fog\" in Irish?","a":"Ceo"},{"type":"mc","q":"How do you say \"thunder\" in Irish?","a":"Toirneach","opts":["Toirneach","Tintreach","Stoirm"]}]},{"name":"Simple Weather Phrases","emoji":"🌧️","timeLimit":15,"qs":[{"type":"mc","q":"How do you say \"It's cold\" in Irish?","a":"Tá sé fuar","opts":["Tá sé fuar","Tá sé te","Tá sé fliuch"]},{"type":"mc","q":"How do you say \"It's hot\" in Irish?","a":"Tá sé te","opts":["Tá sé te","Tá sé fuar","Tá sé tirim"]},{"type":"mc","q":"How do you say \"It's sunny\" in Irish?","a":"Tá sé grianmhar","opts":["Tá sé grianmhar","Tá sé scamallach","Tá sé gaofar"]},{"type":"mc","q":"How do you say \"It's windy\" in Irish?","a":"Tá sé gaofar","opts":["Tá sé gaofar","Tá sé ciúin","Tá sé fliuch"]},{"type":"typed","q":"How do you say \"It's wet\" in Irish?","a":"Tá sé fliuch"},{"type":"typed","q":"How do you say \"It's dry\" in Irish?","a":"Tá sé tirim"},{"type":"mc","q":"How do you say \"It's cloudy\" in Irish?","a":"Tá sé scamallach","opts":["Tá sé scamallach","Tá sé grianmhar","Tá sé stoirmiúil"]},{"type":"typed","q":"How do you say \"It's calm\" in Irish?","a":"Tá sé ciúin"},{"type":"mc","q":"How do you say \"It's stormy\" in Irish?","a":"Tá sé stoirmiúil","opts":["Tá sé stoirmiúil","Tá sé ceomhar","Tá sé fuar"]},{"type":"typed","q":"How do you say \"How is the weather?\" in Irish?","a":"Conas atá an aimsir?"}]},{"name":"Seasons and Descriptions","emoji":"❄️","timeLimit":15,"qs":[{"type":"mc","q":"How do you say \"spring\" in Irish?","a":"Earrach","opts":["Earrach","Samhradh","Fómhar"]},{"type":"mc","q":"How do you say \"summer\" in Irish?","a":"Samhradh","opts":["Samhradh","Geimhreadh","Earrach"]},{"type":"mc","q":"How do you say \"autumn\" in Irish?","a":"Fómhar","opts":["Fómhar","Samhradh","Geimhreadh"]},{"type":"mc","q":"How do you say \"winter\" in Irish?","a":"Geimhreadh","opts":["Geimhreadh","Fómhar","Earrach"]},{"type":"typed","q":"How do you say \"It's raining\" in Irish?","a":"Tá sé ag cur báistí"},{"type":"typed","q":"How do you say \"It's snowing\" in Irish?","a":"Tá sé ag cur sneachta"},{"type":"mc","q":"How do you say \"The sun is shining\" in Irish?","a":"Tá an ghrian ag taitneamh","opts":["Tá an ghrian ag taitneamh","Tá sé grianmhar amháin","Tá an ghrian fuar"]},{"type":"typed","q":"How do you say \"It's a fine day\" in Irish?","a":"Tá sé breá"},{"type":"mc","q":"How do you say \"It's getting cold\" in Irish?","a":"Tá sé ag éirí fuar","opts":["Tá sé ag éirí fuar","Tá sé ag éirí te","Tá sé fuar inniu"]},{"type":"typed","q":"How do you say \"What kind of day is it?\" in Irish?","a":"Cén sórt lá atá ann?"}]},{"name":"Past and Future Weather","emoji":"⛈️","timeLimit":15,"qs":[{"type":"mc","q":"How do you say \"It was sunny yesterday\" in Irish?","a":"Bhí sé grianmhar inné","opts":["Bhí sé grianmhar inné","Beidh sé grianmhar amárach","Tá sé grianmhar inniu"]},{"type":"mc","q":"How do you say \"It will rain tomorrow\" in Irish?","a":"Beidh sé ag cur báistí amárach","opts":["Beidh sé ag cur báistí amárach","Bhí sé ag cur báistí inné","Tá sé ag cur báistí anois"]},{"type":"typed","q":"How do you say \"It was cold\" in Irish?","a":"Bhí sé fuar"},{"type":"typed","q":"How do you say \"It will be hot\" in Irish?","a":"Beidh sé te"},{"type":"mc","q":"How do you say \"It was snowing\" in Irish?","a":"Bhí sé ag cur sneachta","opts":["Bhí sé ag cur sneachta","Beidh sé ag cur sneachta","Tá sé ag cur sneachta"]},{"type":"typed","q":"How do you say \"It will be windy\" in Irish?","a":"Beidh sé gaofar"},{"type":"mc","q":"How do you say \"heavy snow\" in Irish?","a":"Sneachta trom","opts":["Sneachta trom","Báisteach trom","Gaoth trom"]},{"type":"typed","q":"How do you say \"It is raining heavily\" in Irish?","a":"Tá sé ag cur báistí go trom"},{"type":"mc","q":"How do you say \"lightning\" in Irish?","a":"Tintreach","opts":["Tintreach","Toirneach","Sioc"]},{"type":"typed","q":"How do you say \"It was a nice day\" in Irish?","a":"Bhí sé breá"}]},{"name":"Advanced Weather Talk","emoji":"🌪️","timeLimit":15,"qs":[{"type":"typed","q":"How do you say \"The weather is terrible today\" in Irish?","a":"Tá an aimsir go holc inniu"},{"type":"mc","q":"How do you say \"I love sunny weather\" in Irish?","a":"Is breá liom aimsir ghrianmhar","opts":["Is breá liom aimsir ghrianmhar","Is fuath liom aimsir ghrianmhar","Tá aimsir ghrianmhar agam"]}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
