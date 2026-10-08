@@ -4432,17 +4432,16 @@
     {
       "slug": "hamlet-1-5",
       "name": "Hamlet 1.5",
-      "category": "Classics",
-      "emoji": "🔖",
+      "category": "Language",
+      "emoji": "🌍",
       "loopCount": 2,
       "questionCount": 18,
-      "publishedAt": "2026-10-08T21:47:59.796Z",
+      "publishedAt": "2026-10-08T21:49:08.457Z",
       "createdBy": "c_mu9vh9bt_blqueu80",
       "author": "SMQ",
-      "subcategory": "Literature",
+      "subcategory": null,
       "tags": [
-        "shakespeare",
-        "vocabulary"
+        "english"
       ],
       "thumbnail": "thumbs/hamlet-1-5.jpg",
       "lang": {
@@ -4933,7 +4932,8 @@
     "Biography::reptiles": "Explore reptile biology, pet care, unique traits, and proper habitat requirements.",
     "Language::classics": "Explore Hamlet's Act 1 Scene 4 via setting, drinking rant, ghost encounter, and fateful choice.",
     "Language::shakespeare": "Analyze Hamlet Act 1 Scene 4: the Ghost's appearance, drinking rant, and fateful pursuit.",
-    "Language::literature": "Explore Hamlet's Act 1 Scene 4: setting, themes, and the Ghost's dramatic appearance."
+    "Language::literature": "Explore Hamlet's Act 1 Scene 4: setting, themes, and the Ghost's dramatic appearance.",
+    "Language::english": "Explores Hamlet Act 1 Scene 5 characters and the Ghost's murder revelation"
   },
   "shelves": [
     {
