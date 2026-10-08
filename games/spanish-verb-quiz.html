@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Spanish Verb Quiz · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1791446216141"></script>
+  <script>
+    const GAME_DATA = {"slug":"spanish-verb-quiz","name":"Spanish Verb Quiz","emoji":"✨","category":"Other","colors":{"pastel":"#FAD2C3","deep":"#E0784E","wash":"#FAEEE5"},"background":"../thumbs/spanish-verb-quiz.jpg","lang":{"q":"en","a":"es"},"loops":[{"name":"Essential Being & Having","emoji":"🔑","timeLimit":15,"qs":[{"type":"mc","q":"What is the Spanish infinitive for \"to have\"?","a":"tener","opts":["tener","haber","ser"]},{"type":"typed","q":"What is the Spanish infinitive for \"to do\" or \"to make\"?","a":"hacer"},{"type":"mc","q":"What is the Spanish infinitive for \"to go\"?","a":"ir","opts":["ir","venir","salir"]},{"type":"typed","q":"What is the Spanish infinitive for \"to see\"?","a":"ver"},{"type":"mc","q":"What is the Spanish infinitive for \"to give\"?","a":"dar","opts":["dar","tomar","llevar"]},{"type":"typed","q":"What is the Spanish infinitive for \"to know\" (facts)?","a":"saber"},{"type":"mc","q":"What is the Spanish infinitive for \"to want\"?","a":"querer","opts":["querer","gustar","desear"]},{"type":"typed","q":"What is the Spanish infinitive for \"to be able to\" or \"can\"?","a":"poder"},{"type":"mc","q":"What is the Spanish infinitive for \"to be\" used for identity or permanent traits?","a":"ser","opts":["ser","estar","tener"]},{"type":"mc","q":"What is the Spanish infinitive for \"to be\" used for location or temporary states?","a":"estar","opts":["estar","ser","tener"]}]},{"name":"Everyday Communication","emoji":"💬","timeLimit":15,"qs":[{"type":"typed","q":"What is the Spanish infinitive for \"to say\" or \"to tell\"?","a":"decir"},{"type":"mc","q":"What is the Spanish infinitive for \"to speak\"?","a":"hablar","opts":["hablar","escuchar","oír"]},{"type":"typed","q":"What is the Spanish infinitive for \"to eat\"?","a":"comer"},{"type":"mc","q":"What is the Spanish infinitive for \"to live\"?","a":"vivir","opts":["vivir","morir","nacer"]},{"type":"typed","q":"What is the Spanish infinitive for \"to work\"?","a":"trabajar"},{"type":"mc","q":"What is the Spanish infinitive for \"to study\"?","a":"estudiar","opts":["estudiar","aprender","enseñar"]},{"type":"typed","q":"What is the Spanish infinitive for \"to buy\"?","a":"comprar"},{"type":"mc","q":"What is the Spanish infinitive for \"to sell\"?","a":"vender","opts":["vender","comprar","pagar"]},{"type":"typed","q":"What is the Spanish infinitive for \"to write\"?","a":"escribir"},{"type":"mc","q":"What is the Spanish infinitive for \"to read\"?","a":"leer","opts":["leer","escribir","hablar"]}]},{"name":"Movement and Actions","emoji":"🔄","timeLimit":15,"qs":[{"type":"typed","q":"What is the Spanish infinitive for \"to think\"?","a":"pensar"},{"type":"mc","q":"What is the Spanish infinitive for \"to feel\"?","a":"sentir","opts":["sentir","pensar","creer"]},{"type":"typed","q":"What is the Spanish infinitive for \"to come\"?","a":"venir"},{"type":"mc","q":"What is the Spanish infinitive for \"to leave\" or \"to go out\"?","a":"salir","opts":["salir","entrar","quedar"]},{"type":"typed","q":"What is the Spanish infinitive for \"to put\"?","a":"poner"},{"type":"mc","q":"What is the Spanish infinitive for \"to bring\"?","a":"traer","opts":["traer","llevar","dar"]},{"type":"typed","q":"What is the Spanish infinitive for \"to arrive\"?","a":"llegar"},{"type":"mc","q":"What is the Spanish infinitive for \"to look for\"?","a":"buscar","opts":["buscar","encontrar","perder"]},{"type":"typed","q":"What is the Spanish infinitive for \"to find\"?","a":"encontrar"},{"type":"mc","q":"What is the Spanish infinitive for \"to begin\" or \"to start\"?","a":"empezar","opts":["empezar","terminar","continuar"]}]},{"name":"Dynamic Verbs","emoji":"⚡","timeLimit":15,"qs":[{"type":"typed","q":"What is the Spanish infinitive for \"to finish\"?","a":"terminar"},{"type":"mc","q":"What is the Spanish infinitive for \"to understand\"?","a":"entender","opts":["entender","recordar","olvidar"]},{"type":"typed","q":"What is the Spanish infinitive for \"to remember\"?","a":"recordar"},{"type":"mc","q":"What is the Spanish infinitive for \"to forget\"?","a":"olvidar","opts":["olvidar","recordar","perder"]},{"type":"typed","q":"What is the Spanish infinitive for \"to lose\"?","a":"perder"},{"type":"mc","q":"What is the Spanish infinitive for \"to win\"?","a":"ganar","opts":["ganar","perder","jugar"]},{"type":"typed","q":"What is the Spanish infinitive for \"to play\"?","a":"jugar"},{"type":"mc","q":"What is the Spanish infinitive for \"to run\"?","a":"correr","opts":["correr","caminar","saltar"]},{"type":"typed","q":"What is the Spanish infinitive for \"to sleep\"?","a":"dormir"},{"type":"mc","q":"What is the Spanish infinitive for \"to wake up\"?","a":"despertar","opts":["despertar","dormir","acostar"]}]},{"name":"Advanced Verbs","emoji":"🏗️","timeLimit":15,"qs":[{"type":"typed","q":"What is the Spanish infinitive for \"to build\"?","a":"construir"},{"type":"mc","q":"What is the Spanish infinitive for \"to destroy\"?","a":"destruir","opts":["destruir","construir","reparar"]},{"type":"typed","q":"What is the Spanish infinitive for \"to choose\"?","a":"elegir"},{"type":"mc","q":"What is the Spanish infinitive for \"to follow\" or \"to continue\"?","a":"seguir","opts":["seguir","dejar","detener"]},{"type":"typed","q":"What is the Spanish infinitive for \"to drive\"?","a":"conducir"},{"type":"mc","q":"What is the Spanish infinitive for \"to translate\"?","a":"traducir","opts":["traducir","hablar","escribir"]},{"type":"typed","q":"What is the Spanish infinitive for \"to belong\"?","a":"pertenecer"},{"type":"mc","q":"What is the Spanish infinitive for \"to deserve\"?","a":"merecer","opts":["merecer","ganar","pedir"]},{"type":"typed","q":"What is the Spanish infinitive for \"to suggest\"?","a":"sugerir"},{"type":"mc","q":"What is the Spanish infinitive for \"to demand\" or \"to require\"?","a":"exigir","opts":["exigir","pedir","sugerir"]}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
