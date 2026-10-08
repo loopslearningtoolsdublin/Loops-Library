@@ -4389,6 +4389,29 @@
         "q": "en",
         "a": "es"
       }
+    },
+    {
+      "slug": "reptiles",
+      "name": "Reptiles",
+      "category": "Biography",
+      "emoji": "🔖",
+      "loopCount": 4,
+      "questionCount": 38,
+      "publishedAt": "2026-10-08T11:15:46.587Z",
+      "createdBy": "c_muck73d8_s1bpu78h",
+      "author": "Thomas",
+      "subcategory": "Reptiles",
+      "tags": [
+        "animals",
+        "nature",
+        "beginner",
+        "general-knowledge"
+      ],
+      "thumbnail": "thumbs/reptiles.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -4859,7 +4882,11 @@
     "Other::shakespeare": "Hamlet Act 1 Scene 3 comprehension questions on Polonius's family and advice",
     "Other::literature": "Explore classic plays and novels through character, plot, and quote questions.",
     "Language::a2": "Basic Irish vocabulary, numbers, days, and simple present/past tense phrases.",
-    "Other::history": "Trace Lenin's life, revolutionary ideology, and founding of the Soviet state."
+    "Other::history": "Trace Lenin's life, revolutionary ideology, and founding of the Soviet state.",
+    "Biography::beginner": "Introductory reptile facts covering basic anatomy, species, and simple care essentials.",
+    "Biography::nature": "Explores reptile biology, behavior, and proper care for pet species.",
+    "Biography::animals": "Reptile facts covering anatomy, species traits, and proper care requirements",
+    "Biography::reptiles": "Explore reptile biology, pet care, unique traits, and proper habitat requirements."
   },
   "shelves": [
     {
