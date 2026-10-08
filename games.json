@@ -4412,6 +4412,30 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "hamlet-1-4",
+      "name": "Hamlet 1.4",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 4,
+      "questionCount": 38,
+      "publishedAt": "2026-10-08T21:44:11.796Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "Literature",
+      "tags": [
+        "shakespeare",
+        "classics",
+        "vocabulary",
+        "grammar",
+        "general-knowledge"
+      ],
+      "thumbnail": "thumbs/hamlet-1-4.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -4886,7 +4910,10 @@
     "Biography::beginner": "Introductory reptile facts covering basic anatomy, species, and simple care essentials.",
     "Biography::nature": "Explores reptile biology, behavior, and proper care for pet species.",
     "Biography::animals": "Reptile facts covering anatomy, species traits, and proper care requirements",
-    "Biography::reptiles": "Explore reptile biology, pet care, unique traits, and proper habitat requirements."
+    "Biography::reptiles": "Explore reptile biology, pet care, unique traits, and proper habitat requirements.",
+    "Language::classics": "Explore Hamlet's Act 1 Scene 4 via setting, drinking rant, ghost encounter, and fateful choice.",
+    "Language::shakespeare": "Analyze Hamlet Act 1 Scene 4: the Ghost's appearance, drinking rant, and fateful pursuit.",
+    "Language::literature": "Explore Hamlet's Act 1 Scene 4: setting, themes, and the Ghost's dramatic appearance."
   },
   "shelves": [
     {
@@ -4902,6 +4929,13 @@
       "label": "sports-basics",
       "count": 9,
       "descriptor": "Golf fundamentals covering ball physics, club mechanics, and swing technique"
+    },
+    {
+      "category": null,
+      "key": "classics",
+      "label": "classics",
+      "count": 9,
+      "descriptor": "Foundational knowledge of ancient Greek and Roman civilizations, mythology, drama, and literature."
     },
     {
       "category": null,
@@ -4923,13 +4957,6 @@
       "label": "ancient-greece",
       "count": 8,
       "descriptor": "Ancient Greek philosophy emphasizing virtue, reason, and acceptance of universal natural laws."
-    },
-    {
-      "category": null,
-      "key": "classics",
-      "label": "classics",
-      "count": 8,
-      "descriptor": "Foundational knowledge of ancient Greek and Roman civilizations, mythology, drama, and literature."
     },
     {
       "category": null,
