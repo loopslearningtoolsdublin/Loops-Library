@@ -4366,6 +4366,29 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "spanish-verb-quiz",
+      "name": "Spanish Verb Quiz",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-08T07:56:56.141Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "spanish",
+      "tags": [
+        "grammar",
+        "vocabulary",
+        "language",
+        "beginner"
+      ],
+      "thumbnail": "thumbs/spanish-verb-quiz.jpg",
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     }
   ],
   "categories": {
