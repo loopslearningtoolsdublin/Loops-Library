@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Reptiles · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1791458146587"></script>
+  <script>
+    const GAME_DATA = {"slug":"reptiles","name":"Reptiles","emoji":"🔖","category":"Biography","colors":{"pastel":"#F4F1C7","deep":"#CCC23E","wash":"#F4F4EB"},"background":"../thumbs/reptiles.jpg","lang":{"q":"en","a":"en"},"loops":[{"name":"Reptile Basics","emoji":"🦎","timeLimit":15,"qs":[{"type":"mc","q":"Which reptile is known for changing color to communicate or regulate temperature?","a":"Chameleon","opts":["Chameleon","Turtle","Alligator"]},{"type":"mc","q":"What covers a reptile's body?","a":"Scales","opts":["Scales","Fur","Feathers"]},{"type":"mc","q":"Reptiles are cold-blooded, meaning they rely on what to regulate body temperature?","a":"External heat sources","opts":["Internal metabolism","External heat sources","Fur insulation"]},{"type":"mc","q":"What is it called when a reptile sheds its outer skin?","a":"Shedding","opts":["Shedding","Camouflage","Brumation"]},{"type":"mc","q":"Which reptile has a hard shell for protection?","a":"Turtle","opts":["Turtle","Snake","Lizard"]},{"type":"typed","q":"What do most reptiles hatch from?","a":"Eggs"},{"type":"mc","q":"Which sense organ helps snakes detect heat from prey?","a":"Heat pits","opts":["Heat pits","Ears","Whiskers"]},{"type":"mc","q":"What do pet turtles need in their tank to bask under?","a":"Heat lamp","opts":["Heat lamp","Fan","Ice"]},{"type":"typed","q":"What is the name for a baby turtle?","a":"Hatchling"},{"type":"mc","q":"Snakes are known for not having which body part?","a":"Legs","opts":["Legs","Eyes","Scales"]}]},{"name":"Common Pet Reptiles","emoji":"🐢","timeLimit":15,"qs":[{"type":"mc","q":"Bearded dragons need UVB light to help produce what vitamin?","a":"Vitamin D3","opts":["Vitamin C","Vitamin D3","Vitamin A"]},{"type":"mc","q":"Which reptile is famous for sticky toe pads that let it climb walls?","a":"Gecko","opts":["Gecko","Tortoise","Iguana"]},{"type":"typed","q":"What is the main food source for most pet leopard geckos?","a":"Insects"},{"type":"mc","q":"Box turtles are mostly what kind of eaters?","a":"Omnivores","opts":["Herbivores","Omnivores","Carnivores"]},{"type":"mc","q":"What does a bearded dragon's enclosure need to help it digest food and regulate temperature?","a":"Basking spot","opts":["Basking spot","Water pool only","Dark hide only"]},{"type":"typed","q":"What do snakes use their forked tongue to do?","a":"Smell"},{"type":"mc","q":"Which reptile lives inside a shell it can never leave?","a":"Turtle","opts":["Turtle","Lizard","Snake"]},{"type":"mc","q":"Chameleons' eyes can move independently, allowing them to do what?","a":"See two directions at once","opts":["See two directions at once","See underwater","See in the dark"]},{"type":"typed","q":"What is the name of the organ in the roof of a snake's mouth used to smell with its tongue?","a":"Jacobson's organ"},{"type":"mc","q":"Iguanas are primarily what kind of eater?","a":"Herbivore","opts":["Carnivore","Herbivore","Insectivore"]}]},{"name":"Special Features","emoji":"🐍","timeLimit":15,"qs":[{"type":"mc","q":"Which reptile can detach its tail to escape predators?","a":"Gecko","opts":["Gecko","Turtle","Crocodile"]},{"type":"typed","q":"What is the scientific term for a lizard dropping its tail to escape a predator?","a":"Autotomy"},{"type":"mc","q":"Chameleons change color mainly for which reasons?","a":"Communication and temperature regulation","opts":["Communication and temperature regulation","Only camouflage","Only mating"]},{"type":"mc","q":"Which reptile has a light-sensing parietal eye on top of its head?","a":"Tuatara","opts":["Tuatara","Turtle","Crocodile"]},{"type":"typed","q":"What is a group of crocodiles called?","a":"Bask"},{"type":"mc","q":"Which reptile has armored, bony plates called osteoderms embedded in its skin?","a":"Crocodile","opts":["Crocodile","Snake","Gecko"]},{"type":"typed","q":"What body part do chameleons shoot out to catch insects from a distance?","a":"Tongue"},{"type":"mc","q":"Which reptile is known for a venomous bite used for both hunting and defense?","a":"Komodo dragon","opts":["Komodo dragon","Turtle","Gecko"]},{"type":"mc","q":"What special feature helps geckos climb smooth surfaces like glass?","a":"Sticky toe pads with tiny hairs","opts":["Sticky toe pads with tiny hairs","Suction cups","Claws only"]},{"type":"mc","q":"Which reptile is well known for its ability to blend almost perfectly into tree bark or leaves?","a":"Leaf-tailed gecko","opts":["Leaf-tailed gecko","Red-eared slider","Komodo dragon"]}]},{"name":"Proper Care Requirements","emoji":"🐊","timeLimit":15,"qs":[{"type":"mc","q":"Why do reptile owners use a UVB bulb?","a":"To help synthesize Vitamin D3 for calcium absorption","opts":["To help synthesize Vitamin D3 for calcium absorption","To provide humidity","To provide oxygen"]},{"type":"mc","q":"What is a thermal gradient in a reptile enclosure?","a":"A range of temperatures from warm to cool","opts":["A range of temperatures from warm to cool","A type of substrate","A UV filter"]},{"type":"typed","q":"What mineral supplement is commonly dusted on feeder insects for reptiles?","a":"Calcium"},{"type":"mc","q":"Why do many reptile species need high humidity enclosures?","a":"To help with shedding and breathing","opts":["To help with shedding and breathing","To cool them down","To prevent hibernation"]},{"type":"mc","q":"What condition can occur in reptiles that don't get enough calcium?","a":"Metabolic bone disease","opts":["Metabolic bone disease","Hair loss","Faster growth"]},{"type":"typed","q":"What is the term for a reptile's dormant winter state, similar to hibernation?","a":"Brumation"},{"type":"mc","q":"Which reptile requires a large water tank because it is semi-aquatic?","a":"Red-eared slider turtle","opts":["Red-eared slider turtle","Bearded dragon","Tortoise"]},{"type":"mc","q":"Why should territorial reptiles like chameleons usually be housed alone?","a":"They get stressed and aggressive around others","opts":["They get stressed and aggressive around others","They need company","They get bored alone"]}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
