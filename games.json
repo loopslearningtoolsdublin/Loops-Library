@@ -4454,9 +4454,9 @@
       "name": "Georgian to English",
       "category": "Language",
       "emoji": "🌍",
-      "loopCount": 5,
-      "questionCount": 50,
-      "publishedAt": "2026-10-09T19:33:32.708Z",
+      "loopCount": 4,
+      "questionCount": 37,
+      "publishedAt": "2026-10-09T19:47:46.667Z",
       "createdBy": "c_muh6l65u_xqxi0dik",
       "author": "Soso Ramishvili",
       "subcategory": "Georgian",
@@ -4464,7 +4464,7 @@
         "vocabulary",
         "beginner",
         "language",
-        "grammar"
+        "daily-routines"
       ],
       "thumbnail": "thumbs/georgian-to-english.jpg",
       "lang": {
@@ -4969,6 +4969,13 @@
     },
     {
       "category": null,
+      "key": "daily-routines",
+      "label": "daily-routines",
+      "count": 9,
+      "descriptor": "daily-routines — related content."
+    },
+    {
+      "category": null,
       "key": "sports-basics",
       "label": "sports-basics",
       "count": 9,
@@ -4980,13 +4987,6 @@
       "label": "movies",
       "count": 8,
       "descriptor": "Trivia on iconic films, casts, characters, and plot details"
-    },
-    {
-      "category": null,
-      "key": "daily-routines",
-      "label": "daily-routines",
-      "count": 8,
-      "descriptor": "daily-routines — related content."
     },
     {
       "category": null,
