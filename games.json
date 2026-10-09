@@ -4448,6 +4448,29 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "georgian-to-english",
+      "name": "Georgian to English",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-09T19:33:32.708Z",
+      "createdBy": "c_muh6l65u_xqxi0dik",
+      "author": "Soso Ramishvili",
+      "subcategory": "Georgian",
+      "tags": [
+        "vocabulary",
+        "beginner",
+        "language",
+        "grammar"
+      ],
+      "thumbnail": "thumbs/georgian-to-english.jpg",
+      "lang": {
+        "q": "ka",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -4641,7 +4664,7 @@
     "Other::ancient-greece": "Ancient Greek philosophy emphasizing virtue, reason, and acceptance of universal natural laws.",
     "Other::philosophy": "Explores ancient Greek philosophy emphasizing virtue, reason, and acceptance of what cannot be controlled.",
     "Other::ancient-philosophy": "Greek philosophical system emphasizing virtue, reason, and acceptance of fate's inevitability.",
-    "Language::language": "Games teaching Latin grammar, vocabulary, conjugation, and sentence structure fundamentals.",
+    "Language::language": "Georgian-to-English vocabulary, grammar, and idiom translation exercises",
     "Language::latin": "Latin language fundamentals covering pronouns, nouns, verbs, cases, and advanced syntax.",
     "Language::ancient-rome": "Latin language fundamentals covering grammar, pronunciation, verb conjugation, and case systems.",
     "Language::travel": "Practice Spanish imperfect tense and travel vocabulary through packing-themed sentences.",
@@ -4933,7 +4956,8 @@
     "Language::classics": "Explore Hamlet's Act 1 Scene 4 via setting, drinking rant, ghost encounter, and fateful choice.",
     "Language::shakespeare": "Analyze Hamlet Act 1 Scene 4: the Ghost's appearance, drinking rant, and fateful pursuit.",
     "Language::literature": "Explore Hamlet's Act 1 Scene 4: setting, themes, and the Ghost's dramatic appearance.",
-    "Language::english": "Explores Hamlet Act 1 Scene 5 characters and the Ghost's murder revelation"
+    "Language::english": "Explores Hamlet Act 1 Scene 5 characters and the Ghost's murder revelation",
+    "Language::georgian": "Georgian-to-English translation exercises spanning vocabulary, grammar, sentences, and idioms"
   },
   "shelves": [
     {
