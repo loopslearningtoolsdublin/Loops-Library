@@ -4471,6 +4471,27 @@
         "q": "ka",
         "a": "en"
       }
+    },
+    {
+      "slug": "roman-history",
+      "name": "Roman History",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 3,
+      "questionCount": 25,
+      "publishedAt": "2026-10-11T20:56:54.139Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "Robert",
+      "subcategory": null,
+      "tags": [
+        "rome",
+        "history"
+      ],
+      "thumbnail": "thumbs/roman-history.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -4957,7 +4978,8 @@
     "Language::shakespeare": "Analyze Hamlet Act 1 Scene 4: the Ghost's appearance, drinking rant, and fateful pursuit.",
     "Language::literature": "Explore Hamlet's Act 1 Scene 4: setting, themes, and the Ghost's dramatic appearance.",
     "Language::english": "Explores Hamlet Act 1 Scene 5 characters and the Ghost's murder revelation",
-    "Language::georgian": "Georgian-to-English translation exercises spanning vocabulary, grammar, sentences, and idioms"
+    "Language::georgian": "Georgian-to-English translation exercises spanning vocabulary, grammar, sentences, and idioms",
+    "Other::rome": "Trivia on ancient Rome's founding, Republic, emperors, and iconic landmarks."
   },
   "shelves": [
     {
