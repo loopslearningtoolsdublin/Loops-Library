@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Roman History · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1791752214139"></script>
+  <script>
+    const GAME_DATA = {"slug":"roman-history","name":"Roman History","emoji":"✨","category":"Other","colors":{"pastel":"#FAD2C3","deep":"#E0784E","wash":"#FAEEE5"},"background":"../thumbs/roman-history.jpg","lang":{"q":"en","a":"en"},"loops":[{"name":"Roman Basics","emoji":"🏛️","timeLimit":15,"qs":[{"type":"mc","q":"Who were the legendary twin founders of Rome?","a":"Romulus and Remus","opts":["Romulus and Remus","Castor and Pollux","Cain and Abel"]},{"type":"typed","q":"According to Roman legend, who founded the city of Rome?","a":"Romulus"},{"type":"mc","q":"What animal is said to have raised Romulus and Remus as infants?","a":"A wolf","opts":["A wolf","A lion","A bear"]},{"type":"mc","q":"What is the name of the famous amphitheater in Rome used for public spectacles?","a":"Colosseum","opts":["Colosseum","Pantheon","Forum"]},{"type":"typed","q":"What ancient Roman structure was used for gladiator fights?","a":"Colosseum"},{"type":"mc","q":"What language did the ancient Romans speak?","a":"Latin","opts":["Latin","Greek","Etruscan"]},{"type":"mc","q":"What river runs through the city of Rome?","a":"Tiber","opts":["Tiber","Nile","Danube"]},{"type":"typed","q":"What was the central public square in an ancient Roman city called?","a":"Forum"},{"type":"mc","q":"Who was the legendary first king of Rome?","a":"Romulus","opts":["Romulus","Numa","Tarquin"]},{"type":"typed","q":"In which modern country is the city of Rome located?","a":"Italy"}]},{"name":"The Republic","emoji":"📜","timeLimit":15,"qs":[{"type":"mc","q":"What was the governing body of the Roman Republic called?","a":"Senate","opts":["Senate","Parliament","Assembly"]},{"type":"mc","q":"What does the abbreviation SPQR stand for?","a":"The Senate and People of Rome","opts":["The Senate and People of Rome","Strength Power Quality Rome","Sacred Peace of Rome"]},{"type":"mc","q":"Which Roman general famously crossed the Rubicon to start a civil war?","a":"Julius Caesar","opts":["Julius Caesar","Pompey","Crassus"]},{"type":"typed","q":"What river did Julius Caesar famously cross to start a civil war?","a":"Rubicon"},{"type":"mc","q":"Rome fought three major wars against which North African city?","a":"Carthage","opts":["Carthage","Alexandria","Athens"]},{"type":"typed","q":"What were the wars between Rome and Carthage called?","a":"Punic Wars"},{"type":"mc","q":"Which Carthaginian general famously crossed the Alps with war elephants?","a":"Hannibal","opts":["Hannibal","Hamilcar","Hasdrubal"]},{"type":"mc","q":"Who was Julius Caesar's adopted heir and Rome's first emperor?","a":"Augustus","opts":["Augustus","Nero","Tiberius"]},{"type":"mc","q":"The day Julius Caesar was assassinated is famously known as what?","a":"Ides of March","opts":["Ides of March","Kalends of March","Nones of March"]},{"type":"mc","q":"What type of government did Rome have before it became an empire?","a":"Republic","opts":["Republic","Monarchy","Democracy"]}]},{"name":"The Empire","emoji":"👑","timeLimit":15,"qs":[{"type":"mc","q":"Who was the first emperor of Rome?","a":"Augustus","opts":["Augustus","Julius Caesar","Nero"]},{"type":"typed","q":"What was the long period of relative peace across the Roman Empire called?","a":"Pax Romana"},{"type":"mc","q":"Which emperor is infamously associated with the great fire of Rome?","a":"Nero","opts":["Nero","Trajan","Hadrian"]},{"type":"mc","q":"Which Roman emperor built a famous defensive wall across Britain?","a":"Hadrian","opts":["Hadrian","Trajan","Claudius"]},{"type":"typed","q":"What is the name of the wall built by Hadrian in Britain?","a":"Hadrian's Wall"}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
