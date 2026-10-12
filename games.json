@@ -4559,6 +4559,30 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "yummy-smash-burgers",
+      "name": "Yummy Smash Burgers",
+      "category": "Beginner",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-12T11:41:29.958Z",
+      "createdBy": "c_muck73d8_s1bpu78h",
+      "author": "Mr Thomas Of The SMASH BURGERS!",
+      "subcategory": "Cooking",
+      "tags": [
+        "food",
+        "recipes",
+        "yummy",
+        "tasty",
+        "technique"
+      ],
+      "thumbnail": "thumbs/yummy-smash-burgers.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -5046,7 +5070,11 @@
     "Language::literature": "Explore Hamlet's Act 1 Scene 4: setting, themes, and the Ghost's dramatic appearance.",
     "Language::english": "Explores Hamlet Act 1 Scene 5 characters and the Ghost's murder revelation",
     "Language::georgian": "Georgian-to-English translation exercises spanning vocabulary, grammar, sentences, and idioms",
-    "Other::rome": "Trivia on ancient Rome's founding, Republic, emperors, and iconic landmarks."
+    "Other::rome": "Trivia on ancient Rome's founding, Republic, emperors, and iconic landmarks.",
+    "Beginner::technique": "Covers hands-on cooking methods, tools, and steps for making perfect smash burgers.",
+    "Beginner::tasty": "Explores smash burger cooking techniques, toppings, and flavor-building methods for delicious results.",
+    "Beginner::cooking": "Trivia on smash-burger technique, toppings, and griddle science.",
+    "Beginner::yummy": "Smash burger cooking techniques, flavor science, toppings, and griddle craftsmanship for delicious results"
   },
   "shelves": [
     {
@@ -5065,6 +5093,13 @@
     },
     {
       "category": null,
+      "key": "food",
+      "label": "food",
+      "count": 9,
+      "descriptor": "Trivia about cheesecake crust substitutions and ingredient swaps"
+    },
+    {
+      "category": null,
       "key": "sports-basics",
       "label": "sports-basics",
       "count": 9,
@@ -5076,13 +5111,6 @@
       "label": "movies",
       "count": 8,
       "descriptor": "Trivia on iconic films, casts, characters, and plot details"
-    },
-    {
-      "category": null,
-      "key": "food",
-      "label": "food",
-      "count": 8,
-      "descriptor": "Trivia about cheesecake crust substitutions and ingredient swaps"
     },
     {
       "category": null,
@@ -5111,6 +5139,13 @@
       "label": "english-football",
       "count": 7,
       "descriptor": "English football club history, achievements, and notable periods"
+    },
+    {
+      "category": null,
+      "key": "technique",
+      "label": "technique",
+      "count": 7,
+      "descriptor": "Specific mechanics, movements, and contact points required for executing golf shots effectively."
     },
     {
       "category": null,
