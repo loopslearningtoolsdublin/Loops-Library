@@ -4514,6 +4514,28 @@
         "q": "en",
         "a": "es"
       }
+    },
+    {
+      "slug": "cookery-vocab-in-spanish",
+      "name": "Cookery Vocab in Spanish",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-12T08:10:35.716Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "spanish",
+      "tags": [
+        "vocabulary",
+        "language",
+        "food"
+      ],
+      "thumbnail": "thumbs/cookery-vocab-in-spanish.jpg",
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     }
   ],
   "categories": {
@@ -5034,6 +5056,13 @@
     },
     {
       "category": null,
+      "key": "food",
+      "label": "food",
+      "count": 8,
+      "descriptor": "Trivia about cheesecake crust substitutions and ingredient swaps"
+    },
+    {
+      "category": null,
       "key": "ancient-greece",
       "label": "ancient-greece",
       "count": 8,
@@ -5052,13 +5081,6 @@
       "label": "Travel",
       "count": 7,
       "descriptor": "Practice Spanish imperfect tense and travel vocabulary through packing-themed sentences."
-    },
-    {
-      "category": null,
-      "key": "food",
-      "label": "food",
-      "count": 7,
-      "descriptor": "Trivia about cheesecake crust substitutions and ingredient swaps"
     },
     {
       "category": null,
