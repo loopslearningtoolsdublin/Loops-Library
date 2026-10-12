@@ -4492,6 +4492,28 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "days-months-seasons-in-spanish",
+      "name": "Days, Months, Seasons in Spanish",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-12T08:03:52.437Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "spanish",
+      "tags": [
+        "vocabulary",
+        "language",
+        "beginner"
+      ],
+      "thumbnail": "thumbs/days-months-seasons-in-spanish.jpg",
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     }
   ],
   "categories": {
