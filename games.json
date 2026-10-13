@@ -4654,6 +4654,30 @@
         "q": "en",
         "a": "de"
       }
+    },
+    {
+      "slug": "gelli-printing",
+      "name": "Gelli Printing",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 3,
+      "questionCount": 25,
+      "publishedAt": "2026-10-13T16:34:21.478Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "Art",
+      "tags": [
+        "printmaking",
+        "technique",
+        "crafts",
+        "beginner",
+        "art-history"
+      ],
+      "thumbnail": "thumbs/gelli-printing.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -5101,7 +5125,7 @@
     "Entertainment::tv-show": "Trivia on Dexter's characters, plot twists, and Miami Metro forensic drama",
     "Exam Prep::revision": "Quiz-style factual recall questions reviewing key Irish revolutionary history topics and events.",
     "Exam Prep::irish": "Irish history quiz covering Home Rule, 1916 Rising, Sinn Féin, independence war, and Treaty.",
-    "Other::art": "Quiz on ancient Greek architecture, sculpture, and pottery styles",
+    "Other::art": "Explore gel plate printmaking tools, techniques, and monotype/monoprint terminology.",
     "Other::architecture": "Quiz on Greek architectural orders, temple design, sculpture periods, and famous sites",
     "Vocabulary::academic-vocabulary": "Builds grade-level vocabulary through definitions, synonyms, and contextual fill-in-the-blank practice.",
     "Vocabulary::spelling": "Explore word meanings, usage, and context through vocabulary-building exercises and fill-in-the-blank sentences.",
@@ -5147,7 +5171,10 @@
     "Beginner::cooking": "Trivia on smash-burger technique, toppings, and griddle science.",
     "Beginner::yummy": "Smash burger cooking techniques, flavor science, toppings, and griddle craftsmanship for delicious results",
     "Other::lebron": "Spanish vocabulary for basketball terms, positions, rules, and gameplay concepts",
-    "Language::cognates": "Identify similar and deceptive words shared across English and other languages."
+    "Language::cognates": "Identify similar and deceptive words shared across English and other languages.",
+    "Other::crafts": "Learn gelli plate printmaking tools, paint techniques, and printmaking terminology step by step.",
+    "Other::art-history": "Covers gelli plate printmaking techniques, tools, and terminology.",
+    "Other::printmaking": "Explore gel-plate printing, tools, techniques, and terminology like monotypes and registration."
   },
   "shelves": [
     {
@@ -5201,6 +5228,13 @@
     },
     {
       "category": null,
+      "key": "technique",
+      "label": "technique",
+      "count": 8,
+      "descriptor": "Specific mechanics, movements, and contact points required for executing golf shots effectively."
+    },
+    {
+      "category": null,
       "key": "figurative-language",
       "label": "figurative-language",
       "count": 8,
@@ -5219,13 +5253,6 @@
       "label": "english-football",
       "count": 7,
       "descriptor": "English football club history, achievements, and notable periods"
-    },
-    {
-      "category": null,
-      "key": "technique",
-      "label": "technique",
-      "count": 7,
-      "descriptor": "Specific mechanics, movements, and contact points required for executing golf shots effectively."
     },
     {
       "category": null,
