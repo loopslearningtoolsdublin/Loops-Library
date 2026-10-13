@@ -4678,6 +4678,28 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "champions-league",
+      "name": "Champions League",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-13T17:56:23.306Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "football",
+      "tags": [
+        "club-level",
+        "championship",
+        "team-competition"
+      ],
+      "thumbnail": "thumbs/champions-league.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -5246,6 +5268,13 @@
       "label": "Travel",
       "count": 7,
       "descriptor": "Practice Spanish imperfect tense and travel vocabulary through packing-themed sentences."
+    },
+    {
+      "category": null,
+      "key": "club-level",
+      "label": "club-level",
+      "count": 7,
+      "descriptor": null
     },
     {
       "category": null,
