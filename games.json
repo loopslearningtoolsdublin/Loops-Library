@@ -4700,6 +4700,30 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "the-science-of-remembering",
+      "name": "The Science of Remembering",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-13T20:13:11.253Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "Psychology",
+      "tags": [
+        "learning-science",
+        "study-skills",
+        "memory",
+        "learning",
+        "Science"
+      ],
+      "thumbnail": "thumbs/the-science-of-remembering.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -5196,7 +5220,12 @@
     "Language::cognates": "Identify similar and deceptive words shared across English and other languages.",
     "Other::crafts": "Learn gelli plate printmaking tools, paint techniques, and printmaking terminology step by step.",
     "Other::art-history": "Covers gelli plate printmaking techniques, tools, and terminology.",
-    "Other::printmaking": "Explore gel-plate printing, tools, techniques, and terminology like monotypes and registration."
+    "Other::printmaking": "Explore gel-plate printing, tools, techniques, and terminology like monotypes and registration.",
+    "Other::psychology": "Explores memory science behind spacing, retrieval practice, and long-term retention strategies",
+    "Other::memory": "Facts about forgetting curves, spacing, retrieval practice, and long-term retention research",
+    "Other::learning": "Covers memory science: forgetting curves, spacing, retrieval practice, and desirable difficulties.",
+    "Other::learning-science": "Cognitive science research on memory, forgetting curves, spacing, and retrieval practice",
+    "Other::study-skills": "Techniques for effective studying, memory retention, and learning strategies like spacing and retrieval."
   },
   "shelves": [
     {
