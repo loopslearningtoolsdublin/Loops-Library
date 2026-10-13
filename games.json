@@ -4724,6 +4724,30 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "test-enhanced-learning",
+      "name": "Test Enhanced Learning",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-13T21:40:35.977Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "study-skills",
+      "tags": [
+        "exam-prep",
+        "revision",
+        "learning-techniques",
+        "general-knowledge",
+        "learning-science"
+      ],
+      "thumbnail": "thumbs/test-enhanced-learning.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -5225,7 +5249,8 @@
     "Other::memory": "Facts about forgetting curves, spacing, retrieval practice, and long-term retention research",
     "Other::learning": "Covers memory science: forgetting curves, spacing, retrieval practice, and desirable difficulties.",
     "Other::learning-science": "Cognitive science research on memory, forgetting curves, spacing, and retrieval practice",
-    "Other::study-skills": "Techniques for effective studying, memory retention, and learning strategies like spacing and retrieval."
+    "Other::study-skills": "Techniques for effective studying, memory retention, and learning strategies like spacing and retrieval.",
+    "Other::learning-techniques": "Covers retrieval practice, testing effect, and strategies using tests to enhance learning."
   },
   "shelves": [
     {
