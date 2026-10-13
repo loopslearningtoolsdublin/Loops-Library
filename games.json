@@ -1539,28 +1539,6 @@
       }
     },
     {
-      "slug": "basketball-in-spanish",
-      "name": "Basketball in Spanish",
-      "category": "Spanish",
-      "emoji": "🌍",
-      "loopCount": 5,
-      "questionCount": 50,
-      "publishedAt": "2026-09-03T08:17:28.950Z",
-      "createdBy": "c_mtl8sqlq_ksr9g0hr",
-      "author": "Yusuf",
-      "subcategory": null,
-      "tags": [
-        "basketball",
-        "vocabulary",
-        "sports-basics"
-      ],
-      "thumbnail": "thumbs/basketball-in-spanish.jpg",
-      "lang": {
-        "q": "en",
-        "a": "es"
-      }
-    },
-    {
       "slug": "past-tense-spanish",
       "name": "Past Tense (Spanish)",
       "category": "Spanish",
@@ -4583,6 +4561,30 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "basketball-in-spanish",
+      "name": "Basketball in spanish",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-13T09:14:32.814Z",
+      "createdBy": "c_muck73d8_s1bpu78h",
+      "author": "LeBron !",
+      "subcategory": "spanish",
+      "tags": [
+        "basketball",
+        "vocabulary",
+        "language",
+        "lebron",
+        "sports-basics"
+      ],
+      "thumbnail": "thumbs/basketball-in-spanish.jpg",
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     }
   ],
   "categories": {
@@ -5074,7 +5076,8 @@
     "Beginner::technique": "Covers hands-on cooking methods, tools, and steps for making perfect smash burgers.",
     "Beginner::tasty": "Explores smash burger cooking techniques, toppings, and flavor-building methods for delicious results.",
     "Beginner::cooking": "Trivia on smash-burger technique, toppings, and griddle science.",
-    "Beginner::yummy": "Smash burger cooking techniques, flavor science, toppings, and griddle craftsmanship for delicious results"
+    "Beginner::yummy": "Smash burger cooking techniques, flavor science, toppings, and griddle craftsmanship for delicious results",
+    "Other::lebron": "Spanish vocabulary for basketball terms, positions, rules, and gameplay concepts"
   },
   "shelves": [
     {
