@@ -4609,6 +4609,28 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "essential-past-french",
+      "name": "Essential Past (French)",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-13T11:55:38.399Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "French",
+      "tags": [
+        "grammar",
+        "vocabulary",
+        "beginner"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "fr"
+      }
     }
   ],
   "categories": {
@@ -4912,7 +4934,7 @@
     "Other::synge-street-cbs": "WW2 history quiz covering key events, figures, the Holocaust, and its aftermath.",
     "Other::wwii": "Quiz covering WWII causes, key events, leaders, Holocaust, and its global aftermath.",
     "Language::character-traits": "Learn French vocabulary for describing physical appearance and personality traits.",
-    "Language::french": "French vocabulary for describing physical traits and personality characteristics.",
+    "Language::french": "Practice French verb conjugation in passé composé and imparfait tenses.",
     "Exam Prep::grammar": "grammar — related content.",
     "Other::entrepreneurship": "Explore starting, running, and financing your own business ventures.",
     "Other::finance": "Learn core business finance concepts like assets, liabilities, and profit statements.",
