@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Gelli Printing · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1791909261478"></script>
+  <script>
+    const GAME_DATA = {"slug":"gelli-printing","name":"Gelli Printing","emoji":"✨","category":"Other","colors":{"pastel":"#FAD2C3","deep":"#E0784E","wash":"#FAEEE5"},"background":"../thumbs/gelli-printing.jpg","lang":{"q":"en","a":"en"},"loops":[{"name":"Gelli Printing Basics","emoji":"🎨","timeLimit":15,"qs":[{"type":"mc","q":"What is a Gelli plate primarily used for in art?","a":"Printmaking","opts":["Printmaking","Sculpture","Weaving"]},{"type":"mc","q":"What type of paint is most commonly used with a gel printing plate?","a":"Acrylic paint","opts":["Watercolor","Acrylic paint","Oil paint"]},{"type":"typed","q":"What tool do you use to spread paint evenly onto the gel plate?","a":"brayer"},{"type":"mc","q":"What is the term for taking an image off the gel plate onto paper called?","a":"Pulling a print","opts":["Pulling a print","Stamping a print","Casting a print"]},{"type":"mc","q":"Which material is gelatin printing plates traditionally made from?","a":"Gelatin","opts":["Gelatin","Silicone","Rubber"]},{"type":"typed","q":"What is the flat surface you print from called, made of a flexible gel?","a":"gel plate"},{"type":"mc","q":"What everyday object is commonly pressed into wet paint on a gel plate to add texture?","a":"Leaves","opts":["Leaves","Scissors","Pencils"]},{"type":"mc","q":"What do you lay on top of the painted gel plate to transfer the image?","a":"Paper","opts":["Fabric","Paper","Glass"]},{"type":"typed","q":"What is the art term for a one-of-a-kind print made this way?","a":"monoprint"},{"type":"mc","q":"Is a gel plate reusable for many prints?","a":"Yes","opts":["Yes","No","Only once"]}]},{"name":"Tools and Technique","emoji":"🖌️","timeLimit":15,"qs":[{"type":"mc","q":"What are stencils and masks used for in gelli printing?","a":"To add texture and shapes","opts":["To add texture and shapes","To clean the plate","To mix paint"]},{"type":"mc","q":"What is a mask in gelli printing?","a":"An object placed on the plate to block paint from reaching the paper","opts":["An object placed on the plate to block paint from reaching the paper","A type of brush","A cleaning cloth"]},{"type":"typed","q":"What is the lighter, second print pulled from the same paint application called?","a":"ghost print"},{"type":"mc","q":"Which of these is a common texture tool used on a gel plate?","a":"Bubble wrap","opts":["Bubble wrap","Hammer","Sandpaper glued to wood"]},{"type":"mc","q":"Why do many printmakers prefer acrylic paint for gelli printing?","a":"It dries quickly and remains flexible","opts":["It dries quickly and remains flexible","It never dries","It smells nice"]},{"type":"typed","q":"What type of simple roller is used to apply an even layer of paint?","a":"brayer"},{"type":"mc","q":"What can you use to create negative-space shapes on a gel print?","a":"Stencils","opts":["Stencils","Erasers","Glue sticks"]},{"type":"mc","q":"Layering multiple colors and textures on a gel plate before pulling a print is called what?","a":"Building layers","opts":["Building layers","Washing","Priming"]},{"type":"mc","q":"What happens if you apply too much paint to the gel plate?","a":"Details get lost and the print looks muddy","opts":["Details get lost and the print looks muddy","The print becomes sharper","The plate cracks"]},{"type":"typed","q":"What found object with holes is often pressed into paint to leave circular texture marks?","a":"bubble wrap"}]},{"name":"Terminology and Process","emoji":"🖼️","timeLimit":15,"qs":[{"type":"mc","q":"What distinguishes a monotype from a monoprint?","a":"A monotype has no repeatable elements, every image is completely unique","opts":["A monotype has no repeatable elements, every image is completely unique","A monotype uses only black paint","A monotype is printed on fabric"]},{"type":"mc","q":"What does a monoprint typically contain?","a":"Some repeatable elements plus unique variations each time","opts":["Some repeatable elements plus unique variations each time","Only text","No paint at all"]},{"type":"typed","q":"What do printmakers call removing the paper carefully after pressing it onto the plate?","a":"pulling"},{"type":"mc","q":"Why is lining up paper the same way each time on the plate called registration?","a":"It helps align layered prints consistently","opts":["It helps align layered prints consistently","It refers to buying supplies","It means naming the artwork"]},{"type":"mc","q":"What can be used as a quick, reusable mask shape for repeated use?","a":"A cut paper stencil","opts":["A cut paper stencil","A sponge","Wet tissue"]}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
