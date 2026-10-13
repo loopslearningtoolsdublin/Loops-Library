@@ -4585,6 +4585,30 @@
         "q": "en",
         "a": "es"
       }
+    },
+    {
+      "slug": "plurilingual-cognates",
+      "name": "Plurilingual Cognates",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 42,
+      "publishedAt": "2026-10-13T09:51:54.077Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "Cognates",
+      "tags": [
+        "vocabulary",
+        "language",
+        "grammar",
+        "english",
+        "German"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -5077,7 +5101,8 @@
     "Beginner::tasty": "Explores smash burger cooking techniques, toppings, and flavor-building methods for delicious results.",
     "Beginner::cooking": "Trivia on smash-burger technique, toppings, and griddle science.",
     "Beginner::yummy": "Smash burger cooking techniques, flavor science, toppings, and griddle craftsmanship for delicious results",
-    "Other::lebron": "Spanish vocabulary for basketball terms, positions, rules, and gameplay concepts"
+    "Other::lebron": "Spanish vocabulary for basketball terms, positions, rules, and gameplay concepts",
+    "Language::cognates": "Identify similar and deceptive words shared across English and other languages."
   },
   "shelves": [
     {
@@ -5135,6 +5160,13 @@
       "label": "Travel",
       "count": 7,
       "descriptor": "Practice Spanish imperfect tense and travel vocabulary through packing-themed sentences."
+    },
+    {
+      "category": null,
+      "key": "german",
+      "label": "German",
+      "count": 7,
+      "descriptor": "Practice German definite articles across all four grammatical cases and genders."
     },
     {
       "category": null,
