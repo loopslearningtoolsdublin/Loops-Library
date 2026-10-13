@@ -4631,6 +4631,29 @@
         "q": "en",
         "a": "fr"
       }
+    },
+    {
+      "slug": "essential-german-verbs-past",
+      "name": "Essential German Verbs (Past)",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-13T12:01:03.412Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "German",
+      "tags": [
+        "grammar",
+        "past-imperfect",
+        "vocabulary",
+        "beginner"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "de"
+      }
     }
   ],
   "categories": {
@@ -5164,6 +5187,13 @@
     },
     {
       "category": null,
+      "key": "german",
+      "label": "German",
+      "count": 8,
+      "descriptor": "Practice German definite articles across all four grammatical cases and genders."
+    },
+    {
+      "category": null,
       "key": "ancient-greece",
       "label": "ancient-greece",
       "count": 8,
@@ -5182,13 +5212,6 @@
       "label": "Travel",
       "count": 7,
       "descriptor": "Practice Spanish imperfect tense and travel vocabulary through packing-themed sentences."
-    },
-    {
-      "category": null,
-      "key": "german",
-      "label": "German",
-      "count": 7,
-      "descriptor": "Practice German definite articles across all four grammatical cases and genders."
     },
     {
       "category": null,
