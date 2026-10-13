@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Plurilingual Cognates · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1791885114077"></script>
+  <script>
+    const GAME_DATA = {"slug":"plurilingual-cognates","name":"Plurilingual Cognates","emoji":"🌍","category":"Language","colors":{"pastel":"#C1F0EA","deep":"#2FB18A","wash":"#EBF6F0"},"background":null,"lang":{"q":"en","a":"en"},"loops":[{"name":"International Cognates","emoji":"🌍","timeLimit":15,"qs":[{"type":"mc","q":"What is the German word for telephone, almost identical to the English word?","a":"Telefon","opts":["Telefon","Phonebox","Anruf"]},{"type":"typed","q":"What is the French word for hotel, spelled almost exactly like English with an accent?","a":"hôtel"},{"type":"mc","q":"How is the word chocolate spelled in Spanish?","a":"chocolate","opts":["chocolate","chocolat","cioccolato"]},{"type":"typed","q":"What is the Italian word for restaurant?","a":"ristorante"},{"type":"mc","q":"What is the Spanish word for hospital?","a":"hospital","opts":["hospital","ospedale","hôpital"]},{"type":"typed","q":"What is the French word for taxi, identical to English?","a":"taxi"},{"type":"mc","q":"What is the Italian word for music?","a":"musica","opts":["musica","musique","Musik"]},{"type":"typed","q":"What is the Spanish word for animal, spelled the same as English?","a":"animal"},{"type":"mc","q":"What is the German word for university?","a":"Universität","opts":["Universität","université","università"]},{"type":"typed","q":"What is the Spanish word for family?","a":"familia"}]},{"name":"Romance Language Cognates","emoji":"🔢","timeLimit":15,"qs":[{"type":"mc","q":"What is the number three in French?","a":"trois","opts":["trois","tres","tre"]},{"type":"typed","q":"What is the number two in Spanish?","a":"dos"},{"type":"mc","q":"What is the number one in Italian?","a":"uno","opts":["uno","une","un"]},{"type":"typed","q":"What is the number four in French?","a":"quatre"},{"type":"mc","q":"Which Spanish word for mother closely resembles the Latin root mater?","a":"madre","opts":["madre","mère","mutter"]},{"type":"typed","q":"What is the Italian word for father?","a":"padre"},{"type":"mc","q":"Which language uses the word couleur for color?","a":"French","opts":["French","Spanish","Italian"]},{"type":"typed","q":"What is the Spanish word for number?","a":"número"},{"type":"mc","q":"What is the Italian word for person?","a":"persona","opts":["persona","personne","Person"]},{"type":"typed","q":"What is the French word for important, spelled almost like English?","a":"important"}]},{"name":"Germanic Cognates","emoji":"🏠","timeLimit":15,"qs":[{"type":"mc","q":"What is the German word for house?","a":"Haus","opts":["Haus","Garten","Wasser"]},{"type":"typed","q":"What is the German word for water?","a":"Wasser"},{"type":"mc","q":"What is the German word for hand, spelled the same as English?","a":"Hand","opts":["Hand","Finger","Arm"]},{"type":"typed","q":"What is the German word for mother?","a":"Mutter"},{"type":"mc","q":"What is the German word for book?","a":"Buch","opts":["Buch","Brief","Blatt"]},{"type":"typed","q":"What is the German word for apple?","a":"Apfel"},{"type":"mc","q":"What is the German word for fish?","a":"Fisch","opts":["Fisch","Fleisch","Frosch"]},{"type":"typed","q":"What is the German word for winter, spelled the same as English?","a":"Winter"},{"type":"mc","q":"What is the German word for friend?","a":"Freund","opts":["Freund","Feind","Frau"]},{"type":"typed","q":"What is the German word for milk?","a":"Milch"}]},{"name":"False Friends","emoji":"⚠️","timeLimit":15,"qs":[{"type":"mc","q":"In French, the word librairie actually means","a":"bookshop","opts":["bookshop","library","bookshelf"]},{"type":"typed","q":"What does the Spanish word embarazada actually mean in English?","a":"pregnant"},{"type":"mc","q":"In German, the word Gift actually means","a":"poison","opts":["poison","present","talent"]},{"type":"mc","q":"In French, the word actuel actually means","a":"current","opts":["current","actual","real"]},{"type":"typed","q":"What does the Spanish word éxito mean in English?","a":"success"},{"type":"mc","q":"In Italian, the word camera actually means","a":"room","opts":["room","camera device","film"]},{"type":"typed","q":"What does the French verb attendre mean in English?","a":"wait"},{"type":"mc","q":"In Spanish, the word constipado actually means","a":"having a cold","opts":["having a cold","constipated","congested"]},{"type":"mc","q":"In French, the word sensible actually means","a":"sensitive","opts":["sensitive","reasonable","sensible"]},{"type":"typed","q":"What does the French word fabrique mean in English?","a":"factory"}]},{"name":"Greek and Latin Roots","emoji":"🏛️","timeLimit":15,"qs":[{"type":"mc","q":"The word philosophy comes from Greek roots meaning","a":"love of wisdom","opts":["love of wisdom","study of nature","rule of people"]},{"type":"typed","q":"The Greek word demos, found in democracy, means what?","a":"people"}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
