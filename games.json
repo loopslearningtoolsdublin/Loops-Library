@@ -4771,6 +4771,30 @@
         "q": "en",
         "a": "fr"
       }
+    },
+    {
+      "slug": "french-bibliotech",
+      "name": "French bibliotech",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-15T10:56:37.181Z",
+      "createdBy": "c_mv9exo5r_qzop9rhd",
+      "author": "aa",
+      "subcategory": "French",
+      "tags": [
+        "vocabulary",
+        "beginner",
+        "language",
+        "travel",
+        "greetings"
+      ],
+      "thumbnail": "thumbs/french-bibliotech.jpg",
+      "lang": {
+        "q": "en",
+        "a": "fr"
+      }
     }
   ],
   "categories": {
@@ -5158,7 +5182,7 @@
     "Other::verbs": "Conjugate common irregular Spanish verbs in the preterite tense",
     "Other::grammar": "Practice irregular Spanish preterite verb conjugations across common verbs",
     "Other::past-tense": "Practice Spanish irregular preterite verb conjugations across common verbs.",
-    "Language::greetings": "Learn basic Spanish greetings, farewells, and common classroom phrases.",
+    "Language::greetings": "Learn basic French greetings and polite expressions for everyday conversations",
     "Beginner::baking": "Quiz on cheesecake ingredients, equipment, regional variations, and flavoring additives.",
     "Beginner::recipes": "Trivia about ingredients, equipment, and techniques for making various cheesecakes.",
     "Beginner::food": "Cheesecake ingredients, equipment, and regional variations in preparation",
@@ -5315,6 +5339,13 @@
     },
     {
       "category": null,
+      "key": "travel",
+      "label": "Travel",
+      "count": 8,
+      "descriptor": "Practice Spanish imperfect tense and travel vocabulary through packing-themed sentences."
+    },
+    {
+      "category": null,
       "key": "german",
       "label": "German",
       "count": 8,
@@ -5340,13 +5371,6 @@
       "label": "figurative-language",
       "count": 8,
       "descriptor": "Identifying metaphors, similes, personification, and other figurative devices in poetry"
-    },
-    {
-      "category": null,
-      "key": "travel",
-      "label": "Travel",
-      "count": 7,
-      "descriptor": "Practice Spanish imperfect tense and travel vocabulary through packing-themed sentences."
     },
     {
       "category": null,
