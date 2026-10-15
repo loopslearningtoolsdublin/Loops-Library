@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Months Of The Year · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1792061078411"></script>
+  <script>
+    const GAME_DATA = {"slug":"months-of-the-year","name":"Months Of The Year","emoji":"🌍","category":"Language","colors":{"pastel":"#C1F0EA","deep":"#2FB18A","wash":"#EBF6F0"},"background":"../thumbs/months-of-the-year.jpg","lang":{"q":"en","a":"fr"},"loops":[{"name":"Mois Faciles","emoji":"🐣","timeLimit":15,"qs":[{"type":"mc","q":"What is the French word for January?","a":"janvier","opts":["janvier","chien","pomme"]},{"type":"mc","q":"What is the French word for February?","a":"février","opts":["février","maison","livre"]},{"type":"mc","q":"What is the French word for March?","a":"mars","opts":["mars","table","soleil"]},{"type":"mc","q":"What is the French word for April?","a":"avril","opts":["avril","fleur","eau"]},{"type":"mc","q":"What is the French word for May?","a":"mai","opts":["mai","chat","pain"]},{"type":"mc","q":"What is the French word for June?","a":"juin","opts":["juin","lune","porte"]},{"type":"mc","q":"What is the French word for July?","a":"juillet","opts":["juillet","fenêtre","arbre"]},{"type":"mc","q":"What is the French word for August?","a":"août","opts":["août","rivière","nuage"]},{"type":"mc","q":"What is the French word for September?","a":"septembre","opts":["septembre","montagne","plage"]},{"type":"mc","q":"What is the French word for October?","a":"octobre","opts":["octobre","jardin","voiture"]}]},{"name":"Mois en Pratique","emoji":"🌱","timeLimit":15,"qs":[{"type":"mc","q":"What is the French word for November?","a":"novembre","opts":["novembre","décembre","octobre"]},{"type":"mc","q":"What is the French word for December?","a":"décembre","opts":["décembre","novembre","janvier"]},{"type":"typed","q":"Type the French word for June.","a":"juin"},{"type":"typed","q":"Type the French word for July.","a":"juillet"},{"type":"typed","q":"Type the French word for August.","a":"aout"},{"type":"typed","q":"Type the French word for March.","a":"mars"},{"type":"typed","q":"Type the French word for May.","a":"mai"}]},{"name":"Ordre des Mois","emoji":"📅","timeLimit":15,"qs":[{"type":"typed","q":"Type the French word for November.","a":"novembre"},{"type":"typed","q":"Type the French word for December.","a":"décembre"},{"type":"typed","q":"Type the French word for January.","a":"janvier"},{"type":"typed","q":"Type the French word for February.","a":"février"},{"type":"mc","q":"Which month comes right after janvier in French?","a":"février","opts":["février","mars","décembre"]},{"type":"mc","q":"Which month comes right after mars in French?","a":"avril","opts":["avril","février","mai"]},{"type":"typed","q":"What is the month that comes after juin in French?","a":"juillet"},{"type":"typed","q":"What is the month that comes after septembre in French?","a":"octobre"},{"type":"mc","q":"Which month comes right before décembre in French?","a":"novembre","opts":["novembre","janvier","octobre"]}]},{"name":"Orthographe et Ordre","emoji":"✍️","timeLimit":15,"qs":[{"type":"mc","q":"Select the correct French spelling for February.","a":"février","opts":["février","fevrier","févryer"]},{"type":"mc","q":"Select the correct French spelling for December.","a":"décembre","opts":["décembre","desembre","décembres"]},{"type":"mc","q":"Select the correct French spelling for January.","a":"janvier","opts":["janvier","janvié","janvierre"]},{"type":"typed","q":"What is the month that comes before mai in French?","a":"avril"},{"type":"typed","q":"What is the month that comes before octobre in French?","a":"septembre"},{"type":"typed","q":"What is the month that comes before décembre in French?","a":"novembre"},{"type":"mc","q":"Which French word means July?","a":"juillet","opts":["juillet","jullet","juilet"]},{"type":"mc","q":"Which French word means June?","a":"juin","opts":["juin","juint","juing"]},{"type":"typed","q":"What is the French word for the first month of the year?","a":"janvier"},{"type":"typed","q":"What is the French word for the last month of the year?","a":"décembre"}]},{"name":"Défi des Mois","emoji":"🏆","timeLimit":15,"qs":[{"type":"typed","q":"What is the French word for the month that comes two months after mars?","a":"mai"},{"type":"typed","q":"What is the French word for the month that comes two months after juillet?","a":"septembre"},{"type":"mc","q":"Which month in French comes right before novembre?","a":"octobre","opts":["octobre","septembre","décembre"]},{"type":"mc","q":"Which month in French comes right before mai?","a":"avril","opts":["avril","mars","juin"]},{"type":"typed","q":"Type the French word for the month that has the fewest days in a non-leap year.","a":"février"},{"type":"typed","q":"Type the French word for the month in which Bastille Day falls.","a":"juillet"},{"type":"typed","q":"Type the French word for the month in which Christmas falls.","a":"décembre"},{"type":"typed","q":"Type the French word for the month in which New Year's Day falls.","a":"janvier"},{"type":"mc","q":"Which French word is spelled correctly for September?","a":"septembre","opts":["septembre","septambre","septemdre"]},{"type":"mc","q":"Which French word is spelled correctly for November?","a":"novembre","opts":["novembre","novambre","novenbre"]}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
