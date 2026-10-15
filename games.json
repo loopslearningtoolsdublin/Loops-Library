@@ -4779,16 +4779,15 @@
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
-      "publishedAt": "2026-10-15T10:56:37.181Z",
+      "publishedAt": "2026-10-15T10:59:32.852Z",
       "createdBy": "c_mv9exo5r_qzop9rhd",
       "author": "aa",
-      "subcategory": "French",
+      "subcategory": null,
       "tags": [
+        "French",
         "vocabulary",
-        "beginner",
         "language",
-        "travel",
-        "greetings"
+        "intermediate-level"
       ],
       "thumbnail": "thumbs/french-bibliotech.jpg",
       "lang": {
@@ -5299,7 +5298,8 @@
     "Other::study-skills": "Techniques for effective studying, memory retention, and learning strategies like spacing and retrieval.",
     "Other::learning-techniques": "Covers retrieval practice, testing effect, and strategies using tests to enhance learning.",
     "Language::months": "Practice naming, spelling, and ordering French months through varied recall challenges.",
-    "Language::calendar": "Practice naming, spelling, and ordering French calendar months correctly."
+    "Language::calendar": "Practice naming, spelling, and ordering French calendar months correctly.",
+    "Language::intermediate-level": "Practical everyday French phrases for greetings, shopping, dining, and travel situations"
   },
   "shelves": [
     {
@@ -5339,13 +5339,6 @@
     },
     {
       "category": null,
-      "key": "travel",
-      "label": "Travel",
-      "count": 8,
-      "descriptor": "Practice Spanish imperfect tense and travel vocabulary through packing-themed sentences."
-    },
-    {
-      "category": null,
       "key": "german",
       "label": "German",
       "count": 8,
@@ -5371,6 +5364,13 @@
       "label": "figurative-language",
       "count": 8,
       "descriptor": "Identifying metaphors, similes, personification, and other figurative devices in poetry"
+    },
+    {
+      "category": null,
+      "key": "travel",
+      "label": "Travel",
+      "count": 7,
+      "descriptor": "Practice Spanish imperfect tense and travel vocabulary through packing-themed sentences."
     },
     {
       "category": null,
