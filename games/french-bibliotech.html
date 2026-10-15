@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>French bibliotech · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1792061797181"></script>
+  <script>
+    const GAME_DATA = {"slug":"french-bibliotech","name":"French bibliotech","emoji":"🌍","category":"Language","colors":{"pastel":"#C1F0EA","deep":"#2FB18A","wash":"#EBF6F0"},"background":"../thumbs/french-bibliotech.jpg","lang":{"q":"en","a":"fr"},"loops":[{"name":"Bonjour Mission","emoji":"👋","timeLimit":15,"qs":[{"type":"mc","q":"How do you say \"Hello\" in French (casual)?","a":"Salut","opts":["Salut","Merci","Au revoir"]},{"type":"mc","q":"How do you say \"Hello\" in French (formal)?","a":"Bonjour","opts":["Bonjour","Bonsoir","Pardon"]},{"type":"typed","q":"What does \"Bonjour\" mean in English?","a":"Hello"},{"type":"mc","q":"How do you say \"Goodbye\" in French?","a":"Au revoir","opts":["Au revoir","Bonjour","Merci"]},{"type":"typed","q":"How do you say \"Thank you\" in French?","a":"Merci"},{"type":"mc","q":"What does \"Merci\" mean in English?","a":"Thank you","opts":["Thank you","Please","Sorry"]},{"type":"mc","q":"How do you say \"Please\" in French?","a":"S'il vous plaît","opts":["S'il vous plaît","Merci","Pardon"]},{"type":"typed","q":"What does \"Pardon\" mean in English?","a":"Sorry"},{"type":"mc","q":"How do you say \"Good evening\" in French?","a":"Bonsoir","opts":["Bonsoir","Bonjour","Salut"]},{"type":"typed","q":"How do you say \"My name is...\" in French?","a":"Je m'appelle"}]},{"name":"Café Quest","emoji":"☕","timeLimit":15,"qs":[{"type":"typed","q":"How do you say \"a coffee\" in French?","a":"Un café"},{"type":"mc","q":"What does \"croissant\" mean?","a":"A pastry","opts":["A pastry","A drink","A sandwich"]},{"type":"mc","q":"How do you say \"water\" in French?","a":"Eau","opts":["Eau","Lait","Pain"]},{"type":"typed","q":"How do you say \"bread\" in French?","a":"Pain"},{"type":"mc","q":"What number is \"un\"?","a":"One","opts":["One","Two","Three"]},{"type":"mc","q":"What number is \"trois\"?","a":"Three","opts":["Three","Four","Two"]},{"type":"typed","q":"How do you say \"two\" in French?","a":"Deux"},{"type":"mc","q":"How do you say \"the bill please\" in French?","a":"L'addition s'il vous plaît","opts":["L'addition s'il vous plaît","Bon appétit","Je voudrais"]},{"type":"typed","q":"How do you say \"I would like\" in French?","a":"Je voudrais"},{"type":"mc","q":"What does \"l'addition\" mean?","a":"The bill","opts":["The bill","The menu","The table"]}]},{"name":"Shopping Spree","emoji":"🛍️","timeLimit":15,"qs":[{"type":"mc","q":"How do you say \"How much is it?\" in French?","a":"C'est combien","opts":["C'est combien","Où est","Quelle heure"]},{"type":"typed","q":"How do you say \"excuse me\" in French?","a":"Excusez-moi"},{"type":"mc","q":"What does \"où est\" mean?","a":"Where is","opts":["Where is","How much","What time"]},{"type":"mc","q":"How do you say \"the train station\" in French?","a":"La gare","opts":["La gare","Le musée","La boulangerie"]},{"type":"typed","q":"How do you say \"left\" in French?","a":"Gauche"},{"type":"mc","q":"How do you say \"right\" in French?","a":"Droite","opts":["Droite","Gauche","Tout droit"]},{"type":"mc","q":"What does \"tout droit\" mean?","a":"Straight ahead","opts":["Straight ahead","Turn left","Stop here"]},{"type":"typed","q":"How do you say \"the bakery\" in French?","a":"La boulangerie"},{"type":"mc","q":"What does \"cher\" mean?","a":"Expensive","opts":["Expensive","Cheap","Small"]},{"type":"mc","q":"How do you say \"I'm looking for...\" in French?","a":"Je cherche","opts":["Je cherche","Je voudrais","J'aime"]}]},{"name":"Train Station Troubles","emoji":"🚉","timeLimit":15,"qs":[{"type":"mc","q":"How do you say \"What time is it?\" in French?","a":"Quelle heure est-il","opts":["Quelle heure est-il","Quel jour est-il","Où est-il"]},{"type":"typed","q":"How do you say \"today\" in French?","a":"Aujourd'hui"},{"type":"mc","q":"How do you say \"tomorrow\" in French?","a":"Demain","opts":["Demain","Hier","Aujourd'hui"]},{"type":"mc","q":"What does \"hier\" mean?","a":"Yesterday","opts":["Yesterday","Today","Tomorrow"]},{"type":"typed","q":"How do you say \"ticket\" in French?","a":"Billet"},{"type":"mc","q":"How do you say \"platform\" (train) in French?","a":"Quai","opts":["Quai","Gare","Voie"]},{"type":"typed","q":"How do you say \"I don't understand\" in French?","a":"Je ne comprends pas"},{"type":"mc","q":"What does \"Je ne comprends pas\" mean?","a":"I don't understand","opts":["I don't understand","I don't know","I don't like it"]},{"type":"mc","q":"How do you say \"Can you help me?\" in French?","a":"Pouvez-vous m'aider","opts":["Pouvez-vous m'aider","Voulez-vous dansez","Avez-vous faim"]},{"type":"mc","q":"How do you say \"Where is the bathroom?\" in French?","a":"Où sont les toilettes","opts":["Où sont les toilettes","Où est la gare","Combien ça coûte"]}]},{"name":"Final Boss Waiter","emoji":"🍽️","timeLimit":15,"qs":[{"type":"mc","q":"Waiter says \"Vous êtes combien?\" What is he asking?","a":"How many people","opts":["How many people","What do you want","What's your name"]},{"type":"typed","q":"How do you say \"a table for two\" in French?","a":"Une table pour deux"},{"type":"mc","q":"Waiter asks \"Qu'est-ce que vous voulez boire?\" What does this mean?","a":"What would you like to drink","opts":["What would you like to drink","What would you like to eat","How was the food"]},{"type":"typed","q":"How do you say \"I would like a glass of wine\" in French?","a":"Je voudrais un verre de vin"},{"type":"mc","q":"Waiter says \"Bon appétit!\" What does this mean?","a":"Enjoy your meal","opts":["Enjoy your meal","Thank you","Goodbye"]},{"type":"typed","q":"How do you say \"It's delicious\" in French?","a":"C'est délicieux"},{"type":"mc","q":"How do you say \"the check, please\" politely in French?","a":"L'addition s'il vous plaît","opts":["L'addition s'il vous plaît","Merci beaucoup","Bon appétit"]},{"type":"typed","q":"How do you say \"Thank you very much\" in French?","a":"Merci beaucoup"},{"type":"mc","q":"Waiter says \"À bientôt!\" What does this mean?","a":"See you soon","opts":["See you soon","Good night","Good luck"]},{"type":"typed","q":"How do you say \"Have a nice day\" in French?","a":"Bonne journée"}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
