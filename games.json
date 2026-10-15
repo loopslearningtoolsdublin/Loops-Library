@@ -4748,6 +4748,29 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "months-of-the-year",
+      "name": "Months Of The Year",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 46,
+      "publishedAt": "2026-10-15T10:44:38.411Z",
+      "createdBy": "c_mv9elb3c_p6r4u7f8",
+      "author": "FS",
+      "subcategory": "Calendar",
+      "tags": [
+        "beginner",
+        "language",
+        "vocabulary",
+        "months"
+      ],
+      "thumbnail": "thumbs/months-of-the-year.jpg",
+      "lang": {
+        "q": "en",
+        "a": "fr"
+      }
     }
   ],
   "categories": {
@@ -4783,149 +4806,149 @@
     },
     "Vocabulary": {
       "emoji": "🔖",
-      "pastel": "#D2F4C7",
-      "deep": "#5FCC3E",
-      "wash": "#EDF4EB"
+      "pastel": "#D3F4C7",
+      "deep": "#63CC3E",
+      "wash": "#EEF4EB"
     },
     "Beginner": {
       "emoji": "🔖",
-      "pastel": "#F4C7E8",
-      "deep": "#CC3EA3",
-      "wash": "#F4EBF2"
+      "pastel": "#F4EBC7",
+      "deep": "#CCAD3E",
+      "wash": "#F4F2EB"
     },
     "General Knowledge": {
       "emoji": "🔖",
-      "pastel": "#C7F4D5",
-      "deep": "#3ECC6A",
-      "wash": "#EBF4EE"
+      "pastel": "#F4C8C7",
+      "deep": "#CC403E",
+      "wash": "#F4EBEB"
     },
     "Entertainment": {
       "emoji": "🔖",
-      "pastel": "#EBF4C7",
-      "deep": "#AECC3E",
-      "wash": "#F2F4EB"
+      "pastel": "#F4C7E1",
+      "deep": "#CC3E8E",
+      "wash": "#F4EBF0"
     },
     "Spanish": {
       "emoji": "🔖",
-      "pastel": "#F4C7D2",
-      "deep": "#CC3E5E",
-      "wash": "#F4EBED"
+      "pastel": "#CAF4C7",
+      "deep": "#45CC3E",
+      "wash": "#ECF4EB"
     },
     "Grammar": {
       "emoji": "🔖",
-      "pastel": "#EAC7F4",
-      "deep": "#AC3ECC",
-      "wash": "#F2EBF4"
+      "pastel": "#C7F4E8",
+      "deep": "#3ECCA6",
+      "wash": "#EBF4F2"
     },
     "Soccer": {
       "emoji": "🔖",
-      "pastel": "#C7CAF4",
-      "deep": "#3E47CC",
-      "wash": "#EBECF4",
+      "pastel": "#C7DCF4",
+      "deep": "#3E7ECC",
+      "wash": "#EBEFF4",
       "descriptor": "Explore La Liga's clubs, stadiums, rivalries, and championship history."
     },
     "Places": {
       "emoji": "🔖",
-      "pastel": "#C7EAF4",
-      "deep": "#3EACCC",
-      "wash": "#EBF2F4",
+      "pastel": "#C7CEF4",
+      "deep": "#3E53CC",
+      "wash": "#EBECF4",
       "descriptor": "Identify national capitals of countries worldwide, from common to obscure."
     },
     "English": {
       "emoji": "🔖",
-      "pastel": "#C7F4E2",
-      "deep": "#3ECC92",
-      "wash": "#EBF4F1"
+      "pastel": "#C7F4CF",
+      "deep": "#3ECC55",
+      "wash": "#EBF4ED"
     },
     "Present Tense": {
       "emoji": "🔖",
-      "pastel": "#C7F4C9",
-      "deep": "#3ECC42",
-      "wash": "#EBF4EB",
+      "pastel": "#C7F4D9",
+      "deep": "#3ECC74",
+      "wash": "#EBF4EF",
       "descriptor": "Present-tense conjugation and meaning of Spanish verbs across regular and irregular forms."
     },
     "Character Traits": {
       "emoji": "🔖",
-      "pastel": "#DFF4C7",
-      "deep": "#88CC3E",
-      "wash": "#F0F4EB",
+      "pastel": "#F4DFC7",
+      "deep": "#CC873E",
+      "wash": "#F4F0EB",
       "descriptor": "Learn French vocabulary for describing physical appearance and personality traits."
     },
     "Biography": {
       "emoji": "🔖",
-      "pastel": "#F4F1C7",
-      "deep": "#CCC23E",
-      "wash": "#F4F4EB",
+      "pastel": "#CAC7F4",
+      "deep": "#473ECC",
+      "wash": "#ECEBF4",
       "descriptor": "Learn about influential musicians through their life stories, careers, and cultural impact."
     },
     "Geography": {
       "emoji": "🔖",
-      "pastel": "#F4C8C7",
-      "deep": "#CC403E",
-      "wash": "#F4EBEB",
+      "pastel": "#DFC7F4",
+      "deep": "#873ECC",
+      "wash": "#F0EBF4",
       "descriptor": "Geography terms and Earth structure vocabulary in Irish language"
     },
     "Synge Street Cbs": {
       "emoji": "🔖",
-      "pastel": "#F4C7F3",
-      "deep": "#CC3EC8",
-      "wash": "#F4EBF4",
+      "pastel": "#F3F4C7",
+      "deep": "#C7CC3E",
+      "wash": "#F4F4EB",
       "descriptor": "Spanish vocabulary quiz on buildings, streets, and urban architecture terms."
     },
     "Conversation": {
       "emoji": "🔖",
-      "pastel": "#F4C7DD",
-      "deep": "#CC3E83",
-      "wash": "#F4EBF0",
+      "pastel": "#C7F4E2",
+      "deep": "#3ECC93",
+      "wash": "#EBF4F1",
       "descriptor": "Practicing everyday Spanish dialogue phrases and conversational expressions for real-life interactions"
     },
     "Music": {
       "emoji": "🔖",
-      "pastel": "#DFC7F4",
-      "deep": "#8A3ECC",
-      "wash": "#F0EBF4",
+      "pastel": "#F4C7D4",
+      "deep": "#CC3E66",
+      "wash": "#F4EBEE",
       "descriptor": "Games teaching music history, theory, and artist backgrounds through interactive content."
     },
     "Pronunciation": {
       "emoji": "🔖",
-      "pastel": "#F4DCC7",
-      "deep": "#CC803E",
-      "wash": "#F4EFEB",
+      "pastel": "#C7F3F4",
+      "deep": "#3EC7CC",
+      "wash": "#EBF4F4",
       "descriptor": "Practice speaking and recognizing correct Italian word sounds and phrases"
     },
     "History": {
       "emoji": "🔖",
-      "pastel": "#CCC7F4",
-      "deep": "#4E3ECC",
-      "wash": "#ECEBF4",
+      "pastel": "#E8C7F4",
+      "deep": "#A63ECC",
+      "wash": "#F2EBF4",
       "descriptor": "Explore ancient Roman landmarks, structures, and historical facts through engaging quizzes."
     },
     "Terminology": {
       "emoji": "🔖",
-      "pastel": "#C7E2F4",
-      "deep": "#3E93CC",
-      "wash": "#EBF1F4",
+      "pastel": "#E8F4C7",
+      "deep": "#A3CC3E",
+      "wash": "#F2F4EB",
       "descriptor": "Defines key accounting terms like assets, liabilities, capital, and debit/credit rules."
     },
     "Literature": {
       "emoji": "🔖",
-      "pastel": "#C7D2F4",
-      "deep": "#3E60CC",
-      "wash": "#EBEDF4",
+      "pastel": "#F2C7F4",
+      "deep": "#C43ECC",
+      "wash": "#F4EBF4",
       "descriptor": "Explore play scenes, characters, and quotes through literary comprehension questions"
     },
     "Irish": {
       "emoji": "🔖",
-      "pastel": "#C7F2F4",
-      "deep": "#3EC5CC",
-      "wash": "#EBF4F4",
+      "pastel": "#C7E9F4",
+      "deep": "#3EA8CC",
+      "wash": "#EBF2F4",
       "descriptor": "Learn basic Irish vocabulary, greetings, numbers, family terms, and everyday phrases."
     },
     "Classics": {
       "emoji": "🔖",
-      "pastel": "#D9F4C7",
-      "deep": "#75CC3E",
-      "wash": "#EFF4EB",
+      "pastel": "#F4C7ED",
+      "deep": "#CC3EB4",
+      "wash": "#F4EBF3",
       "descriptor": "Foundational knowledge of ancient Greek and Roman civilizations, mythology, drama, and literature."
     }
   },
@@ -5250,7 +5273,9 @@
     "Other::learning": "Covers memory science: forgetting curves, spacing, retrieval practice, and desirable difficulties.",
     "Other::learning-science": "Cognitive science research on memory, forgetting curves, spacing, and retrieval practice",
     "Other::study-skills": "Techniques for effective studying, memory retention, and learning strategies like spacing and retrieval.",
-    "Other::learning-techniques": "Covers retrieval practice, testing effect, and strategies using tests to enhance learning."
+    "Other::learning-techniques": "Covers retrieval practice, testing effect, and strategies using tests to enhance learning.",
+    "Language::months": "Practice naming, spelling, and ordering French months through varied recall challenges.",
+    "Language::calendar": "Practice naming, spelling, and ordering French calendar months correctly."
   },
   "shelves": [
     {
@@ -5351,5 +5376,6 @@
       "count": 7,
       "descriptor": "Fact-recall quizzes on RE terms, evidence types, and belief concepts"
     }
-  ]
+  ],
+  "paletteVersion": 3
 }
