@@ -4794,6 +4794,30 @@
         "q": "en",
         "a": "fr"
       }
+    },
+    {
+      "slug": "capel-street-dublin",
+      "name": "Capel Street Dublin",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-17T18:26:37.239Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "Dublin",
+      "tags": [
+        "maps",
+        "map-location",
+        "architecture",
+        "history",
+        "irish-history"
+      ],
+      "thumbnail": "thumbs/capel-street-dublin.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -4998,11 +5022,11 @@
     "Other::technique": "Specific mechanics, movements, and contact points required for executing golf shots effectively.",
     "Other::golf": "Understanding golf mechanics: ball physics, club performance, swing technique, and optimization.",
     "Other::equipment": "Physical tools and gear used in golf including clubs, balls, and accessories.",
-    "Other::map-location": "Games testing geographic knowledge by matching UK cities to their counties.",
+    "Other::map-location": "Identify geographic locations and landmarks related to Capel Street on a map",
     "Other::england": "Geography quiz identifying English counties and their principal cities.",
     "Other::counties": "Geography quiz identifying UK counties by their principal cities and locations.",
     "Other::geography": "Quiz questions testing knowledge of world capitals by continent and difficulty",
-    "Other::maps": "Geographic knowledge game matching UK cities to their counties.",
+    "Other::maps": "Trivia about Capel Street's history, geography, bridges, and culture in Dublin.",
     "Other::english-geography": "English geography and principal cities by county",
     "Other::classics": "Foundational knowledge of ancient Greek and Roman civilizations, mythology, drama, and literature.",
     "Other::beginner": "Introductory questions about ancient Greece, Rome, and classical mythology.",
@@ -5242,7 +5266,7 @@
     "Exam Prep::revision": "Quiz-style factual recall questions reviewing key Irish revolutionary history topics and events.",
     "Exam Prep::irish": "Irish history quiz covering Home Rule, 1916 Rising, Sinn Féin, independence war, and Treaty.",
     "Other::art": "Explore gel plate printmaking tools, techniques, and monotype/monoprint terminology.",
-    "Other::architecture": "Quiz on Greek architectural orders, temple design, sculpture periods, and famous sites",
+    "Other::architecture": "Explores Capel Street's historic development, bridges, naming origins, and urban design in Dublin",
     "Vocabulary::academic-vocabulary": "Builds grade-level vocabulary through definitions, synonyms, and contextual fill-in-the-blank practice.",
     "Vocabulary::spelling": "Explore word meanings, usage, and context through vocabulary-building exercises and fill-in-the-blank sentences.",
     "Other::cells": "Explores cell structures, organelles, and the endosymbiotic origins of mitochondria and chloroplasts.",
@@ -5299,7 +5323,8 @@
     "Other::learning-techniques": "Covers retrieval practice, testing effect, and strategies using tests to enhance learning.",
     "Language::months": "Practice naming, spelling, and ordering French months through varied recall challenges.",
     "Language::calendar": "Practice naming, spelling, and ordering French calendar months correctly.",
-    "Language::intermediate-level": "Practical everyday French phrases for greetings, shopping, dining, and travel situations"
+    "Language::intermediate-level": "Practical everyday French phrases for greetings, shopping, dining, and travel situations",
+    "Other::irish-history": "Explores Dublin's Capel Street history, origins, bridges, and diverse community culture"
   },
   "shelves": [
     {
