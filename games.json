@@ -4818,6 +4818,30 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "spanish-prepositions",
+      "name": "Spanish Prepositions",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-19T07:59:20.533Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "grammar",
+      "tags": [
+        "vocabulary",
+        "english",
+        "intermediate-level",
+        "Spanish",
+        "prepositions"
+      ],
+      "thumbnail": "thumbs/spanish-prepositions.jpg",
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     }
   ],
   "categories": {
