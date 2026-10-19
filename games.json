@@ -4864,6 +4864,29 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "spacinf-effects-in-learning",
+      "name": "Spacinf Effects in Learning",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-19T12:49:19.651Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": null,
+      "tags": [
+        "trivia",
+        "quotes",
+        "learning-science",
+        "spaced-learning"
+      ],
+      "thumbnail": "thumbs/spacinf-effects-in-learning.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -5370,7 +5393,8 @@
     "Language::months": "Practice naming, spelling, and ordering French months through varied recall challenges.",
     "Language::calendar": "Practice naming, spelling, and ordering French calendar months correctly.",
     "Language::intermediate-level": "Practical everyday French phrases for greetings, shopping, dining, and travel situations",
-    "Other::irish-history": "Explores Dublin's Capel Street history, origins, bridges, and diverse community culture"
+    "Other::irish-history": "Explores Dublin's Capel Street history, origins, bridges, and diverse community culture",
+    "Other::spaced-learning": "Spacing study sessions over time to improve long-term learning retention."
   },
   "shelves": [
     {
@@ -5431,6 +5455,13 @@
     },
     {
       "category": null,
+      "key": "quotes",
+      "label": "quotes",
+      "count": 8,
+      "descriptor": "Direct quotations and lines pulled verbatim from Stephen King's IT franchise"
+    },
+    {
+      "category": null,
       "key": "figurative-language",
       "label": "figurative-language",
       "count": 8,
@@ -5456,13 +5487,6 @@
       "label": "english-football",
       "count": 7,
       "descriptor": "English football club history, achievements, and notable periods"
-    },
-    {
-      "category": null,
-      "key": "quotes",
-      "label": "quotes",
-      "count": 7,
-      "descriptor": "Direct quotations and lines pulled verbatim from Stephen King's IT franchise"
     },
     {
       "category": null,
