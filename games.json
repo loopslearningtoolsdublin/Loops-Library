@@ -4842,6 +4842,28 @@
         "q": "en",
         "a": "es"
       }
+    },
+    {
+      "slug": "spanish-pronouns-and-halloween-vocab",
+      "name": "Spanish Pronouns and Halloween Vocab",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-19T08:22:19.826Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "vocabulary",
+        "grammar",
+        "beginner"
+      ],
+      "thumbnail": "thumbs/spanish-pronouns-and-halloween-vocab.jpg",
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     }
   ],
   "categories": {
