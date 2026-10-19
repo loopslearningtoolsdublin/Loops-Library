@@ -4864,6 +4864,29 @@
         "q": "en",
         "a": "es"
       }
+    },
+    {
+      "slug": "academic-vocabulary-snip-3-session-4",
+      "name": "Academic Vocabulary: SNIP 3 Session 4",
+      "category": "Vocabulary",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 44,
+      "publishedAt": "2026-10-19T09:27:02.837Z",
+      "createdBy": "c_muf88d8g_3a0z2b62",
+      "author": "Maeve",
+      "subcategory": "Academic Vocab",
+      "tags": [
+        "vocabulary",
+        "language",
+        "beginner",
+        "grammar"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
