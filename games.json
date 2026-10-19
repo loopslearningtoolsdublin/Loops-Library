@@ -4362,29 +4362,6 @@
       }
     },
     {
-      "slug": "reptiles",
-      "name": "Reptiles",
-      "category": "Biography",
-      "emoji": "🔖",
-      "loopCount": 4,
-      "questionCount": 38,
-      "publishedAt": "2026-10-08T11:15:46.587Z",
-      "createdBy": "c_muck73d8_s1bpu78h",
-      "author": "Thomas",
-      "subcategory": "Reptiles",
-      "tags": [
-        "animals",
-        "nature",
-        "beginner",
-        "general-knowledge"
-      ],
-      "thumbnail": "thumbs/reptiles.jpg",
-      "lang": {
-        "q": "en",
-        "a": "en"
-      }
-    },
-    {
       "slug": "hamlet-1-4",
       "name": "Hamlet 1.4",
       "category": "Classics",
