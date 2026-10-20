@@ -457,7 +457,7 @@
     {
       "slug": "hx-46-cafe",
       "name": "HX 46 cafe",
-      "category": "Other",
+      "category": "Food",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -468,8 +468,7 @@
       "tags": [
         "thai-food",
         "takeaway",
-        "recipes",
-        "food"
+        "recipes"
       ],
       "lang": {
         "q": "en",
@@ -2511,14 +2510,14 @@
     {
       "slug": "shawarma",
       "name": "Shawarma",
-      "category": "Other",
+      "category": "Food",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 38,
       "publishedAt": "2026-09-09T12:48:47.803Z",
       "createdBy": "c_mtlilprl_ijsni4g4",
       "author": "Shawarma",
-      "subcategory": "food",
+      "subcategory": null,
       "tags": [
         "recipes",
         "takeaway",
@@ -2798,7 +2797,7 @@
     {
       "slug": "cheesecake",
       "name": "Cheesecake",
-      "category": "Beginner",
+      "category": "Food",
       "emoji": "🔖",
       "loopCount": 4,
       "questionCount": 40,
@@ -2807,7 +2806,6 @@
       "author": "Thomas",
       "subcategory": "Baking",
       "tags": [
-        "food",
         "recipes",
         "vocabulary"
       ],
@@ -3433,7 +3431,7 @@
     {
       "slug": "mulligatawny-soup",
       "name": "Mulligatawny Soup",
-      "category": "Other",
+      "category": "Food",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -3442,8 +3440,7 @@
       "author": "SMQ",
       "subcategory": "Cooking",
       "tags": [
-        "recipes",
-        "food"
+        "recipes"
       ],
       "thumbnail": "thumbs/mulligatawny-soup.jpg",
       "lang": {
@@ -3473,7 +3470,7 @@
     {
       "slug": "coffee",
       "name": "Coffee",
-      "category": "Language",
+      "category": "Food",
       "emoji": "🌍",
       "loopCount": 4,
       "questionCount": 35,
@@ -3483,7 +3480,6 @@
       "subcategory": "Coffee",
       "tags": [
         "vocabulary",
-        "food",
         "beginner"
       ],
       "thumbnail": "thumbs/coffee.jpg",
@@ -3657,7 +3653,7 @@
     {
       "slug": "food-in-spanish",
       "name": "Food in Spanish",
-      "category": "Language",
+      "category": "Food",
       "emoji": "🌍",
       "loopCount": 5,
       "questionCount": 50,
@@ -3666,7 +3662,6 @@
       "author": "SMQ",
       "subcategory": "Spanish",
       "tags": [
-        "food",
         "vocabulary",
         "beginner",
         "general-knowledge"
@@ -3998,7 +3993,7 @@
     {
       "slug": "cooking-utensils-in-spanish",
       "name": "Cooking Utensils in Spanish",
-      "category": "Other",
+      "category": "Food",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -4009,8 +4004,7 @@
       "tags": [
         "vocabulary",
         "beginner",
-        "language",
-        "food"
+        "language"
       ],
       "thumbnail": "thumbs/cooking-utensils-in-spanish.jpg",
       "lang": {
@@ -4473,7 +4467,7 @@
     {
       "slug": "cookery-vocab-in-spanish",
       "name": "Cookery Vocab in Spanish",
-      "category": "Other",
+      "category": "Food",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -4483,8 +4477,7 @@
       "subcategory": "spanish",
       "tags": [
         "vocabulary",
-        "language",
-        "food"
+        "language"
       ],
       "thumbnail": "thumbs/cookery-vocab-in-spanish.jpg",
       "lang": {
@@ -4518,7 +4511,7 @@
     {
       "slug": "yummy-smash-burgers",
       "name": "Yummy Smash Burgers",
-      "category": "Beginner",
+      "category": "Food",
       "emoji": "🔖",
       "loopCount": 5,
       "questionCount": 50,
@@ -4527,7 +4520,6 @@
       "author": "Mr Thomas Of The SMASH BURGERS!",
       "subcategory": "Cooking",
       "tags": [
-        "food",
         "recipes",
         "yummy",
         "tasty",
@@ -4887,6 +4879,29 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "spanish-articles-and-quantities-cookery",
+      "name": "Spanish Articles and Quantities (Cookery)",
+      "category": "Food",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-20T07:55:58.109Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "grammar",
+        "vocabulary",
+        "beginner",
+        "recipes"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     }
   ],
   "categories": {
@@ -5066,6 +5081,13 @@
       "deep": "#CC3EB4",
       "wash": "#F4EBF3",
       "descriptor": "Foundational knowledge of ancient Greek and Roman civilizations, mythology, drama, and literature."
+    },
+    "Food": {
+      "emoji": "🔖",
+      "pastel": "#F4D9C7",
+      "deep": "#CC763E",
+      "wash": "#F4EFEB",
+      "descriptor": "Trivia about cheesecake crust substitutions and ingredient swaps"
     }
   },
   "labelDescriptors": {
@@ -5394,7 +5416,8 @@
     "Language::calendar": "Practice naming, spelling, and ordering French calendar months correctly.",
     "Language::intermediate-level": "Practical everyday French phrases for greetings, shopping, dining, and travel situations",
     "Other::irish-history": "Explores Dublin's Capel Street history, origins, bridges, and diverse community culture",
-    "Other::spaced-learning": "Spacing study sessions over time to improve long-term learning retention."
+    "Other::spaced-learning": "Spacing study sessions over time to improve long-term learning retention.",
+    "Language::recipes": "Spanish articles, measurements, and quantity phrases for everyday recipes"
   },
   "shelves": [
     {
@@ -5410,13 +5433,6 @@
       "label": "daily-routines",
       "count": 9,
       "descriptor": "daily-routines — related content."
-    },
-    {
-      "category": null,
-      "key": "food",
-      "label": "food",
-      "count": 9,
-      "descriptor": "Trivia about cheesecake crust substitutions and ingredient swaps"
     },
     {
       "category": null,
