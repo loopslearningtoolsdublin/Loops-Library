@@ -4902,6 +4902,29 @@
         "q": "en",
         "a": "es"
       }
+    },
+    {
+      "slug": "mantis",
+      "name": "Mantis!",
+      "category": "Beginner",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-20T11:39:21.303Z",
+      "createdBy": "c_muck73d8_s1bpu78h",
+      "author": "Thomas",
+      "subcategory": "Spanish",
+      "tags": [
+        "insects",
+        "fun",
+        "facts",
+        "mantis"
+      ],
+      "thumbnail": "thumbs/mantis.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -5417,7 +5440,11 @@
     "Language::intermediate-level": "Practical everyday French phrases for greetings, shopping, dining, and travel situations",
     "Other::irish-history": "Explores Dublin's Capel Street history, origins, bridges, and diverse community culture",
     "Other::spaced-learning": "Spacing study sessions over time to improve long-term learning retention.",
-    "Language::recipes": "Spanish articles, measurements, and quantity phrases for everyday recipes"
+    "Language::recipes": "Spanish articles, measurements, and quantity phrases for everyday recipes",
+    "Beginner::insects": "Explore praying mantis anatomy, diet, life cycle, and fascinating survival adaptations.",
+    "Beginner::facts": "Short factual Q&A about mantis biology, behavior, anatomy, and life cycle.",
+    "Beginner::fun": "Quirky praying mantis trivia covering anatomy, hunting, lifecycle, and surprising superpowers",
+    "Beginner::mantis": "Praying mantis facts covering anatomy, hunting, life cycle, and unique abilities."
   },
   "shelves": [
     {
