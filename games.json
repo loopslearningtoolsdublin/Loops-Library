@@ -4925,6 +4925,28 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "ur-spelling-changes-gaeilge",
+      "name": "Urú - Spelling changes (Gaeilge)",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-21T09:24:47.010Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "Irish",
+      "tags": [
+        "grammar",
+        "spelling",
+        "language"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "ga"
+      }
     }
   ],
   "categories": {
@@ -5188,7 +5210,7 @@
     "Other::mathematics": "Solving basic algebraic equations by isolating the variable through inverse operations",
     "Other::problem-solving": "Solve for unknown variables in addition equations using inverse operations",
     "Other::algebra": "Solve simple one-variable equations using inverse operations and balance-scale reasoning.",
-    "Language::irish": "Learn basic Irish vocabulary, greetings, numbers, family terms, and everyday phrases.",
+    "Language::irish": "Irish urú consonant mutations, including letter changes and place-name examples",
     "Language::prepositions": "Practice Spanish prepositions used with countries, nationalities, and verbs like ir, ser, estar",
     "Other::etymology": "Trivia about famous quotes, sayings, and the origins of words or phrases",
     "Other::word-origins": "Explore the quirky origins behind viral slang and brain rot phrases.",
@@ -5373,7 +5395,7 @@
     "Language::music": "Practice Spanish opinions and vocabulary about musical genres, preferences, and songs",
     "Language::opinions": "Practice expressing likes, dislikes, and opinions about music in Spanish",
     "Language::genres": "Spanish phrases for expressing musical opinions, preferences, and views across difficulty levels",
-    "Language::spelling": "Spanish letter names, vowel sounds, and pronunciation of tricky consonants",
+    "Language::spelling": "Irish urú consonant mutations: letter changes, combinations, and place-name examples after 'i'.",
     "Entertainment::tv-drama": "Trivia on Dexter's characters, plot twists, and behind-the-scenes casting details.",
     "Entertainment::crime": "Trivia on Dexter and true-crime forensic investigations, killers, and detective procedures",
     "Entertainment::tv-show": "Trivia on Dexter's characters, plot twists, and Miami Metro forensic drama",
