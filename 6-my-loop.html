@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>My Loop · Loops Learning Tools</title>
+<link rel="icon" href="Loops_icon_192.png">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+  .ml-wait { max-width: 420px; margin: 60px auto; text-align: center; color: #0D2A52; padding: 0 16px; }
+  .ml-wait img { width: 64px; height: 64px; border-radius: 14px; animation: mlTurn 2.4s linear infinite; }
+  .ml-wait p { font-weight: 700; margin-top: 14px; }
+  .ml-wait a { color: #0D2A52; }
+  @keyframes mlTurn { to { transform: rotate(360deg); } }
+  @media (prefers-reduced-motion: reduce) { .ml-wait img { animation: none; } }
+</style>
+</head>
+<body>
+  <!-- My Loop (20 Oct 2026): one round across every game with something due
+       on this phone. Reads this phone's own saves; fetches only the game
+       pages it needs; no worker, no AI, nothing sent. To undo: delete this
+       file (saves are untouched and still load everywhere). -->
+  <div id="loopsApp"><div class="ml-wait"><img src="Loops_triskel_mark.png" alt=""><p>Gathering what's due…</p></div></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and Perseverance</em> · <a href="library.html">← Library</a></footer>
+
+  <script src="engine.js?v=2026-10-20"></script>
+  <script>
+    (function () {
+      // Same quick count as the Library, only to decide which game pages are
+      // worth fetching. The engine then works out exactly what's due.
+      function looksDue(save) {
+        if (!save || !save.mastery) return false;
+        if (save.remind === false || save.remind === null) return false;
+        var d = new Date(), today = Math.floor((d.getTime() - d.getTimezoneOffset() * 60000) / 864e5);
+        var due = save.due || {};
+        for (var k in save.mastery) {
+          if (save.srv !== 2) return true;
+          if (save.mastery[k] < 3) { if (due[k] === undefined || due[k] <= today) return true; }
+          else if (due[k] !== undefined && due[k] <= today) return true;
+        }
+        return false;
+      }
+      function slugsWithSomethingDue() {
+        var out = [];
+        try {
+          for (var i = 0; i < localStorage.length; i++) {
+            var key = localStorage.key(i);
+            if (!key || key.indexOf("loops_save_") !== 0) continue;
+            var s = null; try { s = JSON.parse(localStorage.getItem(key)); } catch (e) {}
+            if (looksDue(s)) out.push(key.slice("loops_save_".length));
+          }
+        } catch (e) {}
+        return out;
+      }
+      function gameData(url) {
+        return fetch(url, { cache: "no-cache" }).then(function (r) { return r.ok ? r.text() : ""; }).then(function (html) {
+          var m = html.match(/const GAME_DATA = (\{.*\});\s*\n/);
+          return m ? JSON.parse(m[1]) : null;
+        }).catch(function () { return null; });
+      }
+      function wait(msg) {
+        document.getElementById("loopsApp").innerHTML = '<div class="ml-wait"><img src="Loops_triskel_mark.png" alt=""><p>' + msg + '</p><p><a href="library.html">Back to the library</a></p></div>';
+      }
+      if (!window.LoopsEngine || !LoopsEngine.mix) { wait("This hit a snag loading. Try refreshing."); return; }
+      var slugs = slugsWithSomethingDue();
+      fetch("games.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).catch(function () { return { games: [] }; }).then(function (j) {
+        var known = {};
+        (j.games || []).forEach(function (g) { known[g.slug] = g; });
+        // A game deleted since it was saved is quietly left out.
+        var urls = slugs.filter(function (s) { return known[s]; }).map(function (s) { return "games/" + s + ".html"; });
+        return Promise.all(urls.map(gameData));
+      }).then(function (list) {
+        list = list.filter(function (g) { return g && g.slug; });
+        var app = document.getElementById("loopsApp");
+        app.innerHTML = "";
+        LoopsEngine.mix(list, { logo: "Loops_triskel_mark.png" });
+      });
+    })();
+  </script>
+</body>
+</html>
