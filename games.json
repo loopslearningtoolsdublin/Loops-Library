@@ -4947,6 +4947,29 @@
         "q": "en",
         "a": "ga"
       }
+    },
+    {
+      "slug": "comparatives-in-spanish",
+      "name": "Comparatives in Spanish",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-22T08:38:00.003Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "grammar",
+        "vocabulary",
+        "intermediate-level",
+        "comparisons"
+      ],
+      "thumbnail": "thumbs/comparatives-in-spanish.jpg",
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     }
   ],
   "categories": {
@@ -5466,7 +5489,8 @@
     "Beginner::insects": "Explore praying mantis anatomy, diet, life cycle, and fascinating survival adaptations.",
     "Beginner::facts": "Short factual Q&A about mantis biology, behavior, anatomy, and life cycle.",
     "Beginner::fun": "Quirky praying mantis trivia covering anatomy, hunting, lifecycle, and surprising superpowers",
-    "Beginner::mantis": "Praying mantis facts covering anatomy, hunting, life cycle, and unique abilities."
+    "Beginner::mantis": "Praying mantis facts covering anatomy, hunting, life cycle, and unique abilities.",
+    "Language::comparisons": "Practice Spanish comparative, superlative, and equality structures with adjectives and nouns"
   },
   "shelves": [
     {
