@@ -4992,6 +4992,29 @@
         "q": "en",
         "a": "ga"
       }
+    },
+    {
+      "slug": "donal-lunny",
+      "name": "Donal Lunny",
+      "category": "Music",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-23T21:33:12.672Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "Irish Music",
+      "tags": [
+        "irish-musician",
+        "folk-music",
+        "instruments",
+        "composers"
+      ],
+      "thumbnail": "thumbs/donal-lunny.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -5512,7 +5535,8 @@
     "Beginner::facts": "Short factual Q&A about mantis biology, behavior, anatomy, and life cycle.",
     "Beginner::fun": "Quirky praying mantis trivia covering anatomy, hunting, lifecycle, and surprising superpowers",
     "Beginner::mantis": "Praying mantis facts covering anatomy, hunting, life cycle, and unique abilities.",
-    "Language::comparisons": "Practice Spanish comparative, superlative, and equality structures with adjectives and nouns"
+    "Language::comparisons": "Practice Spanish comparative, superlative, and equality structures with adjectives and nouns",
+    "Music::irish-music": "Trivia about Donal Lunny, his bands, instruments, and Irish folk music history."
   },
   "shelves": [
     {
