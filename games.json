@@ -4970,6 +4970,28 @@
         "q": "en",
         "a": "es"
       }
+    },
+    {
+      "slug": "s-imhi",
+      "name": "Séimhiú",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-23T21:23:44.198Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "Irish",
+      "tags": [
+        "grammar",
+        "spelling",
+        "language"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "ga"
+      }
     }
   ],
   "categories": {
