@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Séimhiú · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1792790624198"></script>
+  <script>
+    const GAME_DATA = {"slug":"s-imhi","name":"Séimhiú","emoji":"🌍","category":"Language","colors":{"pastel":"#C1F0EA","deep":"#2FB18A","wash":"#EBF6F0"},"background":null,"lang":{"q":"en","a":"ga"},"loops":[{"name":"Séimhiú Basics","emoji":"🌱","timeLimit":15,"qs":[{"type":"mc","q":"What is the English word for \"séimhiú\"?","a":"Lenition","opts":["Lenition","Eclipsis","Palatalization"]},{"type":"mc","q":"Which letter is added directly after a lenited consonant in writing?","a":"h","opts":["h","s","n"]},{"type":"typed","q":"What is the lenited form of \"cat\" (cat)?","a":"chat"},{"type":"typed","q":"What is the lenited form of \"bád\" (boat)?","a":"bhád"},{"type":"mc","q":"Which of these shows séimhiú correctly for \"my dog\"?","a":"mo mhadra","opts":["mo mhadra","mo madra","mo nmadra"]},{"type":"typed","q":"Write the lenited form of \"mór\" (big).","a":"mhór"},{"type":"mc","q":"Séimhiú changes the pronunciation of a consonant by making it...","a":"softer","opts":["softer","harder","nasal"]},{"type":"typed","q":"What is the lenited form of \"Seán\" when calling someone (vocative)?","a":"Sheáin"},{"type":"mc","q":"Which word means \"my\" and causes séimhiú?","a":"mo","opts":["mo","do","a (her)"]},{"type":"mc","q":"Which of these is the lenited form of \"póg\" (kiss)?","a":"phóg","opts":["phóg","bóg","póig"]}]},{"name":"Common Triggers","emoji":"🔑","timeLimit":15,"qs":[{"type":"mc","q":"Which possessive adjective causes séimhiú?","a":"do","opts":["do","ár","bhur"]},{"type":"mc","q":"Does \"a\" meaning \"his\" cause séimhiú?","a":"Yes","opts":["Yes","No","Only with vowels"]},{"type":"mc","q":"Does \"a\" meaning \"her\" cause séimhiú?","a":"No","opts":["No","Yes","Only before consonants"]},{"type":"typed","q":"Write the lenited form of \"teach\" (house) after \"a\" meaning \"his\".","a":"theach"},{"type":"mc","q":"Which preposition causes séimhiú?","a":"de","opts":["de","ag","i"]},{"type":"typed","q":"Write the lenited form of \"carr\" (car) after \"do\" (your).","a":"charr"},{"type":"mc","q":"Which phrase shows séimhiú after \"mo\"?","a":"mo chóta","opts":["mo chóta","mo cóta","mo gcóta"]},{"type":"mc","q":"Does the preposition \"ó\" (from) cause séimhiú?","a":"Yes","opts":["Yes","No","Only with places"]},{"type":"typed","q":"Write the lenited form of \"bróg\" (shoe) after \"do\" (your).","a":"bhróg"},{"type":"typed","q":"Write the lenited form of \"cat\" (cat) after \"mo\" (my).","a":"chat"}]},{"name":"More Triggers","emoji":"📚","timeLimit":15,"qs":[{"type":"typed","q":"Write the lenited form of \"mór\" (big) after \"an-\" (very).","a":"an-mhór"},{"type":"typed","q":"Write the lenited form of \"deas\" (nice) after \"ró-\" (too).","a":"ró-dheas"},{"type":"mc","q":"Which number causes séimhiú on the following noun?","a":"dhá","opts":["dhá","trí","ceithre"]},{"type":"typed","q":"Write \"two boats\" using \"dhá\" and \"bád\".","a":"dhá bhád"},{"type":"mc","q":"Does the negative particle \"ní\" cause séimhiú on present tense verbs?","a":"Yes","opts":["Yes","No","Only in past tense"]},{"type":"typed","q":"Write the lenited form of \"bíonn\" after \"ní\".","a":"bhíonn"},{"type":"mc","q":"Which ordinal number causes séimhiú?","a":"an chéad","opts":["an chéad","an dara","an tríú"]},{"type":"mc","q":"What is the lenited past tense form of \"bris\" (break)?","a":"bhris","opts":["bhris","mbris","dbris"]},{"type":"typed","q":"Write the lenited past tense form of \"ceannaigh\" meaning \"bought\" (he form).","a":"cheannaigh"},{"type":"mc","q":"Which word means \"one\" and causes séimhiú (except before d, t, s)?","a":"aon","opts":["aon","dhá","trí"]}]},{"name":"Exceptions to Séimhiú","emoji":"🚫","timeLimit":15,"qs":[{"type":"mc","q":"Which of these letters is NEVER lenited?","a":"l","opts":["l","c","b"]},{"type":"mc","q":"Vowels (a, e, i, o, u) can be lenited with an \"h\". True or false?","a":"False","opts":["False","True","Only o and u"]},{"type":"mc","q":"Which consonant cluster does NOT take séimhiú on its first letter?","a":"sc","opts":["sc","bl","cr"]},{"type":"mc","q":"Which consonant cluster does NOT take séimhiú?","a":"sp","opts":["sp","gr","ph"]},{"type":"mc","q":"After \"an\" with a feminine noun, which three letters are NOT lenited?","a":"d, t, s","opts":["d, t, s","b, f, m","c, g, p"]},{"type":"typed","q":"Write \"the woman\" using \"an\" and the feminine noun \"bean\".","a":"an bhean"},{"type":"mc","q":"What is \"an\" + \"tír\" (country, feminine), since t resists lenition?","a":"an tír","opts":["an tír","an thír","an dtír"]},{"type":"mc","q":"Letters borrowed from other alphabets (like j, k, v, w) are...","a":"not lenited","opts":["not lenited","always lenited","lenited only in loanwords"]},{"type":"mc","q":"What happens to the letter \"l\" when it follows a séimhiú trigger?","a":"It stays unchanged","opts":["It stays unchanged","It becomes \"lh\"","It changes to \"il\""]},{"type":"mc","q":"Which of these borrowed letters resists séimhiú?","a":"j","opts":["p","j","f"]}]},{"name":"Advanced Nuances","emoji":"🏆","timeLimit":15,"qs":[{"type":"typed","q":"Write \"the woman\" using \"an\" and \"bean\" with correct séimhiú.","a":"an bhean"},{"type":"typed","q":"Write \"my father\" using \"mo\" and \"athair\" (note the vowel).","a":"m'athair"},{"type":"mc","q":"Before a vowel, \"mo\" (my) and \"do\" (your) change to...","a":"m' and d'","opts":["m' and d'","mo and do","mh' and dh'"]},{"type":"typed","q":"Write \"his house\" using \"a\" (his) and \"teach\".","a":"a theach"},{"type":"typed","q":"Write \"her house\" using \"a\" (her) and \"teach\".","a":"a teach"},{"type":"mc","q":"Why does \"a\" (her) plus a vowel-starting noun get an \"h-\" prefix?","a":"to separate the vowel sounds","opts":["to separate the vowel sounds","to show plural","to show past tense"]},{"type":"typed","q":"Write \"her father\" using \"a\" (her) and \"athair\".","a":"a hathair"},{"type":"mc","q":"Which is correct for \"under a table\"?","a":"faoi bhord","opts":["faoi bhord","faoi mbord","faoi bord"]},{"type":"mc","q":"Which sentence shows correct past tense lenition for \"she kissed him\"?","a":"Phóg sí é","opts":["Phóg sí é","Póg sí é","bPóg sí é"]},{"type":"typed","q":"Write the past tense \"he took/built\" using \"tóg\" and séimhiú.","a":"thóg"}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
