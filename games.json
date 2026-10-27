@@ -5015,6 +5015,29 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "the-search-for-longitude",
+      "name": "The Search for Longitude",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-27T15:07:38.281Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "history",
+      "tags": [
+        "navigation",
+        "exploration",
+        "maps",
+        "general-knowledge"
+      ],
+      "thumbnail": "thumbs/the-search-for-longitude.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -5536,7 +5559,9 @@
     "Beginner::fun": "Quirky praying mantis trivia covering anatomy, hunting, lifecycle, and surprising superpowers",
     "Beginner::mantis": "Praying mantis facts covering anatomy, hunting, life cycle, and unique abilities.",
     "Language::comparisons": "Practice Spanish comparative, superlative, and equality structures with adjectives and nouns",
-    "Music::irish-music": "Trivia about Donal Lunny, his bands, instruments, and Irish folk music history."
+    "Music::irish-music": "Trivia about Donal Lunny, his bands, instruments, and Irish folk music history.",
+    "Other::navigation": "Trivia on determining longitude at sea and global positioning methods",
+    "Other::exploration": "Players discover longitude history through categorized question sets spanning methods, inventors, and dates."
   },
   "shelves": [
     {
