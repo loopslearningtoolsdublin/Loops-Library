@@ -5060,6 +5060,29 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "rory-gallagher",
+      "name": "Rory Gallagher",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-31T16:09:12.496Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "Music",
+      "tags": [
+        "irish-musician",
+        "folk-music",
+        "instruments",
+        "technique"
+      ],
+      "thumbnail": "thumbs/rory-gallagher.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -5249,10 +5272,10 @@
     }
   },
   "labelDescriptors": {
-    "Other::music": "Games teaching music history, theory, and artist backgrounds through interactive content.",
-    "Other::irish-musician": "Irish musicians and their careers, achievements, and cultural contributions",
+    "Other::music": "Trivia about musicians, genres, instruments, albums, and music history facts.",
+    "Other::irish-musician": "Trivia about musician Rory Gallagher's life, career, albums, and legacy.",
     "Other::biography": "Learn about influential musicians through their life stories, careers, and cultural impact.",
-    "Other::folk-music": "Traditional Irish music traditions and folk storytelling through contemporary singer-songwriter expression.",
+    "Other::folk-music": "Trivia on Rory Gallagher's life, blues-rock career, albums, and lasting legacy",
     "Other::english-football": "English football club history, achievements, and notable periods",
     "Other::nottingham-forest": "English football club history, identity, achievements, and legendary management era.",
     "Other::football": "Association football teams, leagues, players, and general soccer-related content",
@@ -5331,7 +5354,7 @@
     "Other::business-studies": "Trivia covering business, accounting, economics, law, and commerce fundamentals.",
     "Other::back-to-school": "Back-to-school routines, organization, classroom habits, and growing responsibility for students",
     "Other::school-life": "Everyday school routines, organization, classroom habits, friendships, and growing responsibility",
-    "Other::instruments": "Trivia on banjo parts, tuning, playing styles, and musical history.",
+    "Other::instruments": "Trivia about musical instruments, guitars, and the musicians who play them",
     "Other::chords": "Guitar chord shapes, fingerings, and beginner chord progressions",
     "Language::russian": "Introduces Russian alphabet, greetings, numbers, and basic grammar essentials.",
     "Other::scotland": "Trivia about Celtic FC's history, players, rivalries, and European triumphs.",
@@ -5611,6 +5634,13 @@
     },
     {
       "category": null,
+      "key": "technique",
+      "label": "technique",
+      "count": 9,
+      "descriptor": "Specific mechanics, movements, and contact points required for executing golf shots effectively."
+    },
+    {
+      "category": null,
       "key": "movies",
       "label": "movies",
       "count": 8,
@@ -5629,13 +5659,6 @@
       "label": "ancient-greece",
       "count": 8,
       "descriptor": "Ancient Greek philosophy emphasizing virtue, reason, and acceptance of universal natural laws."
-    },
-    {
-      "category": null,
-      "key": "technique",
-      "label": "technique",
-      "count": 8,
-      "descriptor": "Specific mechanics, movements, and contact points required for executing golf shots effectively."
     },
     {
       "category": null,
