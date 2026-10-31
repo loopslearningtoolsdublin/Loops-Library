@@ -5083,6 +5083,29 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "the-subconscious",
+      "name": "The Subconscious",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-10-31T23:15:25.474Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "Philosophy",
+      "tags": [
+        "Psychology",
+        "beliefs",
+        "logic",
+        "decision-making"
+      ],
+      "thumbnail": "thumbs/the-subconscious.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -5360,7 +5383,7 @@
     "Other::scotland": "Trivia about Celtic FC's history, players, rivalries, and European triumphs.",
     "Other::scottish-football": "Facts about Scottish football, focused on Celtic FC's history, players, and achievements.",
     "Other::glasgow": "Trivia on Celtic FC's history, players, rivalries, and European triumphs",
-    "Other::beliefs": "Explores the meaning, value, and virtue of humility in life",
+    "Other::beliefs": "Trivia about subconscious theories, drives, and ideas shaping behavior and belief.",
     "Other::literary-devices": "Identify poetic terms, devices, and analytical vocabulary used in literature studies",
     "Other::figurative-language": "Covers metaphor, simile, and other figurative language techniques in poetry and writing.",
     "Other::plot": "Story events, directors, and adaptations from Stephen King's IT franchise",
