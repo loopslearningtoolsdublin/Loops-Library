@@ -5106,6 +5106,28 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "spanish-question-words",
+      "name": "Spanish Question Words",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-11-02T11:57:07.038Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "grammar",
+      "tags": [
+        "Spanish",
+        "vocabulary",
+        "beginner"
+      ],
+      "thumbnail": "thumbs/spanish-question-words.jpg",
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     }
   ],
   "categories": {
