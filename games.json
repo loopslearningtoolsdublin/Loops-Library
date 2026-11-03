@@ -5128,6 +5128,28 @@
         "q": "en",
         "a": "es"
       }
+    },
+    {
+      "slug": "parts-of-speech-english",
+      "name": "Parts of Speech (English)",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 49,
+      "publishedAt": "2026-11-03T13:18:40.498Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "grammar",
+      "tags": [
+        "english",
+        "vocabulary",
+        "beginner"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
