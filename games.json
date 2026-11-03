@@ -5135,15 +5135,16 @@
       "category": "Language",
       "emoji": "🌍",
       "loopCount": 5,
-      "questionCount": 49,
-      "publishedAt": "2026-11-03T13:18:40.498Z",
-      "createdBy": "c_mu9vh9bt_blqueu80",
+      "questionCount": 50,
+      "publishedAt": "2026-11-03T13:39:53.249Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
       "author": "SMQ",
-      "subcategory": "grammar",
+      "subcategory": "english",
       "tags": [
-        "english",
+        "grammar",
         "vocabulary",
-        "beginner"
+        "beginner",
+        "parts-of-speech"
       ],
       "thumbnail": null,
       "lang": {
@@ -5675,7 +5676,8 @@
     "Other::navigation": "Trivia on determining longitude at sea and global positioning methods",
     "Other::exploration": "Players discover longitude history through categorized question sets spanning methods, inventors, and dates.",
     "Other::snacks": "Quick, bite-sized trivia questions about fun everyday snack facts",
-    "Other::food": "Trivia about Jaffa Cakes' origins, ingredients, and the famous UK tax case."
+    "Other::food": "Trivia about Jaffa Cakes' origins, ingredients, and the famous UK tax case.",
+    "Language::parts-of-speech": "Identify nouns, verbs, adjectives, and other grammatical word classes in sentences."
   },
   "shelves": [
     {
