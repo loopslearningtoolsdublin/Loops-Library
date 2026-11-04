@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>umbers in Irish · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1793783369304"></script>
+  <script>
+    const GAME_DATA = {"slug":"umbers-in-irish","name":"umbers in Irish","emoji":"🌍","category":"Language","colors":{"pastel":"#C1F0EA","deep":"#2FB18A","wash":"#EBF6F0"},"background":"../thumbs/umbers-in-irish.jpg","lang":{"q":"en","a":"ga"},"loops":[{"name":"Numbers 1-10","emoji":"🔢","timeLimit":15,"qs":[{"type":"mc","q":"What is \"one\" in Irish (counting form)?","a":"a haon","opts":["a haon","a dó","a trí"]},{"type":"mc","q":"What is \"two\" in Irish?","a":"a dó","opts":["a dó","a ceathair","a sé"]},{"type":"typed","q":"How do you say \"three\" in Irish (counting form)?","a":"a trí"},{"type":"mc","q":"What is \"four\" in Irish?","a":"a ceathair","opts":["a ceathair","a cúig","a seacht"]},{"type":"typed","q":"How do you say \"five\" in Irish?","a":"a cúig"},{"type":"mc","q":"What is \"six\" in Irish?","a":"a sé","opts":["a sé","a seacht","a hocht"]},{"type":"typed","q":"How do you say \"seven\" in Irish?","a":"a seacht"},{"type":"mc","q":"What is \"eight\" in Irish?","a":"a hocht","opts":["a hocht","a naoi","a deich"]},{"type":"typed","q":"How do you say \"nine\" in Irish?","a":"a naoi"},{"type":"mc","q":"What is \"ten\" in Irish?","a":"a deich","opts":["a deich","a naoi","a hocht"]}]},{"name":"Teens and Tens","emoji":"🧮","timeLimit":15,"qs":[{"type":"typed","q":"How do you say \"eleven\" in Irish?","a":"a haon déag"},{"type":"mc","q":"What is \"twelve\" in Irish?","a":"a dó dhéag","opts":["a dó dhéag","a trí déag","a ceathair déag"]},{"type":"typed","q":"How do you say \"fifteen\" in Irish?","a":"a cúig déag"},{"type":"mc","q":"What is \"twenty\" in Irish?","a":"fiche","opts":["fiche","tríocha","caoga"]},{"type":"typed","q":"How do you say \"thirty\" in Irish?","a":"tríocha"},{"type":"mc","q":"What is \"forty\" in Irish?","a":"daichead","opts":["daichead","caoga","seasca"]},{"type":"mc","q":"What is \"fifty\" in Irish?","a":"caoga","opts":["caoga","seasca","seachtó"]},{"type":"typed","q":"How do you say \"sixty\" in Irish?","a":"seasca"},{"type":"mc","q":"What is \"one hundred\" in Irish?","a":"céad","opts":["céad","míle","fiche"]},{"type":"mc","q":"What is \"nineteen\" in Irish?","a":"a naoi déag","opts":["a naoi déag","a hocht déag","a deich déag"]}]},{"name":"Numbers Before Nouns","emoji":"🏷️","timeLimit":15,"qs":[{"type":"mc","q":"Which word for \"two\" is used before a noun, e.g. \"two cats\"?","a":"dhá","opts":["dhá","a dó","beirt"]},{"type":"typed","q":"Which word meaning \"three\" is used before a noun, e.g. \"three dogs\" (trí ___)?","a":"trí"},{"type":"mc","q":"Which word means \"four\" before a noun, e.g. \"four cars\"?","a":"ceithre","opts":["ceithre","a ceathair","ceathrar"]},{"type":"mc","q":"What is \"seventy\" in Irish?","a":"seachtó","opts":["seachtó","ochtó","nócha"]},{"type":"typed","q":"How do you say \"eighty\" in Irish?","a":"ochtó"},{"type":"mc","q":"What is \"ninety\" in Irish?","a":"nócha","opts":["nócha","seachtó","ochtó"]},{"type":"typed","q":"How do you say \"one thousand\" in Irish?","a":"míle"},{"type":"mc","q":"Which word for \"one\" is used right before a noun, e.g. \"one book\"?","a":"aon","opts":["aon","a haon","duine"]},{"type":"mc","q":"Which word means \"five\" before a noun, e.g. \"five books\"?","a":"cúig","opts":["cúig","a cúig","cúigear"]},{"type":"mc","q":"What number does \"a dó dhéag\" represent?","a":"twelve","opts":["twelve","two","twenty"]}]},{"name":"Counting People","emoji":"👥","timeLimit":15,"qs":[{"type":"mc","q":"What is the Irish word for counting \"two people\"?","a":"beirt","opts":["beirt","dhá","a dó"]},{"type":"typed","q":"How do you say \"three people\" in Irish?","a":"triúr"},{"type":"mc","q":"Which word means \"four people\"?","a":"ceathrar","opts":["ceathrar","ceithre","a ceathair"]},{"type":"typed","q":"How do you say \"five people\" in Irish?","a":"cúigear"},{"type":"mc","q":"Which word means \"six people\"?","a":"seisear","opts":["seisear","sé","a sé"]},{"type":"mc","q":"Which word means \"ten people\"?","a":"deichniúr","opts":["deichniúr","deich","a deich"]},{"type":"typed","q":"How do you say \"seven people\" in Irish?","a":"seachtar"},{"type":"mc","q":"Which word means \"eight people\"?","a":"ochtar","opts":["ochtar","ocht","a hocht"]},{"type":"mc","q":"Which word means \"nine people\"?","a":"naonúr","opts":["naonúr","naoi","a naoi"]},{"type":"mc","q":"What is used for \"one person\" rather than a special personal number word?","a":"duine amháin","opts":["duine amháin","beirt","duine"]}]},{"name":"Ordinals and Tricky Forms","emoji":"🎯","timeLimit":15,"qs":[{"type":"mc","q":"What is \"first\" in Irish?","a":"an chéad","opts":["an chéad","an dara","an tríú"]},{"type":"mc","q":"What is \"second\" in Irish?","a":"an dara","opts":["an dara","an tríú","an ceathrú"]},{"type":"typed","q":"How do you say \"third\" in Irish?","a":"an tríú"},{"type":"mc","q":"What is \"fourth\" in Irish?","a":"an ceathrú","opts":["an ceathrú","an cúigiú","an séú"]},{"type":"typed","q":"How do you say \"fifth\" in Irish?","a":"an cúigiú"},{"type":"mc","q":"What is \"sixth\" in Irish?","a":"an séú","opts":["an séú","an seachtú","an t-ochtú"]},{"type":"mc","q":"What is \"tenth\" in Irish?","a":"an deichiú","opts":["an deichiú","an naoú","an t-ochtú"]},{"type":"typed","q":"How do you say \"ninth\" in Irish?","a":"an naoú"},{"type":"mc","q":"Which word for \"two\" causes lenition, as in \"dhá bhord\"?","a":"dhá","opts":["dhá","dó","beirt"]},{"type":"mc","q":"Which set of words is used for counting aloud, like \"one, two, three\"?","a":"a haon, a dó, a trí","opts":["a haon, a dó, a trí","aon, dhá, trí","duine, beirt, triúr"]}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
