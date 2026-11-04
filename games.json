@@ -695,7 +695,7 @@
     {
       "slug": "golf-balls",
       "name": "Golf balls",
-      "category": "Other",
+      "category": "Technique",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -707,8 +707,7 @@
         "golf",
         "equipment",
         "sports-basics",
-        "physics",
-        "technique"
+        "physics"
       ],
       "thumbnail": "thumbs/golf-balls.jpg",
       "lang": {
@@ -1150,7 +1149,7 @@
     {
       "slug": "banjo-playing",
       "name": "Banjo playing",
-      "category": "Music",
+      "category": "Technique",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 44,
@@ -1161,8 +1160,7 @@
       "tags": [
         "instruments",
         "folk-music",
-        "beginner",
-        "technique"
+        "beginner"
       ],
       "thumbnail": "thumbs/banjo-playing.jpg",
       "lang": {
@@ -1173,7 +1171,7 @@
     {
       "slug": "how-to-play-guitar",
       "name": "How to play guitar",
-      "category": "Music",
+      "category": "Technique",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 47,
@@ -1184,8 +1182,7 @@
       "tags": [
         "beginner",
         "instruments",
-        "chords",
-        "technique"
+        "chords"
       ],
       "thumbnail": "thumbs/how-to-play-guitar.jpg",
       "lang": {
@@ -2141,7 +2138,7 @@
     {
       "slug": "cricket-basics",
       "name": "Cricket basics",
-      "category": "Entertainment",
+      "category": "Technique",
       "emoji": "🔖",
       "loopCount": 5,
       "questionCount": 50,
@@ -2152,7 +2149,6 @@
       "tags": [
         "sports-basics",
         "equipment",
-        "technique",
         "vocabulary"
       ],
       "thumbnail": "thumbs/cricket-basics.jpg",
@@ -2928,7 +2924,7 @@
     {
       "slug": "semiconductors",
       "name": "Semiconductors",
-      "category": "Exam Prep",
+      "category": "Technique",
       "emoji": "📝",
       "loopCount": 5,
       "questionCount": 50,
@@ -2937,7 +2933,6 @@
       "author": "Antaine",
       "subcategory": "Physics",
       "tags": [
-        "technique",
         "junior-cycle-science",
         "general-knowledge",
         "leaving-cert"
@@ -3278,7 +3273,7 @@
     {
       "slug": "diodes-and-transistors",
       "name": "Diodes and transistors",
-      "category": "Exam Prep",
+      "category": "Technique",
       "emoji": "📝",
       "loopCount": 5,
       "questionCount": 50,
@@ -3288,8 +3283,7 @@
       "subcategory": "Physics",
       "tags": [
         "junior-cycle-science",
-        "leaving-cert",
-        "technique"
+        "leaving-cert"
       ],
       "thumbnail": "thumbs/diodes-and-transistors.jpg",
       "lang": {
@@ -4511,7 +4505,7 @@
     {
       "slug": "yummy-smash-burgers",
       "name": "Yummy Smash Burgers",
-      "category": "Food",
+      "category": "Technique",
       "emoji": "🔖",
       "loopCount": 5,
       "questionCount": 50,
@@ -4522,8 +4516,7 @@
       "tags": [
         "recipes",
         "yummy",
-        "tasty",
-        "technique"
+        "tasty"
       ],
       "thumbnail": "thumbs/yummy-smash-burgers.jpg",
       "lang": {
@@ -4627,7 +4620,7 @@
     {
       "slug": "gelli-printing",
       "name": "Gelli Printing",
-      "category": "Other",
+      "category": "Technique",
       "emoji": "✨",
       "loopCount": 3,
       "questionCount": 25,
@@ -4637,7 +4630,6 @@
       "subcategory": "Art",
       "tags": [
         "printmaking",
-        "technique",
         "crafts",
         "beginner",
         "art-history"
@@ -5064,7 +5056,7 @@
     {
       "slug": "rory-gallagher",
       "name": "Rory Gallagher",
-      "category": "Other",
+      "category": "Technique",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
@@ -5075,8 +5067,7 @@
       "tags": [
         "irish-musician",
         "folk-music",
-        "instruments",
-        "technique"
+        "instruments"
       ],
       "thumbnail": "thumbs/rory-gallagher.jpg",
       "lang": {
@@ -5214,6 +5205,29 @@
         "memory"
       ],
       "thumbnail": "thumbs/why-spaced-repetition-works.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
+    },
+    {
+      "slug": "music-production",
+      "name": "Music Production",
+      "category": "Technique",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-11-04T21:52:33.487Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "Music Production",
+      "tags": [
+        "instruments",
+        "sound-design",
+        "Music",
+        "recording"
+      ],
+      "thumbnail": "thumbs/music-production.jpg",
       "lang": {
         "q": "en",
         "a": "en"
@@ -5404,6 +5418,13 @@
       "deep": "#CC763E",
       "wash": "#F4EFEB",
       "descriptor": "Trivia about cheesecake crust substitutions and ingredient swaps"
+    },
+    "Technique": {
+      "emoji": "🔖",
+      "pastel": "#DEF4C7",
+      "deep": "#85CC3E",
+      "wash": "#F0F4EB",
+      "descriptor": "Specific mechanics, movements, and contact points required for executing golf shots effectively."
     }
   },
   "labelDescriptors": {
@@ -5744,7 +5765,10 @@
     "Other::exploration": "Players discover longitude history through categorized question sets spanning methods, inventors, and dates.",
     "Other::snacks": "Quick, bite-sized trivia questions about fun everyday snack facts",
     "Other::food": "Trivia about Jaffa Cakes' origins, ingredients, and the famous UK tax case.",
-    "Language::parts-of-speech": "Identify nouns, verbs, adjectives, and other grammatical word classes in sentences."
+    "Language::parts-of-speech": "Identify nouns, verbs, adjectives, and other grammatical word classes in sentences.",
+    "Other::music-production": "Covers recording, mixing, mastering, and synthesis techniques in music production.",
+    "Other::sound-design": "Explores music production, recording, mixing, mastering, and synthesis fundamentals.",
+    "Other::recording": "Quiz on recording techniques, gear, and studio terminology for capturing audio."
   },
   "shelves": [
     {
@@ -5767,13 +5791,6 @@
       "label": "sports-basics",
       "count": 9,
       "descriptor": "Golf fundamentals covering ball physics, club mechanics, and swing technique"
-    },
-    {
-      "category": null,
-      "key": "technique",
-      "label": "technique",
-      "count": 9,
-      "descriptor": "Specific mechanics, movements, and contact points required for executing golf shots effectively."
     },
     {
       "category": null,
