@@ -5173,6 +5173,29 @@
         "q": "en",
         "a": "ga"
       }
+    },
+    {
+      "slug": "irish-prepositions",
+      "name": "Irish Prepositions",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-11-04T09:58:05.144Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "Irish",
+      "tags": [
+        "prepositions",
+        "grammar",
+        "language",
+        "parts-of-speech"
+      ],
+      "thumbnail": "thumbs/irish-prepositions.jpg",
+      "lang": {
+        "q": "en",
+        "a": "ga"
+      }
     }
   ],
   "categories": {
