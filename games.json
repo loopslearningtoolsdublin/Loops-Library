@@ -5196,6 +5196,28 @@
         "q": "en",
         "a": "ga"
       }
+    },
+    {
+      "slug": "why-spaced-repetition-works",
+      "name": "Why Spaced Repetition works",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-11-04T12:57:02.746Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "study-skills",
+      "tags": [
+        "revision",
+        "exam-prep",
+        "memory"
+      ],
+      "thumbnail": "thumbs/why-spaced-repetition-works.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
