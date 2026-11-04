@@ -5151,6 +5151,28 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "umbers-in-irish",
+      "name": "umbers in Irish",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-11-04T09:09:29.304Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "Irish",
+      "tags": [
+        "vocabulary",
+        "beginner",
+        "language"
+      ],
+      "thumbnail": "thumbs/umbers-in-irish.jpg",
+      "lang": {
+        "q": "en",
+        "a": "ga"
+      }
     }
   ],
   "categories": {
