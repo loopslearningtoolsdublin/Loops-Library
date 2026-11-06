@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Go and the Séimhiú · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1793989339739"></script>
+  <script>
+    const GAME_DATA = {"slug":"go-and-the-s-imhi","name":"Go and the Séimhiú","emoji":"🌍","category":"Language","colors":{"pastel":"#C1F0EA","deep":"#2FB18A","wash":"#EBF6F0"},"background":"../thumbs/go-and-the-s-imhi.jpg","lang":{"q":"en","a":"ga"},"loops":[{"name":"Go + Maith Basics","emoji":"👍","timeLimit":15,"qs":[{"type":"mc","q":"What does \"maith\" mean on its own?","a":"good","opts":["good","well","badly"]},{"type":"typed","q":"What Irish word means \"good\"?","a":"maith"},{"type":"mc","q":"What does \"go maith\" mean?","a":"well","opts":["well","good","bad"]},{"type":"typed","q":"Fill the blank to say \"well\": go ___","a":"maith"},{"type":"mc","q":"Which sentence means \"He is well\"?","a":"Tá sé go maith","opts":["Tá sé maith","Tá sé go maith","Tá sé maith go"]},{"type":"mc","q":"Why do we add \"go\" before \"maith\" to say \"well\"?","a":"go turns the adjective into an adverb","opts":["go turns the adjective into an adverb","go makes the word plural","go is only used for questions"]},{"type":"typed","q":"What word turns \"maith\" (good) into \"well\"?","a":"go"},{"type":"mc","q":"Which best describes \"maith\" used alone?","a":"an adjective describing nouns","opts":["an adjective describing nouns","an adverb describing verbs","a preposition"]},{"type":"mc","q":"Which best describes \"go maith\" when used in a sentence?","a":"an adverb describing how something is done","opts":["an adverb describing how something is done","a noun","a question word"]},{"type":"typed","q":"Translate \"go maith\" into English.","a":"well"}]},{"name":"More Go Adverbs","emoji":"🏃","timeLimit":15,"qs":[{"type":"typed","q":"What is \"badly\" in Irish, using go?","a":"go dona"},{"type":"mc","q":"Which word means \"slowly\"?","a":"go mall","opts":["go mall","go maith","go deas"]},{"type":"typed","q":"Complete: go ___ means \"quickly\" (tapa)","a":"go tapa"},{"type":"mc","q":"What does \"go deas\" mean?","a":"nicely","opts":["nicely","badly","slowly"]},{"type":"typed","q":"What Irish phrase means \"fine\" or \"well\", using breá?","a":"go breá"},{"type":"mc","q":"Which adjective means \"slow\" before adding go?","a":"mall","opts":["mall","maith","deas"]},{"type":"mc","q":"Which pattern forms Irish adverbs of manner?","a":"go + adjective","opts":["go + adjective","an + adjective","adjective + go"]},{"type":"typed","q":"What is the adjective \"dona\" turned into an adverb using go?","a":"go dona"},{"type":"mc","q":"What does \"go mall\" mean?","a":"slowly","opts":["slowly","quickly","nicely"]},{"type":"mc","q":"Which English suffix works similarly to Irish \"go\" before adjectives?","a":"-ly","opts":["-ly","-ing","-ed"]}]},{"name":"Go Before Vowels","emoji":"🅷","timeLimit":15,"qs":[{"type":"mc","q":"What happens to \"iontach\" (wonderful) when \"go\" is added?","a":"h is added: go hiontach","opts":["h is added: go hiontach","nothing changes","it becomes go niontach"]},{"type":"typed","q":"What does \"go\" plus \"álainn\" become?","a":"go hálainn"},{"type":"mc","q":"Which word means \"beautifully\"?","a":"go hálainn","opts":["go hálainn","go álainn","go nálainn"]},{"type":"typed","q":"Add \"go\" to \"olc\" to mean \"badly\".","a":"go holc"},{"type":"mc","q":"Why does \"olc\" get an \"h\" after go?","a":"because olc starts with a vowel","opts":["because olc starts with a vowel","because olc is plural","because olc is a verb"]},{"type":"mc","q":"Which word correctly means \"wonderfully\"?","a":"go hiontach","opts":["go hiontach","go iontach","go dhiontach"]},{"type":"typed","q":"What does \"go haoibhinn\" mean in English?","a":"delightfully"},{"type":"mc","q":"Does \"go\" add an h before consonants the same way it does before vowels?","a":"no, h is only added before vowels","opts":["no, h is only added before vowels","yes always","only before b and c"]},{"type":"typed","q":"Complete: go h___ (aoibhinn, delightful)","a":"go haoibhinn"},{"type":"mc","q":"Which rule applies when \"go\" precedes a vowel-initial adjective?","a":"h-prefix is added","opts":["h-prefix is added","séimhiú is added","urú is added"]}]},{"name":"No Lenition Zone","emoji":"🚫","timeLimit":15,"qs":[{"type":"mc","q":"Does \"go\" cause séimhiú on consonant-initial adjectives like \"maith\"?","a":"no, maith stays unchanged","opts":["no, maith stays unchanged","yes it becomes mhaith","only on certain days"]},{"type":"typed","q":"Is it \"go dona\" or \"go dhona\" for \"badly\"?","a":"go dona"},{"type":"mc","q":"Which spelling is correct for \"slowly\"?","a":"go mall","opts":["go mall","go mhall","go mall go"]},{"type":"mc","q":"What is special about \"go\" compared to mutation-causing words like \"a\" (his)?","a":"go does not lenite consonants","opts":["go does not lenite consonants","go always lenites consonants","go eclipses consonants"]},{"type":"typed","q":"Write the correct adverb form of \"tapa\" (quick) with go.","a":"go tapa"},{"type":"mc","q":"Which best explains why \"go maith\" keeps its \"m\" unchanged?","a":"go does not trigger séimhiú before consonants","opts":["go does not trigger séimhiú before consonants","m cannot be written with h","maith is an exception word"]},{"type":"mc","q":"Which of these is NOT correct Irish?","a":"go mhaith","opts":["go mhaith","go maith","go dona"]},{"type":"typed","q":"Correct this mistake: \"go mhall\" should be written as?","a":"go mall"},{"type":"mc","q":"Which statement is true about adverbial \"go\"?","a":"it only affects vowel-initial words with h","opts":["it only affects vowel-initial words with h","it lenites all consonants","it eclipses all consonants"]},{"type":"mc","q":"Which is the correctly spelled adverb for \"nicely\"?","a":"go deas","opts":["go deas","go dheas","go ndeas"]}]},{"name":"Other Uses of Go","emoji":"🧩","timeLimit":15,"qs":[{"type":"mc","q":"In \"go bhfuil sé go maith\" (that he is well), what mutation does go cause on \"fuil\"?","a":"eclipsis (urú)","opts":["eclipsis (urú)","lenition (séimhiú)","no mutation"]},{"type":"typed","q":"Complete: go bh___ to mean \"that is/are\"","a":"go bhfuil"},{"type":"mc","q":"Which \"go\" causes eclipsis, not the adverb-forming one?","a":"go before a verb (that)","opts":["go before a verb (that)","go before an adjective","go before a noun"]},{"type":"mc","q":"What does \"go dtéann\" mean?","a":"that goes","opts":["that goes","well goes","goes badly"]},{"type":"typed","q":"What does \"go\" mean when placed before a verb like \"bhfuil\"?","a":"that"},{"type":"mc","q":"Which phrase uses \"go\" meaning \"to\" with a place name needing h?","a":"go hÉirinn","opts":["go hÉirinn","go Éirinn","go nÉirinn"]},{"type":"typed","q":"Complete: go h___ meaning \"to Ireland\"","a":"go hÉirinn"},{"type":"mc","q":"Does \"go\" meaning \"to\" lenite consonant-initial places like \"Sasana\"?","a":"no, it stays go Sasana","opts":["no, it stays go Sasana","yes it becomes go Shasana","it becomes go nSasana"]},{"type":"mc","q":"Besides forming adverbs, what other grammatical role does \"go\" play before a verb?","a":"introducing a clause meaning that","opts":["introducing a clause meaning that","marking past tense","forming a question"]},{"type":"typed","q":"What mutation does \"go\" cause before verbs like bhfuil or dtéann?","a":"urú"}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
