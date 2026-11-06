@@ -5232,6 +5232,29 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "go-and-the-s-imhi",
+      "name": "Go and the Séimhiú",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-11-06T18:22:19.739Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "Irish",
+      "tags": [
+        "grammar",
+        "spelling",
+        "prepositions",
+        "s-imhi"
+      ],
+      "thumbnail": "thumbs/go-and-the-s-imhi.jpg",
+      "lang": {
+        "q": "en",
+        "a": "ga"
+      }
     }
   ],
   "categories": {
@@ -5768,7 +5791,8 @@
     "Language::parts-of-speech": "Identify nouns, verbs, adjectives, and other grammatical word classes in sentences.",
     "Other::music-production": "Covers recording, mixing, mastering, and synthesis techniques in music production.",
     "Other::sound-design": "Explores music production, recording, mixing, mastering, and synthesis fundamentals.",
-    "Other::recording": "Quiz on recording techniques, gear, and studio terminology for capturing audio."
+    "Other::recording": "Quiz on recording techniques, gear, and studio terminology for capturing audio.",
+    "Language::s-imhi": "Irish adverbial 'go' with adjectives, lenition rules, and verb/eclipsis uses"
   },
   "shelves": [
     {
