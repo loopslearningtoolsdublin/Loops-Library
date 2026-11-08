@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Conjugation · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1794156704193"></script>
+  <script>
+    const GAME_DATA = {"slug":"conjugation","name":"Conjugation","emoji":"🔖","category":"Spanish","colors":{"pastel":"#CAF4C7","deep":"#45CC3E","wash":"#ECF4EB"},"background":null,"lang":{"q":"en","a":"es"},"loops":[{"name":"Conjugation Basics","emoji":"🌱","timeLimit":15,"qs":[{"type":"mc","q":"What does \"conjugation\" mean in Spanish grammar?","a":"changing a verb to match subject and tense","opts":["changing a verb to match subject and tense","changing a noun's gender","changing an adjective's placement"]},{"type":"typed","q":"Conjugate \"hablar\" for \"yo\" (to speak)","a":"hablo"},{"type":"mc","q":"Which pronoun means \"you\" (informal singular)?","a":"tú","opts":["tú","usted","vosotros"]},{"type":"typed","q":"Conjugate \"hablar\" for \"tú\"","a":"hablas"},{"type":"mc","q":"What type of verb is \"hablar\"?","a":"-AR verb","opts":["-AR verb","-ER verb","-IR verb"]},{"type":"typed","q":"Conjugate \"cantar\" for \"nosotros\" (to sing)","a":"cantamos"},{"type":"mc","q":"Which ending do regular -AR verbs use for \"él/ella\"?","a":"-a","opts":["-a","-e","-o"]},{"type":"typed","q":"Conjugate \"bailar\" for \"ella\" (to dance)","a":"baila"},{"type":"mc","q":"What does the pronoun \"yo\" mean?","a":"I","opts":["I","you","we"]},{"type":"typed","q":"Conjugate \"estudiar\" for \"yo\" (to study)","a":"estudio"}]},{"name":"ER and IR Verbs","emoji":"📘","timeLimit":15,"qs":[{"type":"mc","q":"What type of verb is \"comer\"?","a":"-ER verb","opts":["-AR verb","-ER verb","-IR verb"]},{"type":"typed","q":"Conjugate \"comer\" for \"yo\" (to eat)","a":"como"},{"type":"typed","q":"Conjugate \"vivir\" for \"tú\" (to live)","a":"vives"},{"type":"mc","q":"Which ending do -ER verbs use for \"nosotros\"?","a":"-emos","opts":["-emos","-amos","-imos"]},{"type":"typed","q":"Conjugate \"escribir\" for \"ella\" (to write)","a":"escribe"},{"type":"mc","q":"Which ending do -IR verbs use for \"ellos\"?","a":"-en","opts":["-en","-an","-es"]},{"type":"typed","q":"Conjugate \"leer\" for \"nosotros\" (to read)","a":"leemos"},{"type":"mc","q":"What does \"vosotros\" mean?","a":"you all, informal Spain","opts":["you all, informal Spain","he and she","we, including speaker"]},{"type":"typed","q":"Conjugate \"abrir\" for \"yo\" (to open)","a":"abro"},{"type":"mc","q":"Which pronoun pairs with the verb form \"comemos\"?","a":"nosotros","opts":["nosotros","yo","tú"]}]},{"name":"Common Irregular Verbs","emoji":"⚡","timeLimit":15,"qs":[{"type":"typed","q":"Conjugate \"ser\" for \"yo\" (to be, permanent)","a":"soy"},{"type":"mc","q":"Which verb means \"to be\" in a permanent or defining sense?","a":"ser","opts":["ser","estar","tener"]},{"type":"typed","q":"Conjugate \"estar\" for \"tú\" (to be, temporary/location)","a":"estás"},{"type":"mc","q":"Which verb means \"to be\" for location or temporary states?","a":"estar","opts":["ser","estar","tener"]},{"type":"typed","q":"Conjugate \"tener\" for \"yo\" (to have)","a":"tengo"},{"type":"mc","q":"What is the \"yo\" form of \"ir\" (to go)?","a":"voy","opts":["voy","voya","vo"]},{"type":"typed","q":"Conjugate \"ir\" for \"nosotros\"","a":"vamos"},{"type":"mc","q":"What is the \"yo\" form of \"hacer\" (to do/make)?","a":"hago","opts":["hago","hazo","haco"]},{"type":"typed","q":"Conjugate \"tener\" for \"él\"","a":"tiene"},{"type":"mc","q":"The irregular \"yo\" form of \"tener\" belongs to which pattern?","a":"irregular present tense","opts":["irregular present tense","regular -ER pattern","past tense pattern"]}]},{"name":"Preterite Past Tense","emoji":"🔥","timeLimit":15,"qs":[{"type":"mc","q":"What does the preterite tense express?","a":"completed past actions","opts":["completed past actions","ongoing present actions","future plans"]},{"type":"typed","q":"Conjugate \"hablar\" in preterite for \"yo\"","a":"hablé"},{"type":"typed","q":"Conjugate \"comer\" in preterite for \"él\"","a":"comió"},{"type":"mc","q":"What is the preterite \"yo\" ending for regular -AR verbs?","a":"-é","opts":["-é","-í","-aba"]},{"type":"typed","q":"Conjugate \"vivir\" in preterite for \"yo\"","a":"viví"},{"type":"mc","q":"What is \"ser\" in the preterite \"yo\" form?","a":"fui","opts":["fui","era","soy"]},{"type":"typed","q":"Conjugate \"ir\" in preterite for \"yo\"","a":"fui"},{"type":"mc","q":"Why do \"ser\" and \"ir\" share the same preterite forms?","a":"they are both irregular with identical conjugation","opts":["they are both irregular with identical conjugation","they mean the same thing","they are regular verbs"]},{"type":"typed","q":"Conjugate \"tener\" in preterite for \"yo\"","a":"tuve"},{"type":"mc","q":"What is the preterite \"él/ella\" ending for regular -ER/-IR verbs?","a":"-ió","opts":["-ió","-aba","-ía"]}]},{"name":"Subjunctive and Advanced Tenses","emoji":"🧠","timeLimit":15,"qs":[{"type":"mc","q":"Which mood expresses doubt, wishes, or emotions?","a":"subjunctive","opts":["subjunctive","indicative","imperative"]},{"type":"typed","q":"Conjugate \"hablar\" in present subjunctive for \"yo\"","a":"hable"},{"type":"mc","q":"Which phrase typically triggers the subjunctive mood?","a":"Espero que","opts":["Espero que","Yo sé que","Es verdad que"]},{"type":"typed","q":"Conjugate \"comer\" in present subjunctive for \"tú\"","a":"comas"},{"type":"mc","q":"What does the imperfect tense typically express?","a":"ongoing or habitual past actions","opts":["ongoing or habitual past actions","a single completed past action","a future action"]},{"type":"typed","q":"Conjugate \"hablar\" in imperfect for \"yo\"","a":"hablaba"},{"type":"mc","q":"What is irregular about \"ser\" in the imperfect tense?","a":"it uses the stem \"era\"","opts":["it uses the stem \"era\"","it is fully regular","it uses the preterite stem"]},{"type":"typed","q":"Conjugate \"ir\" in imperfect for \"yo\"","a":"iba"},{"type":"mc","q":"What does the conditional tense express?","a":"what would happen","opts":["what would happen","what is happening now","what happened yesterday"]},{"type":"typed","q":"Conjugate \"hablar\" in conditional for \"yo\"","a":"hablaría"}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
