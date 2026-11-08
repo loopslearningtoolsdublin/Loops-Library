@@ -5255,6 +5255,29 @@
         "q": "en",
         "a": "ga"
       }
+    },
+    {
+      "slug": "conjugation",
+      "name": "Conjugation",
+      "category": "Spanish",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-11-08T16:51:44.193Z",
+      "createdBy": "c_mw82fdta_zjvmdvs6",
+      "author": "Riain",
+      "subcategory": "grammar",
+      "tags": [
+        "past-tense",
+        "vocabulary",
+        "beginner",
+        "language"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     }
   ],
   "categories": {
