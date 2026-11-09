@@ -5301,6 +5301,29 @@
         "q": "en",
         "a": "es"
       }
+    },
+    {
+      "slug": "ser-to-be",
+      "name": "Ser (To Be)",
+      "category": "Language",
+      "emoji": "🌍",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-11-09T14:32:31.103Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "Spanish",
+      "tags": [
+        "grammar",
+        "parts-of-speech",
+        "beginner",
+        "vocabulary"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     }
   ],
   "categories": {
