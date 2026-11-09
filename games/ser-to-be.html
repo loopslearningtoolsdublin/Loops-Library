@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ser (To Be) · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1794234751103"></script>
+  <script>
+    const GAME_DATA = {"slug":"ser-to-be","name":"Ser (To Be)","emoji":"🌍","category":"Language","colors":{"pastel":"#C1F0EA","deep":"#2FB18A","wash":"#EBF6F0"},"background":null,"lang":{"q":"en","a":"es"},"loops":[{"name":"Conjugating Ser","emoji":"🔤","timeLimit":15,"qs":[{"type":"mc","q":"What is the \"yo\" form of ser?","a":"soy","opts":["soy","eres","es"]},{"type":"mc","q":"What is the \"tú\" form of ser?","a":"eres","opts":["somos","eres","son"]},{"type":"typed","q":"Translate \"he is\" using ser","a":"él es"},{"type":"mc","q":"What is the \"nosotros\" form of ser?","a":"somos","opts":["somos","sois","son"]},{"type":"typed","q":"Conjugate ser for \"ellos\"","a":"son"},{"type":"mc","q":"Which verb means \"to be\" in a permanent or essential sense?","a":"ser","opts":["ser","estar","tener"]},{"type":"typed","q":"Translate \"I am\" using ser","a":"soy"},{"type":"mc","q":"What is the \"vosotros\" form of ser?","a":"sois","opts":["sois","son","eres"]},{"type":"typed","q":"Translate \"you are\" (tú, using ser)","a":"eres"},{"type":"mc","q":"Which of these is NOT a form of ser?","a":"estás","opts":["son","estás","somos"]}]},{"name":"Identity and Occupation","emoji":"👤","timeLimit":15,"qs":[{"type":"mc","q":"Ser is used to describe a person's...","a":"identity","opts":["identity","hunger","location"]},{"type":"typed","q":"Translate \"I am a teacher\"","a":"Soy profesor"},{"type":"mc","q":"Which sentence uses ser correctly for nationality?","a":"Soy español","opts":["Soy español","Estoy español","Tengo español"]},{"type":"typed","q":"Translate \"She is a doctor\"","a":"Ella es doctora"},{"type":"mc","q":"Ser, not estar, is used for...","a":"professions","opts":["professions","temporary emotions","weather conditions"]},{"type":"typed","q":"Translate \"We are students\"","a":"Somos estudiantes"},{"type":"mc","q":"Which is correct for stating origin?","a":"Soy de México","opts":["Soy de México","Estoy de México","Tengo de México"]},{"type":"typed","q":"Translate \"They are doctors\"","a":"Son doctores"},{"type":"mc","q":"Ser is used with profession because it describes a...","a":"defining characteristic","opts":["defining characteristic","temporary state","physical location"]},{"type":"typed","q":"Translate \"I am Mexican\"","a":"Soy mexicano"}]},{"name":"Characteristics, Time, and Possession","emoji":"⏰","timeLimit":15,"qs":[{"type":"mc","q":"Ser is used to describe physical characteristics like...","a":"tall","opts":["tall","tired","hungry"]},{"type":"typed","q":"Translate \"He is tall\"","a":"Él es alto"},{"type":"mc","q":"Which sentence correctly describes origin?","a":"Soy de España","opts":["Soy de España","Estoy de España","Soy en España"]},{"type":"typed","q":"Translate \"The table is wood\"","a":"La mesa es de madera"},{"type":"mc","q":"Which is correct for telling time?","a":"Son las tres","opts":["Son las tres","Están las tres","Tienen las tres"]},{"type":"typed","q":"Translate \"It is one o'clock\"","a":"Es la una"},{"type":"mc","q":"Which sentence describes personality with ser?","a":"Es simpático","opts":["Es simpático","Está simpático","Tiene simpático"]},{"type":"typed","q":"Translate \"The book is interesting\"","a":"El libro es interesante"},{"type":"mc","q":"Ser + de is used to express...","a":"possession","opts":["possession","location","emotion"]},{"type":"typed","q":"Translate \"This book is Maria's\"","a":"Este libro es de María"}]},{"name":"Ser versus Estar","emoji":"⚖️","timeLimit":15,"qs":[{"type":"mc","q":"Which verb is used to describe a permanent characteristic?","a":"ser","opts":["ser","estar","tener"]},{"type":"typed","q":"Translate \"The coffee is hot\" (temporary condition)","a":"El café está caliente"},{"type":"mc","q":"\"Soy aburrido\" means...","a":"I am boring","opts":["I am boring","I am bored","I am angry"]},{"type":"mc","q":"\"Estoy aburrido\" means...","a":"I am bored","opts":["I am boring","I am bored","I am angry"]},{"type":"typed","q":"Translate \"I am ready\"","a":"Estoy listo"},{"type":"mc","q":"Ser is used with adjectives describing...","a":"inherent traits","opts":["inherent traits","temporary moods","physical location"]},{"type":"typed","q":"Translate \"The ice is cold\"","a":"El hielo es frío"},{"type":"mc","q":"Which sentence correctly says where an event takes place?","a":"La fiesta es en mi casa","opts":["La fiesta es en mi casa","La fiesta está en mi casa","La fiesta tiene en mi casa"]},{"type":"typed","q":"Translate \"What time is it?\"","a":"¿Qué hora es?"},{"type":"mc","q":"Which sentence correctly expresses a relationship?","a":"Ella es mi hermana","opts":["Ella es mi hermana","Ella está mi hermana","Ella tiene mi hermana"]}]},{"name":"Advanced Ser Uses","emoji":"🎓","timeLimit":15,"qs":[{"type":"typed","q":"Translate \"It's Monday\"","a":"Es lunes"},{"type":"mc","q":"Which is correct for stating a date?","a":"Hoy es el cinco de mayo","opts":["Hoy es el cinco de mayo","Hoy está el cinco de mayo","Hoy tiene el cinco de mayo"]},{"type":"typed","q":"Translate \"The exam is tomorrow\"","a":"El examen es mañana"},{"type":"mc","q":"\"Ser listo\" means to be...","a":"clever","opts":["clever","ready","tired"]},{"type":"typed","q":"Translate \"to be ready\" using estar","a":"Estar listo"},{"type":"mc","q":"Which sentence means \"He is a good person\"?","a":"Es bueno","opts":["Es bueno","Está bueno","Tiene bueno"]},{"type":"mc","q":"Which sentence means \"The food tastes good\"?","a":"La comida está buena","opts":["La comida es buena","La comida está buena","La comida tiene buena"]},{"type":"typed","q":"Translate \"I am from Argentina\"","a":"Soy de Argentina"},{"type":"mc","q":"Ser is used in passive voice constructions with which verb?","a":"ser","opts":["ser","estar","tener"]},{"type":"typed","q":"Translate \"The letter was written by Juan\"","a":"La carta fue escrita por Juan"}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
