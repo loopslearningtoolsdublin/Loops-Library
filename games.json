@@ -5324,6 +5324,29 @@
         "q": "en",
         "a": "es"
       }
+    },
+    {
+      "slug": "hamlet-2-1",
+      "name": "Hamlet 2.1",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-11-09T20:22:34.292Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "Literature",
+      "tags": [
+        "shakespeare",
+        "literary-devices",
+        "figurative-language",
+        "quotes"
+      ],
+      "thumbnail": "thumbs/hamlet-2-1.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -5887,6 +5910,20 @@
     },
     {
       "category": null,
+      "key": "quotes",
+      "label": "quotes",
+      "count": 9,
+      "descriptor": "Direct quotations and lines pulled verbatim from Stephen King's IT franchise"
+    },
+    {
+      "category": null,
+      "key": "figurative-language",
+      "label": "figurative-language",
+      "count": 9,
+      "descriptor": "Identifying metaphors, similes, personification, and other figurative devices in poetry"
+    },
+    {
+      "category": null,
       "key": "movies",
       "label": "movies",
       "count": 8,
@@ -5905,20 +5942,6 @@
       "label": "ancient-greece",
       "count": 8,
       "descriptor": "Ancient Greek philosophy emphasizing virtue, reason, and acceptance of universal natural laws."
-    },
-    {
-      "category": null,
-      "key": "quotes",
-      "label": "quotes",
-      "count": 8,
-      "descriptor": "Direct quotations and lines pulled verbatim from Stephen King's IT franchise"
-    },
-    {
-      "category": null,
-      "key": "figurative-language",
-      "label": "figurative-language",
-      "count": 8,
-      "descriptor": "Identifying metaphors, similes, personification, and other figurative devices in poetry"
     },
     {
       "category": null,
@@ -5947,6 +5970,13 @@
       "label": "Standardized Tests",
       "count": 7,
       "descriptor": "Fact-recall quizzes on RE terms, evidence types, and belief concepts"
+    },
+    {
+      "category": null,
+      "key": "literary-devices",
+      "label": "literary-devices",
+      "count": 7,
+      "descriptor": "Identify and explain poetic devices like metaphor, alliteration, and personification in verse."
     }
   ],
   "paletteVersion": 3
