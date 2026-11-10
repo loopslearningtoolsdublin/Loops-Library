@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Estar (To Be) · Loops Learning Tools</title>
+<link rel="icon" href="../Loops_icon_192.png">
+<link rel="apple-touch-icon" href="../Loops_icon_180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Loops">
+<meta name="theme-color" content="#0d2a52">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:
+      radial-gradient(1200px 600px at 20% 10%, rgba(43,108,255,0.18), transparent 60%),
+      radial-gradient(900px 500px at 85% 20%, rgba(0,194,179,0.15), transparent 55%),
+      linear-gradient(#eef2f7, #dbe4ef);
+    padding: 20px 0 40px;
+  }
+  footer { text-align: center; padding: 18px; font-size: 0.8rem; opacity: 0.6; }
+</style>
+</head>
+<body>
+  <div id="loopsApp"></div>
+  <footer>© 2026 Loops Learning Tools · <em>Imagination and perseverance</em> · <a href="../library.html">← Library</a><br>
+  <span style="opacity:.7;">Content in this game was AI-generated and may contain errors. Verify anything important independently.</span></footer>
+
+  <script src="../engine.js?v=1794318591364"></script>
+  <script>
+    const GAME_DATA = {"slug":"estar-to-be","name":"Estar (To Be)","emoji":"✨","category":"Other","colors":{"pastel":"#FAD2C3","deep":"#E0784E","wash":"#FAEEE5"},"background":null,"lang":{"q":"en","a":"es"},"loops":[{"name":"Meet Estar","emoji":"📘","timeLimit":15,"qs":[{"type":"mc","q":"What does \"estar\" mean in English?","a":"to be","opts":["to be","to have","to go"]},{"type":"typed","q":"Conjugate \"estar\" for \"yo\"","a":"estoy"},{"type":"typed","q":"Conjugate \"estar\" for \"tú\"","a":"estás"},{"type":"mc","q":"Which form is correct for \"él/ella\"?","a":"está","opts":["está","estár","estas"]},{"type":"typed","q":"Conjugate \"estar\" for \"nosotros\"","a":"estamos"},{"type":"mc","q":"Which form is correct for \"ellos/ellas\"?","a":"están","opts":["estan","están","estás"]},{"type":"typed","q":"Conjugate \"estar\" for \"vosotros\"","a":"estáis"},{"type":"mc","q":"Is \"estar\" regular or irregular in the present tense?","a":"irregular","opts":["regular","irregular","reflexive"]},{"type":"typed","q":"What is the infinitive form of \"estoy\"?","a":"estar"},{"type":"mc","q":"Which pronoun goes with \"estás\"?","a":"tú","opts":["yo","tú","él"]}]},{"name":"Where Things Are","emoji":"📍","timeLimit":15,"qs":[{"type":"mc","q":"Which verb do you use to say where something is located?","a":"estar","opts":["ser","estar","tener"]},{"type":"typed","q":"Translate: I am in the house","a":"Estoy en la casa"},{"type":"typed","q":"Translate: The book is on the table","a":"El libro está en la mesa"},{"type":"mc","q":"Complete: Nosotros ___ en el parque","a":"estamos","opts":["somos","estamos","son"]},{"type":"typed","q":"Translate: They are in Mexico","a":"Están en México"},{"type":"mc","q":"Complete: ¿Dónde ___ tú?","a":"estás","opts":["eres","estás","está"]},{"type":"typed","q":"Translate: The cat is under the table","a":"El gato está debajo de la mesa"},{"type":"mc","q":"Complete: La escuela ___ cerca de aquí","a":"está","opts":["es","está","son"]},{"type":"typed","q":"Translate: We are at the beach","a":"Estamos en la playa"},{"type":"mc","q":"Which question word pairs with \"estar\" to ask location?","a":"dónde","opts":["qué","dónde","cómo"]}]},{"name":"Feelings and States","emoji":"😊","timeLimit":15,"qs":[{"type":"mc","q":"Complete: Yo ___ feliz","a":"estoy","opts":["soy","estoy","es"]},{"type":"typed","q":"Translate: She is tired","a":"Está cansada"},{"type":"mc","q":"Complete: Ellos ___ enojados","a":"están","opts":["son","están","es"]},{"type":"typed","q":"Translate: I am sick","a":"Estoy enfermo"},{"type":"mc","q":"Which adjective commonly follows estar for emotions?","a":"triste","opts":["alto","triste","inteligente"]},{"type":"typed","q":"Translate: We are happy","a":"Estamos felices"},{"type":"mc","q":"Complete: ¿Cómo ___ usted?","a":"está","opts":["es","está","son"]},{"type":"typed","q":"Translate: You (tú) are nervous","a":"Estás nervioso"},{"type":"mc","q":"Complete: La sopa ___ caliente","a":"está","opts":["es","está","son"]},{"type":"typed","q":"Translate: I am bored","a":"Estoy aburrido"}]},{"name":"Actions in Progress","emoji":"🏃","timeLimit":15,"qs":[{"type":"mc","q":"What verb combines with a gerund to form the progressive tense?","a":"estar","opts":["ser","estar","tener"]},{"type":"typed","q":"Form the gerund of \"hablar\"","a":"hablando"},{"type":"typed","q":"Form the gerund of \"comer\"","a":"comiendo"},{"type":"mc","q":"Complete: Yo ___ comiendo","a":"estoy","opts":["soy","estoy","es"]},{"type":"typed","q":"Translate: She is writing","a":"Está escribiendo"},{"type":"mc","q":"What is the gerund of \"vivir\"?","a":"viviendo","opts":["viviendo","vivando","vivendo"]},{"type":"typed","q":"Translate: We are studying","a":"Estamos estudiando"},{"type":"mc","q":"Complete: Ellos ___ jugando","a":"están","opts":["son","están","es"]},{"type":"typed","q":"Translate: I am reading a book","a":"Estoy leyendo un libro"},{"type":"mc","q":"What is the gerund of \"leer\"?","a":"leyendo","opts":["leendo","leyendo","leiendo"]}]},{"name":"Ser vs Estar Mastery","emoji":"⚖️","timeLimit":15,"qs":[{"type":"mc","q":"Which verb describes temporary conditions?","a":"estar","opts":["ser","estar","haber"]},{"type":"mc","q":"Which verb describes permanent characteristics?","a":"ser","opts":["ser","estar","tener"]},{"type":"typed","q":"Translate: He is handsome (a lasting trait)","a":"Es guapo"},{"type":"typed","q":"Translate: He is dead","a":"Está muerto"},{"type":"mc","q":"Complete: La fruta ___ verde (not ripe yet)","a":"está","opts":["es","está","son"]},{"type":"mc","q":"Complete: La hierba ___ verde (its natural color)","a":"es","opts":["es","está","son"]},{"type":"typed","q":"Translate: I am ready","a":"Estoy listo"},{"type":"mc","q":"Which expression with estar means \"to agree\"?","a":"estar de acuerdo","opts":["estar de acuerdo","estar de pie","estar de viaje"]},{"type":"typed","q":"Translate: The door is open","a":"La puerta está abierta"},{"type":"mc","q":"Estar + de + ___ means \"to be on a trip\"","a":"viaje","opts":["acuerdo","viaje","pie"]}]}]};
+    if (window.LoopsEngine) {
+      LoopsEngine.init(GAME_DATA);
+    } else {
+      document.getElementById('loopsApp').innerHTML =
+        '<div style="max-width:420px;margin:40px auto;text-align:center;font-family:system-ui,sans-serif;padding:24px;">' +
+        '<div style="font-size:2rem;margin-bottom:10px;">⚠️</div>' +
+        '<div style="font-weight:800;font-size:1.1rem;margin-bottom:8px;">Could not load the game engine</div>' +
+        '<div style="opacity:.7;font-size:.9rem;">If you just got here from a fresh link, this can take a minute to go live — try refreshing.</div>' +
+        '</div>';
+    }
+  </script>
+</body>
+</html>
