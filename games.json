@@ -5351,6 +5351,29 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "estar-to-be",
+      "name": "Estar (To Be)",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-11-10T13:49:51.364Z",
+      "createdBy": "c_mu6sdeew_zaoa9die",
+      "author": "SMQ",
+      "subcategory": "spanish",
+      "tags": [
+        "grammar",
+        "language",
+        "verbs",
+        "beginner"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "es"
+      }
     }
   ],
   "categories": {
@@ -5948,11 +5971,11 @@
       "descriptor": "Ancient Greek philosophy emphasizing virtue, reason, and acceptance of universal natural laws."
     },
     {
-      "category": null,
+      "category": "Figurative Language",
       "key": "literary-devices",
       "label": "literary-devices",
-      "count": 8,
-      "descriptor": "Identify and explain poetic devices like metaphor, alliteration, and personification in verse."
+      "count": 7,
+      "descriptor": null
     },
     {
       "category": null,
