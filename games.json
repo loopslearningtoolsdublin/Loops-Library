@@ -5419,6 +5419,27 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "what-is-lanekea",
+      "name": "What is Lanekea",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-11-11T01:00:03.993Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": "general-knowledge",
+      "tags": [
+        "vocabulary",
+        "cosmology"
+      ],
+      "thumbnail": "thumbs/what-is-lanekea.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -5975,7 +5996,8 @@
     "Other::telescope": "Explores electromagnetic spectra and spectroscopy techniques, from basics to astronomical applications.",
     "Other::plants": "Sunflower biology, history, art, and record-breaking facts",
     "Other::gardening": "Trivia about sunflower biology, history, art, and record-breaking facts",
-    "Other::flowers": "Trivia about sunflower biology, history, art, and record-breaking facts."
+    "Other::flowers": "Trivia about sunflower biology, history, art, and record-breaking facts.",
+    "Other::cosmology": "Explores Laniakea supercluster's discovery, structure, scale, and the mysterious Great Attractor."
   },
   "shelves": [
     {
