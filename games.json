@@ -5374,6 +5374,28 @@
         "q": "en",
         "a": "es"
       }
+    },
+    {
+      "slug": "spectroscopy",
+      "name": "Spectroscopy",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-11-11T00:40:03.500Z",
+      "createdBy": "c_mu9vh9bt_blqueu80",
+      "author": "SMQ",
+      "subcategory": null,
+      "tags": [
+        "Science",
+        "telescope",
+        "cosmography"
+      ],
+      "thumbnail": null,
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -5925,7 +5947,9 @@
     "Other::music-production": "Covers recording, mixing, mastering, and synthesis techniques in music production.",
     "Other::sound-design": "Explores music production, recording, mixing, mastering, and synthesis fundamentals.",
     "Other::recording": "Quiz on recording techniques, gear, and studio terminology for capturing audio.",
-    "Language::s-imhi": "Irish adverbial 'go' with adjectives, lenition rules, and verb/eclipsis uses"
+    "Language::s-imhi": "Irish adverbial 'go' with adjectives, lenition rules, and verb/eclipsis uses",
+    "Other::cosmography": "Explore electromagnetic spectra and spectroscopic techniques used to analyze matter and stars.",
+    "Other::telescope": "Explores electromagnetic spectra and spectroscopy techniques, from basics to astronomical applications."
   },
   "shelves": [
     {
