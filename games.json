@@ -3,12 +3,12 @@
     {
       "slug": "atleti",
       "name": "Atleti",
-      "category": "Soccer",
+      "category": "Sport",
       "emoji": "🌍",
       "loopCount": 3,
       "questionCount": 25,
       "publishedAt": "2026-07-13T21:24:36.600Z",
-      "subcategory": "Sport",
+      "subcategory": null,
       "tags": [],
       "thumbnail": "thumbs/atleti.jpg"
     },
@@ -130,14 +130,14 @@
     {
       "slug": "chelsea-fc",
       "name": "Chelsea FC",
-      "category": "Soccer",
+      "category": "Sport",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-07-15T18:36:26.414Z",
       "createdBy": "c_mrm4v9td_v8t7p0sh",
       "author": "SMQ",
-      "subcategory": "Sport",
+      "subcategory": null,
       "tags": [],
       "lang": {
         "q": "en",
@@ -374,14 +374,14 @@
     {
       "slug": "casual-nba",
       "name": "Casual nba",
-      "category": "Other",
+      "category": "Sport",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-07-23T20:20:30.503Z",
       "createdBy": "c_mrxy93ig_si2hvk8v",
       "author": "Tom",
-      "subcategory": "Sport",
+      "subcategory": null,
       "tags": [
         "basketball"
       ],
@@ -414,14 +414,14 @@
     {
       "slug": "all-ireland-football-championship",
       "name": "All Ireland Football Championship",
-      "category": "Other",
+      "category": "Sport",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-07-24T11:27:22.529Z",
       "createdBy": "c_mryus71l_nphmfvx2",
       "author": "SMQ",
-      "subcategory": "Sport",
+      "subcategory": null,
       "tags": [
         "irish-sports",
         "championship",
@@ -479,14 +479,14 @@
     {
       "slug": "butler-s-bridge-gaa",
       "name": "Butler’s bridge gaa",
-      "category": "Other",
+      "category": "Sport",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-07-25T21:40:02.745Z",
       "createdBy": "c_mryus71l_nphmfvx2",
       "author": "SMQ",
-      "subcategory": "Sport",
+      "subcategory": null,
       "tags": [
         "irish-sports",
         "club-level",
@@ -586,14 +586,14 @@
     {
       "slug": "nottingham-forest",
       "name": "Nottingham Forest",
-      "category": "Soccer",
+      "category": "Sport",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-08-07T14:23:20.732Z",
       "createdBy": "c_mryus71l_nphmfvx2",
       "author": "SMQ",
-      "subcategory": "Sport",
+      "subcategory": null,
       "tags": [
         "english-football",
         "nottingham-forest",
@@ -695,14 +695,14 @@
     {
       "slug": "golf-balls",
       "name": "Golf balls",
-      "category": "Technique",
+      "category": "Sport",
       "emoji": "✨",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-08-09T20:21:24.697Z",
       "createdBy": "c_mryus71l_nphmfvx2",
       "author": "Paul",
-      "subcategory": "Sport",
+      "subcategory": null,
       "tags": [
         "golf",
         "equipment",
@@ -2029,14 +2029,14 @@
     {
       "slug": "leo-messi",
       "name": "Leo messi",
-      "category": "Biography",
+      "category": "Sport",
       "emoji": "🔖",
       "loopCount": 5,
       "questionCount": 50,
       "publishedAt": "2026-09-07T11:41:40.485Z",
       "createdBy": "c_mtjxg8on_aekfwwzv",
       "author": "gary",
-      "subcategory": "Sport",
+      "subcategory": null,
       "tags": [
         "english-football",
         "world-cup",
@@ -3567,14 +3567,14 @@
     {
       "slug": "c-diz",
       "name": "Cádiz",
-      "category": "Other",
+      "category": "Sport",
       "emoji": "✨",
       "loopCount": 3,
       "questionCount": 28,
       "publishedAt": "2026-09-27T15:15:00.810Z",
       "createdBy": "c_mu9vh9bt_blqueu80",
       "author": "SMQ",
-      "subcategory": "Sport",
+      "subcategory": null,
       "tags": [
         "club-level",
         "spain",
@@ -5440,6 +5440,29 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "bayern-munich",
+      "name": "Bayern Munich",
+      "category": "Sport",
+      "emoji": "🔖",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-11-12T12:26:01.427Z",
+      "createdBy": "c_muck73d8_s1bpu78h",
+      "author": "Thomas",
+      "subcategory": "Football",
+      "tags": [
+        "love-of-the-game",
+        "bayern-munich",
+        "club-level",
+        "bundesliga"
+      ],
+      "thumbnail": "thumbs/bayern-munich.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -5647,6 +5670,13 @@
       "deep": "#3ECCA6",
       "wash": "#EBF4F2",
       "descriptor": "Identifying metaphors, similes, personification, and other figurative devices in poetry"
+    },
+    "Sport": {
+      "emoji": "🔖",
+      "pastel": "#C7D6F4",
+      "deep": "#3E6BCC",
+      "wash": "#EBEEF4",
+      "descriptor": "Trivia about famous athletes, their careers, teams, and major sporting achievements."
     }
   },
   "labelDescriptors": {
@@ -5997,16 +6027,12 @@
     "Other::plants": "Sunflower biology, history, art, and record-breaking facts",
     "Other::gardening": "Trivia about sunflower biology, history, art, and record-breaking facts",
     "Other::flowers": "Trivia about sunflower biology, history, art, and record-breaking facts.",
-    "Other::cosmology": "Explores Laniakea supercluster's discovery, structure, scale, and the mysterious Great Attractor."
+    "Other::cosmology": "Explores Laniakea supercluster's discovery, structure, scale, and the mysterious Great Attractor.",
+    "Soccer::love-of-the-game": "Deep, passionate fandom trivia celebrating Bayern Munich's history, legends, and achievements",
+    "Soccer::bundesliga": "Trivia about Bayern Munich's history, players, titles, and records",
+    "Soccer::bayern-munich": "Trivia about FC Bayern Munich's history, players, honors, and iconic achievements"
   },
   "shelves": [
-    {
-      "category": null,
-      "key": "sport",
-      "label": "Sport",
-      "count": 9,
-      "descriptor": "Trivia about famous athletes, their careers, teams, and major sporting achievements."
-    },
     {
       "category": null,
       "key": "daily-routines",
@@ -6037,6 +6063,13 @@
     },
     {
       "category": null,
+      "key": "club-level",
+      "label": "club-level",
+      "count": 8,
+      "descriptor": null
+    },
+    {
+      "category": null,
       "key": "ancient-greece",
       "label": "ancient-greece",
       "count": 8,
@@ -6058,13 +6091,6 @@
     },
     {
       "category": null,
-      "key": "club-level",
-      "label": "club-level",
-      "count": 7,
-      "descriptor": null
-    },
-    {
-      "category": null,
       "key": "english-football",
       "label": "english-football",
       "count": 7,
@@ -6076,6 +6102,13 @@
       "label": "Standardized Tests",
       "count": 7,
       "descriptor": "Fact-recall quizzes on RE terms, evidence types, and belief concepts"
+    },
+    {
+      "category": null,
+      "key": "football",
+      "label": "Football",
+      "count": 7,
+      "descriptor": "Association football teams, leagues, players, and general soccer-related content"
     }
   ],
   "paletteVersion": 3
