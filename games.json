@@ -5463,6 +5463,31 @@
         "q": "en",
         "a": "en"
       }
+    },
+    {
+      "slug": "poppy-playtime-quiz",
+      "name": "Poppy playtime quiz",
+      "category": "Other",
+      "emoji": "✨",
+      "loopCount": 5,
+      "questionCount": 50,
+      "publishedAt": "2026-11-13T19:28:58.722Z",
+      "createdBy": "c_mw9d1e5h_mfx7lyqh",
+      "author": "Jimmy 1212",
+      "subcategory": "Video Games",
+      "tags": [
+        "trivia",
+        "general-knowledge",
+        "horror",
+        "quotes",
+        "standardized-tests",
+        "casual-gaming"
+      ],
+      "thumbnail": "thumbs/poppy-playtime-quiz.jpg",
+      "lang": {
+        "q": "en",
+        "a": "en"
+      }
     }
   ],
   "categories": {
@@ -5724,7 +5749,7 @@
     "Other::strategy": "Games requiring forward planning, tactical decisions, and optimal move sequencing to achieve objectives.",
     "Language::word-origins": "Explore poetic devices, figurative language, and word origins through identifying literary techniques",
     "Language::etymology": "Explores word origins and historical roots of poetic vocabulary and terms",
-    "Other::quotes": "Direct quotations and lines pulled verbatim from Stephen King's IT franchise",
+    "Other::quotes": "Direct quotes and lines spoken by Poppy Playtime characters",
     "Other::classic-film": "Games exploring iconic quotes, pivotal moments, and thematic depth of classic cinema.",
     "Other::jaws": "Classic movie quotes, plot moments, characters, and analysis.",
     "Other::probability": "Games involving chance, dice rolling, and calculating outcome probabilities.",
@@ -6030,7 +6055,9 @@
     "Other::cosmology": "Explores Laniakea supercluster's discovery, structure, scale, and the mysterious Great Attractor.",
     "Soccer::love-of-the-game": "Deep, passionate fandom trivia celebrating Bayern Munich's history, legends, and achievements",
     "Soccer::bundesliga": "Trivia about Bayern Munich's history, players, titles, and records",
-    "Soccer::bayern-munich": "Trivia about FC Bayern Munich's history, players, honors, and iconic achievements"
+    "Soccer::bayern-munich": "Trivia about FC Bayern Munich's history, players, honors, and iconic achievements",
+    "Other::video-games": "Trivia and lore about the horror video game Poppy Playtime.",
+    "Other::horror": "Explores spooky abandoned toy factories, uncovering sinister secrets behind monstrous animatronic characters"
   },
   "shelves": [
     {
@@ -6076,6 +6103,13 @@
       "descriptor": "Ancient Greek philosophy emphasizing virtue, reason, and acceptance of universal natural laws."
     },
     {
+      "category": null,
+      "key": "standardized-tests",
+      "label": "Standardized Tests",
+      "count": 8,
+      "descriptor": "Fact-recall quizzes on RE terms, evidence types, and belief concepts"
+    },
+    {
       "category": "Figurative Language",
       "key": "literary-devices",
       "label": "literary-devices",
@@ -6095,13 +6129,6 @@
       "label": "english-football",
       "count": 7,
       "descriptor": "English football club history, achievements, and notable periods"
-    },
-    {
-      "category": null,
-      "key": "standardized-tests",
-      "label": "Standardized Tests",
-      "count": 7,
-      "descriptor": "Fact-recall quizzes on RE terms, evidence types, and belief concepts"
     },
     {
       "category": null,
